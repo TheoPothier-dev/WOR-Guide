@@ -72,3 +72,6 @@ Site de fans, non affilié à Moonton.
 
 - `public/heroes/head/<gameId>.webp` (portrait des cartes) et `public/heroes/bust/<gameId>.webp` (buste) : sprites `HeroHead_*` et `HeroBust_*` extraits des fichiers `Atlas_HeroCard*.unity3d` et `HeroBust_*.unity3d` du jeu.
 - `public/icons/class/` : icônes de classe (`Profession_*` dans `Atlas_HeroCard.unity3d`).
+- `public/artifacts/<id>.webp` : icône de la compétence de l'artefact (`Skill.SkillIcon`, dans `Atlas_Skill_Part.unity3d`).
+- `public/sets/<set>_<n>.webp` : images des pièces de chaque set (`Item.ItemRes` des `EquipSuit.SuitEquipid`, dans `Atlas_Item_Part.unity3d`).
+- `public/heroes/3d/<gameId>.glb` : modèle 3D (essai, Myca seulement) converti depuis `Art/unit_<id>_high.unity3d`, en pose de référence, textures en WebP.

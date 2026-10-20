@@ -2,12 +2,16 @@
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import { localize, useTranslations, type Locale } from '../../i18n/ui';
-import { langPaths } from '../../lib/i18n-paths';
+import { readdirSync } from 'node:fs';
+import { asset, langPaths } from '../../lib/i18n-paths';
 
 export const getStaticPaths = langPaths;
 const lang = Astro.params.lang as Locale;
 const t = useTranslations(lang);
 const sets = (await getCollection('sets')).sort((a, b) => localize(a.data.name, lang).localeCompare(localize(b.data.name, lang), lang));
+// Images des pièces de chaque set (public/sets/<set>_<n>.webp), extraites du jeu.
+const pieceFiles = readdirSync('public/sets');
+const pieces = (gameId: number) => pieceFiles.filter((f) => f.startsWith(`${gameId}_`)).sort().map((f) => asset(`sets/${f}`));
 ---
 <Base lang={lang} title={t('sets.title')}>
   <h1>{t('sets.title')}</h1>
@@ -15,6 +19,9 @@ const sets = (await getCollection('sets')).sort((a, b) => localize(a.data.name, 
     {sets.map((s) => (
       <article class="card">
         <h3>{localize(s.data.name, lang)}</h3>
+        <div class="pieces">
+          {pieces(s.data.gameId).map((src) => <img src={src} alt="" width="100" height="100" loading="lazy" />)}
+        </div>
         <ul class="bonuses">
           {s.data.bonuses.map((b) => (
             <li class="text">{localize(b.description, lang)}</li>
@@ -27,6 +34,8 @@ const sets = (await getCollection('sets')).sort((a, b) => localize(a.data.name, 
 
 <style>
   h3 { color: var(--gold-2); }
+  .pieces { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; margin: 4px 0 12px; }
+  .pieces img { width: 100%; height: auto; aspect-ratio: 1; border-radius: 8px; background: radial-gradient(circle, var(--surface-2), var(--bg)); border: 1px solid var(--border); }
   .bonuses { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; font-size: 0.92rem; }
   .bonuses li { padding-left: 10px; border-left: 2px solid var(--gold); }
 </style>

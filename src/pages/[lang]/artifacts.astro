@@ -2,7 +2,8 @@
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import { localize, useTranslations, type Locale } from '../../i18n/ui';
-import { href, heroHead, langPaths } from '../../lib/i18n-paths';
+import { readdirSync } from 'node:fs';
+import { asset, href, heroHead, langPaths } from '../../lib/i18n-paths';
 import { heroClasses } from '../../lib/heroes';
 import ClassIcon from '../../components/ClassIcon.astro';
 
@@ -12,6 +13,9 @@ const t = useTranslations(lang);
 const artifacts = (await getCollection('artifacts')).sort((a, b) => b.data.rank - a.data.rank);
 const heroes = new Map((await getCollection('heroes')).map((h) => [h.data.gameId, h]));
 const exclusive = artifacts.filter((a) => a.data.heroGameId && heroes.has(a.data.heroGameId));
+// Icônes extraites du jeu (public/artifacts/<id>.webp) ; quelques artefacts n'en ont pas.
+const iconFiles = new Set(readdirSync('public/artifacts'));
+const icon = (gameId: number) => (iconFiles.has(`${gameId}.webp`) ? asset(`artifacts/${gameId}.webp`) : undefined);
 const general = artifacts.filter((a) => !a.data.heroGameId && !a.data.class);
 ---
 <Base lang={lang} title={t('artifacts.title')}>
@@ -25,8 +29,9 @@ const general = artifacts.filter((a) => !a.data.heroGameId && !a.data.class);
         <h3 class="class"><ClassIcon cls={cls} size={22} /> {t(`class.${cls}`)}</h3>
         <div class="grid">
           {list.map((a) => (
-            <article class="card">
-              <h4>{localize(a.data.name, lang)} <span class="badge">{t('artifacts.rank')} {a.data.rank}</span></h4>
+            <article class="card art">
+              {icon(a.data.gameId) ? <img class="icon" src={icon(a.data.gameId)} alt="" width="64" height="64" loading="lazy" /> : <span class="icon"></span>}
+            <h4>{localize(a.data.name, lang)} <span class="badge">{t('artifacts.rank')} {a.data.rank}</span></h4>
               {a.data.description && <p class="text">{localize(a.data.description, lang)}</p>}
             </article>
           ))}
@@ -40,7 +45,8 @@ const general = artifacts.filter((a) => !a.data.heroGameId && !a.data.class);
       <h2>{t('artifacts.general')}</h2>
       <div class="grid">
         {general.map((a) => (
-          <article class="card">
+          <article class="card art">
+            {icon(a.data.gameId) ? <img class="icon" src={icon(a.data.gameId)} alt="" width="64" height="64" loading="lazy" /> : <span class="icon"></span>}
             <h4>{localize(a.data.name, lang)} <span class="badge">{t('artifacts.rank')} {a.data.rank}</span></h4>
             {a.data.description && <p class="text">{localize(a.data.description, lang)}</p>}
           </article>
@@ -54,7 +60,8 @@ const general = artifacts.filter((a) => !a.data.heroGameId && !a.data.class);
     {exclusive.map((a) => {
       const hero = heroes.get(a.data.heroGameId!)!;
       return (
-        <article class="card">
+        <article class="card art">
+          {icon(a.data.gameId) ? <img class="icon" src={icon(a.data.gameId)} alt="" width="64" height="64" loading="lazy" /> : <span class="icon"></span>}
           <h4>{localize(a.data.name, lang)}</h4>
           <a class="hero" href={href(lang, `heroes/${hero.id}/`)}><img class="thumb" src={heroHead(hero.data.gameId)} alt="" width="32" height="32" loading="lazy" /> {localize(hero.data.name, lang)}</a>
           {a.data.description && <p class="text">{localize(a.data.description, lang)}</p>}
@@ -65,6 +72,9 @@ const general = artifacts.filter((a) => !a.data.heroGameId && !a.data.class);
 </Base>
 
 <style>
+  .art { display: grid; grid-template-columns: 64px 1fr; column-gap: 14px; align-content: start; }
+  .art > :not(.icon) { grid-column: 2; }
+  .icon { grid-row: 1 / span 3; width: 64px; height: 64px; filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.6)); }
   .class { margin: 1.4em 0 0.6em; color: var(--text); }
   h4 { margin: 0 0 0.5em; font-family: var(--heading); color: var(--gold-2); display: flex; justify-content: space-between; gap: 8px; align-items: baseline; }
   .card p { margin: 0.4em 0 0; font-size: 0.92rem; color: #d4d0c4; }

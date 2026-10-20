@@ -10,10 +10,12 @@
     "check": "astro check"
   },
   "dependencies": {
+    "@google/model-viewer": "^3.5.0",
     "astro": "5.18.2"
   },
   "devDependencies": {
     "@astrojs/check": "0.9.11",
+    "@types/node": "^26.6.5",
     "typescript": "5.9.3"
   }
 }

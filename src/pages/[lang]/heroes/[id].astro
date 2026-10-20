@@ -1,7 +1,8 @@
 ---
 import { getCollection, getEntry } from 'astro:content';
 import Base from '../../../layouts/Base.astro';
-import { heroBust } from '../../../lib/i18n-paths';
+import { existsSync } from 'node:fs';
+import { asset, heroBust } from '../../../lib/i18n-paths';
 import { localize, useTranslations, type Locale, type LocalizedText } from '../../../i18n/ui';
 import { locales } from '../../../i18n/locales.js';
 import { servers } from '../../../content.config';
@@ -22,6 +23,8 @@ const factions = await Promise.all(h.factions.map((f) => getEntry(f)));
 const modes = await getCollection('modes');
 const artifact = h.exclusiveArtifact ? await getEntry(h.exclusiveArtifact) : undefined;
 const stats = h.stats;
+// Modèle 3D extrait du jeu, seulement pour les héros qui en ont un dans public/heroes/3d/.
+const model = h.gameId && existsSync(`public/heroes/3d/${h.gameId}.glb`) ? asset(`heroes/3d/${h.gameId}.glb`) : undefined;
 const mainStats = ['hp', 'atk', 'def', 'mres'] as const;
 const statName = (k: string) => localize((statNames as Record<string, LocalizedText>)[k], lang);
 // Même calcul que le jeu : interpolation linéaire dans la plage de niveaux de l'étoile, plus le bonus de promotion.
@@ -56,6 +59,14 @@ const pct = (n?: number) => (n === undefined ? '' : ` (${n.toLocaleString(lang)}
         </div>
         {h.example && <p class="example">{t('data.example')}</p>}
       </div>
+
+      {model && (
+        <div class="card model-card">
+          <h2>{t('hero.model')}</h2>
+          <model-viewer src={model} alt={name} camera-controls auto-rotate touch-action="pan-y" exposure="1.4" shadow-intensity="1" camera-orbit="0deg 82deg 4.2m" camera-target="0m 1.05m 0m" field-of-view="30deg" min-camera-orbit="auto auto 1.2m" max-camera-orbit="auto auto 6m" interaction-prompt="none"></model-viewer>
+          <p class="note muted">{t('hero.modelHint')}</p>
+        </div>
+      )}
 
       {stats && maxStar && (
         <div class="card stats-card">
@@ -204,7 +215,8 @@ const pct = (n?: number) => (n === undefined ? '' : ` (${n.toLocaleString(lang)}
     width: 56px; height: 56px; border-radius: 50%; display: grid; place-items: center;
     background: var(--surface-2); border: 1px solid var(--gold);
   }
-  .stats-card h2 { margin-top: 0; }
+  .stats-card h2, .model-card h2 { margin-top: 0; }
+  model-viewer { width: 100%; height: 420px; background: radial-gradient(circle at 50% 40%, var(--surface-2), var(--surface)); border-radius: 8px; --poster-color: transparent; }
   .stats-form { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 12px; }
   .stats-form label { display: flex; flex-direction: column; gap: 4px; font-size: 0.8rem; color: var(--muted); }
   .stats-form input { width: 100%; }
@@ -235,6 +247,9 @@ const pct = (n?: number) => (n === undefined ? '' : ` (${n.toLocaleString(lang)}
 </style>
 
 <script>
+  // Charge le lecteur 3D seulement sur les pages qui ont un modèle.
+  if (document.querySelector('model-viewer')) import('@google/model-viewer');
+
   type Stats = {
     stars: { star: number; levelFrom: number; levelTo: number; base: number[]; top: number[] }[];
     promotions: number[][];
