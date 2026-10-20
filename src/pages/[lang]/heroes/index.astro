@@ -3,24 +3,113 @@ import { getCollection } from 'astro:content';
 import Base from '../../../layouts/Base.astro';
 import { localize, useTranslations, type Locale } from '../../../i18n/ui';
 import { href, langPaths } from '../../../lib/i18n-paths';
-import { heroClasses } from '../../../lib/heroes';
+import { heroClasses, classIcon } from '../../../lib/heroes';
 
 export const getStaticPaths = langPaths;
 const lang = Astro.params.lang as Locale;
 const t = useTranslations(lang);
-const heroes = (await getCollection('heroes')).sort((a, b) => a.data.name.en.localeCompare(b.data.name.en));
+const rarityOrder = ['legendary', 'epic', 'rare'] as const;
+const heroes = (await getCollection('heroes')).sort(
+  (a, b) =>
+    rarityOrder.indexOf(a.data.rarity ?? 'rare') - rarityOrder.indexOf(b.data.rarity ?? 'rare') ||
+    localize(a.data.name, lang).localeCompare(localize(b.data.name, lang), lang),
+);
+const factionNames = new Map((await getCollection('factions')).map((f) => [f.id, localize(f.data.name, lang)]));
 ---
 <Base lang={lang} title={t('heroes.title')}>
   <h1>{t('heroes.title')}</h1>
-  {heroClasses.map((cls) => {
-    const list = heroes.filter((h) => h.data.class === cls);
-    return list.length > 0 && (
-      <section>
-        <h2>{t(`class.${cls}`)}</h2>
-        <ul>
-          {list.map((h) => <li><a href={href(lang, `heroes/${h.id}/`)}>{localize(h.data.name, lang)}</a></li>)}
-        </ul>
-      </section>
-    );
-  })}
+
+  <div class="filters">
+    <input type="search" placeholder={t('heroes.search')} aria-label={t('heroes.search')} data-search />
+    <div class="chips" data-filter="class">
+      <button class="chip" type="button" aria-pressed="true" data-value="">{t('filter.all')}</button>
+      {heroClasses.map((c) => <button class="chip" type="button" aria-pressed="false" data-value={c}>{classIcon[c]} {t(`class.${c}`)}</button>)}
+    </div>
+    <div class="chips" data-filter="rarity">
+      <button class="chip" type="button" aria-pressed="true" data-value="">{t('filter.all')}</button>
+      {rarityOrder.map((r) => <button class="chip" type="button" aria-pressed="false" data-value={r}>{t(`rarity.${r}`)}</button>)}
+    </div>
+  </div>
+
+  <ul class="hero-grid">
+    {heroes.map((h) => {
+      const name = localize(h.data.name, lang);
+      return (
+        <li data-class={h.data.class} data-rarity={h.data.rarity} data-name={name.toLowerCase()}>
+          <a class={`hero-card ${h.data.rarity ?? ''}`} href={href(lang, `heroes/${h.id}/`)}>
+            <span class="icon" aria-hidden="true">{classIcon[h.data.class]}</span>
+            <span class="info">
+              <strong>{name}</strong>
+              {h.data.title && <span class="title">{localize(h.data.title, lang)}</span>}
+              <span class="meta">
+                {t(`class.${h.data.class}`)}
+                {h.data.factions.length > 0 && <> · {h.data.factions.map((f) => factionNames.get(f.id)).join(', ')}</>}
+              </span>
+            </span>
+          </a>
+        </li>
+      );
+    })}
+  </ul>
+  <p class="muted" data-empty hidden>{t('heroes.none')}</p>
 </Base>
+
+<style>
+  .filters { display: flex; flex-direction: column; gap: 10px; margin-bottom: 20px; }
+  .filters input { max-width: 360px; padding: 9px 12px; }
+  .hero-grid { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); }
+  .hero-card {
+    display: flex; gap: 12px; align-items: center; height: 100%;
+    padding: 12px; border-radius: var(--radius); color: var(--text);
+    background: var(--surface); border: 1px solid var(--border); border-left: 4px solid var(--border);
+    transition: border-color 0.15s, background 0.15s;
+  }
+  .hero-card:hover { background: var(--surface-2); color: var(--text); }
+  .hero-card.legendary { border-left-color: var(--legendary); }
+  .hero-card.epic { border-left-color: var(--epic); }
+  .hero-card.rare { border-left-color: var(--rare); }
+  .icon {
+    flex: none; width: 42px; height: 42px; border-radius: 50%; display: grid; place-items: center;
+    font-size: 1.3rem; background: var(--surface-2); color: var(--gold); border: 1px solid var(--border);
+  }
+  .info { display: flex; flex-direction: column; min-width: 0; }
+  .info strong { font-family: var(--heading); }
+  .legendary strong { color: var(--legendary); }
+  .epic strong { color: #c9a6ff; }
+  .rare strong { color: #8cc0ff; }
+  .title { font-size: 0.8rem; font-style: italic; color: var(--muted); }
+  .meta { font-size: 0.8rem; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+</style>
+
+<script>
+  const items = [...document.querySelectorAll<HTMLElement>('.hero-grid > li')];
+  const search = document.querySelector<HTMLInputElement>('[data-search]')!;
+  const empty = document.querySelector<HTMLElement>('[data-empty]')!;
+  const filters: Record<string, string> = { class: '', rarity: '' };
+  const normalize = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+
+  function apply() {
+    const q = normalize(search.value.trim());
+    let shown = 0;
+    for (const li of items) {
+      const ok =
+        (!filters.class || li.dataset.class === filters.class) &&
+        (!filters.rarity || li.dataset.rarity === filters.rarity) &&
+        (!q || normalize(li.dataset.name ?? '').includes(q));
+      li.hidden = !ok;
+      if (ok) shown++;
+    }
+    empty.hidden = shown > 0;
+  }
+
+  for (const group of document.querySelectorAll<HTMLElement>('[data-filter]')) {
+    group.addEventListener('click', (e) => {
+      const chip = (e.target as HTMLElement).closest<HTMLButtonElement>('.chip');
+      if (!chip) return;
+      group.querySelectorAll('.chip').forEach((c) => c.setAttribute('aria-pressed', String(c === chip)));
+      filters[group.dataset.filter!] = chip.dataset.value ?? '';
+      apply();
+    });
+  }
+  search.addEventListener('input', apply);
+</script>

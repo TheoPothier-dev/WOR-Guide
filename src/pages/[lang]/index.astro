@@ -1,4 +1,5 @@
 ---
+import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import { useTranslations, type Locale } from '../../i18n/ui';
 import { href, langPaths } from '../../lib/i18n-paths';
@@ -6,12 +7,45 @@ import { href, langPaths } from '../../lib/i18n-paths';
 export const getStaticPaths = langPaths;
 const lang = Astro.params.lang as Locale;
 const t = useTranslations(lang);
+const counts = {
+  heroes: (await getCollection('heroes')).length,
+  sets: (await getCollection('sets')).length,
+  artifacts: (await getCollection('artifacts')).length,
+};
+const sections = [
+  { path: 'heroes/', title: t('nav.heroes'), text: t('home.heroes'), count: counts.heroes },
+  { path: 'tier-list/', title: t('nav.tierList'), text: t('home.tier') },
+  { path: 'sets/', title: t('nav.sets'), text: t('home.sets'), count: counts.sets },
+  { path: 'artifacts/', title: t('nav.artifacts'), text: t('home.artifacts'), count: counts.artifacts },
+];
 ---
 <Base lang={lang}>
-  <h1>{t('siteTitle')}</h1>
-  <p>{t('home.intro')}</p>
-  <ul>
-    <li><a href={href(lang, 'heroes/')}>{t('nav.heroes')}</a></li>
-    <li><a href={href(lang, 'tier-list/')}>{t('nav.tierList')}</a></li>
-  </ul>
+  <section class="hero">
+    <h1>{t('siteTitle')}</h1>
+    <p>{t('home.intro')}</p>
+  </section>
+  <div class="sections">
+    {sections.map((s) => (
+      <a class="card section" href={href(lang, s.path)}>
+        <div class="head">
+          <h2>{s.title}</h2>
+          {s.count !== undefined && <span class="count">{s.count}</span>}
+        </div>
+        <p class="muted">{s.text}</p>
+      </a>
+    ))}
+  </div>
 </Base>
+
+<style>
+  .hero { text-align: center; padding: clamp(24px, 6vw, 64px) 0 clamp(16px, 4vw, 40px); }
+  .hero h1 { font-size: clamp(2rem, 6vw, 3.4rem); margin: 0 0 0.3em; }
+  .hero p { font-size: 1.1rem; color: var(--muted); max-width: 40em; margin: 0 auto; }
+  .sections { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+  .head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; margin-bottom: 0.4em; }
+  .section { color: var(--text); transition: border-color 0.15s, transform 0.15s; }
+  .section:hover { border-color: var(--gold); transform: translateY(-2px); color: var(--text); }
+  .section h2 { margin: 0; border: 0; padding: 0; }
+  .section p { margin: 0; }
+  .count { font-family: var(--heading); font-size: 1.4rem; color: var(--gold); }
+</style>

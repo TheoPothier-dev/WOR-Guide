@@ -10,6 +10,9 @@ interface Props {
 }
 const { lang, title } = Astro.props;
 const t = useTranslations(lang);
+import '../styles/global.css';
+const path = Astro.url.pathname;
+const current = (section: string) => (path.startsWith(href(lang, section)) ? 'page' : undefined);
 const pageTitle = title ? `${title} | ${t('siteTitle')}` : t('siteTitle');
 ---
 <!doctype html>
@@ -17,44 +20,40 @@ const pageTitle = title ? `${title} | ${t('siteTitle')}` : t('siteTitle');
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0d1017" />
     <title>{pageTitle}</title>
-    {locales.map((l) => <link rel="alternate" hreflang={l} href={new URL(switchLang(Astro.url.pathname, l as Locale), Astro.site)} />)}
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+    {locales.map((l) => <link rel="alternate" hreflang={l} href={new URL(switchLang(path, l as Locale), Astro.site)} />)}
   </head>
   <body>
-    <header>
-      <a class="brand" href={href(lang)}>{t('siteTitle')}</a>
-      <nav>
-        <a href={href(lang, 'heroes/')}>{t('nav.heroes')}</a>
-        <a href={href(lang, 'tier-list/')}>{t('nav.tierList')}</a>
-        <a href={href(lang, 'sets/')}>{t('nav.sets')}</a>
-        <a href={href(lang, 'artifacts/')}>{t('nav.artifacts')}</a>
-      </nav>
-      <ServerSwitch lang={lang} />
-      <select aria-label="Language" onchange="location.href = this.value">
-        {locales.map((l) => (
-          <option value={switchLang(Astro.url.pathname, l as Locale)} selected={l === lang}>
-            {localeNames[l as Locale]}
-          </option>
-        ))}
-      </select>
+    <header class="site-header">
+      <div class="container">
+        <a class="brand" href={href(lang)}>Watcher of Realms <span>Guide</span></a>
+        <nav class="main-nav">
+          <a href={href(lang, 'heroes/')} aria-current={current('heroes/')}>{t('nav.heroes')}</a>
+          <a href={href(lang, 'tier-list/')} aria-current={current('tier-list/')}>{t('nav.tierList')}</a>
+          <a href={href(lang, 'sets/')} aria-current={current('sets/')}>{t('nav.sets')}</a>
+          <a href={href(lang, 'artifacts/')} aria-current={current('artifacts/')}>{t('nav.artifacts')}</a>
+        </nav>
+        <div class="header-tools">
+          <ServerSwitch lang={lang} />
+          <select aria-label="Language" onchange="location.href = this.value">
+            {locales.map((l) => (
+              <option value={switchLang(path, l as Locale)} selected={l === lang}>
+                {localeNames[l as Locale]}
+              </option>
+            ))}
+          </select>
+        </div>
+      </div>
     </header>
-    <main>
+    <main class="container">
       <slot />
     </main>
-    <footer>{t('footer.disclaimer')}</footer>
+    <footer class="site-footer">
+      <div class="container">{t('footer.disclaimer')}</div>
+    </footer>
   </body>
 </html>
-
-<style is:global>
-  /* Mise en page minimale : le design viendra plus tard. */
-  body { font-family: system-ui, sans-serif; margin: 0 auto; max-width: 960px; padding: 0 16px; line-height: 1.5; }
-  header { display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: center; padding: 12px 0; border-bottom: 1px solid #ccc; }
-  header nav { display: flex; gap: 12px; flex: 1; }
-  .brand { font-weight: bold; }
-  footer { margin: 40px 0 20px; font-size: 0.85em; color: #666; }
-  table { border-collapse: collapse; width: 100%; }
-  th, td { border: 1px solid #ddd; padding: 4px 8px; text-align: left; }
-  .example { background: #fff3cd; padding: 4px 8px; }
-  [hidden] { display: none !important; }
-  .text { white-space: pre-line; }
-</style>

@@ -5,6 +5,7 @@ import { localize, useTranslations, type Locale, type LocalizedText } from '../.
 import { locales } from '../../../i18n/locales.js';
 import { servers } from '../../../content.config';
 import statNames from '../../../data/stat-names.json';
+import { classIcon } from '../../../lib/heroes';
 
 export async function getStaticPaths() {
   const heroes = await getCollection('heroes');
@@ -37,119 +38,192 @@ const fixedValue = (k: string, v: number) => {
 const pct = (n?: number) => (n === undefined ? '' : ` (${n.toLocaleString(lang)} % ${t('hero.usage')})`);
 ---
 <Base lang={lang} title={name}>
-  <h1>{name}</h1>
-  {h.title && <p>{localize(h.title, lang)}</p>}
-  {h.example && <p class="example">{t('data.example')}</p>}
-  <dl>
-    <dt>{t('hero.class')}</dt><dd>{t(`class.${h.class}`)}</dd>
-    {h.rarity && <><dt>{t('hero.rarity')}</dt><dd>{t(`rarity.${h.rarity}`)}</dd></>}
-    {factions.length > 0 && <><dt>{t('hero.faction')}</dt><dd>{factions.map((f) => localize(f.data.name, lang)).join(', ')}</dd></>}
-    {h.damageType && <><dt>{t('hero.damageType')}</dt><dd>{t(`damage.${h.damageType}`)}</dd></>}
-  </dl>
-
-  {stats && maxStar && (
-    <>
-      <h2>{t('hero.stats')}</h2>
-      <form class="stats-form" data-stats={JSON.stringify(stats)}>
-        <label>{t('stats.star')}
-          <select name="star">{stats.stars.map((s) => <option value={s.star} selected={s === maxStar}>{s.star}</option>)}</select>
-        </label>
-        <label>{t('stats.level')}
-          <input name="level" type="number" min={Math.max(1, maxStar.levelFrom)} max={maxStar.levelTo} value={maxStar.levelTo} />
-        </label>
-        <label>{t('stats.promotion')}
-          <select name="promotion">{stats.promotions.map((_, i) => <option value={i} selected={i === maxPromotion}>{i}</option>)}</select>
-        </label>
-      </form>
-      <table class="stats">
-        <tbody>
-          {statsAt(maxStar, maxStar.levelTo, stats.promotions[maxPromotion]).map((v, i) => (
-            <tr><th>{statName(mainStats[i])}</th><td data-stat={i}>{v}</td></tr>
-          ))}
-          {Object.entries(stats.fixed).map(([k, v]) => (
-            <tr><th>{statName(k)}</th><td>{fixedValue(k, v)}</td></tr>
-          ))}
-        </tbody>
-      </table>
-      <p><small>{t('stats.note')}</small></p>
-    </>
-  )}
-
-  {h.skills.length > 0 && (
-    <>
-      <h2>{t('hero.skills')}</h2>
-      {h.skills.map((sk) => (
-        <section class="skill">
-          <h3>
-            {t(`skill.${sk.kind}`)}{sk.name.en && <> : {localize(sk.name as LocalizedText, lang)}</>}
-            {sk.cooldown !== undefined && <small> ({t('skill.cooldown')} {sk.cooldown} {t('skill.seconds')})</small>}
-          </h3>
-          <p class="text">{localize(sk.description, lang)}</p>
-        </section>
-      ))}
-    </>
-  )}
-
-  {h.awakenings.length > 0 && (
-    <>
-      <h2>{t('hero.awakenings')}</h2>
-      <dl>
-        {h.awakenings.map((a) => (
-          <>
-            <dt>{t('hero.awakeningLevel')} {a.level}</dt>
-            <dd class="text">{localize(a.description, lang)}</dd>
-          </>
-        ))}
-      </dl>
-    </>
-  )}
-
-  {artifact && (
-    <>
-      <h2>{t('hero.exclusiveArtifact')}</h2>
-      <h3>{localize(artifact.data.name, lang)}</h3>
-      {artifact.data.description && <p class="text">{localize(artifact.data.description, lang)}</p>}
-    </>
-  )}
-
-  <h2>{t('hero.builds')}</h2>
-  {servers.map((server) => {
-    const builds = h.builds[server] ?? [];
-    return (
-      <div data-server={server}>
-        {builds.length === 0 && <p>{t('hero.noBuild')}</p>}
-        {builds.map((b) => (
-          <section>
-            <h3>{localize(b.label, lang)}</h3>
-            <h4>{t('hero.gearSets')}</h4>
-            <ul>{b.sets.map((s) => <li>{s.name}{pct(s.usage)}</li>)}</ul>
-            {b.artifacts.length > 0 && (
-              <>
-                <h4>{t('hero.artifacts')}</h4>
-                <ul>{b.artifacts.map((a) => <li>{a.name}{pct(a.usage)}</li>)}</ul>
-              </>
-            )}
-            {b.notes && <p>{localize(b.notes, lang)}</p>}
-          </section>
-        ))}
+  <div class="layout">
+    <aside class="side">
+      <div class={`card identity ${h.rarity ?? ''}`}>
+        <span class="icon" aria-hidden="true">{classIcon[h.class]}</span>
+        <div>
+          {h.title && <p class="title">{localize(h.title, lang)}</p>}
+          <h1>{name}</h1>
+        </div>
+        <div class="badges">
+          {h.rarity && <span class={`badge ${h.rarity}`}>{t(`rarity.${h.rarity}`)}</span>}
+          <span class="badge">{classIcon[h.class]} {t(`class.${h.class}`)}</span>
+          {h.damageType && <span class="badge">{t(`damage.${h.damageType}`)}</span>}
+          {factions.map((f) => <span class="badge">{localize(f.data.name, lang)}</span>)}
+        </div>
+        {h.example && <p class="example">{t('data.example')}</p>}
       </div>
-    );
-  })}
 
-  <h2>{t('hero.tiers')}</h2>
-  {servers.map((server) => (
-    <table data-server={server}>
-      <tbody>
-        {modes.map((m) => (
-          <tr>
-            <th>{localize(m.data.name, lang)}</th>
-            <td>{h.tiers[server]?.[m.id] ?? t('tier.notRated')}</td>
-          </tr>
+      {stats && maxStar && (
+        <div class="card stats-card">
+          <h2>{t('hero.stats')}</h2>
+          <form class="stats-form" data-stats={JSON.stringify(stats)}>
+            <label>{t('stats.star')}
+              <select name="star">{stats.stars.map((s) => <option value={s.star} selected={s === maxStar}>{s.star}</option>)}</select>
+            </label>
+            <label>{t('stats.level')}
+              <input name="level" type="number" inputmode="numeric" min={Math.max(1, maxStar.levelFrom)} max={maxStar.levelTo} value={maxStar.levelTo} />
+            </label>
+            <label>{t('stats.promotion')}
+              <select name="promotion">{stats.promotions.map((_, i) => <option value={i} selected={i === maxPromotion}>{i}</option>)}</select>
+            </label>
+          </form>
+          <table class="stats">
+            <tbody>
+              {statsAt(maxStar, maxStar.levelTo, stats.promotions[maxPromotion]).map((v, i) => (
+                <tr class="main"><th>{statName(mainStats[i])}</th><td data-stat={i}>{v}</td></tr>
+              ))}
+              {Object.entries(stats.fixed).map(([k, v]) => (
+                <tr><th>{statName(k)}</th><td>{fixedValue(k, v)}</td></tr>
+              ))}
+            </tbody>
+          </table>
+          <p class="note muted">{t('stats.note')}</p>
+        </div>
+      )}
+    </aside>
+
+    <div class="content">
+      {h.skills.length > 0 && (
+        <section>
+          <h2>{t('hero.skills')}</h2>
+          <div class="skills">
+            {h.skills.map((sk) => (
+              <article class="card skill">
+                <header>
+                  <span class={`kind kind-${sk.kind}`}>{t(`skill.${sk.kind}`)}</span>
+                  {sk.cooldown !== undefined && <span class="cd">⏱ {sk.cooldown} {t('skill.seconds')}</span>}
+                </header>
+                {sk.name.en && <h3>{localize(sk.name as LocalizedText, lang)}</h3>}
+                <p class="text">{localize(sk.description, lang)}</p>
+              </article>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {h.awakenings.length > 0 && (
+        <section>
+          <h2>{t('hero.awakenings')}</h2>
+          <ol class="awakenings">
+            {h.awakenings.map((a) => (
+              <li class="card">
+                <span class="level">{a.level}</span>
+                <p class="text">{localize(a.description, lang)}</p>
+              </li>
+            ))}
+          </ol>
+        </section>
+      )}
+
+      {artifact && (
+        <section>
+          <h2>{t('hero.exclusiveArtifact')}</h2>
+          <div class="card">
+            <h3 class="gold">{localize(artifact.data.name, lang)}</h3>
+            {artifact.data.description && <p class="text">{localize(artifact.data.description, lang)}</p>}
+          </div>
+        </section>
+      )}
+
+      <section>
+        <h2>{t('hero.builds')}</h2>
+        {servers.map((server) => {
+          const builds = h.builds[server] ?? [];
+          return (
+            <div data-server={server}>
+              {builds.length === 0 && <p class="muted">{t('hero.noBuild')}</p>}
+              {builds.map((b) => (
+                <div class="card build">
+                  <h3>{localize(b.label, lang)}</h3>
+                  <h4>{t('hero.gearSets')}</h4>
+                  <ul>{b.sets.map((s) => <li>{s.name}{pct(s.usage)}</li>)}</ul>
+                  {b.artifacts.length > 0 && (
+                    <>
+                      <h4>{t('hero.artifacts')}</h4>
+                      <ul>{b.artifacts.map((a) => <li>{a.name}{pct(a.usage)}</li>)}</ul>
+                    </>
+                  )}
+                  {b.notes && <p>{localize(b.notes, lang)}</p>}
+                </div>
+              ))}
+            </div>
+          );
+        })}
+      </section>
+
+      <section>
+        <h2>{t('hero.tiers')}</h2>
+        {servers.map((server) => (
+          <div class="table-wrap" data-server={server}>
+            <table>
+              <tbody>
+                {modes.map((m) => {
+                  const tier = h.tiers[server]?.[m.id];
+                  return (
+                    <tr>
+                      <th>{localize(m.data.name, lang)}</th>
+                      <td>{tier ? <span class={`tier tier-${tier}`}>{tier}</span> : <span class="tier-none">{t('tier.notRated')}</span>}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
         ))}
-      </tbody>
-    </table>
-  ))}
+      </section>
+    </div>
+  </div>
 </Base>
+
+<style>
+  .layout { display: grid; gap: 24px; margin-top: 20px; }
+  @media (min-width: 960px) {
+    .layout { grid-template-columns: 340px 1fr; align-items: start; }
+    .content > section:first-child h2 { margin-top: 0; }
+  }
+  .side { display: flex; flex-direction: column; gap: 16px; }
+  .identity { display: grid; grid-template-columns: auto 1fr; gap: 12px 14px; align-items: center; border-top: 3px solid var(--border); }
+  .identity.legendary { border-top-color: var(--legendary); }
+  .identity.epic { border-top-color: var(--epic); }
+  .identity.rare { border-top-color: var(--rare); }
+  .identity h1 { margin: 0; }
+  .identity .badges, .identity .example { grid-column: 1 / -1; margin: 0; }
+  .title { margin: 0; font-style: italic; color: var(--muted); font-size: 0.9rem; }
+  .icon {
+    width: 56px; height: 56px; border-radius: 50%; display: grid; place-items: center;
+    font-size: 1.7rem; color: var(--gold); background: var(--surface-2); border: 1px solid var(--gold);
+  }
+  .stats-card h2 { margin-top: 0; }
+  .stats-form { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 12px; }
+  .stats-form label { display: flex; flex-direction: column; gap: 4px; font-size: 0.8rem; color: var(--muted); }
+  .stats-form input { width: 100%; }
+  .stats th, .stats td { padding: 6px 4px; }
+  .stats th { font-weight: 400; color: var(--muted); }
+  .stats td { text-align: right; font-variant-numeric: tabular-nums; }
+  .stats tr.main td { font-weight: 600; color: var(--gold-2); font-size: 1.05rem; }
+  .note { font-size: 0.8rem; margin: 10px 0 0; }
+  .skills { display: grid; gap: 12px; }
+  .skill header { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-bottom: 6px; }
+  .skill p { margin: 0; color: #d4d0c4; }
+  .kind { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; padding: 2px 8px; border-radius: 4px; background: var(--surface-2); color: var(--muted); }
+  .kind-ultimate { background: rgba(217, 181, 108, 0.18); color: var(--gold-2); }
+  .kind-talent { background: rgba(168, 116, 255, 0.18); color: #c9a6ff; }
+  .kind-skill { background: rgba(79, 157, 255, 0.16); color: #8cc0ff; }
+  .kind-passive { background: rgba(123, 211, 137, 0.15); color: #9fe0aa; }
+  .kind-bond { background: rgba(255, 159, 67, 0.15); color: #ffbf80; }
+  .cd { font-size: 0.85rem; color: var(--muted); }
+  .awakenings { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+  .awakenings li { display: flex; gap: 14px; align-items: flex-start; }
+  .awakenings p { margin: 0; }
+  .level {
+    flex: none; width: 32px; height: 32px; border-radius: 50%; display: grid; place-items: center;
+    font-family: var(--heading); font-weight: 700; background: var(--gold); color: #1a1406;
+  }
+  .gold { color: var(--gold-2); }
+  .build h4 { margin: 0.8em 0 0.2em; color: var(--muted); font-size: 0.85rem; }
+</style>
 
 <script>
   type Stats = {

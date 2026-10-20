@@ -6,7 +6,7 @@ const { lang } = Astro.props as { lang: Locale };
 const t = useTranslations(lang);
 ---
 <label class="server-switch">
-  {t('server.label')}
+  <span>{t('server.label')}</span>
   <select data-server-select>
     {servers.map((s) => <option value={s}>{t(`server.${s}`)}</option>)}
   </select>

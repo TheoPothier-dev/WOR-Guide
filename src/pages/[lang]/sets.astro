@@ -11,12 +11,22 @@ const sets = (await getCollection('sets')).sort((a, b) => localize(a.data.name, 
 ---
 <Base lang={lang} title={t('sets.title')}>
   <h1>{t('sets.title')}</h1>
-  {sets.map((s) => (
-    <section>
-      <h2>{localize(s.data.name, lang)}</h2>
-      <ul>
-        {s.data.bonuses.map((b) => <li class="text">{localize(b.description, lang)}</li>)}
-      </ul>
-    </section>
-  ))}
+  <div class="grid">
+    {sets.map((s) => (
+      <article class="card">
+        <h3>{localize(s.data.name, lang)}</h3>
+        <ul class="bonuses">
+          {s.data.bonuses.map((b) => (
+            <li class="text">{localize(b.description, lang)}</li>
+          ))}
+        </ul>
+      </article>
+    ))}
+  </div>
 </Base>
+
+<style>
+  h3 { color: var(--gold-2); }
+  .bonuses { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; font-size: 0.92rem; }
+  .bonuses li { padding-left: 10px; border-left: 2px solid var(--gold); }
+</style>

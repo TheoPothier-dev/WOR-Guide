@@ -3,7 +3,7 @@ import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import { localize, useTranslations, type Locale } from '../../i18n/ui';
 import { href, langPaths } from '../../lib/i18n-paths';
-import { heroClasses } from '../../lib/heroes';
+import { heroClasses, classIcon } from '../../lib/heroes';
 import { servers, tiers } from '../../content.config';
 
 export const getStaticPaths = langPaths;
@@ -23,8 +23,8 @@ const rank = (h: (typeof heroes)[number], server: (typeof servers)[number]) =>
         const list = heroes.filter((h) => h.data.class === cls);
         return list.length > 0 && (
           <section>
-            <h2>{t(`class.${cls}`)}</h2>
-            <table>
+            <h2>{classIcon[cls]} {t(`class.${cls}`)}</h2>
+            <div class="table-wrap"><table>
               <thead>
                 <tr>
                   <th></th>
@@ -37,14 +37,24 @@ const rank = (h: (typeof heroes)[number], server: (typeof servers)[number]) =>
                   .map((h) => (
                     <tr>
                       <th><a href={href(lang, `heroes/${h.id}/`)}>{localize(h.data.name, lang)}</a></th>
-                      {modes.map((m) => <td>{h.data.tiers[server]?.[m.id] ?? '–'}</td>)}
+                      {modes.map((m) => {
+                        const tier = h.data.tiers[server]?.[m.id];
+                        return <td>{tier ? <span class={`tier tier-${tier}`}>{tier}</span> : <span class="tier-none">–</span>}</td>;
+                      })}
                     </tr>
                   ))}
               </tbody>
-            </table>
+            </table></div>
           </section>
         );
       })}
     </div>
   ))}
 </Base>
+
+<style>
+  table th:first-child { position: sticky; left: 0; background: var(--surface); z-index: 1; white-space: nowrap; }
+  thead th:first-child { background: var(--surface-2); }
+  td { text-align: center; }
+  thead th { font-size: 0.8rem; }
+</style>

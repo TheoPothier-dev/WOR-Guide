@@ -3,7 +3,7 @@ import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import { localize, useTranslations, type Locale } from '../../i18n/ui';
 import { href, langPaths } from '../../lib/i18n-paths';
-import { heroClasses } from '../../lib/heroes';
+import { heroClasses, classIcon } from '../../lib/heroes';
 
 export const getStaticPaths = langPaths;
 const lang = Astro.params.lang as Locale;
@@ -21,15 +21,15 @@ const general = artifacts.filter((a) => !a.data.heroGameId && !a.data.class);
     const list = artifacts.filter((a) => a.data.class === cls);
     return list.length > 0 && (
       <section>
-        <h3>{t(`class.${cls}`)}</h3>
-        <dl>
+        <h3 class="class">{classIcon[cls]} {t(`class.${cls}`)}</h3>
+        <div class="grid">
           {list.map((a) => (
-            <>
-              <dt>{localize(a.data.name, lang)} ({t('artifacts.rank')} {a.data.rank})</dt>
-              {a.data.description && <dd class="text">{localize(a.data.description, lang)}</dd>}
-            </>
+            <article class="card">
+              <h4>{localize(a.data.name, lang)} <span class="badge">{t('artifacts.rank')} {a.data.rank}</span></h4>
+              {a.data.description && <p class="text">{localize(a.data.description, lang)}</p>}
+            </article>
           ))}
-        </dl>
+        </div>
       </section>
     );
   })}
@@ -37,29 +37,35 @@ const general = artifacts.filter((a) => !a.data.heroGameId && !a.data.class);
   {general.length > 0 && (
     <>
       <h2>{t('artifacts.general')}</h2>
-      <dl>
+      <div class="grid">
         {general.map((a) => (
-          <>
-            <dt>{localize(a.data.name, lang)} ({t('artifacts.rank')} {a.data.rank})</dt>
-            {a.data.description && <dd class="text">{localize(a.data.description, lang)}</dd>}
-          </>
+          <article class="card">
+            <h4>{localize(a.data.name, lang)} <span class="badge">{t('artifacts.rank')} {a.data.rank}</span></h4>
+            {a.data.description && <p class="text">{localize(a.data.description, lang)}</p>}
+          </article>
         ))}
-      </dl>
+      </div>
     </>
   )}
 
   <h2>{t('artifacts.exclusive')}</h2>
-  <dl>
+  <div class="grid">
     {exclusive.map((a) => {
       const hero = heroes.get(a.data.heroGameId!)!;
       return (
-        <>
-          <dt>
-            {localize(a.data.name, lang)} – <a href={href(lang, `heroes/${hero.id}/`)}>{localize(hero.data.name, lang)}</a>
-          </dt>
-          {a.data.description && <dd class="text">{localize(a.data.description, lang)}</dd>}
-        </>
+        <article class="card">
+          <h4>{localize(a.data.name, lang)}</h4>
+          <a class="hero" href={href(lang, `heroes/${hero.id}/`)}>{classIcon[hero.data.class]} {localize(hero.data.name, lang)}</a>
+          {a.data.description && <p class="text">{localize(a.data.description, lang)}</p>}
+        </article>
       );
     })}
-  </dl>
+  </div>
 </Base>
+
+<style>
+  .class { margin: 1.4em 0 0.6em; color: var(--text); }
+  h4 { margin: 0 0 0.5em; font-family: var(--heading); color: var(--gold-2); display: flex; justify-content: space-between; gap: 8px; align-items: baseline; }
+  .card p { margin: 0.4em 0 0; font-size: 0.92rem; color: #d4d0c4; }
+  .hero { font-size: 0.9rem; }
+</style>
