@@ -12,6 +12,8 @@
   --legendary: #e8b34a;
   --epic: #a874ff;
   --rare: #4f9dff;
+  --elite: #5cc98a;
+  --common: #a3aab8;
   --radius: 10px;
   --heading: 'Cinzel', Georgia, serif;
   color-scheme: dark;
@@ -119,6 +121,8 @@ select:focus, input:focus { outline: 2px solid var(--gold); outline-offset: 1px;
 .badge.legendary { color: var(--legendary); border-color: color-mix(in srgb, var(--legendary) 45%, transparent); }
 .badge.epic { color: var(--epic); border-color: color-mix(in srgb, var(--epic) 45%, transparent); }
 .badge.rare { color: var(--rare); border-color: color-mix(in srgb, var(--rare) 45%, transparent); }
+.badge.elite { color: var(--elite); border-color: color-mix(in srgb, var(--elite) 45%, transparent); }
+.badge.common { color: var(--common); border-color: color-mix(in srgb, var(--common) 45%, transparent); }
 .badges { display: flex; flex-wrap: wrap; gap: 6px; }
 
 .example { background: rgba(232, 179, 74, 0.12); border: 1px solid var(--legendary); border-radius: 8px; padding: 6px 10px; }

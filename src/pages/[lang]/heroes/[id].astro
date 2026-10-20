@@ -125,7 +125,11 @@ const pct = (n?: number) => (n === undefined ? '' : ` (${n.toLocaleString(lang)}
               {builds.length === 0 && <p class="muted">{t('hero.noBuild')}</p>}
               {builds.map((b) => (
                 <div class="card build">
-                  <h3>{localize(b.label, lang)}</h3>
+                  <header class="build-head">
+                    <h3>{localize(b.label, lang)}</h3>
+                    <span class={`origin origin-${b.origin}`}>{t(b.origin === 'ai' ? 'build.ai' : 'build.community')}</span>
+                  </header>
+                  {b.role && <p class="role">{localize(b.role, lang)}</p>}
                   <ul class="items">
                     {b.sets.map((it) => {
                       const set = it.id ? setsById.get(it.id) : undefined;
@@ -153,7 +157,7 @@ const pct = (n?: number) => (n === undefined ? '' : ` (${n.toLocaleString(lang)}
                     })}
                   </ul>
                   {b.notes && <p class="build-note">{localize(b.notes, lang)}</p>}
-                  {b.confidence && <p class="muted draft"><small>{t('build.draft')}</small></p>}
+                  <p class="muted draft"><small>{t(b.origin === 'ai' ? 'build.aiNote' : 'build.draft')}</small></p>
                 </div>
               ))}
             </div>
@@ -249,6 +253,8 @@ const pct = (n?: number) => (n === undefined ? '' : ` (${n.toLocaleString(lang)}
   .identity.legendary { border-top-color: var(--legendary); }
   .identity.epic { border-top-color: var(--epic); }
   .identity.rare { border-top-color: var(--rare); }
+  .identity.elite { border-top-color: var(--elite); }
+  .identity.common { border-top-color: var(--common); }
   .identity h1 { margin: 0; }
   .bust {
     grid-column: 1 / -1; width: calc(100% + 32px); height: auto; margin: -16px -16px 0;
@@ -304,6 +310,12 @@ const pct = (n?: number) => (n === undefined ? '' : ` (${n.toLocaleString(lang)}
   .gold { color: var(--gold-2); }
   .build { display: grid; gap: 10px; }
   .build h3 { margin: 0; color: var(--gold-2); }
+  .build-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+  .origin { flex: none; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.04em; padding: 3px 10px; border-radius: 999px; }
+  .origin-community { background: rgba(123, 211, 137, 0.15); color: #9fe0aa; border: 1px solid rgba(123, 211, 137, 0.4); }
+  .origin-ai { background: rgba(168, 116, 255, 0.16); color: #c9a6ff; border: 1px solid rgba(168, 116, 255, 0.45); }
+  .role { margin: -4px 0 0; color: var(--muted); font-size: 0.9rem; }
+  .build + .build { margin-top: 12px; }
   .items { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
   .items a { display: flex; align-items: center; gap: 10px; color: var(--text); background: var(--surface-2); border: 1px solid var(--border); border-radius: 8px; padding: 6px 10px 6px 6px; height: 100%; }
   .items a[href]:hover { border-color: var(--gold); }

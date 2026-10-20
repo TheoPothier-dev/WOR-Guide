@@ -31,6 +31,9 @@ const usageItem = z.object({
 
 const build = z.object({
   label: localized,
+  // community : relevé dans les guides en ligne ; ai : conçu à partir des compétences et des bonus du jeu.
+  origin: z.enum(['community', 'ai']).default('community'),
+  role: localized.optional(),
   // Fiabilité de la source : high, medium ou low.
   confidence: z.enum(['high', 'medium', 'low']).optional(),
   // D'où vient le build (URL ou description), pour pouvoir le revérifier.
@@ -91,7 +94,7 @@ const heroes = defineCollection({
     name: localized,
     title: localized.optional(),
     class: heroClass,
-    rarity: z.enum(['legendary', 'epic', 'rare']).optional(),
+    rarity: z.enum(['legendary', 'epic', 'rare', 'elite', 'common']).optional(),
     factions: z.array(reference('factions')).default([]),
     damageType: z.enum(['physical', 'magic']).optional(),
     // Compétences au niveau maximum, textes du jeu avec les valeurs déjà calculées.

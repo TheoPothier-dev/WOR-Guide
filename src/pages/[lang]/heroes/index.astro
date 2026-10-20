@@ -9,7 +9,7 @@ import ClassIcon from '../../../components/ClassIcon.astro';
 export const getStaticPaths = langPaths;
 const lang = Astro.params.lang as Locale;
 const t = useTranslations(lang);
-const rarityOrder = ['legendary', 'epic', 'rare'] as const;
+const rarityOrder = ['legendary', 'epic', 'rare', 'elite', 'common'] as const;
 const heroes = (await getCollection('heroes')).sort(
   (a, b) =>
     rarityOrder.indexOf(a.data.rarity ?? 'rare') - rarityOrder.indexOf(b.data.rarity ?? 'rare') ||
@@ -66,6 +66,8 @@ const factionNames = new Map((await getCollection('factions')).map((f) => [f.id,
   .hero-card.legendary { border-color: var(--legendary); background: linear-gradient(#3a2a10, var(--surface)); }
   .hero-card.epic { border-color: var(--epic); background: linear-gradient(#2a1a45, var(--surface)); }
   .hero-card.rare { border-color: var(--rare); background: linear-gradient(#132a48, var(--surface)); }
+  .hero-card.elite { border-color: var(--elite); background: linear-gradient(#123524, var(--surface)); }
+  .hero-card.common { border-color: var(--common); background: linear-gradient(#262a33, var(--surface)); }
   .portrait { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: top; }
   .cls {
     position: absolute; top: 6px; left: 6px; width: 28px; height: 28px; border-radius: 50%;
@@ -80,6 +82,8 @@ const factionNames = new Map((await getCollection('factions')).map((f) => [f.id,
   .legendary strong { color: var(--legendary); }
   .epic strong { color: #c9a6ff; }
   .rare strong { color: #8cc0ff; }
+  .elite strong { color: var(--elite); }
+  .common strong { color: var(--common); }
   .title { font-size: 0.7rem; font-style: italic; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .chip :global(.class-icon) { vertical-align: -3px; }
 </style>

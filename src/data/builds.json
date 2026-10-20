@@ -34,7 +34,8 @@
    "notes": {
     "en": "Tank: 3x HP% main stats, damage reduction matters more than extra HP; Guardian or Unshaken Will are fallbacks.",
     "fr": "Tank : 3x PV % en stats principales, la réduction des dégâts compte plus que les PV ; Guardian ou Unshaken Will en remplacement."
-   }
+   },
+   "origin": "community"
   }
  ],
  "dolores": [
@@ -72,7 +73,8 @@
    "notes": {
     "en": "Pure ATK% buffer (ATK Speed does nothing for her); Warlord is the alternative 2-piece.",
     "fr": "Soutien pur ATK % (la Vit. d'ATK ne lui sert à rien) ; Warlord en alternative pour le 2 pièces."
-   }
+   },
+   "origin": "community"
   }
  ],
  "hatssut": [
@@ -118,7 +120,8 @@
    "notes": {
     "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Soulbound Arcana if no exclusive gear.",
     "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Soulbound Arcana sans équipement exclusif."
-   }
+   },
+   "origin": "community"
   }
  ],
  "volka": [
@@ -156,7 +159,8 @@
    "notes": {
     "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Warlord + Soulbound Arcana as the alternative.",
     "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Warlord + Soulbound Arcana en alternative."
-   }
+   },
+   "origin": "community"
   }
  ],
  "torodor": [
@@ -198,7 +202,8 @@
    "notes": {
     "en": "Tank: 3x HP% main stats, damage reduction matters more than extra HP; Guardian or Unshaken Will are fallbacks.",
     "fr": "Tank : 3x PV % en stats principales, la réduction des dégâts compte plus que les PV ; Guardian ou Unshaken Will en remplacement."
-   }
+   },
+   "origin": "community"
   }
  ],
  "elowyn": [
@@ -240,7 +245,8 @@
    "notes": {
     "en": "ATK% and ATK Speed, then Healing Effect and Rage Regen; Light's Grace for more survivability.",
     "fr": "ATK % et Vit. d'ATK, puis Effet de soin et Régén. de rage ; Light's Grace pour plus de survie."
-   }
+   },
+   "origin": "community"
   }
  ],
  "hollow": [
@@ -278,7 +284,8 @@
    "notes": {
     "en": "ATK% and ATK Speed first, then Rage Regen; the wiki uses Whirlwind + Invigoration before end game.",
     "fr": "ATK % et Vit. d'ATK d'abord, puis Régén. de rage ; le wiki conseille Whirlwind + Invigoration avant la fin de jeu."
-   }
+   },
+   "origin": "community"
   }
  ],
  "solcadens": [
@@ -316,7 +323,8 @@
    "notes": {
     "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats.",
     "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires."
-   }
+   },
+   "origin": "community"
   }
  ],
  "laya": [
@@ -358,7 +366,8 @@
    "notes": {
     "en": "Aim for 90-150 Healing Effect with ATK% and ATK Speed main stats.",
     "fr": "Viser 90 à 150 d'Effet de soin avec ATK % et Vit. d'ATK en stats principales."
-   }
+   },
+   "origin": "community"
   }
  ],
  "ymiret": [
@@ -404,7 +413,8 @@
    "notes": {
     "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Cataclysm beats Soulbound Arcana thanks to his faction exclusives.",
     "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Cataclysm dépasse Soulbound Arcana grâce à ses exclusifs de faction."
-   }
+   },
+   "origin": "community"
   }
  ],
  "cyrus": [
@@ -446,7 +456,8 @@
    "notes": {
     "en": "Tank: 3x HP% main stats, damage reduction matters more than extra HP; Guardian or Unshaken Will are fallbacks.",
     "fr": "Tank : 3x PV % en stats principales, la réduction des dégâts compte plus que les PV ; Guardian ou Unshaken Will en remplacement."
-   }
+   },
+   "origin": "community"
   }
  ],
  "diaochan": [
@@ -488,7 +499,8 @@
    "notes": {
     "en": "ATK-scaling healer: 3x ATK% main stats, then HP% for survival.",
     "fr": "Soigneuse basée sur l'ATK : 3x ATK % en principal, puis PV % pour survivre."
-   }
+   },
+   "origin": "community"
   }
  ],
  "silas": [
@@ -530,7 +542,8 @@
    "notes": {
     "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Hell's Lament is close for pure Ultimate damage.",
     "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Hell's Lament est proche pour les dégâts d'ultime."
-   }
+   },
+   "origin": "community"
   }
  ],
  "vierna": [
@@ -568,7 +581,8 @@
    "notes": {
     "en": "3x ATK%, Crit Rate and Crit DMG; ATK Speed has no effect on her.",
     "fr": "3x ATK %, Taux et Dégâts crit. ; la Vit. d'ATK n'a aucun effet sur elle."
-   }
+   },
+   "origin": "community"
   }
  ],
  "carnelian": [
@@ -610,7 +624,8 @@
    "notes": {
     "en": "ATK Speed first since her revive frequency depends on it, then Rage Regen and ATK%.",
     "fr": "Vit. d'ATK en priorité car la fréquence de ses résurrections en dépend, puis Régén. de rage et ATK %."
-   }
+   },
+   "origin": "community"
   }
  ],
  "eirlys": [
@@ -656,7 +671,8 @@
    "notes": {
     "en": "She overheals, so The North's Glory turns excess healing into shields; 90-150 Healing Effect.",
     "fr": "Elle soigne en excès, donc The North's Glory convertit le surplus en boucliers ; 90 à 150 d'Effet de soin."
-   }
+   },
+   "origin": "community"
   }
  ],
  "ardea": [
@@ -698,7 +714,8 @@
    "notes": {
     "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Her multi-hits are not AoE, so AoE artifacts do not work.",
     "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Ses attaques multiples ne sont pas des dégâts de zone, donc les artefacts de zone ne marchent pas."
-   }
+   },
+   "origin": "community"
   }
  ],
  "brokkir": [
@@ -740,7 +757,8 @@
    "notes": {
     "en": "Tank: 3x HP% main stats, damage reduction matters more than extra HP; Guardian or Unshaken Will are fallbacks.",
     "fr": "Tank : 3x PV % en stats principales, la réduction des dégâts compte plus que les PV ; Guardian ou Unshaken Will en remplacement."
-   }
+   },
+   "origin": "community"
   }
  ],
  "valderon": [
@@ -782,7 +800,8 @@
    "notes": {
     "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Key of the Forsaken in Guild War; Fastidious prefers Warlord + Infernal Roar.",
     "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Key of the Forsaken en Guerre de guilde ; Fastidious préfère Warlord + Infernal Roar."
-   }
+   },
+   "origin": "community"
   }
  ],
  "nastya": [
@@ -820,7 +839,8 @@
    "notes": {
     "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Hell's Lament is her exclusive ring; Cataclysm or Soulbound Arcana as backups.",
     "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Hell's Lament est son anneau exclusif ; Cataclysm ou Soulbound Arcana en secours."
-   }
+   },
+   "origin": "community"
   }
  ],
  "valara": [
@@ -862,7 +882,8 @@
    "notes": {
     "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Cataclysm helps her build Rage faster.",
     "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Cataclysm l'aide à générer sa rage plus vite."
-   }
+   },
+   "origin": "community"
   }
  ],
  "rivenhald": [
@@ -904,7 +925,8 @@
    "notes": {
     "en": "Support build: 3x ATK%, then ATK Speed and Rage Regen.",
     "fr": "Build soutien : 3x ATK %, puis Vit. d'ATK et Régén. de rage."
-   }
+   },
+   "origin": "community"
   }
  ],
  "malvira": [
@@ -946,7 +968,8 @@
    "notes": {
     "en": "Tank build with 3x HP%; a DPS variant uses Goldmane + Undying Savage instead.",
     "fr": "Build tank en 3x PV % ; une variante DPS utilise plutôt Goldmane + Undying Savage."
-   }
+   },
+   "origin": "community"
   }
  ],
  "numera": [
@@ -988,7 +1011,8 @@
    "notes": {
     "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Cataclysm lets her trigger her Ultimate more often.",
     "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Cataclysm lui permet de lancer son ultime plus souvent."
-   }
+   },
+   "origin": "community"
   }
  ],
  "lady-alexandra": [
@@ -1034,7 +1058,8 @@
    "notes": {
     "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Infernal Roar if she cannot kill often; Fastidious prefers Cataclysm.",
     "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Infernal Roar si elle ne tue pas assez souvent ; Fastidious préfère Cataclysm."
-   }
+   },
+   "origin": "community"
   }
  ],
  "khadgrim": [
@@ -1076,7 +1101,8 @@
    "notes": {
     "en": "Tank: 3x HP% with his exclusive artifact; Bastion Ring as the alternative.",
     "fr": "Tank : 3x PV % avec son artefact exclusif ; Bastion Ring en alternative."
-   }
+   },
+   "origin": "community"
   }
  ],
  "beelzebub": [
@@ -1114,7 +1140,8 @@
    "notes": {
     "en": "Support build with 3x ATK%; a hybrid DPS version swaps Wings of Grace for Cataclysm.",
     "fr": "Build soutien en 3x ATK % ; une version hybride DPS remplace Wings of Grace par Cataclysm."
-   }
+   },
+   "origin": "community"
   }
  ],
  "iovar": [
@@ -1160,7 +1187,8 @@
    "notes": {
     "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. His fast Ultimates keep Hell's Lament up; Cataclysm is second choice.",
     "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Ses ultimes rapides maintiennent Hell's Lament actif ; Cataclysm en second choix."
-   }
+   },
+   "origin": "community"
   }
  ],
  "kigiri": [
@@ -1202,7 +1230,8 @@
    "notes": {
     "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats.",
     "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires."
-   }
+   },
+   "origin": "community"
   }
  ],
  "oren": [
@@ -1244,7 +1273,8 @@
    "notes": {
     "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. From A3 the wiki swaps Hell's Lament for Cataclysm.",
     "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. À partir de l'Éveil 3, le wiki remplace Hell's Lament par Cataclysm."
-   }
+   },
+   "origin": "community"
   }
  ],
  "ingrid": [
@@ -1282,7 +1312,8 @@
    "notes": {
     "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Cataclysm with a Watchguard or Arbiter ring; Infernal Roar from A3.",
     "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Cataclysm avec un anneau Watchguard ou Arbiter ; Infernal Roar dès l'Éveil 3."
-   }
+   },
+   "origin": "community"
   }
  ],
  "praetus": [
@@ -1320,7 +1351,8 @@
    "notes": {
     "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Hell's Lament if he has a constant Rage Regen buff.",
     "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Hell's Lament s'il a un bonus de Régén. de rage constant."
-   }
+   },
+   "origin": "community"
   }
  ],
  "erlang-shen": [
@@ -1366,7 +1398,8 @@
    "notes": {
     "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. His exclusive artifact beats any Mythic one even at low level.",
     "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Son artefact exclusif surpasse tout artefact mythique même à bas niveau."
-   }
+   },
+   "origin": "community"
   }
  ],
  "nerissa": [
@@ -1408,7 +1441,8 @@
    "notes": {
     "en": "ATK% and ATK Speed main stats, 90-150 Healing Effect; Light's Grace is the alternative.",
     "fr": "ATK % et Vit. d'ATK en principal, 90 à 150 d'Effet de soin ; Light's Grace en alternative."
-   }
+   },
+   "origin": "community"
   }
  ],
  "sergei": [
@@ -1450,7 +1484,8 @@
    "notes": {
     "en": "3x ATK% (or 2x ATK% + Crit DMG with Chaos lords); his short Ultimate fits Hell's Lament.",
     "fr": "3x ATK % (ou 2x ATK % + Dégâts crit. avec un seigneur Chaos) ; son ultime court convient à Hell's Lament."
-   }
+   },
+   "origin": "community"
   }
  ],
  "sun-wukong": [
@@ -1492,7 +1527,8 @@
    "notes": {
     "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Aim for 60,000 HP in Guild War.",
     "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Viser 60 000 PV en Guerre de guilde."
-   }
+   },
+   "origin": "community"
   }
  ],
  "ne-zha": [
@@ -1534,7 +1570,8 @@
    "notes": {
     "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats.",
     "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires."
-   }
+   },
+   "origin": "community"
   }
  ],
  "ezareth": [
@@ -1580,7 +1617,8 @@
    "notes": {
     "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Cataclysm only with steady crowd control.",
     "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Cataclysm seulement avec un contrôle de foule régulier."
-   }
+   },
+   "origin": "community"
   }
  ],
  "guan-yu": [
@@ -1626,7 +1664,8 @@
    "notes": {
     "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Cataclysm with a Watchguard ring; Hell's Lament for Matrix.",
     "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Cataclysm avec un anneau Watchguard ; Hell's Lament pour la Matrice."
-   }
+   },
+   "origin": "community"
   }
  ],
  "gretchen": [
@@ -1668,7 +1707,8 @@
    "notes": {
     "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats.",
     "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires."
-   }
+   },
+   "origin": "community"
   }
  ],
  "draelyn": [
@@ -1706,7 +1746,8 @@
    "notes": {
     "en": "HP-scaling healer: HP% and ATK Speed, then Rage Regen and Healing; tank hybrid swaps to Tempered Will + Bastion Ring.",
     "fr": "Soigneuse basée sur les PV : PV % et Vit. d'ATK, puis Régén. de rage et Soins ; la version tank passe sur Tempered Will + Bastion Ring."
-   }
+   },
+   "origin": "community"
   }
  ],
  "eivor-varinsdottir": [
@@ -1744,7 +1785,8 @@
    "notes": {
     "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Warlord + Soulbound Arcana as the alternative.",
     "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Warlord + Soulbound Arcana en alternative."
-   }
+   },
+   "origin": "community"
   }
  ],
  "kassandra": [
@@ -1786,7 +1828,8 @@
    "notes": {
     "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Fastidious suggests Cataclysm instead of Hell's Lament late game.",
     "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Fastidious conseille plutôt Cataclysm que Hell's Lament en fin de jeu."
-   }
+   },
+   "origin": "community"
   }
  ],
  "vera": [
@@ -1828,7 +1871,8 @@
    "notes": {
     "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Soulbound Arcana if you lack exclusive gear.",
     "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Soulbound Arcana sans équipement exclusif."
-   }
+   },
+   "origin": "community"
   }
  ],
  "jezebelle": [
@@ -1870,7 +1914,8 @@
    "notes": {
     "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Avoid Cataclysm: her Seeds of Malice attack cannot crit.",
     "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Éviter Cataclysm : son attaque Seeds of Malice ne peut pas faire de crit."
-   }
+   },
+   "origin": "community"
   }
  ],
  "cainan": [
@@ -1903,7 +1948,8 @@
    "notes": {
     "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Accessory set unconfirmed (Fastidious suggests Cataclysm).",
     "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Set d'accessoires non confirmé (Fastidious suggère Cataclysm)."
-   }
+   },
+   "origin": "community"
   }
  ],
  "gu-shi": [
@@ -1941,7 +1987,8 @@
    "notes": {
     "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. High late penetration lets him lean on Crit DMG.",
     "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Sa forte pénétration en fin d'ascension permet de miser sur les Dégâts crit."
-   }
+   },
+   "origin": "community"
   }
  ],
  "su-yue": [
@@ -1979,7 +2026,8 @@
    "notes": {
     "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Her Ultimate fires on deploy, so Hell's Lament fits; Cataclysm with Arbiter ring is second.",
     "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Son ultime se déclenche au déploiement, d'où Hell's Lament ; Cataclysm avec anneau Arbiter en second."
-   }
+   },
+   "origin": "community"
   }
  ],
  "ezio-della-notte": [
@@ -2021,7 +2069,8 @@
    "notes": {
     "en": "ATK% on all accessories, then Crit and ATK Speed; AllClash suggests Cataclysm late game. Not the same hero as Ezio Auditore.",
     "fr": "ATK % sur tous les accessoires, puis crit. et Vit. d'ATK ; AllClash suggère Cataclysm en fin de jeu. Différent d'Ezio Auditore."
-   }
+   },
+   "origin": "community"
   }
  ],
  "evie-frye": [
@@ -2067,7 +2116,8 @@
    "notes": {
     "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Cataclysm if her long A1 Ultimate outlasts Hell's Lament.",
     "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Cataclysm si son long ultime (Éveil 1) dure plus que Hell's Lament."
-   }
+   },
+   "origin": "community"
   }
  ]
 }

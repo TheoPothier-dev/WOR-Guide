@@ -75,3 +75,9 @@ Site de fans, non affilié à Moonton.
 - `public/artifacts/<id>.webp` : icône de la compétence de l'artefact (`Skill.SkillIcon`, dans `Atlas_Skill_Part.unity3d`).
 - `public/sets/<set>_<n>.webp` : images des pièces de chaque set (`Item.ItemRes` des `EquipSuit.SuitEquipid`, dans `Atlas_Item_Part.unity3d`).
 - `public/heroes/3d/<gameId>.glb` : modèle 3D (essai, Myca seulement) converti depuis `Art/unit_<id>_high.unity3d`, en pose de référence, textures en WebP.
+
+## Builds
+
+- `src/data/builds.json` : builds relevés dans les guides de la communauté (badge « Communauté »), en brouillon.
+- `src/data/builds-ai.json` : un build par héros conçu à partir des compétences et des bonus de sets du jeu (badge « IA »). Méthode : `/mnt/project-files/research/builds/mecanique-builds.md`.
+- `build_site_data.py` fusionne les deux dans `heroes.json` (communauté d'abord).
