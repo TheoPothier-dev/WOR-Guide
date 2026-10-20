@@ -4,7 +4,12 @@
     "gameId": 2001,
     "name": {
       "en": "Rex",
-      "fr": "Rex"
+      "fr": "Rex",
+      "de": "Rex",
+      "es": "Rex",
+      "it": "Rex",
+      "pt": "Rex",
+      "ru": "Рекс"
     },
     "class": "defender",
     "rarity": "rare",
@@ -14,7 +19,12 @@
     "damageType": "physical",
     "title": {
       "en": "General",
-      "fr": "Général"
+      "fr": "Général",
+      "de": "General",
+      "es": "El General",
+      "it": "Generale",
+      "pt": "General",
+      "ru": "Генерал"
     }
   },
   {
@@ -22,7 +32,12 @@
     "gameId": 2002,
     "name": {
       "en": "Brienne",
-      "fr": "Brienne"
+      "fr": "Brienne",
+      "de": "Brienne",
+      "es": "Brien",
+      "it": "Brienne",
+      "pt": "Brienne",
+      "ru": "Бриенна"
     },
     "class": "marksman",
     "rarity": "epic",
@@ -33,7 +48,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Falcon's Eye",
-      "fr": "L'œil du faucon"
+      "fr": "L'œil du faucon",
+      "de": "Das Falkenauge",
+      "es": "Ojo de Halcón",
+      "it": "Occhio del falco",
+      "pt": "Os Olhos de Falcão",
+      "ru": "Соколиный Глаз"
     }
   },
   {
@@ -41,7 +61,12 @@
     "gameId": 2004,
     "name": {
       "en": "Salazar",
-      "fr": "Salazar"
+      "fr": "Salazar",
+      "de": "Salazar",
+      "es": "Salazar",
+      "it": "Salazar",
+      "pt": "Salazar",
+      "ru": "Салазар"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -51,7 +76,12 @@
     "damageType": "physical",
     "title": {
       "en": "Bloodblade Chieftain",
-      "fr": "Chef de Lamesang"
+      "fr": "Chef de Lamesang",
+      "de": "Häuptling der Blutklingen",
+      "es": "Líder Hojasangrienta",
+      "it": "Capotribù dei Lama insanguinata",
+      "pt": "Chefe da Espada Sangrenta",
+      "ru": "Вождь Кровавого Клинка"
     }
   },
   {
@@ -59,7 +89,12 @@
     "gameId": 2005,
     "name": {
       "en": "Niro",
-      "fr": "Niro"
+      "fr": "Niro",
+      "de": "Niro",
+      "es": "Niro",
+      "it": "Niro",
+      "pt": "Niro",
+      "ru": "Ниро"
     },
     "class": "mage",
     "rarity": "rare",
@@ -70,7 +105,12 @@
     "damageType": "magic",
     "title": {
       "en": "Pyromancer",
-      "fr": "Pyromancien"
+      "fr": "Pyromancien",
+      "de": "Pyromant",
+      "es": "El Piromante",
+      "it": "Piromante",
+      "pt": "Piromante",
+      "ru": "Пиромант"
     }
   },
   {
@@ -78,7 +118,12 @@
     "gameId": 2006,
     "name": {
       "en": "Marri",
-      "fr": "Marri"
+      "fr": "Marri",
+      "de": "Marri",
+      "es": "Marri",
+      "it": "Marri",
+      "pt": "Marri",
+      "ru": "Марри"
     },
     "class": "mage",
     "rarity": "epic",
@@ -88,7 +133,12 @@
     "damageType": "magic",
     "title": {
       "en": "Daughter of the Tides",
-      "fr": "Fille des marées"
+      "fr": "Fille des marées",
+      "de": "Tochter der Gezeiten",
+      "es": "Hija de las Mareas",
+      "it": "Figlia delle maree",
+      "pt": "Filha das Marés",
+      "ru": "Дочь Приливов"
     }
   },
   {
@@ -96,7 +146,12 @@
     "gameId": 2009,
     "name": {
       "en": "Wrath",
-      "fr": "Fureur"
+      "fr": "Fureur",
+      "de": "Wrath",
+      "es": "Ira",
+      "it": "Wrath",
+      "pt": "Ira",
+      "ru": "Гнев"
     },
     "class": "fighter",
     "rarity": "epic",
@@ -106,7 +161,12 @@
     "damageType": "physical",
     "title": {
       "en": "Hell's Sixth Seat",
-      "fr": "Sixième siège de l'enfer"
+      "fr": "Sixième siège de l'enfer",
+      "de": "Sechster Sitz der Hölle",
+      "es": "Sexto Señor de los Infiernos",
+      "it": "Sesto trono dell'Inferno",
+      "pt": "Sexto General do Inferno",
+      "ru": "Шестой Правитель Ада"
     }
   },
   {
@@ -114,7 +174,12 @@
     "gameId": 2010,
     "name": {
       "en": "Camille",
-      "fr": "Camille"
+      "fr": "Camille",
+      "de": "Camille",
+      "es": "Camila",
+      "it": "Camille",
+      "pt": "Camille",
+      "ru": "Камилла"
     },
     "class": "healer",
     "rarity": "rare",
@@ -124,7 +189,12 @@
     "damageType": "physical",
     "title": {
       "en": "Lightblessed",
-      "fr": "Bénie par la lumière"
+      "fr": "Bénie par la lumière",
+      "de": "Lichtgesegnet",
+      "es": "La Bendita",
+      "it": "Benedetta dalla luce",
+      "pt": "Abençoada da Luz",
+      "ru": "Благословенная Светом"
     }
   },
   {
@@ -132,7 +202,12 @@
     "gameId": 2011,
     "name": {
       "en": "Komodo",
-      "fr": "Komodo"
+      "fr": "Komodo",
+      "de": "Komodo",
+      "es": "Komodo",
+      "it": "Komodo",
+      "pt": "Komodo",
+      "ru": "Комодо"
     },
     "class": "fighter",
     "rarity": "epic",
@@ -142,7 +217,12 @@
     "damageType": "physical",
     "title": {
       "en": "Skeletal Assassin",
-      "fr": "Assassin squelettique"
+      "fr": "Assassin squelettique",
+      "de": "Skelett Attentäter",
+      "es": "Asesino Esquelético",
+      "it": "Scheletro assassino",
+      "pt": "Esqueleto Assassino",
+      "ru": "Скелет-убийца"
     }
   },
   {
@@ -150,7 +230,12 @@
     "gameId": 2012,
     "name": {
       "en": "Borut",
-      "fr": "Borut"
+      "fr": "Borut",
+      "de": "Borut",
+      "es": "Borut",
+      "it": "Borut",
+      "pt": "Borut",
+      "ru": "Борут"
     },
     "class": "fighter",
     "rarity": "rare",
@@ -160,7 +245,12 @@
     "damageType": "physical",
     "title": {
       "en": "Brassheart Bruiser",
-      "fr": "Cogneur Cœur de cuivre"
+      "fr": "Cogneur Cœur de cuivre",
+      "de": "Messingherz-Schläger",
+      "es": "Matón Corazón de Latón",
+      "it": "Colosso dal cuore di ottone",
+      "pt": "Rixador do Coração de Latão",
+      "ru": "Медное Сердце"
     }
   },
   {
@@ -168,7 +258,12 @@
     "gameId": 2015,
     "name": {
       "en": "Voltus",
-      "fr": "Voltus"
+      "fr": "Voltus",
+      "de": "Voltus",
+      "es": "Voltus",
+      "it": "Voltus",
+      "pt": "Voltus",
+      "ru": "Волтус"
     },
     "class": "mage",
     "rarity": "rare",
@@ -178,7 +273,12 @@
     "damageType": "magic",
     "title": {
       "en": "Stormfused",
-      "fr": "Maître des éclairs"
+      "fr": "Maître des éclairs",
+      "de": "Sturmgeschmolzen",
+      "es": "Esencia del Relámpago",
+      "it": "Figlio della tempesta",
+      "pt": "Tempestade Elétrica",
+      "ru": "Слияние Шторма"
     }
   },
   {
@@ -186,7 +286,12 @@
     "gameId": 2016,
     "name": {
       "en": "Soleil",
-      "fr": "Soleil"
+      "fr": "Soleil",
+      "de": "Soleil",
+      "es": "Soleil",
+      "it": "Soleil",
+      "pt": "Soleil",
+      "ru": "Солей"
     },
     "class": "mage",
     "rarity": "epic",
@@ -197,7 +302,12 @@
     "damageType": "magic",
     "title": {
       "en": "Sunflare Prodigy",
-      "fr": "Prodige des rayons"
+      "fr": "Prodige des rayons",
+      "de": "Sonnenfackel Wunderkind",
+      "es": "Maravilla Solar",
+      "it": "Prodigio del sole",
+      "pt": "Chama Prodígio",
+      "ru": "Дар Солнечного Света"
     }
   },
   {
@@ -205,7 +315,12 @@
     "gameId": 2017,
     "name": {
       "en": "Maul",
-      "fr": "Maul"
+      "fr": "Maul",
+      "de": "Maul",
+      "es": "Maul",
+      "it": "Maul",
+      "pt": "Maul",
+      "ru": "Маул"
     },
     "class": "marksman",
     "rarity": "epic",
@@ -215,7 +330,12 @@
     "damageType": "physical",
     "title": {
       "en": "Wereshark Shredder",
-      "fr": "Déchiqueteur Homme-requin"
+      "fr": "Déchiqueteur Homme-requin",
+      "de": "Wereshark Schredder",
+      "es": "Triturador Tiburón",
+      "it": "Trituratore Wereshark",
+      "pt": "Homem Tubarão Destruidor",
+      "ru": "Кровожадный Акула-оборотень"
     }
   },
   {
@@ -223,7 +343,12 @@
     "gameId": 2018,
     "name": {
       "en": "Nocturne",
-      "fr": "Nocturne"
+      "fr": "Nocturne",
+      "de": "Nocturne",
+      "es": "Nocturno",
+      "it": "Notturno",
+      "pt": "Noturno",
+      "ru": "Ноктюрн"
     },
     "class": "mage",
     "rarity": "legendary",
@@ -234,7 +359,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Soul Siphon",
-      "fr": "Siphon d'âme"
+      "fr": "Siphon d'âme",
+      "de": "Der Seelensauger",
+      "es": "El Absorbealmas",
+      "it": "Sottrazione dell'anima",
+      "pt": "O Dreno de Alma",
+      "ru": "Поглотитель Душ"
     }
   },
   {
@@ -242,14 +372,24 @@
     "gameId": 2019,
     "name": {
       "en": "Ajax",
-      "fr": "Ajax"
+      "fr": "Ajax",
+      "de": "Ajax",
+      "es": "Áyax",
+      "it": "Aiace",
+      "pt": "Ajax",
+      "ru": "Аякс"
     },
     "class": "mage",
     "rarity": "legendary",
     "damageType": "magic",
     "title": {
       "en": "The Dragonsbane",
-      "fr": "Le Fléaudragon"
+      "fr": "Le Fléaudragon",
+      "de": "Der Drachenfluch",
+      "es": "Perdición del Dragón",
+      "it": "Flagello del drago",
+      "pt": "Algoz dos Dragões",
+      "ru": "Гроза Драконов"
     }
   },
   {
@@ -257,7 +397,12 @@
     "gameId": 2020,
     "name": {
       "en": "Gluttony",
-      "fr": "Gourmandise"
+      "fr": "Gourmandise",
+      "de": "Gluttony",
+      "es": "Gula",
+      "it": "Gluttony",
+      "pt": "Gula",
+      "ru": "Обжора"
     },
     "class": "fighter",
     "rarity": "epic",
@@ -267,7 +412,12 @@
     "damageType": "physical",
     "title": {
       "en": "Hell's Fifth Seat",
-      "fr": "Cinquième siège de l'enfer"
+      "fr": "Cinquième siège de l'enfer",
+      "de": "Fünfter Sitz der Hölle",
+      "es": "Quinto Señor de los Infiernos",
+      "it": "Quinto trono dell'Inferno",
+      "pt": "Quinto General do Inferno",
+      "ru": "Пятый Правитель Ада"
     }
   },
   {
@@ -275,7 +425,12 @@
     "gameId": 2021,
     "name": {
       "en": "King Harz",
-      "fr": "Roi Harz"
+      "fr": "Roi Harz",
+      "de": "König Harz",
+      "es": "Rey Harz",
+      "it": "Re Harz",
+      "pt": "Rei Harz",
+      "ru": "Король Харц"
     },
     "class": "defender",
     "rarity": "legendary",
@@ -285,7 +440,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Northfrost Crown",
-      "fr": "Souverain de Norgivre"
+      "fr": "Souverain de Norgivre",
+      "de": "Die Nordfrostkrone",
+      "es": "Soberano del Gélido Norte",
+      "it": "La corona del gelo del nord",
+      "pt": "A Coroa de Northfrost",
+      "ru": "Корона Нортфроста"
     }
   },
   {
@@ -293,7 +453,12 @@
     "gameId": 2022,
     "name": {
       "en": "Cyrene",
-      "fr": "Cyrene"
+      "fr": "Cyrene",
+      "de": "Cyrene",
+      "es": "Cirene",
+      "it": "Cirene",
+      "pt": "Cyrene",
+      "ru": "Кирена"
     },
     "class": "fighter",
     "rarity": "epic",
@@ -304,7 +469,12 @@
     "damageType": "physical",
     "title": {
       "en": "Sandstorm Huntress",
-      "fr": "Chasseuse des sables"
+      "fr": "Chasseuse des sables",
+      "de": "Sandsturmjägerin",
+      "es": "Cazadora de la Tormenta de Arena",
+      "it": "Cacciatrice della Tempesta di sabbia",
+      "pt": "Caçadora de Tempestade de Areia",
+      "ru": "Охотница Песчаной Бури"
     }
   },
   {
@@ -312,7 +482,12 @@
     "gameId": 2023,
     "name": {
       "en": "Dolores",
-      "fr": "Dolorès"
+      "fr": "Dolorès",
+      "de": "Dolores",
+      "es": "Dolores",
+      "it": "Dolores",
+      "pt": "Dolores",
+      "ru": "Долорес"
     },
     "class": "healer",
     "rarity": "epic",
@@ -322,7 +497,12 @@
     "damageType": "magic",
     "title": {
       "en": "Muse of Desire",
-      "fr": "Muse du désir"
+      "fr": "Muse du désir",
+      "de": "Muse der Begierde",
+      "es": "Musa del Deseo",
+      "it": "Musa del desiderio",
+      "pt": "Musa do Desejo",
+      "ru": "Муза Желания"
     }
   },
   {
@@ -330,7 +510,12 @@
     "gameId": 2024,
     "name": {
       "en": "Vortex",
-      "fr": "Vortex"
+      "fr": "Vortex",
+      "de": "Vortex",
+      "es": "Vórtice",
+      "it": "Vortice",
+      "pt": "Vortex",
+      "ru": "Вортекс"
     },
     "class": "healer",
     "rarity": "epic",
@@ -340,7 +525,12 @@
     "damageType": "physical",
     "title": {
       "en": "Maelstrom's Mind",
-      "fr": "Esprit du Maelstrom"
+      "fr": "Esprit du Maelstrom",
+      "de": "Geist des Mahlstroms",
+      "es": "Corazón de la Tempestad",
+      "it": "Mente del vortice",
+      "pt": "Coração da Tempestade",
+      "ru": "Разум Водоворота"
     }
   },
   {
@@ -348,7 +538,12 @@
     "gameId": 2025,
     "name": {
       "en": "Baron",
-      "fr": "Baron"
+      "fr": "Baron",
+      "de": "Baron",
+      "es": "Barón",
+      "it": "Barone",
+      "pt": "Barão",
+      "ru": "Барон"
     },
     "class": "defender",
     "rarity": "epic",
@@ -358,7 +553,12 @@
     "damageType": "physical",
     "title": {
       "en": "Headless Sentinel",
-      "fr": "Sentinelle sans tête"
+      "fr": "Sentinelle sans tête",
+      "de": "Kopfloser Wächter",
+      "es": "Centinela Sin Cabeza",
+      "it": "Sentinella senza testa",
+      "pt": "Sentinela sem Cabeça",
+      "ru": "Страж Без Головы"
     }
   },
   {
@@ -366,7 +566,12 @@
     "gameId": 2026,
     "name": {
       "en": "Ain",
-      "fr": "Ain"
+      "fr": "Ain",
+      "de": "Ain",
+      "es": "Ain",
+      "it": "Ain",
+      "pt": "Ain",
+      "ru": "Эйн"
     },
     "class": "fighter",
     "rarity": "epic",
@@ -376,7 +581,12 @@
     "damageType": "physical",
     "title": {
       "en": "Masked Prince",
-      "fr": "Prince masqué"
+      "fr": "Prince masqué",
+      "de": "Maskierter Prinz",
+      "es": "El Príncipe Enmascarado",
+      "it": "Principe mascherato",
+      "pt": "Príncipe Mascarado",
+      "ru": "Принц в Маске"
     }
   },
   {
@@ -384,7 +594,12 @@
     "gameId": 2027,
     "name": {
       "en": "Scorch",
-      "fr": "Cram"
+      "fr": "Cram",
+      "de": "Scorch",
+      "es": "Brasa",
+      "it": "Scorch",
+      "pt": "Língua de Fogo",
+      "ru": "Поджигатель"
     },
     "class": "fighter",
     "rarity": "epic",
@@ -394,7 +609,12 @@
     "damageType": "magic",
     "title": {
       "en": "Spitfire Fiend",
-      "fr": "Démon de Crachefeu"
+      "fr": "Démon de Crachefeu",
+      "de": "Flammenspuckender Unhold",
+      "es": "Lagarto Escupefuego",
+      "it": "Antagonista sputafuoco",
+      "pt": "Goblin das Chamas",
+      "ru": "Огненный Монстр"
     }
   },
   {
@@ -402,7 +622,12 @@
     "gameId": 2028,
     "name": {
       "en": "Dagna",
-      "fr": "Dagna"
+      "fr": "Dagna",
+      "de": "Dagna",
+      "es": "Dagna",
+      "it": "Dagna",
+      "pt": "Dagna",
+      "ru": "Дагна"
     },
     "class": "defender",
     "rarity": "rare",
@@ -412,7 +637,12 @@
     "damageType": "physical",
     "title": {
       "en": "Armorer",
-      "fr": "Armurière"
+      "fr": "Armurière",
+      "de": "Waffenschmiedin",
+      "es": "La Armera",
+      "it": "Maestra d'armi",
+      "pt": "Armeira",
+      "ru": "Бронник"
     }
   },
   {
@@ -420,7 +650,12 @@
     "gameId": 2029,
     "name": {
       "en": "Nauvras",
-      "fr": "Nauvras"
+      "fr": "Nauvras",
+      "de": "Nauvras",
+      "es": "Nauvras",
+      "it": "Nauvras",
+      "pt": "Nauvras",
+      "ru": "Науврас"
     },
     "class": "mage",
     "rarity": "epic",
@@ -431,7 +666,12 @@
     "damageType": "magic",
     "title": {
       "en": "Noon Devil",
-      "fr": "Démon de midi"
+      "fr": "Démon de midi",
+      "de": "Mittagsteufel",
+      "es": "Diablo del Mediodía",
+      "it": "Diavolo di mezzogiorno",
+      "pt": "Diabo do Meio-Dia",
+      "ru": "Полуденный Бес"
     }
   },
   {
@@ -439,7 +679,12 @@
     "gameId": 2030,
     "name": {
       "en": "Morene",
-      "fr": "Morène"
+      "fr": "Morène",
+      "de": "Morene",
+      "es": "Morén",
+      "it": "Morene",
+      "pt": "Morene",
+      "ru": "Морин"
     },
     "class": "marksman",
     "rarity": "rare",
@@ -450,7 +695,12 @@
     "damageType": "physical",
     "title": {
       "en": "Swashbuckler",
-      "fr": "Pirate"
+      "fr": "Pirate",
+      "de": "Säbelrasslerin",
+      "es": "Capitana Pirata",
+      "it": "Spadaccina",
+      "pt": "Mulher Gancho",
+      "ru": "Сорвиголова"
     }
   },
   {
@@ -458,7 +708,12 @@
     "gameId": 2034,
     "name": {
       "en": "Hatssut",
-      "fr": "Hatssut"
+      "fr": "Hatssut",
+      "de": "Hatssut",
+      "es": "Hatssut",
+      "it": "Hatssut",
+      "pt": "Hatssut",
+      "ru": "Хассу"
     },
     "class": "marksman",
     "rarity": "legendary",
@@ -468,7 +723,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Avenging Empress",
-      "fr": "Impératrice vengeresse"
+      "fr": "Impératrice vengeresse",
+      "de": "Die rächende Kaiserin",
+      "es": "Emperatriz de la Venganza",
+      "it": "Imperatrice vendicatrice",
+      "pt": "A Imperatriz Vingativa",
+      "ru": "Мстящая Императрица"
     }
   },
   {
@@ -476,7 +736,12 @@
     "gameId": 2035,
     "name": {
       "en": "Brunor",
-      "fr": "Brunor"
+      "fr": "Brunor",
+      "de": "Brunor",
+      "es": "Brúnor",
+      "it": "Brunor",
+      "pt": "Brunor",
+      "ru": "Брунор"
     },
     "class": "marksman",
     "rarity": "epic",
@@ -487,7 +752,12 @@
     "damageType": "physical",
     "title": {
       "en": "Longshot Bombardier",
-      "fr": "Bombardier de précision"
+      "fr": "Bombardier de précision",
+      "de": "Meilenbomber",
+      "es": "El Bombardero",
+      "it": "Bombardiere micidiale",
+      "pt": "Bombardeador",
+      "ru": "Дальнобойный Бомбардир"
     }
   },
   {
@@ -495,7 +765,12 @@
     "gameId": 2038,
     "name": {
       "en": "Lightlocke",
-      "fr": "Lightlocke"
+      "fr": "Lightlocke",
+      "de": "Lightlocke",
+      "es": "Lightlocke",
+      "it": "Lightlocke",
+      "pt": "Lightlocke",
+      "ru": "Лайтлок"
     },
     "class": "healer",
     "rarity": "epic",
@@ -506,7 +781,12 @@
     "damageType": "physical",
     "title": {
       "en": "High Archpriest",
-      "fr": "Haut archiprêtre"
+      "fr": "Haut archiprêtre",
+      "de": "Hoher Erzpriester",
+      "es": "Archimago Sagrado",
+      "it": "Arciprete superiore",
+      "pt": "Alto Arquissacerdote",
+      "ru": "Верховный Настоятель"
     }
   },
   {
@@ -514,7 +794,12 @@
     "gameId": 2040,
     "name": {
       "en": "Ghan",
-      "fr": "Ghan"
+      "fr": "Ghan",
+      "de": "Ghan",
+      "es": "Ghan",
+      "it": "Ghan",
+      "pt": "Ghan",
+      "ru": "Ган"
     },
     "class": "defender",
     "rarity": "legendary",
@@ -524,7 +809,12 @@
     "damageType": "physical",
     "title": {
       "en": "Bloodaxe Khagan",
-      "fr": "Khagan Hachesang"
+      "fr": "Khagan Hachesang",
+      "de": "Blutaxt Khagan",
+      "es": "Khagan Hachasangrienta",
+      "it": "Khagan Ascia insanguinata",
+      "pt": "Khagan Machado Sangrento",
+      "ru": "Каган Кровавого Топора"
     }
   },
   {
@@ -532,7 +822,12 @@
     "gameId": 2041,
     "name": {
       "en": "Daemon",
-      "fr": "Démon"
+      "fr": "Démon",
+      "de": "Daemon",
+      "es": "Daemon",
+      "it": "Daemon",
+      "pt": "Daemon",
+      "ru": "Деймон"
     },
     "class": "fighter",
     "rarity": "epic",
@@ -542,7 +837,12 @@
     "damageType": "physical",
     "title": {
       "en": "Exile of Bloodmoon",
-      "fr": "Exilé de Lune de sang"
+      "fr": "Exilé de Lune de sang",
+      "de": "Verbannte des Blutmonds",
+      "es": "Exiliado de Luna Sangrienta",
+      "it": "Esilio della Luna di sangue",
+      "pt": "Exilado da Lua Sangrenta",
+      "ru": "Изгнанник Кровавой Луны"
     }
   },
   {
@@ -550,7 +850,12 @@
     "gameId": 2042,
     "name": {
       "en": "Volka",
-      "fr": "Volka"
+      "fr": "Volka",
+      "de": "Volka",
+      "es": "Volka",
+      "it": "Volka",
+      "pt": "Volka",
+      "ru": "Волка"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -560,7 +865,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Blood Mother",
-      "fr": "La matriarche sanglante"
+      "fr": "La matriarche sanglante",
+      "de": "Die Blutmutter",
+      "es": "Madre de Sangre",
+      "it": "Madre del sangue",
+      "pt": "A Mãe de Sangue",
+      "ru": "Мать Крови"
     }
   },
   {
@@ -568,7 +878,12 @@
     "gameId": 2043,
     "name": {
       "en": "Titus",
-      "fr": "Titus"
+      "fr": "Titus",
+      "de": "Titus",
+      "es": "Titus",
+      "it": "Titus",
+      "pt": "Titus",
+      "ru": "Тит"
     },
     "class": "defender",
     "rarity": "epic",
@@ -578,7 +893,12 @@
     "damageType": "physical",
     "title": {
       "en": "Iron Warden",
-      "fr": "Gardien de fer"
+      "fr": "Gardien de fer",
+      "de": "Eiserner Wächter",
+      "es": "Guardián de Hierro",
+      "it": "Guardiano d'acciaio",
+      "pt": "Guardião de Ferro",
+      "ru": "Железный Страж"
     }
   },
   {
@@ -586,7 +906,12 @@
     "gameId": 2045,
     "name": {
       "en": "Regulus",
-      "fr": "Régulus"
+      "fr": "Régulus",
+      "de": "Regulus",
+      "es": "Régulus",
+      "it": "Regulus",
+      "pt": "Régulus",
+      "ru": "Регулус"
     },
     "class": "defender",
     "rarity": "legendary",
@@ -596,7 +921,12 @@
     "damageType": "physical",
     "title": {
       "en": "Shield of the Morning",
-      "fr": "Bouclier du matin"
+      "fr": "Bouclier du matin",
+      "de": "Schild des Morgens",
+      "es": "Escudo de la Aurora",
+      "it": "Scudo del mattino",
+      "pt": "Escudo da Manhã",
+      "ru": "Щит Рассвета"
     }
   },
   {
@@ -604,7 +934,12 @@
     "gameId": 2046,
     "name": {
       "en": "Livian",
-      "fr": "Livianne"
+      "fr": "Livianne",
+      "de": "Livian",
+      "es": "Livian",
+      "it": "Livian",
+      "pt": "Livian",
+      "ru": "Ливиан"
     },
     "class": "defender",
     "rarity": "epic",
@@ -615,7 +950,12 @@
     "damageType": "physical",
     "title": {
       "en": "Aristocratic Aegis",
-      "fr": "Égide de l'aristocratie"
+      "fr": "Égide de l'aristocratie",
+      "de": "Aristokratische Ägide",
+      "es": "Égida de la Aristocracia",
+      "it": "Nobile egida",
+      "pt": "Guardiã Aristocrata",
+      "ru": "Эгида Знати"
     }
   },
   {
@@ -623,7 +963,12 @@
     "gameId": 2047,
     "name": {
       "en": "Olague",
-      "fr": "Olague"
+      "fr": "Olague",
+      "de": "Olague",
+      "es": "Olag",
+      "it": "Olague",
+      "pt": "Olague",
+      "ru": "Олаг"
     },
     "class": "defender",
     "rarity": "epic",
@@ -633,7 +978,12 @@
     "damageType": "physical",
     "title": {
       "en": "Unyielding Bastion",
-      "fr": "Bastion inflexible"
+      "fr": "Bastion inflexible",
+      "de": "Unnachgiebige Bastion",
+      "es": "Bastión Inexpugnable",
+      "it": "Baluardo inflessibile",
+      "pt": "Fortaleza Impenetrável",
+      "ru": "Непоколебимый Бастион"
     }
   },
   {
@@ -641,7 +991,12 @@
     "gameId": 2048,
     "name": {
       "en": "Zilitu",
-      "fr": "Zilitu"
+      "fr": "Zilitu",
+      "de": "Zilitu",
+      "es": "Zilitu",
+      "it": "Zilitu",
+      "pt": "Zilitu",
+      "ru": "Зилиту"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -651,7 +1006,12 @@
     "damageType": "magic",
     "title": {
       "en": "Infernal Temptress",
-      "fr": "Tentatrice infernale"
+      "fr": "Tentatrice infernale",
+      "de": "Höllische Verführerin",
+      "es": "Seductora Infernal",
+      "it": "Tentatrice infernale",
+      "pt": "Sedutora Infernal",
+      "ru": "Адская Искусительница"
     }
   },
   {
@@ -659,7 +1019,12 @@
     "gameId": 2049,
     "name": {
       "en": "Nazeem",
-      "fr": "Nazeem"
+      "fr": "Nazeem",
+      "de": "Nazeem",
+      "es": "Nazeem",
+      "it": "Nazeem",
+      "pt": "Nazeem",
+      "ru": "Назим"
     },
     "class": "mage",
     "rarity": "epic",
@@ -669,7 +1034,12 @@
     "damageType": "magic",
     "title": {
       "en": "Bloodletting Spellsword",
-      "fr": "Épéiste Tranchelame"
+      "fr": "Épéiste Tranchelame",
+      "de": "Bluttriefendes Zauberschwert",
+      "es": "Hechizafilo Sangriento",
+      "it": "Spada delle stragi",
+      "pt": "Lâmina Sanguinária",
+      "ru": "Кровопускающий Меч"
     }
   },
   {
@@ -677,7 +1047,12 @@
     "gameId": 2051,
     "name": {
       "en": "Drogo",
-      "fr": "Drogo"
+      "fr": "Drogo",
+      "de": "Drogo",
+      "es": "Drogo",
+      "it": "Drogo",
+      "pt": "Drogo",
+      "ru": "Дрого"
     },
     "class": "marksman",
     "rarity": "rare",
@@ -687,7 +1062,12 @@
     "damageType": "physical",
     "title": {
       "en": "Crackshot",
-      "fr": "Fin tireur"
+      "fr": "Fin tireur",
+      "de": "Knallschuss",
+      "es": "Cazador Escamado",
+      "it": "Tiratore scelto",
+      "pt": "Atirador Plumado",
+      "ru": "Меткий Стрелок"
     }
   },
   {
@@ -695,7 +1075,12 @@
     "gameId": 2053,
     "name": {
       "en": "Dalyn",
-      "fr": "Daline"
+      "fr": "Daline",
+      "de": "Dalyn",
+      "es": "Dalyn",
+      "it": "Dalyn",
+      "pt": "Dalyn",
+      "ru": "Далин"
     },
     "class": "fighter",
     "rarity": "epic",
@@ -705,7 +1090,12 @@
     "damageType": "physical",
     "title": {
       "en": "Twinblade Justicar",
-      "fr": "Justicier Doublelame"
+      "fr": "Justicier Doublelame",
+      "de": "Zwillingsklinge Richterin",
+      "es": "Filos de la Justicia",
+      "it": "Giustiziera dalla doppia lama",
+      "pt": "Juíza da Lâmina Dupla",
+      "ru": "Судья с Парными Клинками"
     }
   },
   {
@@ -713,7 +1103,12 @@
     "gameId": 2054,
     "name": {
       "en": "Calypso",
-      "fr": "Calypso"
+      "fr": "Calypso",
+      "de": "Calypso",
+      "es": "Calipso",
+      "it": "Calypso",
+      "pt": "Calipso",
+      "ru": "Калипсо"
     },
     "class": "marksman",
     "rarity": "legendary",
@@ -723,7 +1118,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Mindpiercer",
-      "fr": "Liseuse d'esprits"
+      "fr": "Liseuse d'esprits",
+      "de": "Die Gedankenschützin",
+      "es": "La Perforamentes",
+      "it": "Foramente",
+      "pt": "A Invasora de Mentes",
+      "ru": "Пронзающая Разум"
     }
   },
   {
@@ -731,7 +1131,12 @@
     "gameId": 2055,
     "name": {
       "en": "Meriel",
-      "fr": "Mériel"
+      "fr": "Mériel",
+      "de": "Meriel",
+      "es": "Meriel",
+      "it": "Meriel",
+      "pt": "Meriel",
+      "ru": "Мериэль"
     },
     "class": "defender",
     "rarity": "epic",
@@ -741,7 +1146,12 @@
     "damageType": "physical",
     "title": {
       "en": "Holylight Paladin",
-      "fr": "Paladin de la lumière sacrée"
+      "fr": "Paladin de la lumière sacrée",
+      "de": "Heiliglicht Paladin",
+      "es": "Paladina de la Luz Sacra",
+      "it": "Paladina della luce sacra",
+      "pt": "Paladina da Luz",
+      "ru": "Паладин Священного Света"
     }
   },
   {
@@ -749,7 +1159,12 @@
     "gameId": 2056,
     "name": {
       "en": "Sorzus",
-      "fr": "Sorzus"
+      "fr": "Sorzus",
+      "de": "Sorzus",
+      "es": "Sorzus",
+      "it": "Sorzus",
+      "pt": "Sorzus",
+      "ru": "Сорзус"
     },
     "class": "mage",
     "rarity": "rare",
@@ -759,7 +1174,12 @@
     "damageType": "magic",
     "title": {
       "en": "Spellbinder",
-      "fr": "Égérie des sortilèges"
+      "fr": "Égérie des sortilèges",
+      "de": "Zauberbinder",
+      "es": "El Urdehechizos",
+      "it": "Ammaliatore",
+      "pt": "Feiticeiro",
+      "ru": "Заклинатель"
     }
   },
   {
@@ -767,7 +1187,12 @@
     "gameId": 2058,
     "name": {
       "en": "Torodor",
-      "fr": "Torodor"
+      "fr": "Torodor",
+      "de": "Torodor",
+      "es": "Torodor",
+      "it": "Torodor",
+      "pt": "Torodor",
+      "ru": "Тородор"
     },
     "class": "defender",
     "rarity": "legendary",
@@ -777,7 +1202,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Undying Bull",
-      "fr": "Taureau indéfectible"
+      "fr": "Taureau indéfectible",
+      "de": "Der unsterbliche Stier",
+      "es": "El Toro Imperecedero",
+      "it": "Toro immortale",
+      "pt": "O Touro Inabalável",
+      "ru": "Бессмертный Бык"
     }
   },
   {
@@ -785,7 +1215,12 @@
     "gameId": 2059,
     "name": {
       "en": "Greed",
-      "fr": "Avarice"
+      "fr": "Avarice",
+      "de": "Greed",
+      "es": "Avaricia",
+      "it": "Greed",
+      "pt": "Greed",
+      "ru": "Жадность"
     },
     "class": "mage",
     "rarity": "epic",
@@ -796,7 +1231,12 @@
     "damageType": "magic",
     "title": {
       "en": "Hell's Second Seat",
-      "fr": "Second siège de l'enfer"
+      "fr": "Second siège de l'enfer",
+      "de": "Zweiter Sitz der Hölle",
+      "es": "Segundo Señor de los Infiernos",
+      "it": "Secondo trono dell'Inferno",
+      "pt": "Segundo General do Inferno",
+      "ru": "Второй Правитель Ада"
     }
   },
   {
@@ -804,7 +1244,12 @@
     "gameId": 2060,
     "name": {
       "en": "Cyclone",
-      "fr": "Cyclone"
+      "fr": "Cyclone",
+      "de": "Cyclone",
+      "es": "Ciclón",
+      "it": "Ciclone",
+      "pt": "Ciclone",
+      "ru": "Циклон"
     },
     "class": "fighter",
     "rarity": "epic",
@@ -814,7 +1259,12 @@
     "damageType": "magic",
     "title": {
       "en": "Unyielding Gale",
-      "fr": "Tempête inflexible"
+      "fr": "Tempête inflexible",
+      "de": "Unnachgiebiger Orkan",
+      "es": "Vendaval Implacable",
+      "it": "Inflessibile burrasca",
+      "pt": "Ciclone Implacável",
+      "ru": "Непоколебимый Шторм"
     }
   },
   {
@@ -822,7 +1272,12 @@
     "gameId": 2061,
     "name": {
       "en": "Voroth",
-      "fr": "Voroth"
+      "fr": "Voroth",
+      "de": "Voroth",
+      "es": "Voroth",
+      "it": "Voroth",
+      "pt": "Voroth",
+      "ru": "Ворот"
     },
     "class": "fighter",
     "rarity": "epic",
@@ -832,7 +1287,12 @@
     "damageType": "physical",
     "title": {
       "en": "Frozenheart Chief",
-      "fr": "Chef Coeurdeglace"
+      "fr": "Chef Coeurdeglace",
+      "de": "Häuptling Eisherz",
+      "es": "Jefe Corazón de Escarcha",
+      "it": "Condottiero dal cuore di ghiaccio",
+      "pt": "Guerreiro do Gelo",
+      "ru": "Вождь с Холодным Сердцем"
     }
   },
   {
@@ -840,7 +1300,12 @@
     "gameId": 2063,
     "name": {
       "en": "Theowin",
-      "fr": "Théowin"
+      "fr": "Théowin",
+      "de": "Theowin",
+      "es": "Theowin",
+      "it": "Theowin",
+      "pt": "Theowin",
+      "ru": "Теовин"
     },
     "class": "marksman",
     "rarity": "epic",
@@ -850,7 +1315,12 @@
     "damageType": "physical",
     "title": {
       "en": "Sightless Twisterblade",
-      "fr": "Lame sans vue"
+      "fr": "Lame sans vue",
+      "de": "Gesichtslose Zwillingsklinge",
+      "es": "Filociego",
+      "it": "Bendata dalla lama rotante",
+      "pt": "Lâmina Cega",
+      "ru": "Слепой Витой Клинок"
     }
   },
   {
@@ -858,7 +1328,12 @@
     "gameId": 2066,
     "name": {
       "en": "Elowyn",
-      "fr": "Elowyn"
+      "fr": "Elowyn",
+      "de": "Elowyn",
+      "es": "Elowyn",
+      "it": "Elowyn",
+      "pt": "Elowyn",
+      "ru": "Эловин"
     },
     "class": "healer",
     "rarity": "legendary",
@@ -868,7 +1343,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Meadow Sage",
-      "fr": "Sagesse des prés"
+      "fr": "Sagesse des prés",
+      "de": "Die grüne Weise",
+      "es": "Sabia de la Pradera",
+      "it": "Sapiente della radura",
+      "pt": "A Sábia da Pradaria",
+      "ru": "Мудрец Долин"
     }
   },
   {
@@ -876,7 +1356,12 @@
     "gameId": 2069,
     "name": {
       "en": "Deimos",
-      "fr": "Deimos"
+      "fr": "Deimos",
+      "de": "Deimos",
+      "es": "Deimos",
+      "it": "Deimos",
+      "pt": "Deimos",
+      "ru": "Деймос"
     },
     "class": "fighter",
     "rarity": "epic",
@@ -886,7 +1371,12 @@
     "damageType": "physical",
     "title": {
       "en": "Bloodhunter",
-      "fr": "Chasseur sanglant"
+      "fr": "Chasseur sanglant",
+      "de": "Blutjäger",
+      "es": "Cazador de Sangre",
+      "it": "Cacciatore di sangue",
+      "pt": "Caçador de Sangue",
+      "ru": "Кровавый Охотник"
     }
   },
   {
@@ -894,7 +1384,12 @@
     "gameId": 2085,
     "name": {
       "en": "Valkyra",
-      "fr": "Valkyra"
+      "fr": "Valkyra",
+      "de": "Valkyra",
+      "es": "Valkyra",
+      "it": "Valkyra",
+      "pt": "Valkyra",
+      "ru": "Валькира"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -905,7 +1400,12 @@
     "damageType": "magic",
     "title": {
       "en": "Godblade of Northfrost",
-      "fr": "Lame de Norgivre"
+      "fr": "Lame de Norgivre",
+      "de": "Götterklinge von Nordfrost",
+      "es": "Filo de la Escarcha Boreal",
+      "it": "Lama divina del Gelo del Nord",
+      "pt": "Deusa-Espadachim de Northfrost",
+      "ru": "Божественный Клинок Нортфроста"
     }
   },
   {
@@ -913,7 +1413,12 @@
     "gameId": 2087,
     "name": {
       "en": "Aveline",
-      "fr": "Aveline"
+      "fr": "Aveline",
+      "de": "Aveline",
+      "es": "Ávelin",
+      "it": "Aveline",
+      "pt": "Aveline",
+      "ru": "Авелин"
     },
     "class": "defender",
     "rarity": "epic",
@@ -924,7 +1429,12 @@
     "damageType": "physical",
     "title": {
       "en": "Warhorse Heroine",
-      "fr": "Héroïne centaure"
+      "fr": "Héroïne centaure",
+      "de": "Haudegen Heldin",
+      "es": "La Heroína Centauro",
+      "it": "Eroina dal poderoso destriero",
+      "pt": "Heroína Centaura",
+      "ru": "Боевая Героиня"
     }
   },
   {
@@ -932,7 +1442,12 @@
     "gameId": 2096,
     "name": {
       "en": "Eliza",
-      "fr": "Eliza"
+      "fr": "Eliza",
+      "de": "Eliza",
+      "es": "Elisa",
+      "it": "Eliza",
+      "pt": "Eliza",
+      "ru": "Элиза"
     },
     "class": "marksman",
     "rarity": "epic",
@@ -942,7 +1457,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Silent Serpent",
-      "fr": "La Vipère silencieuse"
+      "fr": "La Vipère silencieuse",
+      "de": "Die stille Schlange",
+      "es": "La Serpiente Silente",
+      "it": "Il Serpente silenzioso",
+      "pt": "A Serpente Silenciosa",
+      "ru": "Тихая Змея"
     }
   },
   {
@@ -950,7 +1470,12 @@
     "gameId": 2097,
     "name": {
       "en": "Idril",
-      "fr": "Idril"
+      "fr": "Idril",
+      "de": "Idril",
+      "es": "Idril",
+      "it": "Idril",
+      "pt": "Idril",
+      "ru": "Идриль"
     },
     "class": "marksman",
     "rarity": "epic",
@@ -961,7 +1486,12 @@
     "damageType": "physical",
     "title": {
       "en": "Wildwood Ranger",
-      "fr": "Rôdeur des bois sauvages"
+      "fr": "Rôdeur des bois sauvages",
+      "de": "Wildwald Ranger",
+      "es": "Cazadora de la Floresta",
+      "it": "Arciera dei boschi",
+      "pt": "Patrulheira da Floresta",
+      "ru": "Рейнджер Диколесья"
     }
   },
   {
@@ -969,7 +1499,12 @@
     "gameId": 2098,
     "name": {
       "en": "Estrid",
-      "fr": "Estride"
+      "fr": "Estride",
+      "de": "Estrid",
+      "es": "Estrid",
+      "it": "Estrid",
+      "pt": "Estrid",
+      "ru": "Эстрид"
     },
     "class": "fighter",
     "rarity": "epic",
@@ -979,7 +1514,12 @@
     "damageType": "physical",
     "title": {
       "en": "Stormborn Brawler",
-      "fr": "Cogneuse de maison tempête"
+      "fr": "Cogneuse de maison tempête",
+      "de": "Sturmgeborene Kämpferin",
+      "es": "Luchadora de la Tormenta",
+      "it": "Attaccabrighe tempestosa",
+      "pt": "Guerreira Tempestuosa",
+      "ru": "Шторморожденный Боец"
     }
   },
   {
@@ -987,7 +1527,12 @@
     "gameId": 2100,
     "name": {
       "en": "Midan",
-      "fr": "Midan"
+      "fr": "Midan",
+      "de": "Midan",
+      "es": "Midan",
+      "it": "Midan",
+      "pt": "Midan",
+      "ru": "Мидан"
     },
     "class": "healer",
     "rarity": "epic",
@@ -997,7 +1542,12 @@
     "damageType": "magic",
     "title": {
       "en": "Sister of the Light",
-      "fr": "Soeur de la lumière"
+      "fr": "Soeur de la lumière",
+      "de": "Schwester des Lichts",
+      "es": "Hermana de la Luz",
+      "it": "Sorella della luce",
+      "pt": "Irmã da Luz",
+      "ru": "Сестра Света"
     }
   },
   {
@@ -1005,7 +1555,12 @@
     "gameId": 2101,
     "name": {
       "en": "Aeon",
-      "fr": "Éon"
+      "fr": "Éon",
+      "de": "Aeon",
+      "es": "Aeon",
+      "it": "Aeon",
+      "pt": "Aeon",
+      "ru": "Эон"
     },
     "class": "mage",
     "rarity": "epic",
@@ -1015,7 +1570,12 @@
     "damageType": "magic",
     "title": {
       "en": "Mistress of Oblivion",
-      "fr": "Maîtresse du néant"
+      "fr": "Maîtresse du néant",
+      "de": "Herrin des Vergessens",
+      "es": "Señora del Olvido",
+      "it": "Signora dell'oblio",
+      "pt": "Senhora do Esquecimento",
+      "ru": "Владычица Забвения"
     }
   },
   {
@@ -1023,7 +1583,12 @@
     "gameId": 2102,
     "name": {
       "en": "Eona",
-      "fr": "Ëona"
+      "fr": "Ëona",
+      "de": "Eona",
+      "es": "Eona",
+      "it": "Eona",
+      "pt": "Eona",
+      "ru": "Эона"
     },
     "class": "mage",
     "rarity": "epic",
@@ -1034,7 +1599,12 @@
     "damageType": "magic",
     "title": {
       "en": "Sister of the Night",
-      "fr": "Soeur de la nuit"
+      "fr": "Soeur de la nuit",
+      "de": "Schwester der Nacht",
+      "es": "Hermana de la Noche",
+      "it": "Sorella della notte",
+      "pt": "Irmã da Noite",
+      "ru": "Сестра Ночи"
     }
   },
   {
@@ -1042,7 +1612,12 @@
     "gameId": 2103,
     "name": {
       "en": "Hollow",
-      "fr": "Hollow"
+      "fr": "Hollow",
+      "de": "Hollow",
+      "es": "Hueca",
+      "it": "Hollow",
+      "pt": "Hollow",
+      "ru": "Холлоу"
     },
     "class": "healer",
     "rarity": "epic",
@@ -1052,7 +1627,12 @@
     "damageType": "magic",
     "title": {
       "en": "Marionette Spellweaver",
-      "fr": "Marionnette tisserêve"
+      "fr": "Marionnette tisserêve",
+      "de": "Marionetten Zauberweberin",
+      "es": "Bruja de las Marionetas",
+      "it": "Burattinaia mistica",
+      "pt": "Feiticeira das Marionetes",
+      "ru": "Марионетка-заклинатель"
     }
   },
   {
@@ -1060,7 +1640,12 @@
     "gameId": 2106,
     "name": {
       "en": "Carosa",
-      "fr": "Carosa"
+      "fr": "Carosa",
+      "de": "Carosa",
+      "es": "Carosa",
+      "it": "Carosa",
+      "pt": "Carosa",
+      "ru": "Кароса"
     },
     "class": "mage",
     "rarity": "legendary",
@@ -1070,7 +1655,12 @@
     "damageType": "magic",
     "title": {
       "en": "Forbidden Scholar",
-      "fr": "Savante interdite."
+      "fr": "Savante interdite.",
+      "de": "Die verbotene Gelehrte",
+      "es": "Erudita de la Magia Prohibida",
+      "it": "Studiosa del proibito",
+      "pt": "Estudiosa do Proibido",
+      "ru": "Изучающая Запретное"
     }
   },
   {
@@ -1078,7 +1668,12 @@
     "gameId": 2108,
     "name": {
       "en": "Isolde",
-      "fr": "Isolde"
+      "fr": "Isolde",
+      "de": "Isolde",
+      "es": "Isolda",
+      "it": "Isolde",
+      "pt": "Isolde",
+      "ru": "Изольда"
     },
     "class": "defender",
     "rarity": "epic",
@@ -1088,7 +1683,12 @@
     "damageType": "physical",
     "title": {
       "en": "People's Protector",
-      "fr": "Protectrice du peuple"
+      "fr": "Protectrice du peuple",
+      "de": "Beschützer des Volkes",
+      "es": "La Protectora del Pueblo",
+      "it": "Protettrice del popolo",
+      "pt": "Protetora do Povo",
+      "ru": "Защитница Людей"
     }
   },
   {
@@ -1096,7 +1696,12 @@
     "gameId": 2111,
     "name": {
       "en": "Imani",
-      "fr": "Imani"
+      "fr": "Imani",
+      "de": "Imani",
+      "es": "Imani",
+      "it": "Imani",
+      "pt": "Imani",
+      "ru": "Имани"
     },
     "class": "mage",
     "rarity": "epic",
@@ -1106,7 +1711,12 @@
     "damageType": "magic",
     "title": {
       "en": "Wandering Flameprophet",
-      "fr": "Prophète des flammes errante"
+      "fr": "Prophète des flammes errante",
+      "de": "Wandernde Flammenprophetin",
+      "es": "Profetisa Errante de la Llama",
+      "it": "Sacerdotessa vagabonda delle fiamme",
+      "pt": "Piromante Errante",
+      "ru": "Блуждающий Пророк Огня"
     }
   },
   {
@@ -1114,7 +1724,12 @@
     "gameId": 2115,
     "name": {
       "en": "Osiren",
-      "fr": "Osiren"
+      "fr": "Osiren",
+      "de": "Osiren",
+      "es": "Osiren",
+      "it": "Osiren",
+      "pt": "Osiren",
+      "ru": "Осирен"
     },
     "class": "mage",
     "rarity": "epic",
@@ -1124,7 +1739,12 @@
     "damageType": "magic",
     "title": {
       "en": "Queen's Soulmancer",
-      "fr": "Âmancier de la reine"
+      "fr": "Âmancier de la reine",
+      "de": "Seelenmagier der Königin",
+      "es": "Guardián de Almas Real",
+      "it": "Incantatore di anime della regina",
+      "pt": "Bruxo da Alma Real",
+      "ru": "Заклинатель Душ Королевы"
     }
   },
   {
@@ -1132,7 +1752,12 @@
     "gameId": 2117,
     "name": {
       "en": "Selene",
-      "fr": "Sélène"
+      "fr": "Sélène",
+      "de": "Selene",
+      "es": "Selene",
+      "it": "Selene",
+      "pt": "Selene",
+      "ru": "Селена"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -1142,7 +1767,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Bloodspiller Viscount",
-      "fr": "La Vicomtesse Massacreuse"
+      "fr": "La Vicomtesse Massacreuse",
+      "de": "Die blutdürstige Gräfin",
+      "es": "La Vizcondesa Derramasangre",
+      "it": "Visconte spargi-sangue",
+      "pt": "A Viscondessa Pinga-Sangue",
+      "ru": "Кровавая Виконтесса"
     }
   },
   {
@@ -1150,7 +1780,12 @@
     "gameId": 2118,
     "name": {
       "en": "Tazira",
-      "fr": "Tazira"
+      "fr": "Tazira",
+      "de": "Tazira",
+      "es": "Tazira",
+      "it": "Tazira",
+      "pt": "Tazira",
+      "ru": "Тазира"
     },
     "class": "marksman",
     "rarity": "epic",
@@ -1160,7 +1795,12 @@
     "damageType": "physical",
     "title": {
       "en": "Plumed Sniper",
-      "fr": "Tireuse à plumes"
+      "fr": "Tireuse à plumes",
+      "de": "Gefiederte Scharfschützin",
+      "es": "Pluma de la Caza",
+      "it": "Tiratrice piumata",
+      "pt": "Atirador Plumado",
+      "ru": "Меткий Снайпер"
     }
   },
   {
@@ -1168,7 +1808,12 @@
     "gameId": 2119,
     "name": {
       "en": "Shamir",
-      "fr": "Shamir"
+      "fr": "Shamir",
+      "de": "Shamir",
+      "es": "Shamir",
+      "it": "Shamir",
+      "pt": "Shamir",
+      "ru": "Шамир"
     },
     "class": "mage",
     "rarity": "legendary",
@@ -1178,7 +1823,12 @@
     "damageType": "magic",
     "title": {
       "en": "Mind of the Depths",
-      "fr": "Esprit des profondeurs"
+      "fr": "Esprit des profondeurs",
+      "de": "Geist der Tiefen",
+      "es": "Voluntad de las Profundidades",
+      "it": "Mente delle profondità",
+      "pt": "Mente das Profundezas",
+      "ru": "Сознание Глубин"
     }
   },
   {
@@ -1186,7 +1836,12 @@
     "gameId": 2120,
     "name": {
       "en": "Laurel",
-      "fr": "Laurelle"
+      "fr": "Laurelle",
+      "de": "Laurel",
+      "es": "Laurel",
+      "it": "Laurinda",
+      "pt": "Laurel",
+      "ru": "Лорел"
     },
     "class": "mage",
     "rarity": "epic",
@@ -1196,7 +1851,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Verdant Daughter",
-      "fr": "La fille verdoyante"
+      "fr": "La fille verdoyante",
+      "de": "Die blattgrüne Tochter",
+      "es": "Hija de la Espesura",
+      "it": "La figlia verdeggiante",
+      "pt": "A Filha Verdejante",
+      "ru": "Зеленая Дочь"
     }
   },
   {
@@ -1204,7 +1864,12 @@
     "gameId": 2121,
     "name": {
       "en": "Captain Reve",
-      "fr": "Capitaine Reve"
+      "fr": "Capitaine Reve",
+      "de": "Kapitän Reve",
+      "es": "Capitán Riv",
+      "it": "Capitan Reve",
+      "pt": "Capitão Reve",
+      "ru": "Капитан Рив"
     },
     "class": "defender",
     "rarity": "legendary",
@@ -1214,7 +1879,12 @@
     "damageType": "magic",
     "title": {
       "en": "Riptide Reaver",
-      "fr": "Le Pilleur des reflux"
+      "fr": "Le Pilleur des reflux",
+      "de": "Der Springfluthäscher",
+      "es": "Saqueador de las Mareas",
+      "it": "Mietitore Riptide",
+      "pt": "Saqueador da Correnteza",
+      "ru": "Рассекатель Зыбей"
     }
   },
   {
@@ -1222,7 +1892,12 @@
     "gameId": 2127,
     "name": {
       "en": "Ares",
-      "fr": "Arès"
+      "fr": "Arès",
+      "de": "Ares",
+      "es": "Ares",
+      "it": "Ares",
+      "pt": "Ares",
+      "ru": "Арес"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -1232,7 +1907,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Longhorn Impaler",
-      "fr": "L'Empaleur à cornes"
+      "fr": "L'Empaleur à cornes",
+      "de": "Der Langhornpfähler",
+      "es": "El Empalador Astado",
+      "it": "L'Impalatore longhorn",
+      "pt": "O Empalador de Gado",
+      "ru": "Длиннорогий"
     }
   },
   {
@@ -1240,7 +1920,12 @@
     "gameId": 2128,
     "name": {
       "en": "Krodor",
-      "fr": "Krodor"
+      "fr": "Krodor",
+      "de": "Krodor",
+      "es": "Krodor",
+      "it": "Krodor",
+      "pt": "Krodor",
+      "ru": "Кродор"
     },
     "class": "defender",
     "rarity": "legendary",
@@ -1250,7 +1935,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Glacial Guardian",
-      "fr": "Le Gardien glacial"
+      "fr": "Le Gardien glacial",
+      "de": "Der Eiswächter",
+      "es": "El guardián glacial",
+      "it": "Il Custode glaciale",
+      "pt": "O Guardião Glacial",
+      "ru": "Ледяной Страж"
     }
   },
   {
@@ -1258,7 +1948,12 @@
     "gameId": 2129,
     "name": {
       "en": "Rhox",
-      "fr": "Rhox"
+      "fr": "Rhox",
+      "de": "Rhox",
+      "es": "Rhox",
+      "it": "Rhox",
+      "pt": "Rhox",
+      "ru": "Рокс"
     },
     "class": "defender",
     "rarity": "epic",
@@ -1268,7 +1963,12 @@
     "damageType": "physical",
     "title": {
       "en": "Wasteland Titan",
-      "fr": "Titan des friches"
+      "fr": "Titan des friches",
+      "de": "Ödlandtitan",
+      "es": "Titán de Tierras Yermas",
+      "it": "Titano della Terra desolata",
+      "pt": "Titã do Deserto",
+      "ru": "Титан Пустоши"
     }
   },
   {
@@ -1276,7 +1976,12 @@
     "gameId": 2130,
     "name": {
       "en": "Laseer",
-      "fr": "Laseer"
+      "fr": "Laseer",
+      "de": "Laseer",
+      "es": "Lasir",
+      "it": "Laseer",
+      "pt": "Laseer",
+      "ru": "Ласир"
     },
     "class": "mage",
     "rarity": "legendary",
@@ -1286,7 +1991,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Sandswept King",
-      "fr": "Le Roi des sables"
+      "fr": "Le Roi des sables",
+      "de": "Der sandgepeitschte König",
+      "es": "Rey de las Arenas",
+      "it": "Il Re delle sabbie",
+      "pt": "O Rei das Areias",
+      "ru": "Царь Песков"
     }
   },
   {
@@ -1294,7 +2004,12 @@
     "gameId": 2131,
     "name": {
       "en": "Ardeth",
-      "fr": "Ardeth"
+      "fr": "Ardeth",
+      "de": "Ardeth",
+      "es": "Ardeth",
+      "it": "Ardeth",
+      "pt": "Ardeth",
+      "ru": "Ардет"
     },
     "class": "defender",
     "rarity": "epic",
@@ -1304,7 +2019,12 @@
     "damageType": "magic",
     "title": {
       "en": "Soulreaping Vanguard",
-      "fr": "Avant-garde moissonneur d'âmes"
+      "fr": "Avant-garde moissonneur d'âmes",
+      "de": "Seelensammelnde Avantgarde",
+      "es": "Quebrantaalmas de la Vanguardia",
+      "it": "Avanguardia ruba anima",
+      "pt": "Ceifador de Almas",
+      "ru": "Авангард Пожинающий Души"
     }
   },
   {
@@ -1312,7 +2032,12 @@
     "gameId": 2132,
     "name": {
       "en": "Arrogance",
-      "fr": "Arrogance"
+      "fr": "Arrogance",
+      "de": "Arrogance",
+      "es": "Arrogancia",
+      "it": "Arrogance",
+      "pt": "Arrogância",
+      "ru": "Высокомерный"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -1322,7 +2047,12 @@
     "damageType": "physical",
     "title": {
       "en": "Cinderstalker Zukhil",
-      "fr": "Cinderstalker Zukhil"
+      "fr": "Cinderstalker Zukhil",
+      "de": "Brandstifter Zukhil",
+      "es": "Zukhil, Acechador de la Ceniza",
+      "it": "Zukhil Cacciacenere",
+      "pt": "Cinderstalker Zukhil",
+      "ru": "Зухил Охотник за Пеплом"
     }
   },
   {
@@ -1330,7 +2060,12 @@
     "gameId": 2133,
     "name": {
       "en": "Luneria",
-      "fr": "Luneria"
+      "fr": "Luneria",
+      "de": "Luneria",
+      "es": "Luneria",
+      "it": "Luneria",
+      "pt": "Lunéria",
+      "ru": "Лунерия"
     },
     "class": "marksman",
     "rarity": "epic",
@@ -1340,7 +2075,12 @@
     "damageType": "magic",
     "title": {
       "en": "Moonshroud Maven",
-      "fr": "Enchanteresse lunaire"
+      "fr": "Enchanteresse lunaire",
+      "de": "Mondzauberin",
+      "es": "Hechicera de Sombraluna",
+      "it": "Baciata dalla luna",
+      "pt": "Magistrada das Sombras da Lua",
+      "ru": "Знаток Луны"
     }
   },
   {
@@ -1348,7 +2088,12 @@
     "gameId": 2134,
     "name": {
       "en": "Zelus",
-      "fr": "Zélus"
+      "fr": "Zélus",
+      "de": "Zelus",
+      "es": "Zelus",
+      "it": "Zelus",
+      "pt": "Zelus",
+      "ru": "Зелус"
     },
     "class": "mage",
     "rarity": "legendary",
@@ -1358,7 +2103,12 @@
     "damageType": "magic",
     "title": {
       "en": "Lord of Styx",
-      "fr": "Seigneur de Styx"
+      "fr": "Seigneur de Styx",
+      "de": "Lord von Styx",
+      "es": "Señor de la Estigia",
+      "it": "Lord dello Stige",
+      "pt": "Senhor do Estige",
+      "ru": "Повелитель Стикса"
     }
   },
   {
@@ -1366,7 +2116,12 @@
     "gameId": 2135,
     "name": {
       "en": "Lili",
-      "fr": "Lili"
+      "fr": "Lili",
+      "de": "Lili",
+      "es": "Lili",
+      "it": "Lili",
+      "pt": "Lili",
+      "ru": "Лили"
     },
     "class": "healer",
     "rarity": "epic",
@@ -1377,7 +2132,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Forgotten Flower",
-      "fr": "La fleur oubliée"
+      "fr": "La fleur oubliée",
+      "de": "Die vergessene Blume",
+      "es": "Flor Olvidada",
+      "it": "Fiore dimenticato",
+      "pt": "A Flor Esquecida",
+      "ru": "Забытый Цветок"
     }
   },
   {
@@ -1385,7 +2145,12 @@
     "gameId": 2136,
     "name": {
       "en": "Solcadens",
-      "fr": "Solcadens"
+      "fr": "Solcadens",
+      "de": "Solcadens",
+      "es": "Solcadens",
+      "it": "Solcadens",
+      "pt": "Solcadens",
+      "ru": "Солкаденс"
     },
     "class": "mage",
     "rarity": "legendary",
@@ -1395,7 +2160,12 @@
     "damageType": "magic",
     "title": {
       "en": "Hellfire Emperor",
-      "fr": "Empereur de l'Inferno"
+      "fr": "Empereur de l'Inferno",
+      "de": "Kaiser des Höllenfeuers",
+      "es": "Emperador infernal",
+      "it": "Imperatore del Fuoco d'inferno",
+      "pt": "Imperador do Inferno",
+      "ru": "Император Адского Пламени"
     }
   },
   {
@@ -1403,7 +2173,12 @@
     "gameId": 2137,
     "name": {
       "en": "Jorge",
-      "fr": "Jorge"
+      "fr": "Jorge",
+      "de": "Jorge",
+      "es": "Jorge",
+      "it": "Jorge",
+      "pt": "Jorge",
+      "ru": "Хорхе"
     },
     "class": "defender",
     "rarity": "epic",
@@ -1414,7 +2189,12 @@
     "damageType": "magic",
     "title": {
       "en": "Rotten Mercenary",
-      "fr": "Mercenaire putréfié"
+      "fr": "Mercenaire putréfié",
+      "de": "Verfallener Söldner",
+      "es": "Mercenario putrefacto",
+      "it": "Mercenario decomposto",
+      "pt": "Mercenário Corrompido",
+      "ru": "Гниющий Наемник"
     }
   },
   {
@@ -1422,7 +2202,12 @@
     "gameId": 2138,
     "name": {
       "en": "Nissandei",
-      "fr": "Nissandei"
+      "fr": "Nissandei",
+      "de": "Nissandei",
+      "es": "Nissandei",
+      "it": "Nissandei",
+      "pt": "Nissandei",
+      "ru": "Ниссандея"
     },
     "class": "healer",
     "rarity": "epic",
@@ -1432,7 +2217,12 @@
     "damageType": "physical",
     "title": {
       "en": "Nightingale Hermit",
-      "fr": "Hermite rossignol"
+      "fr": "Hermite rossignol",
+      "de": "Nachtigall Eremitin",
+      "es": "Ruiseñor Ermitaño",
+      "it": "Usignolo eremita",
+      "pt": "Rouxinol Eremita",
+      "ru": "Целительница-отшельник"
     }
   },
   {
@@ -1440,7 +2230,12 @@
     "gameId": 2139,
     "name": {
       "en": "Raiden",
-      "fr": "Raiden"
+      "fr": "Raiden",
+      "de": "Raiden",
+      "es": "Raiden",
+      "it": "Raiden",
+      "pt": "Raiden",
+      "ru": "Рейден"
     },
     "class": "mage",
     "rarity": "epic",
@@ -1450,7 +2245,12 @@
     "damageType": "magic",
     "title": {
       "en": "Voltaic Frostmage",
-      "fr": "Mage de givre foudroyant"
+      "fr": "Mage de givre foudroyant",
+      "de": "Voltaischer Frostmagier",
+      "es": "Maestro del Rayo y el Hielo",
+      "it": "Mago voltaico del gelo",
+      "pt": "Mago Elétrico",
+      "ru": "Заряженный Маг Севера"
     }
   },
   {
@@ -1458,7 +2258,12 @@
     "gameId": 2141,
     "name": {
       "en": "Azzoth",
-      "fr": "Azzoth"
+      "fr": "Azzoth",
+      "de": "Azzoth",
+      "es": "Azzoth",
+      "it": "Azzoth",
+      "pt": "Azzoth",
+      "ru": "Аззот"
     },
     "class": "mage",
     "rarity": "epic",
@@ -1468,7 +2273,12 @@
     "damageType": "magic",
     "title": {
       "en": "Brimstone Prince",
-      "fr": "Prince sulfureux"
+      "fr": "Prince sulfureux",
+      "de": "Schwefelprinz",
+      "es": "Príncipe del Azufre",
+      "it": "Principe dello zolfo",
+      "pt": "Príncipe de Enxofre",
+      "ru": "Принц Серы"
     }
   },
   {
@@ -1476,7 +2286,12 @@
     "gameId": 2143,
     "name": {
       "en": "Atrox",
-      "fr": "Atrox"
+      "fr": "Atrox",
+      "de": "Atrox",
+      "es": "Átrox",
+      "it": "Atrox",
+      "pt": "Atrox",
+      "ru": "Атрокс"
     },
     "class": "fighter",
     "rarity": "epic",
@@ -1487,7 +2302,12 @@
     "damageType": "physical",
     "title": {
       "en": "Damned Warrior",
-      "fr": "Guerrier damné"
+      "fr": "Guerrier damné",
+      "de": "Verfluchter Krieger",
+      "es": "Guerrero Maldito",
+      "it": "Guerriero maledetto",
+      "pt": "Guerreiro Maldito",
+      "ru": "Проклятый Воин"
     }
   },
   {
@@ -1495,7 +2315,12 @@
     "gameId": 2144,
     "name": {
       "en": "Drayga",
-      "fr": "Drayga"
+      "fr": "Drayga",
+      "de": "Drayga",
+      "es": "Drayga",
+      "it": "Drayga",
+      "pt": "Drayga",
+      "ru": "Драйга"
     },
     "class": "defender",
     "rarity": "epic",
@@ -1505,7 +2330,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Reformed Shield",
-      "fr": "Le Bouclier réformé"
+      "fr": "Le Bouclier réformé",
+      "de": "Der neu geformte Schild",
+      "es": "El escudo reformado",
+      "it": "Lo Scudo riformato",
+      "pt": "O Escudo Renovado",
+      "ru": "Щит Искупления"
     }
   },
   {
@@ -1513,7 +2343,12 @@
     "gameId": 2145,
     "name": {
       "en": "Autumn",
-      "fr": "Automne"
+      "fr": "Automne",
+      "de": "Autumn",
+      "es": "Otoño",
+      "it": "Autunno",
+      "pt": "Autumn",
+      "ru": "Осень"
     },
     "class": "healer",
     "rarity": "rare",
@@ -1523,7 +2358,12 @@
     "damageType": "magic",
     "title": {
       "en": "Red Owl",
-      "fr": "Chouette rouge"
+      "fr": "Chouette rouge",
+      "de": "Rote Eule",
+      "es": "Lechuza Roja",
+      "it": "Gufo rosso",
+      "pt": "Coruja Vermelha",
+      "ru": "Красная Сова"
     }
   },
   {
@@ -1531,7 +2371,12 @@
     "gameId": 2146,
     "name": {
       "en": "Abomination",
-      "fr": "Abomination"
+      "fr": "Abomination",
+      "de": "Abomination",
+      "es": "Abominación",
+      "it": "Abominio",
+      "pt": "Abomination",
+      "ru": "Мерзость"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -1541,7 +2386,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Sin of the Damned",
-      "fr": "Le péché des damnés"
+      "fr": "Le péché des damnés",
+      "de": "Die Sünde der Verdammten",
+      "es": "Pecado de los Malditos",
+      "it": "Peccato dei dannati",
+      "pt": "O Pecado dos Condenados",
+      "ru": "Грех Проклятых"
     }
   },
   {
@@ -1549,7 +2399,12 @@
     "gameId": 2147,
     "name": {
       "en": "Morrigan",
-      "fr": "Morrigan"
+      "fr": "Morrigan",
+      "de": "Morrigan",
+      "es": "Morrigan",
+      "it": "Morrigan",
+      "pt": "Morrigan",
+      "ru": "Морриган"
     },
     "class": "mage",
     "rarity": "legendary",
@@ -1559,7 +2414,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Burnt Witch",
-      "fr": "Sorcière incinérée"
+      "fr": "Sorcière incinérée",
+      "de": "Die verbrannte Hexe",
+      "es": "Bruja Quemada",
+      "it": "Strega bruciata",
+      "pt": "A Bruxa Queimada",
+      "ru": "Сожженная Ведьма"
     }
   },
   {
@@ -1567,7 +2427,12 @@
     "gameId": 2150,
     "name": {
       "en": "Janqhar",
-      "fr": "Janqhar"
+      "fr": "Janqhar",
+      "de": "Janqhar",
+      "es": "Janqhar",
+      "it": "Janqhar",
+      "pt": "Janqhar",
+      "ru": "Джанкхар"
     },
     "class": "fighter",
     "rarity": "epic",
@@ -1577,7 +2442,12 @@
     "damageType": "magic",
     "title": {
       "en": "Pharaoh's Thrall",
-      "fr": "Esclave du pharaon"
+      "fr": "Esclave du pharaon",
+      "de": "Pharaos Sklave",
+      "es": "Siervo del Faraón",
+      "it": "Schiavo del faraone",
+      "pt": "Escravo do Faraó",
+      "ru": "Раб Фараона"
     }
   },
   {
@@ -1585,7 +2455,12 @@
     "gameId": 2151,
     "name": {
       "en": "Selkath",
-      "fr": "Selkath"
+      "fr": "Selkath",
+      "de": "Selkath",
+      "es": "Selkath",
+      "it": "Selkath",
+      "pt": "Selkath",
+      "ru": "Селкат"
     },
     "class": "mage",
     "rarity": "epic",
@@ -1595,7 +2470,12 @@
     "damageType": "magic",
     "title": {
       "en": "Swamp Spumemaker",
-      "fr": "Faiseur d'écume des marécages"
+      "fr": "Faiseur d'écume des marécages",
+      "de": "Sumpfzauberer",
+      "es": "Formaespuma del Pantano",
+      "it": "Agitatore delle acque di palude",
+      "pt": "Rei do Pântano",
+      "ru": "Болотная Пена"
     }
   },
   {
@@ -1603,7 +2483,12 @@
     "gameId": 2152,
     "name": {
       "en": "Pyros",
-      "fr": "Pyros"
+      "fr": "Pyros",
+      "de": "Pyros",
+      "es": "Piros",
+      "it": "Pyros",
+      "pt": "Pyros",
+      "ru": "Пирос"
     },
     "class": "mage",
     "rarity": "epic",
@@ -1613,7 +2498,12 @@
     "damageType": "magic",
     "title": {
       "en": "Infernal Shaman",
-      "fr": "Chaman infernal"
+      "fr": "Chaman infernal",
+      "de": "Höllenschamane",
+      "es": "Chamán del Averno",
+      "it": "Sciamano infernale",
+      "pt": "Xamã Infernal",
+      "ru": "Адский Шаман"
     }
   },
   {
@@ -1621,7 +2511,12 @@
     "gameId": 2153,
     "name": {
       "en": "Aracha",
-      "fr": "Aracha"
+      "fr": "Aracha",
+      "de": "Aracha",
+      "es": "Aracha",
+      "it": "Aracha",
+      "pt": "Aracha",
+      "ru": "Арача"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -1631,7 +2526,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Crimson Widow",
-      "fr": "Veuve écarlate"
+      "fr": "Veuve écarlate",
+      "de": "Die Karmesinwitwe",
+      "es": "Viuda Carmesí",
+      "it": "Vedova cremisi",
+      "pt": "A Viúva Vermelha",
+      "ru": "Багровая Вдова"
     }
   },
   {
@@ -1639,7 +2539,12 @@
     "gameId": 2159,
     "name": {
       "en": "Vladov",
-      "fr": "Vladov"
+      "fr": "Vladov",
+      "de": "Vladov",
+      "es": "Vladov",
+      "it": "Vladov",
+      "pt": "Vladov",
+      "ru": "Владов"
     },
     "class": "fighter",
     "rarity": "epic",
@@ -1650,7 +2555,12 @@
     "damageType": "physical",
     "title": {
       "en": "Bloodtooth",
-      "fr": "Dendsang"
+      "fr": "Dendsang",
+      "de": "Blutzahn",
+      "es": "Diente de Sangre",
+      "it": "Dente insanguinato",
+      "pt": "Dente de Sangue",
+      "ru": "Кровавый Зуб"
     }
   },
   {
@@ -1658,7 +2568,12 @@
     "gameId": 2160,
     "name": {
       "en": "Nyx",
-      "fr": "Nyx"
+      "fr": "Nyx",
+      "de": "Nyx",
+      "es": "Nyx",
+      "it": "Nyx",
+      "pt": "Nyx",
+      "ru": "Никс"
     },
     "class": "marksman",
     "rarity": "legendary",
@@ -1668,7 +2583,12 @@
     "damageType": "physical",
     "title": {
       "en": "Daughter of Blood",
-      "fr": "Fille du Sang"
+      "fr": "Fille du Sang",
+      "de": "Tochter des Blutes",
+      "es": "Hija de la Sangre",
+      "it": "Figlia del sangue",
+      "pt": "Filha de Sangue",
+      "ru": "Дочь Крови"
     }
   },
   {
@@ -1676,7 +2596,12 @@
     "gameId": 2161,
     "name": {
       "en": "Esme",
-      "fr": "Esmée"
+      "fr": "Esmée",
+      "de": "Esme",
+      "es": "Esme",
+      "it": "Esme",
+      "pt": "Esme",
+      "ru": "Эсме"
     },
     "class": "marksman",
     "rarity": "epic",
@@ -1686,7 +2611,12 @@
     "damageType": "physical",
     "title": {
       "en": "Venom's Shadow",
-      "fr": "Ombre du venin"
+      "fr": "Ombre du venin",
+      "de": "Schatten des Gifts",
+      "es": "Sombra venenosa",
+      "it": "Ombra del veleno",
+      "pt": "Sombra do Veneno",
+      "ru": "Ядовитая Тень"
     }
   },
   {
@@ -1694,7 +2624,12 @@
     "gameId": 2163,
     "name": {
       "en": "Trusk",
-      "fr": "Trusk"
+      "fr": "Trusk",
+      "de": "Trusk",
+      "es": "Trusk",
+      "it": "Trusk",
+      "pt": "Trusk",
+      "ru": "Траск"
     },
     "class": "defender",
     "rarity": "legendary",
@@ -1704,7 +2639,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Thorned Bastion",
-      "fr": "Le Bastion à corne"
+      "fr": "Le Bastion à corne",
+      "de": "Die Dornenbastion",
+      "es": "El bastión enclave",
+      "it": "Il Bastione spinato",
+      "pt": "O Bastião Espinhoso",
+      "ru": "Шипованный Бастион"
     }
   },
   {
@@ -1712,7 +2652,12 @@
     "gameId": 2165,
     "name": {
       "en": "Orim",
-      "fr": "Orim"
+      "fr": "Orim",
+      "de": "Orim",
+      "es": "Orim",
+      "it": "Orim",
+      "pt": "Orim",
+      "ru": "Орим"
     },
     "class": "defender",
     "rarity": "legendary",
@@ -1722,7 +2667,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Volcanic Anvil",
-      "fr": "L'enclume Volcanique"
+      "fr": "L'enclume Volcanique",
+      "de": "Der Vulkanamboss",
+      "es": "El Yunque Volcánico",
+      "it": "Incudine vulcanica",
+      "pt": "A Bigorna Vulcânica",
+      "ru": "Наковальня Вулкана"
     }
   },
   {
@@ -1730,7 +2680,12 @@
     "gameId": 2166,
     "name": {
       "en": "Maw",
-      "fr": "Maw"
+      "fr": "Maw",
+      "de": "Maw",
+      "es": "Fauces",
+      "it": "Maw",
+      "pt": "Maw",
+      "ru": "Утроба"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -1740,7 +2695,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Devourer",
-      "fr": "Le Dévoreur"
+      "fr": "Le Dévoreur",
+      "de": "Der Verschlinger",
+      "es": "El Devorador",
+      "it": "Il divoratore",
+      "pt": "O Devorador",
+      "ru": "Пожиратель"
     }
   },
   {
@@ -1748,7 +2708,12 @@
     "gameId": 2167,
     "name": {
       "en": "Lugaru",
-      "fr": "Lugaru"
+      "fr": "Lugaru",
+      "de": "Lugaru",
+      "es": "Lugaru",
+      "it": "Lugaru",
+      "pt": "Lugaru",
+      "ru": "Лугару"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -1759,7 +2724,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Wolf King",
-      "fr": "Le Roi Loup"
+      "fr": "Le Roi Loup",
+      "de": "König der Wölfe",
+      "es": "El Rey Lobo",
+      "it": "Re Lupo",
+      "pt": "O Rei Lobo",
+      "ru": "Волчий Король"
     }
   },
   {
@@ -1767,7 +2737,12 @@
     "gameId": 2168,
     "name": {
       "en": "Fenris",
-      "fr": "Fenris"
+      "fr": "Fenris",
+      "de": "Fenris",
+      "es": "Fenris",
+      "it": "Fenris",
+      "pt": "Fenris",
+      "ru": "Фенрис"
     },
     "class": "marksman",
     "rarity": "legendary",
@@ -1777,7 +2752,12 @@
     "damageType": "physical",
     "title": {
       "en": "Cursed Khan",
-      "fr": "Khan maudit"
+      "fr": "Khan maudit",
+      "de": "Verfluchter Khan",
+      "es": "Khan maldito",
+      "it": "Khan maledetto",
+      "pt": "Khan Amaldiçoado",
+      "ru": "Проклятый Хан"
     }
   },
   {
@@ -1785,7 +2765,12 @@
     "gameId": 2169,
     "name": {
       "en": "Apsan",
-      "fr": "Apsan"
+      "fr": "Apsan",
+      "de": "Apsan",
+      "es": "Apsan",
+      "it": "Apsan",
+      "pt": "Apsan",
+      "ru": "Апсан"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -1795,7 +2780,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Roaring Javelin",
-      "fr": "Le javelot rugissant"
+      "fr": "Le javelot rugissant",
+      "de": "Der brüllende Speer",
+      "es": "Rugido de Jabalina",
+      "it": "Il Giavellotto ruggente",
+      "pt": "A Lança Trovejante",
+      "ru": "Ревущее Копье"
     }
   },
   {
@@ -1803,7 +2793,12 @@
     "gameId": 2170,
     "name": {
       "en": "Vargus",
-      "fr": "Vargus"
+      "fr": "Vargus",
+      "de": "Vargus",
+      "es": "Vargus",
+      "it": "Vargus",
+      "pt": "Vargus",
+      "ru": "Варгус"
     },
     "class": "marksman",
     "rarity": "epic",
@@ -1814,7 +2809,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Lunar Assassin",
-      "fr": "L'assassin lunaire"
+      "fr": "L'assassin lunaire",
+      "de": "Der Mondassassine",
+      "es": "El Asesino Lunar",
+      "it": "L'Assassino lunare",
+      "pt": "O Assassino Lunar",
+      "ru": "Лунный Убийца"
     }
   },
   {
@@ -1822,7 +2822,12 @@
     "gameId": 2171,
     "name": {
       "en": "Laya",
-      "fr": "Laya"
+      "fr": "Laya",
+      "de": "Laya",
+      "es": "Laya",
+      "it": "Laya",
+      "pt": "Laya",
+      "ru": "Лайя"
     },
     "class": "healer",
     "rarity": "legendary",
@@ -1832,7 +2837,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Celestial Chordspeaker",
-      "fr": "La voix céleste"
+      "fr": "La voix céleste",
+      "de": "Die himmlische Saitenzauberin",
+      "es": "Voz Celestial",
+      "it": "La Cantaccordi celeste",
+      "pt": "A Oradora Celestial",
+      "ru": "Голос Небес"
     }
   },
   {
@@ -1840,7 +2850,12 @@
     "gameId": 2172,
     "name": {
       "en": "Dassomi",
-      "fr": "Dassomi"
+      "fr": "Dassomi",
+      "de": "Dassomi",
+      "es": "Dassomi",
+      "it": "Dassomi",
+      "pt": "Dassomi",
+      "ru": "Дассоми"
     },
     "class": "healer",
     "rarity": "legendary",
@@ -1851,7 +2866,12 @@
     "damageType": "magic",
     "title": {
       "en": "Dream Giver",
-      "fr": "Donneur de rêves"
+      "fr": "Donneur de rêves",
+      "de": "Traumspender",
+      "es": "Otorgasueños",
+      "it": "Donatore di sogni",
+      "pt": "Doador de Sonhos",
+      "ru": "Даритель Снов"
     }
   },
   {
@@ -1859,7 +2879,12 @@
     "gameId": 2173,
     "name": {
       "en": "Kria",
-      "fr": "Kria"
+      "fr": "Kria",
+      "de": "Kria",
+      "es": "Kría",
+      "it": "Kria",
+      "pt": "Kria",
+      "ru": "Крия"
     },
     "class": "mage",
     "rarity": "legendary",
@@ -1869,7 +2894,12 @@
     "damageType": "magic",
     "title": {
       "en": "Mother of Crows",
-      "fr": "Mère des corbeaux"
+      "fr": "Mère des corbeaux",
+      "de": "Mutter der Krähen",
+      "es": "Madre de los Cuervos",
+      "it": "Madre dei corvi",
+      "pt": "Mãe dos Corvos",
+      "ru": "Мать Ворон"
     }
   },
   {
@@ -1877,14 +2907,24 @@
     "gameId": 2174,
     "name": {
       "en": "Ymiret",
-      "fr": "Ymiret"
+      "fr": "Ymiret",
+      "de": "Ymiret",
+      "es": "Ymiret",
+      "it": "Ymiret",
+      "pt": "Ymiret",
+      "ru": "Имирет"
     },
     "class": "fighter",
     "rarity": "legendary",
     "damageType": "physical",
     "title": {
       "en": "Frostbourne Leviathan",
-      "fr": "Léviathan Glacial"
+      "fr": "Léviathan Glacial",
+      "de": "Leviathan aus dem Frost",
+      "es": "Leviatán de Confinesgélidos",
+      "it": "Leviatano gelido",
+      "pt": "Leviatã da Fronteira Gelada",
+      "ru": "Морозный Гигант"
     }
   },
   {
@@ -1892,7 +2932,12 @@
     "gameId": 2175,
     "name": {
       "en": "Valeriya",
-      "fr": "Valeriya"
+      "fr": "Valeriya",
+      "de": "Valeriya",
+      "es": "Valeriya",
+      "it": "Valeriya",
+      "pt": "Valeriya",
+      "ru": "Валерия"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -1903,7 +2948,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Beast Knight",
-      "fr": "La bête chevaleresse"
+      "fr": "La bête chevaleresse",
+      "de": "Die Bestienreiterin",
+      "es": "Guerrera Bestial",
+      "it": "Il cavaliere della bestia",
+      "pt": "A Amazona das Feras",
+      "ru": "Рыцарь-Зверь"
     }
   },
   {
@@ -1911,7 +2961,12 @@
     "gameId": 2176,
     "name": {
       "en": "Cyrus",
-      "fr": "Cyrus"
+      "fr": "Cyrus",
+      "de": "Cyrus",
+      "es": "Ciro",
+      "it": "Cyrus",
+      "pt": "Cyrus",
+      "ru": "Кир"
     },
     "class": "defender",
     "rarity": "legendary",
@@ -1921,7 +2976,12 @@
     "damageType": "magic",
     "title": {
       "en": "Conqueror",
-      "fr": "Conquérant"
+      "fr": "Conquérant",
+      "de": "Bezwinger",
+      "es": "El Conquistador",
+      "it": "Conquistatore",
+      "pt": "Conquistador",
+      "ru": "Завоеватель"
     }
   },
   {
@@ -1929,7 +2989,12 @@
     "gameId": 2177,
     "name": {
       "en": "Azhor",
-      "fr": "Azhor"
+      "fr": "Azhor",
+      "de": "Azhor",
+      "es": "Azhor",
+      "it": "Azhor",
+      "pt": "Azhor",
+      "ru": "Азхор"
     },
     "class": "defender",
     "rarity": "legendary",
@@ -1939,7 +3004,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Hellforge Betrayer",
-      "fr": "Le Traître de Forgenfer"
+      "fr": "Le Traître de Forgenfer",
+      "de": "Der verräterische Höllenschmied",
+      "es": "Traidor de la Forja del Infierno",
+      "it": "Traditore di Hellforge",
+      "pt": "Traidor da Forja Infernal",
+      "ru": "Предатель из Адской кузницы"
     }
   },
   {
@@ -1947,7 +3017,12 @@
     "gameId": 2178,
     "name": {
       "en": "Cerberus",
-      "fr": "Cerbeus"
+      "fr": "Cerbeus",
+      "de": "Cerberus",
+      "es": "Cerbero",
+      "it": "Cerbero",
+      "pt": "Cerberus",
+      "ru": "Цербер"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -1958,7 +3033,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Skull Collector",
-      "fr": "Le collectionneur de crânes"
+      "fr": "Le collectionneur de crânes",
+      "de": "Der Totenkopfsammler",
+      "es": "El Coleccionista de Cráneos",
+      "it": "Collezionista di teschi",
+      "pt": "O Coletor de Crânios",
+      "ru": "Собиратель Черепов"
     }
   },
   {
@@ -1966,7 +3046,12 @@
     "gameId": 2179,
     "name": {
       "en": "Diaochan",
-      "fr": "Diaochan"
+      "fr": "Diaochan",
+      "de": "Diaochan",
+      "es": "Diaochan",
+      "it": "Diaochan",
+      "pt": "Diaochan",
+      "ru": "Дяочань"
     },
     "class": "healer",
     "rarity": "legendary",
@@ -1977,7 +3062,12 @@
     "damageType": "magic",
     "title": {
       "en": "Moon's Radiance",
-      "fr": "Radiance de la Lune"
+      "fr": "Radiance de la Lune",
+      "de": "Das Strahlen des Mondes",
+      "es": "Resplandor de Luna",
+      "it": "Fulgore lunare",
+      "pt": "Radiância Lunar",
+      "ru": "Лунное Сияние"
     }
   },
   {
@@ -1985,7 +3075,12 @@
     "gameId": 2180,
     "name": {
       "en": "Silas",
-      "fr": "Silas"
+      "fr": "Silas",
+      "de": "Silas",
+      "es": "Silas",
+      "it": "Silas",
+      "pt": "Silas",
+      "ru": "Cайлас"
     },
     "class": "marksman",
     "rarity": "legendary",
@@ -1995,7 +3090,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Blind King",
-      "fr": "Le roi aveugle"
+      "fr": "Le roi aveugle",
+      "de": "Der Blinde König",
+      "es": "El Rey Ciego",
+      "it": "Re cieco",
+      "pt": "O Rei Cego",
+      "ru": "Слепой Король"
     }
   },
   {
@@ -2003,7 +3103,12 @@
     "gameId": 2181,
     "name": {
       "en": "Setram",
-      "fr": "Setram"
+      "fr": "Setram",
+      "de": "Setram",
+      "es": "Setram",
+      "it": "Setram",
+      "pt": "Setram",
+      "ru": "Сетрам"
     },
     "class": "marksman",
     "rarity": "legendary",
@@ -2013,7 +3118,12 @@
     "damageType": "physical",
     "title": {
       "en": "Guardian of Enigmas",
-      "fr": "Gardien des énigmes"
+      "fr": "Gardien des énigmes",
+      "de": "Wächter der Rätsel",
+      "es": "Guardián de los Enigmas",
+      "it": "Guardiano degli enigmi",
+      "pt": "Guardião dos Enigmas",
+      "ru": "Страж тайн"
     }
   },
   {
@@ -2021,7 +3131,12 @@
     "gameId": 2182,
     "name": {
       "en": "Aylin",
-      "fr": "Aylin"
+      "fr": "Aylin",
+      "de": "Aylin",
+      "es": "Aylin",
+      "it": "Aylin",
+      "pt": "Aylin",
+      "ru": "Эйлин"
     },
     "class": "healer",
     "rarity": "legendary",
@@ -2031,7 +3146,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Moon Seraph",
-      "fr": "Ange de la Lune"
+      "fr": "Ange de la Lune",
+      "de": "Der Mondengel",
+      "es": "Ángel de la Luna",
+      "it": "Serafino della luna",
+      "pt": "A Serafim da Lua",
+      "ru": "Лунный Серафим"
     }
   },
   {
@@ -2039,7 +3159,12 @@
     "gameId": 2183,
     "name": {
       "en": "Khamet",
-      "fr": "Khamet"
+      "fr": "Khamet",
+      "de": "Khamet",
+      "es": "Khamet",
+      "it": "Khamet",
+      "pt": "Khamet",
+      "ru": "Хамет"
     },
     "class": "mage",
     "rarity": "legendary",
@@ -2049,7 +3174,12 @@
     "damageType": "magic",
     "title": {
       "en": "Pharaoh of Decay",
-      "fr": "Pharaon de décadence"
+      "fr": "Pharaon de décadence",
+      "de": "Pharao des Verfalls",
+      "es": "Faraón de la Podredumbre",
+      "it": "Faraone della decomposizione",
+      "pt": "Faraó da Decadência",
+      "ru": "Фараон Разложения"
     }
   },
   {
@@ -2057,7 +3187,12 @@
     "gameId": 2184,
     "name": {
       "en": "Venoma",
-      "fr": "Venoma"
+      "fr": "Venoma",
+      "de": "Venoma",
+      "es": "Venoma",
+      "it": "Velena",
+      "pt": "Venoma",
+      "ru": "Венома"
     },
     "class": "mage",
     "rarity": "legendary",
@@ -2067,7 +3202,12 @@
     "damageType": "magic",
     "title": {
       "en": "Snakeblood Empress",
-      "fr": "L'Impératrice Sandserpent"
+      "fr": "L'Impératrice Sandserpent",
+      "de": "Schlangenblutkaiserin",
+      "es": "Emperatriz Sangre de Sierpe",
+      "it": "Imperatrice con sangue di serpente",
+      "pt": "Imperatriz Sangue de Cobra",
+      "ru": "Императрица с кровью змеи"
     }
   },
   {
@@ -2075,7 +3215,12 @@
     "gameId": 2185,
     "name": {
       "en": "Gisele",
-      "fr": "Gisèle"
+      "fr": "Gisèle",
+      "de": "Gisele",
+      "es": "Gisele",
+      "it": "Gisele",
+      "pt": "Gisele",
+      "ru": "Жизель"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -2086,7 +3231,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Eternal Duelist",
-      "fr": "La duelliste éternelle"
+      "fr": "La duelliste éternelle",
+      "de": "Die ewige Duellantin",
+      "es": "La eterna duelista",
+      "it": "La Duellante eterna",
+      "pt": "A Duelista Eterna",
+      "ru": "Вечная Дуэлянтка"
     }
   },
   {
@@ -2094,7 +3244,12 @@
     "gameId": 2186,
     "name": {
       "en": "Nisalt",
-      "fr": "Nisalt"
+      "fr": "Nisalt",
+      "de": "Nisalt",
+      "es": "Nisalt",
+      "it": "Nisalt",
+      "pt": "Nisalt",
+      "ru": "Нисалт"
     },
     "class": "mage",
     "rarity": "epic",
@@ -2104,7 +3259,12 @@
     "damageType": "magic",
     "title": {
       "en": "Toxin of the Sands",
-      "fr": "Toxine des sables"
+      "fr": "Toxine des sables",
+      "de": "Gift der Dünen",
+      "es": "Veneno de las Arenas",
+      "it": "Tossina delle sabbie",
+      "pt": "Toxina das Areias",
+      "ru": "Яд Песков"
     }
   },
   {
@@ -2112,7 +3272,12 @@
     "gameId": 2187,
     "name": {
       "en": "Ferssi",
-      "fr": "Ferssi"
+      "fr": "Ferssi",
+      "de": "Ferssi",
+      "es": "Ferssi",
+      "it": "Ferssi",
+      "pt": "Ferssi",
+      "ru": "Ферсси"
     },
     "class": "healer",
     "rarity": "legendary",
@@ -2122,7 +3287,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Healing Parasite",
-      "fr": "Le parasite guérisseur"
+      "fr": "Le parasite guérisseur",
+      "de": "Der Heilende Parasit",
+      "es": "El Curandero Embaucador",
+      "it": "Il parassita guaritore",
+      "pt": "O Parasita Curandeiro",
+      "ru": "Целитель-паразит"
     }
   },
   {
@@ -2130,7 +3300,12 @@
     "gameId": 2188,
     "name": {
       "en": "Vierna",
-      "fr": "Vierna"
+      "fr": "Vierna",
+      "de": "Vierna",
+      "es": "Vierna",
+      "it": "Vierna",
+      "pt": "Vierna",
+      "ru": "Вьерна"
     },
     "class": "mage",
     "rarity": "legendary",
@@ -2140,7 +3315,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Wraith Queen",
-      "fr": "La reine fantômatique"
+      "fr": "La reine fantômatique",
+      "de": "Die Gespensterkönigin",
+      "es": "Reina Espectral",
+      "it": "Regina degli spettri",
+      "pt": "A Rainha Fantasma",
+      "ru": "Королева Духов"
     }
   },
   {
@@ -2148,7 +3328,12 @@
     "gameId": 2189,
     "name": {
       "en": "Ezryn",
-      "fr": "Ezryn"
+      "fr": "Ezryn",
+      "de": "Ezryn",
+      "es": "Ezryn",
+      "it": "Ezryn",
+      "pt": "Ezryn",
+      "ru": "Эзрин"
     },
     "class": "healer",
     "rarity": "legendary",
@@ -2158,7 +3343,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Emerald Flame",
-      "fr": "La Flamme d'émeraude"
+      "fr": "La Flamme d'émeraude",
+      "de": "Die Smaragdflamme",
+      "es": "Llama Esmeralda",
+      "it": "La Fiamma smeraldo",
+      "pt": "A Labareda Esmeralda",
+      "ru": "Изумрудное Пламя"
     }
   },
   {
@@ -2166,7 +3356,12 @@
     "gameId": 2190,
     "name": {
       "en": "Elddr",
-      "fr": "Elddr"
+      "fr": "Elddr",
+      "de": "Elddr",
+      "es": "Elddr",
+      "it": "Elddr",
+      "pt": "Elddr",
+      "ru": "Элддр"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -2176,7 +3371,12 @@
     "damageType": "physical",
     "title": {
       "en": "Thunder of Winter",
-      "fr": "Foudre de l'hiver"
+      "fr": "Foudre de l'hiver",
+      "de": "Donner des Winters",
+      "es": "Trueno Invernal",
+      "it": "Tuono dell'inverno",
+      "pt": "Trovão do Inverno",
+      "ru": "Гром Зимы"
     }
   },
   {
@@ -2184,7 +3384,12 @@
     "gameId": 2191,
     "name": {
       "en": "Crach",
-      "fr": "Crach"
+      "fr": "Crach",
+      "de": "Crach",
+      "es": "Crach",
+      "it": "Crach",
+      "pt": "Crach",
+      "ru": "Крах"
     },
     "class": "marksman",
     "rarity": "legendary",
@@ -2194,7 +3399,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Surefire Cannon",
-      "fr": "Œil de lynx"
+      "fr": "Œil de lynx",
+      "de": "Die treffsichere Kanone",
+      "es": "Cañonero Infalible",
+      "it": "Il Cannone infallibile",
+      "pt": "O Canhão Infalível",
+      "ru": "Надежная Пушка"
     }
   },
   {
@@ -2202,7 +3412,12 @@
     "gameId": 2192,
     "name": {
       "en": "Kalina",
-      "fr": "Kalina"
+      "fr": "Kalina",
+      "de": "Kalina",
+      "es": "Kalina",
+      "it": "Kalina",
+      "pt": "Kalina",
+      "ru": "Калина"
     },
     "class": "mage",
     "rarity": "epic",
@@ -2212,7 +3427,12 @@
     "damageType": "magic",
     "title": {
       "en": "Witch of the Wastelands",
-      "fr": "Sorcière des terres désolées"
+      "fr": "Sorcière des terres désolées",
+      "de": "Hexe des Ödlands",
+      "es": "Bruja de las tierras yermas",
+      "it": "Strega delle Terre desolate",
+      "pt": "Bruxa das Terras Ermas",
+      "ru": "Ведьма Пустошей"
     }
   },
   {
@@ -2220,7 +3440,12 @@
     "gameId": 2193,
     "name": {
       "en": "Kaede",
-      "fr": "Kaede"
+      "fr": "Kaede",
+      "de": "Kaede",
+      "es": "Kaede",
+      "it": "Kaede",
+      "pt": "Kaede",
+      "ru": "Каэдэ"
     },
     "class": "mage",
     "rarity": "legendary",
@@ -2231,7 +3456,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Soaring Spirit",
-      "fr": "L'esprit volant fulgurant"
+      "fr": "L'esprit volant fulgurant",
+      "de": "Der schwebende Geist",
+      "es": "Espíritu Alado",
+      "it": "Lo Spirito elevato",
+      "pt": "O Espírito Crescente",
+      "ru": "Парящий Дух"
     }
   },
   {
@@ -2239,7 +3469,12 @@
     "gameId": 2195,
     "name": {
       "en": "Ai",
-      "fr": "Ai"
+      "fr": "Ai",
+      "de": "Ai",
+      "es": "Ai",
+      "it": "Ai",
+      "pt": "Ai",
+      "ru": "Айя"
     },
     "class": "mage",
     "rarity": "epic",
@@ -2250,7 +3485,12 @@
     "damageType": "magic",
     "title": {
       "en": "Crystal Spellbreaker",
-      "fr": "Briseur des sorts de cristaux"
+      "fr": "Briseur des sorts de cristaux",
+      "de": "Kristallzauberbrecher",
+      "es": "Quiebrahechizos de Cristal",
+      "it": "Spezzaincantesimi di cristallo",
+      "pt": "Quebra-Feitiços de Cristal",
+      "ru": "Хрустальная Разрушительница Чар"
     }
   },
   {
@@ -2258,7 +3498,12 @@
     "gameId": 2196,
     "name": {
       "en": "Harpun",
-      "fr": "Harpun"
+      "fr": "Harpun",
+      "de": "Harpun",
+      "es": "Harpun",
+      "it": "Harpun",
+      "pt": "Harpun",
+      "ru": "Гарпун"
     },
     "class": "marksman",
     "rarity": "epic",
@@ -2268,7 +3513,12 @@
     "damageType": "physical",
     "title": {
       "en": "Sawtooth Sharpshooter",
-      "fr": "Dendscie tireur d'élite"
+      "fr": "Dendscie tireur d'élite",
+      "de": "Sägezahn Scharfschütze",
+      "es": "Tirador Dienteserrado",
+      "it": "Tiratore dai denti aguzzi",
+      "pt": "Atirador de Elite",
+      "ru": "Зубастый Стрелок"
     }
   },
   {
@@ -2276,7 +3526,12 @@
     "gameId": 2197,
     "name": {
       "en": "Gwendolyn",
-      "fr": "Gwendoline"
+      "fr": "Gwendoline",
+      "de": "Gwendolyn",
+      "es": "Gwendolyn",
+      "it": "Gwendolyn",
+      "pt": "Gwendolyn",
+      "ru": "Гвендолин"
     },
     "class": "healer",
     "rarity": "legendary",
@@ -2286,7 +3541,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Northern Star",
-      "fr": "L'étoile du Nord"
+      "fr": "L'étoile du Nord",
+      "de": "Der Nordstern",
+      "es": "La Estrella del Norte",
+      "it": "Stella del Nord",
+      "pt": "A Estrela do Norte",
+      "ru": "Северная Звезда"
     }
   },
   {
@@ -2294,7 +3554,12 @@
     "gameId": 2198,
     "name": {
       "en": "Twinfiend",
-      "fr": "Doubletronche"
+      "fr": "Doubletronche",
+      "de": "Twinfiend",
+      "es": "Dosrruinas",
+      "it": "Geminus",
+      "pt": "Gêmeos do Mal",
+      "ru": "Твинфинд"
     },
     "class": "mage",
     "rarity": "legendary",
@@ -2304,7 +3569,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Brothers Grotesque",
-      "fr": "Les frères grotesques"
+      "fr": "Les frères grotesques",
+      "de": "Die Brüder Grotesk",
+      "es": "Gemelos de lo Grotesco",
+      "it": "Grotteschi fratelli",
+      "pt": "Os Irmãos Grotescos",
+      "ru": "Гротескные Братья"
     }
   },
   {
@@ -2312,7 +3582,12 @@
     "gameId": 2200,
     "name": {
       "en": "Sargak",
-      "fr": "Sargak"
+      "fr": "Sargak",
+      "de": "Sargak",
+      "es": "Sargak",
+      "it": "Sargak",
+      "pt": "Sargak",
+      "ru": "Саргак"
     },
     "class": "marksman",
     "rarity": "legendary",
@@ -2323,7 +3598,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Gruesome Spear",
-      "fr": "La Lance macabre"
+      "fr": "La Lance macabre",
+      "de": "Der grausame Speer",
+      "es": "Lanza del Horror",
+      "it": "La Lancia macabra",
+      "pt": "A Lança Pavorosa",
+      "ru": "Ужасное Копье"
     }
   },
   {
@@ -2331,7 +3611,12 @@
     "gameId": 2201,
     "name": {
       "en": "Carnelian",
-      "fr": "Corneline"
+      "fr": "Corneline",
+      "de": "Carnelian",
+      "es": "Carnelian",
+      "it": "Carnelian",
+      "pt": "Carnelian",
+      "ru": "Карнелиан"
     },
     "class": "healer",
     "rarity": "legendary",
@@ -2342,7 +3627,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Soul Soother",
-      "fr": "L'Apaisante"
+      "fr": "L'Apaisante",
+      "de": "Die Seelentrösterin",
+      "es": "La Sosegaánimas",
+      "it": "La Calma-anime",
+      "pt": "O Alento das Almas",
+      "ru": "Усмирительница Душ"
     }
   },
   {
@@ -2350,7 +3640,12 @@
     "gameId": 2202,
     "name": {
       "en": "Durza",
-      "fr": "Durza"
+      "fr": "Durza",
+      "de": "Durza",
+      "es": "Durza",
+      "it": "Durza",
+      "pt": "Durza",
+      "ru": "Дурза"
     },
     "class": "mage",
     "rarity": "legendary",
@@ -2361,7 +3656,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Bloodtusk Shaman",
-      "fr": "Le Chaman brochesang"
+      "fr": "Le Chaman brochesang",
+      "de": "Der Bluthauerschamane",
+      "es": "Chamán Colmillosangriento",
+      "it": "Lo Sciamano Zannarossa",
+      "pt": "O Xamã Presa de Sangue",
+      "ru": "Шаман Клыка Крови"
     }
   },
   {
@@ -2369,7 +3669,12 @@
     "gameId": 2203,
     "name": {
       "en": "Sadie",
-      "fr": "Sadie"
+      "fr": "Sadie",
+      "de": "Sadie",
+      "es": "Sadi",
+      "it": "Sadie",
+      "pt": "Sadie",
+      "ru": "Сэди"
     },
     "class": "healer",
     "rarity": "legendary",
@@ -2379,7 +3684,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Rallying Songbird",
-      "fr": "La Barde unificatrice."
+      "fr": "La Barde unificatrice.",
+      "de": "Der singende Vogel",
+      "es": "Trovadora Cantaarengas",
+      "it": "L'Usignolo incantevole",
+      "pt": "A Ave Canora Curandeira",
+      "ru": "Вдохновляющая Певица"
     }
   },
   {
@@ -2387,7 +3697,12 @@
     "gameId": 2204,
     "name": {
       "en": "Falcia",
-      "fr": "Falcia"
+      "fr": "Falcia",
+      "de": "Falcia",
+      "es": "Falcia",
+      "it": "Falcia",
+      "pt": "Falcia",
+      "ru": "Фалкия"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -2398,7 +3713,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Triblade Demonsbane",
-      "fr": "La Fléaudémon trilames"
+      "fr": "La Fléaudémon trilames",
+      "de": "Der dreischneide Dämonenfluch",
+      "es": "Pesadilla de Demonios",
+      "it": "La Flagellademoni trilama",
+      "pt": "A Lâmina Tripla Amaldiçoada pelos Demônios",
+      "ru": "Три Клинка, Рок Демонов"
     }
   },
   {
@@ -2406,7 +3726,12 @@
     "gameId": 2205,
     "name": {
       "en": "Hex",
-      "fr": "Hex"
+      "fr": "Hex",
+      "de": "Hex",
+      "es": "Hex",
+      "it": "Hex",
+      "pt": "Hex",
+      "ru": "Хекс"
     },
     "class": "marksman",
     "rarity": "legendary",
@@ -2417,7 +3742,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Mad Diviner",
-      "fr": "Le Devin fou"
+      "fr": "Le Devin fou",
+      "de": "Der irre Wahrsager",
+      "es": "El Adivino Loco",
+      "it": "Il Divinatore pazzo",
+      "pt": "O Adivinho Louco",
+      "ru": "Безумный Пророк"
     }
   },
   {
@@ -2425,7 +3755,12 @@
     "gameId": 2206,
     "name": {
       "en": "Raizan",
-      "fr": "Raizan"
+      "fr": "Raizan",
+      "de": "Raizan",
+      "es": "Raizan",
+      "it": "Raizan",
+      "pt": "Raizan",
+      "ru": "Райдзан"
     },
     "class": "marksman",
     "rarity": "legendary",
@@ -2435,7 +3770,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Shattered Tempest",
-      "fr": "Tempête brisée"
+      "fr": "Tempête brisée",
+      "de": "Der zerschmetterte Sturm",
+      "es": "La Tempestad Quebrantada",
+      "it": "Tempesta frantumata",
+      "pt": "A Tempestade Despedaçada",
+      "ru": "Расколотая Буря"
     }
   },
   {
@@ -2443,7 +3783,12 @@
     "gameId": 2207,
     "name": {
       "en": "Thunkles",
-      "fr": "Thunkles"
+      "fr": "Thunkles",
+      "de": "Thunkles",
+      "es": "Thunkles",
+      "it": "Thunkles",
+      "pt": "Thunkles",
+      "ru": "Танклз"
     },
     "class": "defender",
     "rarity": "epic",
@@ -2453,7 +3798,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Bloodied Butcher",
-      "fr": "Le Boucher sanglant"
+      "fr": "Le Boucher sanglant",
+      "de": "Der blutige Schlachter",
+      "es": "El Carnicero Sangriento",
+      "it": "Macellaio insanguinato",
+      "pt": "O Açougueiro Sangrento",
+      "ru": "Окровавленный Забойщик"
     }
   },
   {
@@ -2461,7 +3811,12 @@
     "gameId": 2209,
     "name": {
       "en": "Eirlys",
-      "fr": "Eirlys"
+      "fr": "Eirlys",
+      "de": "Eirlys",
+      "es": "Eirlys",
+      "it": "Eirlys",
+      "pt": "Eirlys",
+      "ru": "Эйрлис"
     },
     "class": "healer",
     "rarity": "legendary",
@@ -2472,7 +3827,12 @@
     "damageType": "magic",
     "title": {
       "en": "Winter's Mercy",
-      "fr": "Clémence de l'hiver"
+      "fr": "Clémence de l'hiver",
+      "de": "Wintergnade",
+      "es": "Misericordia Invernal",
+      "it": "Clemenza d'inverno",
+      "pt": "Clemência Invernal",
+      "ru": "Милость Зимы"
     }
   },
   {
@@ -2480,7 +3840,12 @@
     "gameId": 2211,
     "name": {
       "en": "Ardea",
-      "fr": "Ardéa"
+      "fr": "Ardéa",
+      "de": "Ardea",
+      "es": "Ardea",
+      "it": "Ardea",
+      "pt": "Ardea",
+      "ru": "Ардеа"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -2491,7 +3856,12 @@
     "damageType": "physical",
     "title": {
       "en": "Blade of the Inferno",
-      "fr": "Lame des enfers"
+      "fr": "Lame des enfers",
+      "de": "Klinge des Infernos",
+      "es": "Hoja del Infierno",
+      "it": "Lama dell'inferno",
+      "pt": "Lâmina do Inferno",
+      "ru": "Клинок Преисподней"
     }
   },
   {
@@ -2499,7 +3869,12 @@
     "gameId": 2212,
     "name": {
       "en": "Boreas",
-      "fr": "Boréas"
+      "fr": "Boréas",
+      "de": "Boreas",
+      "es": "Boreas",
+      "it": "Boreas",
+      "pt": "Boreas",
+      "ru": "Борей"
     },
     "class": "mage",
     "rarity": "legendary",
@@ -2510,7 +3885,12 @@
     "damageType": "magic",
     "title": {
       "en": "Arbiter of Frost",
-      "fr": "Juge de givre"
+      "fr": "Juge de givre",
+      "de": "Richter des Frosts",
+      "es": "Árbitro de escarcha",
+      "it": "Arbitro del gelo",
+      "pt": "Árbitro de Gelo",
+      "ru": "Владыка Льда"
     }
   },
   {
@@ -2518,7 +3898,12 @@
     "gameId": 2214,
     "name": {
       "en": "Helga",
-      "fr": "Helga"
+      "fr": "Helga",
+      "de": "Helga",
+      "es": "Helga",
+      "it": "Helga",
+      "pt": "Helga",
+      "ru": "Хельга"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -2528,7 +3913,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Carrion Queen",
-      "fr": "La reine corneille"
+      "fr": "La reine corneille",
+      "de": "Die Aaskönigin",
+      "es": "La Reina Carroñera",
+      "it": "La regina delle carogne",
+      "pt": "A Rainha Carniceira",
+      "ru": "Королева Падальщиков"
     }
   },
   {
@@ -2536,7 +3926,12 @@
     "gameId": 2216,
     "name": {
       "en": "Abyzou",
-      "fr": "Abyzou"
+      "fr": "Abyzou",
+      "de": "Abyzou",
+      "es": "Abyzou",
+      "it": "Abyzou",
+      "pt": "Abyzou",
+      "ru": "Абизу"
     },
     "class": "mage",
     "rarity": "epic",
@@ -2546,7 +3941,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Skull Keeper",
-      "fr": "Gardienne des crânes"
+      "fr": "Gardienne des crânes",
+      "de": "Die Schädelhüterin",
+      "es": "La Guardacráneos",
+      "it": "La Custode dei teschi",
+      "pt": "A Guardiã dos Crânios",
+      "ru": "Хранительница Черепов"
     }
   },
   {
@@ -2554,7 +3954,12 @@
     "gameId": 2217,
     "name": {
       "en": "Uredin",
-      "fr": "Uredin"
+      "fr": "Uredin",
+      "de": "Uredin",
+      "es": "Uredín",
+      "it": "Uredin",
+      "pt": "Uredin",
+      "ru": "Уредин"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -2565,7 +3970,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Noble Reaper",
-      "fr": "Le Noble faucheur"
+      "fr": "Le Noble faucheur",
+      "de": "Der edle Schnitter",
+      "es": "El Segador Noble",
+      "it": "Il Nobile mietitore",
+      "pt": "O Nobre Ceifador",
+      "ru": "Благородный Жнец"
     }
   },
   {
@@ -2573,7 +3983,12 @@
     "gameId": 2218,
     "name": {
       "en": "Brokkir",
-      "fr": "Brokkir"
+      "fr": "Brokkir",
+      "de": "Brokkir",
+      "es": "Brokkir",
+      "it": "Brokkir",
+      "pt": "Brokkir",
+      "ru": "Броккир"
     },
     "class": "defender",
     "rarity": "legendary",
@@ -2583,7 +3998,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Frosthammer",
-      "fr": "Le Givre-marteau"
+      "fr": "Le Givre-marteau",
+      "de": "Der Frosthammer",
+      "es": "Martillo de Escarcha",
+      "it": "Martello del gelo",
+      "pt": "O Martelo de Gelo",
+      "ru": "Морозный Молот"
     }
   },
   {
@@ -2591,7 +4011,12 @@
     "gameId": 2219,
     "name": {
       "en": "Magmus",
-      "fr": "Magmus"
+      "fr": "Magmus",
+      "de": "Magmus",
+      "es": "Magmus",
+      "it": "Magmus",
+      "pt": "Magmus",
+      "ru": "Магмус"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -2601,7 +4026,12 @@
     "damageType": "physical",
     "title": {
       "en": "Hell's Arbiter",
-      "fr": "Juge de l'enfer"
+      "fr": "Juge de l'enfer",
+      "de": "Höllenrichter",
+      "es": "Sentenciador Infernal",
+      "it": "Arbitro dell'inferno",
+      "pt": "Árbitro do Inferno",
+      "ru": "Адский Судия"
     }
   },
   {
@@ -2609,7 +4039,12 @@
     "gameId": 2220,
     "name": {
       "en": "Admiral Claw",
-      "fr": "Amiral Griffe"
+      "fr": "Amiral Griffe",
+      "de": "Admiral Klaue",
+      "es": "Claw, el almirante",
+      "it": "Ammiraglio Claw",
+      "pt": "Almirante Garra",
+      "ru": "Адмирал Коготь"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -2620,7 +4055,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Blackblood Marauder",
-      "fr": "Le bandit Sangnoir"
+      "fr": "Le bandit Sangnoir",
+      "de": "Der Schwarzblut-Marodeur",
+      "es": "El Merodeador de Sangre Negra",
+      "it": "Il Predone sanguenero",
+      "pt": "O Saqueador Sangue Negro",
+      "ru": "Чернокровый Грабитель"
     }
   },
   {
@@ -2628,7 +4068,12 @@
     "gameId": 2221,
     "name": {
       "en": "Kai",
-      "fr": "Kai"
+      "fr": "Kai",
+      "de": "Kai",
+      "es": "Kai",
+      "it": "Kai",
+      "pt": "Kai",
+      "ru": "Кай"
     },
     "class": "marksman",
     "rarity": "legendary",
@@ -2638,7 +4083,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Beast's Bane",
-      "fr": "Le fléau des bêtes"
+      "fr": "Le fléau des bêtes",
+      "de": "Der Fluch der Bestie",
+      "es": "Pesadilla de bestias",
+      "it": "Il Flagello della bestia",
+      "pt": "A Maldição da Besta",
+      "ru": "Гроза Зверей"
     }
   },
   {
@@ -2646,7 +4096,12 @@
     "gameId": 2222,
     "name": {
       "en": "Kineza",
-      "fr": "Kineza"
+      "fr": "Kineza",
+      "de": "Kineza",
+      "es": "Kineza",
+      "it": "Kineza",
+      "pt": "Kineza",
+      "ru": "Кинеза"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -2656,7 +4111,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Staff of Qi",
-      "fr": "Le Bâton de chi"
+      "fr": "Le Bâton de chi",
+      "de": "Der Stab des Qi",
+      "es": "El bastón de Chi",
+      "it": "Il Bastone del Ki",
+      "pt": "O Cajado de Qi",
+      "ru": "Посох Ци"
     }
   },
   {
@@ -2664,7 +4124,12 @@
     "gameId": 2223,
     "name": {
       "en": "Demi",
-      "fr": "Demi"
+      "fr": "Demi",
+      "de": "Demi",
+      "es": "Demi",
+      "it": "Demi",
+      "pt": "Demi",
+      "ru": "Деми"
     },
     "class": "mage",
     "rarity": "legendary",
@@ -2674,7 +4139,12 @@
     "damageType": "magic",
     "title": {
       "en": "Drummer of the Damned",
-      "fr": "Le tambour des damnés"
+      "fr": "Le tambour des damnés",
+      "de": "Trommlerin der Verdammten",
+      "es": "Percusionista de los Malditos",
+      "it": "Batterista dei dannati",
+      "pt": "Tambor Amaldiçoado",
+      "ru": "Барабанщица Проклятых"
     }
   },
   {
@@ -2682,7 +4152,12 @@
     "gameId": 2224,
     "name": {
       "en": "Pelagios",
-      "fr": "Pelagios"
+      "fr": "Pelagios",
+      "de": "Pelagios",
+      "es": "Pelagios",
+      "it": "Pelagios",
+      "pt": "Pelagios",
+      "ru": "Пелагий"
     },
     "class": "marksman",
     "rarity": "legendary",
@@ -2693,7 +4168,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Furious Torrent",
-      "fr": "Maelström"
+      "fr": "Maelström",
+      "de": "Der wütende Strom",
+      "es": "La Furia del Torrente",
+      "it": "Il Torrente furioso",
+      "pt": "A Torrente Furiosa",
+      "ru": "Яростный Поток"
     }
   },
   {
@@ -2701,7 +4181,12 @@
     "gameId": 2225,
     "name": {
       "en": "Jeera",
-      "fr": "Jeera"
+      "fr": "Jeera",
+      "de": "Jeera",
+      "es": "Jeera",
+      "it": "Jeera",
+      "pt": "Jeera",
+      "ru": "Джира"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -2712,7 +4197,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Golden Lioness",
-      "fr": "La Lionne dorée"
+      "fr": "La Lionne dorée",
+      "de": "Die goldene Löwin",
+      "es": "La Leona de Oro",
+      "it": "La Leonessa d'oro",
+      "pt": "A Leoa Dourada",
+      "ru": "Золотая Львица"
     }
   },
   {
@@ -2720,7 +4210,12 @@
     "gameId": 2226,
     "name": {
       "en": "Eunomia",
-      "fr": "Eunomie"
+      "fr": "Eunomie",
+      "de": "Eunomia",
+      "es": "Eunomia",
+      "it": "Eunomia",
+      "pt": "Eunomia",
+      "ru": "Эвномия"
     },
     "class": "healer",
     "rarity": "legendary",
@@ -2731,7 +4226,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Divine Panacea",
-      "fr": "Panacée divine"
+      "fr": "Panacée divine",
+      "de": "Das göttliche Allheilmittel",
+      "es": "La Divina Panacea",
+      "it": "La Panacea divina",
+      "pt": "A Divina Panaceia",
+      "ru": "Божественная Панацея"
     }
   },
   {
@@ -2739,7 +4239,12 @@
     "gameId": 2228,
     "name": {
       "en": "Lust",
-      "fr": "Luxure"
+      "fr": "Luxure",
+      "de": "Lust",
+      "es": "Lujuria",
+      "it": "Lust",
+      "pt": "Luxúria",
+      "ru": "Похоть"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -2749,7 +4254,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Immolating Sadist",
-      "fr": "La sadique immolée"
+      "fr": "La sadique immolée",
+      "de": "Die Sengende Sadistin",
+      "es": "La Sádica Inmoladora",
+      "it": "La Sadica immolata",
+      "pt": "A Sádica Imolante",
+      "ru": "Палящая Мучительница"
     }
   },
   {
@@ -2757,7 +4267,12 @@
     "gameId": 2230,
     "name": {
       "en": "Valderon",
-      "fr": "Valdéron"
+      "fr": "Valdéron",
+      "de": "Valderon",
+      "es": "Valderon",
+      "it": "Valderon",
+      "pt": "Valderon",
+      "ru": "Вальдерон"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -2767,7 +4282,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Fallen Justice",
-      "fr": "Justicier déchu"
+      "fr": "Justicier déchu",
+      "de": "Die gefallene Gerechtigkeit",
+      "es": "La Justicia Caída",
+      "it": "La Giustizia caduta",
+      "pt": "O Justiceiro Caído",
+      "ru": "Павшая Справедливость"
     }
   },
   {
@@ -2775,7 +4295,12 @@
     "gameId": 2231,
     "name": {
       "en": "Nastya",
-      "fr": "Nastya"
+      "fr": "Nastya",
+      "de": "Nastja",
+      "es": "Nastya",
+      "it": "Nastya",
+      "pt": "Nastya",
+      "ru": "Настя"
     },
     "class": "mage",
     "rarity": "legendary",
@@ -2785,7 +4310,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Iron Maiden",
-      "fr": "Vierge de fer"
+      "fr": "Vierge de fer",
+      "de": "Die Eiserne Jungfrau",
+      "es": "La Doncella de Hierro",
+      "it": "Vergine di ferro",
+      "pt": "A Dama de Ferro",
+      "ru": "Железная Дева"
     }
   },
   {
@@ -2793,7 +4323,12 @@
     "gameId": 2232,
     "name": {
       "en": "Lynx",
-      "fr": "Lynx"
+      "fr": "Lynx",
+      "de": "Lynx",
+      "es": "Lynx",
+      "it": "Lynx",
+      "pt": "Lynx",
+      "ru": "Линкс"
     },
     "class": "marksman",
     "rarity": "legendary",
@@ -2803,7 +4338,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Frostfox Chimera",
-      "fr": "Chimère givre-renard"
+      "fr": "Chimère givre-renard",
+      "de": "Die Frostfuchs-Chimäre",
+      "es": "La Quimera del Hielo",
+      "it": "La Chimera volpegelo",
+      "pt": "A Quimera Raposa de Gelo",
+      "ru": "Морозная Лиса"
     }
   },
   {
@@ -2811,7 +4351,12 @@
     "gameId": 2233,
     "name": {
       "en": "Valara",
-      "fr": "Valara"
+      "fr": "Valara",
+      "de": "Valara",
+      "es": "Valara",
+      "it": "Valara",
+      "pt": "Valara",
+      "ru": "Валара"
     },
     "class": "tactician",
     "rarity": "legendary",
@@ -2822,7 +4367,12 @@
     "damageType": "physical",
     "title": {
       "en": "Soul's Guide",
-      "fr": "Guide des âmes"
+      "fr": "Guide des âmes",
+      "de": "Seelenführerin",
+      "es": "La Guía de las Almas",
+      "it": "Guida delle anime",
+      "pt": "Guia das Almas",
+      "ru": "Проводница Душ"
     }
   },
   {
@@ -2830,7 +4380,12 @@
     "gameId": 2234,
     "name": {
       "en": "Rivenhald",
-      "fr": "Rivenhald"
+      "fr": "Rivenhald",
+      "de": "Rivenhald",
+      "es": "Rivenhald",
+      "it": "Rivenhald",
+      "pt": "Rivenhald",
+      "ru": "Ривенхальд"
     },
     "class": "tactician",
     "rarity": "legendary",
@@ -2840,7 +4395,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Hornbound Sovereign",
-      "fr": "Le Souverain aux cornes"
+      "fr": "Le Souverain aux cornes",
+      "de": "Der Horngebundene Souverän",
+      "es": "El Soberano Astado",
+      "it": "Sovrano dalle corna",
+      "pt": "O Soberano Atado aos Chifres",
+      "ru": "Владыка-Рогоборец"
     }
   },
   {
@@ -2848,7 +4408,12 @@
     "gameId": 2235,
     "name": {
       "en": "Malvira",
-      "fr": "Malvira"
+      "fr": "Malvira",
+      "de": "Malvira",
+      "es": "Malvira",
+      "it": "Malvira",
+      "pt": "Malvira",
+      "ru": "Мальвира"
     },
     "class": "defender",
     "rarity": "legendary",
@@ -2859,7 +4424,12 @@
     "damageType": "magic",
     "title": {
       "en": "Keeper of the Dead",
-      "fr": "Gardienne des Morts"
+      "fr": "Gardienne des Morts",
+      "de": "Hüterin der Toten",
+      "es": "Guardiana de los Muertos",
+      "it": "Custode dei morti",
+      "pt": "Guardiã dos Mortos",
+      "ru": "Хранительница Мертвых"
     }
   },
   {
@@ -2867,7 +4437,12 @@
     "gameId": 2236,
     "name": {
       "en": "Rygar",
-      "fr": "Rygar"
+      "fr": "Rygar",
+      "de": "Rygar",
+      "es": "Rygar",
+      "it": "Rygar",
+      "pt": "Rygar",
+      "ru": "Ригар"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -2877,7 +4452,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Scorned Ravager",
-      "fr": "Le Ravageur bafoué"
+      "fr": "Le Ravageur bafoué",
+      "de": "Der verschmähte Zerstörer",
+      "es": "El Devastador Despreciado",
+      "it": "Saccheggiatore disprezzato",
+      "pt": "O Avassalador Desprezado",
+      "ru": "Оскорбленный Разрушитель"
     }
   },
   {
@@ -2885,7 +4465,12 @@
     "gameId": 2237,
     "name": {
       "en": "Numera",
-      "fr": "Numera"
+      "fr": "Numera",
+      "de": "Numera",
+      "es": "Numera",
+      "it": "Numera",
+      "pt": "Numera",
+      "ru": "Нумера"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -2896,7 +4481,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Grimthorn Guardian",
-      "fr": "Gardienne Sombrépine"
+      "fr": "Gardienne Sombrépine",
+      "de": "Die Grimmdorn-Wächterin",
+      "es": "La Guardiana de Tristespino",
+      "it": "Il guardiano di Spinacupa",
+      "pt": "A Guardiã Espinhosa",
+      "ru": "Стражница Мрачношипа"
     }
   },
   {
@@ -2904,7 +4494,12 @@
     "gameId": 2238,
     "name": {
       "en": "Lady Alexandra",
-      "fr": "Dame Alexandra"
+      "fr": "Dame Alexandra",
+      "de": "Lady Alexandra",
+      "es": "Doña Alexandra",
+      "it": "Lady Alexandra",
+      "pt": "Lady Alexandra",
+      "ru": "Леди Александра"
     },
     "class": "marksman",
     "rarity": "legendary",
@@ -2915,7 +4510,12 @@
     "damageType": "physical",
     "title": {
       "en": "Royal Assassin",
-      "fr": "Assassine royale"
+      "fr": "Assassine royale",
+      "de": "Königliche Meuchelmörderin",
+      "es": "La Asesina Real",
+      "it": "Assassina reale",
+      "pt": "Assassina Real",
+      "ru": "Королевская Убийца"
     }
   },
   {
@@ -2923,7 +4523,12 @@
     "gameId": 2239,
     "name": {
       "en": "Myca",
-      "fr": "Myca"
+      "fr": "Myca",
+      "de": "Myca",
+      "es": "Myca",
+      "it": "Myca",
+      "pt": "Myca",
+      "ru": "Мика"
     },
     "class": "marksman",
     "rarity": "legendary",
@@ -2933,7 +4538,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Chimeric Phoenix",
-      "fr": "Le Phénix Chimérique"
+      "fr": "Le Phénix Chimérique",
+      "de": "Der rätselhafte Phönix",
+      "es": "La Fénix Quimérica",
+      "it": "La Fenice chimerica",
+      "pt": "A Fênix Quimérica",
+      "ru": "Феникс-химера"
     }
   },
   {
@@ -2941,7 +4551,12 @@
     "gameId": 2240,
     "name": {
       "en": "Khadgrim",
-      "fr": "Khadgrim"
+      "fr": "Khadgrim",
+      "de": "Khadgrim",
+      "es": "Khadgrim",
+      "it": "Khadgrim",
+      "pt": "Khadgrim",
+      "ru": "Хадгрим"
     },
     "class": "defender",
     "rarity": "legendary",
@@ -2952,7 +4567,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Frostbeard Legacy",
-      "fr": "L'Héritage des Barbes-givrées"
+      "fr": "L'Héritage des Barbes-givrées",
+      "de": "Das Vermächtnis des Frostbarts",
+      "es": "El Legado Barbaescarcha",
+      "it": "Eredità di Barbagelo",
+      "pt": "O Legado da Barba Gélida",
+      "ru": "Наследие Ледобородых"
     }
   },
   {
@@ -2960,7 +4580,12 @@
     "gameId": 2241,
     "name": {
       "en": "Serephina",
-      "fr": "Séréphine"
+      "fr": "Séréphine",
+      "de": "Serephina",
+      "es": "Serefina",
+      "it": "Serephina",
+      "pt": "Serephina",
+      "ru": "Серефина"
     },
     "class": "mage",
     "rarity": "legendary",
@@ -2970,7 +4595,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Caustic Serpent",
-      "fr": "La Vipère mordante"
+      "fr": "La Vipère mordante",
+      "de": "Die Ätzende Schlange",
+      "es": "La serpiente cáustica",
+      "it": "Il Serpente caustico",
+      "pt": "A Serpente Cáustica",
+      "ru": "Едкая Змея"
     }
   },
   {
@@ -2978,7 +4608,12 @@
     "gameId": 2242,
     "name": {
       "en": "Beelzebub",
-      "fr": "Belzébuth"
+      "fr": "Belzébuth",
+      "de": "Beelzebub",
+      "es": "Belcebú",
+      "it": "Belzebù",
+      "pt": "Belzebu",
+      "ru": "Вельзевул"
     },
     "class": "mage",
     "rarity": "legendary",
@@ -2988,7 +4623,12 @@
     "damageType": "magic",
     "title": {
       "en": "Lord of the Flies",
-      "fr": "Seigneur des mouches"
+      "fr": "Seigneur des mouches",
+      "de": "Herr der Fliegen",
+      "es": "El Señor de las Moscas",
+      "it": "Il Signore delle mosche",
+      "pt": "Lorde das Moscas",
+      "ru": "Повелитель Мух"
     }
   },
   {
@@ -2996,7 +4636,12 @@
     "gameId": 2243,
     "name": {
       "en": "Razaak",
-      "fr": "Razaak"
+      "fr": "Razaak",
+      "de": "Razaak",
+      "es": "Razaak",
+      "it": "Razaak",
+      "pt": "Razaak",
+      "ru": "Разаак"
     },
     "class": "marksman",
     "rarity": "legendary",
@@ -3006,7 +4651,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Driftwood Impaler",
-      "fr": "L'Empaleur des flots"
+      "fr": "L'Empaleur des flots",
+      "de": "Der Treibholzpfähler",
+      "es": "Ensartador de la Deriva",
+      "it": "L'Impalatore marino",
+      "pt": "O Empalador da Madeira Flutuante",
+      "ru": "Плавниковый Пронзатель"
     }
   },
   {
@@ -3014,7 +4664,12 @@
     "gameId": 2244,
     "name": {
       "en": "Alaura",
-      "fr": "Alaura"
+      "fr": "Alaura",
+      "de": "Alaura",
+      "es": "Alaura",
+      "it": "Alaura",
+      "pt": "Alaura",
+      "ru": "Алаура"
     },
     "class": "marksman",
     "rarity": "legendary",
@@ -3025,7 +4680,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Subtle Arrow",
-      "fr": "La flèche subtile"
+      "fr": "La flèche subtile",
+      "de": "Der scharfsinnige Pfeil",
+      "es": "La Flecha Sutil",
+      "it": "La Freccia sottile",
+      "pt": "A Flecha Curadora",
+      "ru": "Тихая Стрела"
     }
   },
   {
@@ -3033,7 +4693,12 @@
     "gameId": 2245,
     "name": {
       "en": "Constance",
-      "fr": "Constance"
+      "fr": "Constance",
+      "de": "Constance",
+      "es": "Constanza",
+      "it": "Constance",
+      "pt": "Constance",
+      "ru": "Констанция"
     },
     "class": "defender",
     "rarity": "legendary",
@@ -3044,7 +4709,12 @@
     "damageType": "physical",
     "title": {
       "en": "Hammer of the Holylight",
-      "fr": "Marteau de la Lumière Sacrée"
+      "fr": "Marteau de la Lumière Sacrée",
+      "de": "Hammer des Heiliglichts",
+      "es": "Martillo de la luz sacra",
+      "it": "Martello della Luce sacra",
+      "pt": "Martelo da Luz Sagrada",
+      "ru": "Молот Священного Света"
     }
   },
   {
@@ -3052,7 +4722,12 @@
     "gameId": 2246,
     "name": {
       "en": "Magda",
-      "fr": "Magda"
+      "fr": "Magda",
+      "de": "Magda",
+      "es": "Magda",
+      "it": "Magda",
+      "pt": "Magda",
+      "ru": "Магда"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -3062,7 +4737,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Wrathful Avenger",
-      "fr": "La Vengeresse furieuse"
+      "fr": "La Vengeresse furieuse",
+      "de": "Die zornige Rächerin",
+      "es": "El Vengador Iracundo",
+      "it": "La Vendicatrice furiosa",
+      "pt": "A Vingadora Revoltada",
+      "ru": "Разгневанная Мстительница"
     }
   },
   {
@@ -3070,7 +4750,12 @@
     "gameId": 2247,
     "name": {
       "en": "Faelin",
-      "fr": "Faelin"
+      "fr": "Faelin",
+      "de": "Faelin",
+      "es": "Faelin",
+      "it": "Faelin",
+      "pt": "Faelin",
+      "ru": "Фейлин"
     },
     "class": "mage",
     "rarity": "epic",
@@ -3080,7 +4765,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Buckthorn Druid",
-      "fr": "Druide du nerprun"
+      "fr": "Druide du nerprun",
+      "de": "Die Sanddorn-Druidin",
+      "es": "La Druida del Espino",
+      "it": "Il Druido Spincervino",
+      "pt": "A Druida do Espinheiro",
+      "ru": "Крушинный Друид"
     }
   },
   {
@@ -3088,7 +4778,12 @@
     "gameId": 2248,
     "name": {
       "en": "Thallen",
-      "fr": "Thallen"
+      "fr": "Thallen",
+      "de": "Thallen",
+      "es": "Thallen",
+      "it": "Thallen",
+      "pt": "Thallen",
+      "ru": "Таллен"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -3099,7 +4794,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Cosmic Guillotine",
-      "fr": "Guillotine cosmique"
+      "fr": "Guillotine cosmique",
+      "de": "Das Kosmische Fallbeil",
+      "es": "La Guillotina Cósmica",
+      "it": "La Ghigliottina cosmica",
+      "pt": "A Guilhotina Cósmica",
+      "ru": "Гильотина Космоса"
     }
   },
   {
@@ -3107,7 +4807,12 @@
     "gameId": 2249,
     "name": {
       "en": "Vixera",
-      "fr": "Vixera"
+      "fr": "Vixera",
+      "de": "Vixera",
+      "es": "Vixera",
+      "it": "Vixera",
+      "pt": "Vixera",
+      "ru": "Виксера"
     },
     "class": "mage",
     "rarity": "epic",
@@ -3117,7 +4822,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Breath of Decay",
-      "fr": "Souffle de la décomposition"
+      "fr": "Souffle de la décomposition",
+      "de": "Der Atem des Verfalls",
+      "es": "El Aliento de la Putrefacción",
+      "it": "Respiro della decomposizione",
+      "pt": "A Força da Decomposição",
+      "ru": "Дыхание Гнили"
     }
   },
   {
@@ -3125,7 +4835,12 @@
     "gameId": 2250,
     "name": {
       "en": "Beatrix",
-      "fr": "Beatrix"
+      "fr": "Beatrix",
+      "de": "Beatrix",
+      "es": "Beatrix",
+      "it": "Beatrix",
+      "pt": "Beatrix",
+      "ru": "Беатрис"
     },
     "class": "mage",
     "rarity": "legendary",
@@ -3136,7 +4851,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Shadow Collector",
-      "fr": "La Collectionneuse des ténèbres"
+      "fr": "La Collectionneuse des ténèbres",
+      "de": "Die Schattensammlerin",
+      "es": "La Coleccionista de las Sombras",
+      "it": "La Collezionista di ombre",
+      "pt": "A Colecionadora de Sombras",
+      "ru": "Собирательница Теней"
     }
   },
   {
@@ -3144,7 +4864,12 @@
     "gameId": 2251,
     "name": {
       "en": "Anai",
-      "fr": "Anaï"
+      "fr": "Anaï",
+      "de": "Anai",
+      "es": "Anai",
+      "it": "Anai",
+      "pt": "Anai",
+      "ru": "Анай"
     },
     "class": "mage",
     "rarity": "legendary",
@@ -3154,7 +4879,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Arid Viper",
-      "fr": "La vipère aride"
+      "fr": "La vipère aride",
+      "de": "Die Wüstenviper",
+      "es": "La Víbora de las Arenas",
+      "it": "La Vipera arida",
+      "pt": "A Víbora Árida",
+      "ru": "Пустынная Гадюка"
     }
   },
   {
@@ -3162,7 +4892,12 @@
     "gameId": 2253,
     "name": {
       "en": "Iovar",
-      "fr": "Iovar"
+      "fr": "Iovar",
+      "de": "Iovar",
+      "es": "Iovar",
+      "it": "Iovar",
+      "pt": "Iovar",
+      "ru": "Йовар"
     },
     "class": "marksman",
     "rarity": "legendary",
@@ -3172,7 +4907,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Forest Sentinel",
-      "fr": "Sentinelle de la forêt"
+      "fr": "Sentinelle de la forêt",
+      "de": "Der Waldwächter",
+      "es": "El Centinela de los Bosques",
+      "it": "La Sentinella della foresta",
+      "pt": "A Sentinela da Floresta",
+      "ru": "Страж Леса"
     }
   },
   {
@@ -3180,7 +4920,12 @@
     "gameId": 2254,
     "name": {
       "en": "Alistair",
-      "fr": "Alistair"
+      "fr": "Alistair",
+      "de": "Alistair",
+      "es": "Alistair",
+      "it": "Alistair",
+      "pt": "Alistair",
+      "ru": "Алистер"
     },
     "class": "mage",
     "rarity": "legendary",
@@ -3191,7 +4936,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Meteor Sage",
-      "fr": "Sage des météores"
+      "fr": "Sage des météores",
+      "de": "Der Meteoritenweise",
+      "es": "El Sabio Meteórico",
+      "it": "Il Saggio delle meteore",
+      "pt": "O Meteoro Sábio",
+      "ru": "Звездный Мудрец"
     }
   },
   {
@@ -3199,7 +4949,12 @@
     "gameId": 2255,
     "name": {
       "en": "Xaris",
-      "fr": "Xaris"
+      "fr": "Xaris",
+      "de": "Xaris",
+      "es": "Xaris",
+      "it": "Xaris",
+      "pt": "Xaris",
+      "ru": "Зарис"
     },
     "class": "mage",
     "rarity": "legendary",
@@ -3209,7 +4964,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Soulflayer",
-      "fr": "Le Chasseur d'âmes"
+      "fr": "Le Chasseur d'âmes",
+      "de": "Der Seelenhäuter",
+      "es": "El Destructor de Almas",
+      "it": "L'Ammazza-anime",
+      "pt": "O Estripador de Almas",
+      "ru": "Свежеватель Душ"
     }
   },
   {
@@ -3217,7 +4977,12 @@
     "gameId": 2256,
     "name": {
       "en": "Xena",
-      "fr": "Xena"
+      "fr": "Xena",
+      "de": "Xena",
+      "es": "Xena",
+      "it": "Xena",
+      "pt": "Xena",
+      "ru": "Зена"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -3227,7 +4992,12 @@
     "damageType": "magic",
     "title": {
       "en": "Dragon's Kiss",
-      "fr": "L'Aimée du dragon"
+      "fr": "L'Aimée du dragon",
+      "de": "Der Kuss des Drachen",
+      "es": "El Beso del Dragón",
+      "it": "Il Bacio del drago",
+      "pt": "Beijo do Dragão",
+      "ru": "Поцелуй Дракона"
     }
   },
   {
@@ -3235,7 +5005,12 @@
     "gameId": 2257,
     "name": {
       "en": "Artemis",
-      "fr": "Artémis"
+      "fr": "Artémis",
+      "de": "Artemis",
+      "es": "Artemis",
+      "it": "Artemis",
+      "pt": "Artemis",
+      "ru": "Артемис"
     },
     "class": "healer",
     "rarity": "legendary",
@@ -3245,7 +5020,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Sanguine Surgeon",
-      "fr": "Le Chirurgien sanglant"
+      "fr": "Le Chirurgien sanglant",
+      "de": "Der blutige Wundarzt",
+      "es": "El Cirujano Sanguinario",
+      "it": "Il Chirurgo del sangue",
+      "pt": "O Cirurgião Sanguinário",
+      "ru": "Кровавый Хирург"
     }
   },
   {
@@ -3253,7 +5033,12 @@
     "gameId": 2259,
     "name": {
       "en": "Lord Phineas",
-      "fr": "Seigneur Phineas"
+      "fr": "Seigneur Phineas",
+      "de": "Lord Phineas",
+      "es": "Lord Fineas",
+      "it": "Lord Phineas",
+      "pt": "Lorde Phineas",
+      "ru": "Лорд Финеас"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -3263,7 +5048,12 @@
     "damageType": "magic",
     "title": {
       "en": "Viscount of Flame",
-      "fr": "Vicomte des flammes"
+      "fr": "Vicomte des flammes",
+      "de": "Graf der Flamme",
+      "es": "Vizconde de la Llama",
+      "it": "Visconte di fiamme",
+      "pt": "Visconde das Chamas",
+      "ru": "Пламенный Виконт"
     }
   },
   {
@@ -3271,7 +5061,12 @@
     "gameId": 2260,
     "name": {
       "en": "Rork",
-      "fr": "Rork"
+      "fr": "Rork",
+      "de": "Rork",
+      "es": "Rork",
+      "it": "Rork",
+      "pt": "Rork",
+      "ru": "Рорк"
     },
     "class": "fighter",
     "rarity": "epic",
@@ -3281,7 +5076,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Frostbitten Thane",
-      "fr": "Le Baron de givre"
+      "fr": "Le Baron de givre",
+      "de": "Der erfrorene Than",
+      "es": "El Thane Congelado",
+      "it": "Il Signore gelido",
+      "pt": "O Lorde das Geadas",
+      "ru": "Обледенелый Тэн"
     }
   },
   {
@@ -3289,7 +5089,12 @@
     "gameId": 2263,
     "name": {
       "en": "Vorn",
-      "fr": "Vorn"
+      "fr": "Vorn",
+      "de": "Vorn",
+      "es": "Vorn",
+      "it": "Vorn",
+      "pt": "Vorn",
+      "ru": "Ворн"
     },
     "class": "marksman",
     "rarity": "legendary",
@@ -3300,7 +5105,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Shackled Horror",
-      "fr": "Horreur enchaînée"
+      "fr": "Horreur enchaînée",
+      "de": "Der gefesselte Schrecken",
+      "es": "El Horror Encadenado",
+      "it": "Orrore incatenato",
+      "pt": "O Horror Aprisionado",
+      "ru": "Закованный Ужас"
     }
   },
   {
@@ -3308,7 +5118,12 @@
     "gameId": 2264,
     "name": {
       "en": "Kigiri",
-      "fr": "Kigiri"
+      "fr": "Kigiri",
+      "de": "Kigiri",
+      "es": "Kigiri",
+      "it": "Kigiri",
+      "pt": "Kigiri",
+      "ru": "Кигири"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -3319,7 +5134,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Undying Ronin",
-      "fr": "Ronin immortel"
+      "fr": "Ronin immortel",
+      "de": "Der unsterbliche Ronin",
+      "es": "El Ronin Inmortal",
+      "it": "Il Ronin immortale",
+      "pt": "O Ronin Imortal",
+      "ru": "Бессмертный Ронин"
     }
   },
   {
@@ -3327,7 +5147,12 @@
     "gameId": 2265,
     "name": {
       "en": "Oren",
-      "fr": "Oren"
+      "fr": "Oren",
+      "de": "Oren",
+      "es": "Oren",
+      "it": "Oren",
+      "pt": "Oren",
+      "ru": "Орен"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -3337,7 +5162,12 @@
     "damageType": "physical",
     "title": {
       "en": "Sol Excelsus",
-      "fr": "Sol Excelsus"
+      "fr": "Sol Excelsus",
+      "de": "Sol Excelsus",
+      "es": "Sol Excelsus",
+      "it": "Sol Excelsus",
+      "pt": "Sol Excelso",
+      "ru": "Высшее Солнце"
     }
   },
   {
@@ -3345,7 +5175,12 @@
     "gameId": 2266,
     "name": {
       "en": "Ingrid",
-      "fr": "Ingrid"
+      "fr": "Ingrid",
+      "de": "Ingrid",
+      "es": "Íngrid",
+      "it": "Ingrid",
+      "pt": "Ingrid",
+      "ru": "Ингрид"
     },
     "class": "mage",
     "rarity": "legendary",
@@ -3356,7 +5191,12 @@
     "damageType": "magic",
     "title": {
       "en": "Regalis Excelsa",
-      "fr": "Regalis Excelsa"
+      "fr": "Regalis Excelsa",
+      "de": "Königliche Exzellenz",
+      "es": "Regalis Excelsa",
+      "it": "Regalis Excelsa",
+      "pt": "Alteza Real",
+      "ru": "Регалис Эксцельса"
     }
   },
   {
@@ -3364,7 +5204,12 @@
     "gameId": 2267,
     "name": {
       "en": "Akira",
-      "fr": "Akira"
+      "fr": "Akira",
+      "de": "Akira",
+      "es": "Akira",
+      "it": "Akira",
+      "pt": "Akira",
+      "ru": "Акира"
     },
     "class": "marksman",
     "rarity": "legendary",
@@ -3375,7 +5220,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Rivetstorm Machinist",
-      "fr": "La Machiniste de la Tempête de Rivets"
+      "fr": "La Machiniste de la Tempête de Rivets",
+      "de": "Die Nietensturm-Maschinistin",
+      "es": "La Maquinista Tormentaremaches",
+      "it": "Macchinista della tempesta di rivetti",
+      "pt": "A Maquinista da Tempestade de Rebites",
+      "ru": "Медяный Техник"
     }
   },
   {
@@ -3383,7 +5233,12 @@
     "gameId": 2268,
     "name": {
       "en": "Lucius",
-      "fr": "Lucius"
+      "fr": "Lucius",
+      "de": "Lucius",
+      "es": "Lucius",
+      "it": "Lucius",
+      "pt": "Lucius",
+      "ru": "Люциус"
     },
     "class": "marksman",
     "rarity": "legendary",
@@ -3393,7 +5248,12 @@
     "damageType": "physical",
     "title": {
       "en": "Oblivion's Edge",
-      "fr": "Le Tranchant de l'Oubli"
+      "fr": "Le Tranchant de l'Oubli",
+      "de": "Klinge des Vergessens",
+      "es": "Confín del Olvido",
+      "it": "Orlo dell'oblio",
+      "pt": "Lucidez do Esquecimento",
+      "ru": "Грань Забвения"
     }
   },
   {
@@ -3401,7 +5261,12 @@
     "gameId": 2269,
     "name": {
       "en": "Dahlia",
-      "fr": "Dahlia"
+      "fr": "Dahlia",
+      "de": "Dahlia",
+      "es": "Dalia",
+      "it": "Dahlia",
+      "pt": "Dahlia",
+      "ru": "Далия"
     },
     "class": "mage",
     "rarity": "legendary",
@@ -3412,7 +5277,12 @@
     "damageType": "magic",
     "title": {
       "en": "Death's Blossom",
-      "fr": "Fleur funèbre"
+      "fr": "Fleur funèbre",
+      "de": "Blüte des Todes",
+      "es": "La Flor de la Muerte",
+      "it": "Fiore della morte",
+      "pt": "Flor da Morte",
+      "ru": "Цветок Смерти"
     }
   },
   {
@@ -3420,7 +5290,12 @@
     "gameId": 2271,
     "name": {
       "en": "Aeris",
-      "fr": "Aeris"
+      "fr": "Aeris",
+      "de": "Aeris",
+      "es": "Aeris",
+      "it": "Aeris",
+      "pt": "Aeris",
+      "ru": "Аэрис"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -3431,7 +5306,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Gilded Falcon",
-      "fr": "Faucon doré"
+      "fr": "Faucon doré",
+      "de": "Der vergoldete Falke",
+      "es": "El Halcón Dorado",
+      "it": "Il Falco dorato",
+      "pt": "O Falcão Dourado",
+      "ru": "Золотой Сокол"
     }
   },
   {
@@ -3439,7 +5319,12 @@
     "gameId": 2272,
     "name": {
       "en": "Gul'Drak",
-      "fr": "Gul'Drak"
+      "fr": "Gul'Drak",
+      "de": "Gul'Drak",
+      "es": "Gul'Drak",
+      "it": "Gul'Drak",
+      "pt": "Gul'Drak",
+      "ru": "Гул'драк"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -3450,7 +5335,12 @@
     "damageType": "physical",
     "title": {
       "en": "Bloodsworn Reaver",
-      "fr": "Saccageur de sang juré"
+      "fr": "Saccageur de sang juré",
+      "de": "Blutschwur-Plünderer",
+      "es": "Segador de Juramento de Sangre",
+      "it": "Predone Votato al sangue",
+      "pt": "Executor do Vínculo de Sangue",
+      "ru": "Кровавый Жнец"
     }
   },
   {
@@ -3458,7 +5348,12 @@
     "gameId": 2273,
     "name": {
       "en": "Yuri",
-      "fr": "Yuri"
+      "fr": "Yuri",
+      "de": "Yuri",
+      "es": "Yuri",
+      "it": "Yuri",
+      "pt": "Yuri",
+      "ru": "Юри"
     },
     "class": "marksman",
     "rarity": "legendary",
@@ -3469,7 +5364,12 @@
     "damageType": "physical",
     "title": {
       "en": "Foxfire Kitsune",
-      "fr": "Kitsune flamboyante"
+      "fr": "Kitsune flamboyante",
+      "de": "Fuchsfeuer-Kitsune",
+      "es": "Kitsune de Fuego Fatuo",
+      "it": "Kitsune del fuoco fatuo",
+      "pt": "Kitsune Raposa de Fogo",
+      "ru": "Пылкая Кицунэ"
     }
   },
   {
@@ -3477,7 +5377,12 @@
     "gameId": 2274,
     "name": {
       "en": "Calista",
-      "fr": "Calista"
+      "fr": "Calista",
+      "de": "Calista",
+      "es": "Calista",
+      "it": "Calista",
+      "pt": "Calista",
+      "ru": "Калиста"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -3487,7 +5392,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Spear of Valor",
-      "fr": "Lance de la bravoure"
+      "fr": "Lance de la bravoure",
+      "de": "Die Lanze der Tapferkeit",
+      "es": "La Lanza del Valor",
+      "it": "La Lancia del valore",
+      "pt": "A Lança de Valor",
+      "ru": "Копье Отваги"
     }
   },
   {
@@ -3495,7 +5405,12 @@
     "gameId": 2275,
     "name": {
       "en": "Talin",
-      "fr": "Talinne"
+      "fr": "Talinne",
+      "de": "Talin",
+      "es": "Talin",
+      "it": "Talin",
+      "pt": "Talin",
+      "ru": "Талин"
     },
     "class": "marksman",
     "rarity": "legendary",
@@ -3506,7 +5421,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Spiritclaw Druid",
-      "fr": "Druide griffesprit"
+      "fr": "Druide griffesprit",
+      "de": "Die Geisterkrallen-Druidin",
+      "es": "La Druida Garraespíritu",
+      "it": "La Druida dagli artigli spiritici",
+      "pt": "A Druida da Garra Espiritual",
+      "ru": "Друид Когтя Духа"
     }
   },
   {
@@ -3514,7 +5434,12 @@
     "gameId": 2276,
     "name": {
       "en": "Kane",
-      "fr": "Kane"
+      "fr": "Kane",
+      "de": "Kane",
+      "es": "Kane",
+      "it": "Kane",
+      "pt": "Kane",
+      "ru": "Кейн"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -3525,7 +5450,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Final Fang",
-      "fr": "Le Croc ultime"
+      "fr": "Le Croc ultime",
+      "de": "Der Letzte Reißzahn",
+      "es": "El Colmillo Final",
+      "it": "Zanna finale",
+      "pt": "A Presa Final",
+      "ru": "Последний Клык"
     }
   },
   {
@@ -3533,7 +5463,12 @@
     "gameId": 2277,
     "name": {
       "en": "Edith",
-      "fr": "Édith"
+      "fr": "Édith",
+      "de": "Edith",
+      "es": "Edith",
+      "it": "Edith",
+      "pt": "Edith",
+      "ru": "Эдит"
     },
     "class": "defender",
     "rarity": "legendary",
@@ -3543,7 +5478,12 @@
     "damageType": "physical",
     "title": {
       "en": "Light's Crusade",
-      "fr": "Croisade de la lumière"
+      "fr": "Croisade de la lumière",
+      "de": "Der Kreuzzug des Lichts",
+      "es": "Cruzada de la Luz",
+      "it": "Crociata della luce",
+      "pt": "Cruzada da Luz",
+      "ru": "Вестница Света"
     }
   },
   {
@@ -3551,7 +5491,12 @@
     "gameId": 2278,
     "name": {
       "en": "Glacius",
-      "fr": "Glacius"
+      "fr": "Glacius",
+      "de": "Glacius",
+      "es": "Glacius",
+      "it": "Glacius",
+      "pt": "Glacius",
+      "ru": "Гласий"
     },
     "class": "mage",
     "rarity": "legendary",
@@ -3561,7 +5506,12 @@
     "damageType": "magic",
     "title": {
       "en": "Winter's Reaper",
-      "fr": "Faucheur de l'hiver"
+      "fr": "Faucheur de l'hiver",
+      "de": "Sensenmann des Winters",
+      "es": "Cosechador invernal",
+      "it": "Mietitore d'inverno",
+      "pt": "Ceifador do Inverno",
+      "ru": "Зимний Жнец"
     }
   },
   {
@@ -3569,7 +5519,12 @@
     "gameId": 2281,
     "name": {
       "en": "Xasny",
-      "fr": "Xasny"
+      "fr": "Xasny",
+      "de": "Xasny",
+      "es": "Xasny",
+      "it": "Xasny",
+      "pt": "Xasny",
+      "ru": "Кзасни"
     },
     "class": "fighter",
     "rarity": "epic",
@@ -3579,7 +5534,12 @@
     "damageType": "magic",
     "title": {
       "en": "Warden of the Damned",
-      "fr": "Gardien des damnés"
+      "fr": "Gardien des damnés",
+      "de": "Wächter der Verdammten",
+      "es": "Carcelero de los Malditos",
+      "it": "Carceriere dei dannati",
+      "pt": "O Carcereiro dos Condenados",
+      "ru": "Надзиратель Проклятых"
     }
   },
   {
@@ -3587,7 +5547,12 @@
     "gameId": 2282,
     "name": {
       "en": "Praetus",
-      "fr": "Praetus"
+      "fr": "Praetus",
+      "de": "Praetus",
+      "es": "Praetus",
+      "it": "Praetus",
+      "pt": "Praetus",
+      "ru": "Претус"
     },
     "class": "mage",
     "rarity": "legendary",
@@ -3597,7 +5562,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Sun Supreme",
-      "fr": "Soleil suprême"
+      "fr": "Soleil suprême",
+      "de": "Der Sonnenoberste",
+      "es": "El Sol Supremo",
+      "it": "Il Supremo del sole",
+      "pt": "O Sol Supremo",
+      "ru": "Верховное Светило"
     }
   },
   {
@@ -3605,7 +5575,12 @@
     "gameId": 2283,
     "name": {
       "en": "Erlang Shen",
-      "fr": "Erlang Shen"
+      "fr": "Erlang Shen",
+      "de": "Erlang Shen",
+      "es": "Erlang Shen",
+      "it": "Erlang Shen",
+      "pt": "Erlang Shen",
+      "ru": "Эрлан-шэнь"
     },
     "class": "defender",
     "rarity": "legendary",
@@ -3616,7 +5591,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Mind's Eye",
-      "fr": "Œil de l'esprit"
+      "fr": "Œil de l'esprit",
+      "de": "Das Innere Auge",
+      "es": "EL Ojo de la Mente",
+      "it": "Occhio della mente",
+      "pt": "O Olho da Mente",
+      "ru": "Всевидящее Око"
     }
   },
   {
@@ -3624,7 +5604,12 @@
     "gameId": 2284,
     "name": {
       "en": "Anora",
-      "fr": "Anora"
+      "fr": "Anora",
+      "de": "Anora",
+      "es": "Anora",
+      "it": "Anora",
+      "pt": "Anora",
+      "ru": "Анора"
     },
     "class": "mage",
     "rarity": "legendary",
@@ -3635,7 +5620,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Silver Seraphim",
-      "fr": "Le Séraphin d'argent"
+      "fr": "Le Séraphin d'argent",
+      "de": "Der Silberengel",
+      "es": "La Serafina Argéntea",
+      "it": "Serafino d'argento",
+      "pt": "A Serafim Prateada",
+      "ru": "Серебряный Серафим"
     }
   },
   {
@@ -3643,7 +5633,12 @@
     "gameId": 2285,
     "name": {
       "en": "Nerissa",
-      "fr": "Nerissa"
+      "fr": "Nerissa",
+      "de": "Nerissa",
+      "es": "Nerissa",
+      "it": "Nerissa",
+      "pt": "Nerissa",
+      "ru": "Нерисса"
     },
     "class": "healer",
     "rarity": "legendary",
@@ -3653,7 +5648,12 @@
     "damageType": "magic",
     "title": {
       "en": "Song of the Siren",
-      "fr": "Chant des sirènes"
+      "fr": "Chant des sirènes",
+      "de": "Sirenengesang",
+      "es": "Canción de la Sirena",
+      "it": "Canto della sirena",
+      "pt": "Canção da Sereia",
+      "ru": "Песнь Сирены"
     }
   },
   {
@@ -3661,7 +5661,12 @@
     "gameId": 2286,
     "name": {
       "en": "Sergei",
-      "fr": "Sergei"
+      "fr": "Sergei",
+      "de": "Sergei",
+      "es": "Serguéi",
+      "it": "Sergei",
+      "pt": "Sergei",
+      "ru": "Сергей"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -3672,7 +5677,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Sundered Fist",
-      "fr": "Le Poing brisé"
+      "fr": "Le Poing brisé",
+      "de": "Die entzweite Faust",
+      "es": "El Puño Hendido",
+      "it": "Pugno infranto",
+      "pt": "O Punho Fendido",
+      "ru": "Кулак Расщепления"
     }
   },
   {
@@ -3680,7 +5690,12 @@
     "gameId": 2287,
     "name": {
       "en": "Filippa",
-      "fr": "Filippa"
+      "fr": "Filippa",
+      "de": "Filippa",
+      "es": "Filipa",
+      "it": "Filippa",
+      "pt": "Filippa",
+      "ru": "Филиппа"
     },
     "class": "marksman",
     "rarity": "epic",
@@ -3690,7 +5705,12 @@
     "damageType": "magic",
     "title": {
       "en": "Enchanted Arrow",
-      "fr": "Flèche enchantée"
+      "fr": "Flèche enchantée",
+      "de": "Verzauberter Pfeil",
+      "es": "Flecha encantada",
+      "it": "Freccia incantata",
+      "pt": "Flecha Encantada",
+      "ru": "Зачарованная Стрела"
     }
   },
   {
@@ -3698,7 +5718,12 @@
     "gameId": 2288,
     "name": {
       "en": "Talula",
-      "fr": "Talula"
+      "fr": "Talula",
+      "de": "Talula",
+      "es": "Talula",
+      "it": "Talula",
+      "pt": "Talula",
+      "ru": "Талула"
     },
     "class": "healer",
     "rarity": "legendary",
@@ -3708,7 +5733,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Holly Blue",
-      "fr": "Azuré sacrée"
+      "fr": "Azuré sacrée",
+      "de": "Die blaue Stechpalme",
+      "es": "El Acebo Azul",
+      "it": "Icaro azzurro",
+      "pt": "A Borboleta Azul Celeste",
+      "ru": "Синяя Бабочка"
     }
   },
   {
@@ -3716,7 +5746,12 @@
     "gameId": 2289,
     "name": {
       "en": "Lulu",
-      "fr": "Lulu"
+      "fr": "Lulu",
+      "de": "Lulu",
+      "es": "Lulu",
+      "it": "Lulu",
+      "pt": "Lulu",
+      "ru": "Лулу"
     },
     "class": "tactician",
     "rarity": "legendary",
@@ -3726,7 +5761,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Metal Lotus",
-      "fr": "Le Lotus de métal"
+      "fr": "Le Lotus de métal",
+      "de": "Die Metalllotusblüte",
+      "es": "El Loto de Metal",
+      "it": "Loto di metallo",
+      "pt": "A Lótus de Metal",
+      "ru": "Металлический Лотос"
     }
   },
   {
@@ -3734,7 +5774,12 @@
     "gameId": 2290,
     "name": {
       "en": "Sun Wukong",
-      "fr": "Sun Wukong"
+      "fr": "Sun Wukong",
+      "de": "Sun Wukong",
+      "es": "Sun Wukong",
+      "it": "Sun Wukong",
+      "pt": "Sun Wukong",
+      "ru": "Сунь Укун"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -3745,7 +5790,12 @@
     "damageType": "physical",
     "title": {
       "en": "Heaven's Equal",
-      "fr": "L'égal des dieux"
+      "fr": "L'égal des dieux",
+      "de": "Himmelsgleich",
+      "es": "El Igual al Cielo",
+      "it": "Il simil-dio",
+      "pt": "Igual ao Céu",
+      "ru": "Равный Небу"
     }
   },
   {
@@ -3753,7 +5803,12 @@
     "gameId": 2291,
     "name": {
       "en": "Init",
-      "fr": "Init"
+      "fr": "Init",
+      "de": "Init",
+      "es": "Init",
+      "it": "Init",
+      "pt": "Init",
+      "ru": "Инит"
     },
     "class": "mage",
     "rarity": "legendary",
@@ -3764,7 +5819,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Embalmer",
-      "fr": "L'Embaumeur"
+      "fr": "L'Embaumeur",
+      "de": "Der Einbalsamierer",
+      "es": "el Embalsamador",
+      "it": "L'Imbalsamatore",
+      "pt": "O Embalsamador",
+      "ru": "Бальзамировщик"
     }
   },
   {
@@ -3772,7 +5832,12 @@
     "gameId": 2292,
     "name": {
       "en": "Ne Zha",
-      "fr": "Ne Zha"
+      "fr": "Ne Zha",
+      "de": "Ne Zha",
+      "es": "Ne Zha",
+      "it": "Ne Zha",
+      "pt": "Ne Zha",
+      "ru": "Нэчжа"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -3783,7 +5848,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Crimson Lotus",
-      "fr": "Lotus écarlate"
+      "fr": "Lotus écarlate",
+      "de": "Der Karmesin-Lotus",
+      "es": "El Loto Carmesí",
+      "it": "Loto cremisi",
+      "pt": "O Lótus Carmesim",
+      "ru": "Багровый Лотос"
     }
   },
   {
@@ -3791,7 +5861,12 @@
     "gameId": 2294,
     "name": {
       "en": "Janus Grismore",
-      "fr": "Janus Grismore"
+      "fr": "Janus Grismore",
+      "de": "Janus Grismore",
+      "es": "Janus Grismore",
+      "it": "Janus Grismore",
+      "pt": "Janus Grismore",
+      "ru": "Янус Грисмор"
     },
     "class": "mage",
     "rarity": "legendary",
@@ -3801,7 +5876,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Ashen Flame",
-      "fr": "La flamme cendrée"
+      "fr": "La flamme cendrée",
+      "de": "Die Ascheflamme",
+      "es": "La Llama Cenicienta",
+      "it": "Fiamma cinerea",
+      "pt": "A Chama Cinzenta",
+      "ru": "Пепельное Пламя"
     }
   },
   {
@@ -3809,7 +5889,12 @@
     "gameId": 2296,
     "name": {
       "en": "Velisse",
-      "fr": "Velisse"
+      "fr": "Velisse",
+      "de": "Velisse",
+      "es": "Velisse",
+      "it": "Velisse",
+      "pt": "Velisse",
+      "ru": "Велисса"
     },
     "class": "mage",
     "rarity": "legendary",
@@ -3819,7 +5904,12 @@
     "damageType": "magic",
     "title": {
       "en": "Uncoiled Desire",
-      "fr": "Désir délié"
+      "fr": "Désir délié",
+      "de": "Entfesseltes Verlangen",
+      "es": "Deseo Liberado",
+      "it": "Desiderio svelato",
+      "pt": "Desejo Desatado",
+      "ru": "Извивающееся Желание"
     }
   },
   {
@@ -3827,7 +5917,12 @@
     "gameId": 2297,
     "name": {
       "en": "Ezareth",
-      "fr": "Ezareth"
+      "fr": "Ezareth",
+      "de": "Ezareth",
+      "es": "Ezareth",
+      "it": "Ezareth",
+      "pt": "Ezareth",
+      "ru": "Эзарет"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -3837,7 +5932,12 @@
     "damageType": "magic",
     "title": {
       "en": "The World Eater",
-      "fr": "Le Dévoreur du monde"
+      "fr": "Le Dévoreur du monde",
+      "de": "Der Weltenverschlinger",
+      "es": "El Devorador de Mundos",
+      "it": "Divoratore di mondi",
+      "pt": "O Devorador do Mundo",
+      "ru": "Пожиратель Миров"
     }
   },
   {
@@ -3845,7 +5945,12 @@
     "gameId": 2299,
     "name": {
       "en": "Violetta Vane",
-      "fr": "Violetta Vane"
+      "fr": "Violetta Vane",
+      "de": "Violetta Vane",
+      "es": "Violetta Vane",
+      "it": "Violetta Vane",
+      "pt": "Violetta Vane",
+      "ru": "Виолетта Вейн"
     },
     "class": "mage",
     "rarity": "legendary",
@@ -3855,7 +5960,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Velvet Blade",
-      "fr": "La Lame de velours"
+      "fr": "La Lame de velours",
+      "de": "Die Samtklinge",
+      "es": "El Filo de Terciopelo",
+      "it": "Lama di velluto",
+      "pt": "A Lâmina de Veludo",
+      "ru": "Бархатный Клинок"
     }
   },
   {
@@ -3863,7 +5973,12 @@
     "gameId": 2300,
     "name": {
       "en": "Pierre",
-      "fr": "Pierre"
+      "fr": "Pierre",
+      "de": "Pierre",
+      "es": "Pierre",
+      "it": "Pierre",
+      "pt": "Pierre",
+      "ru": "Пьер"
     },
     "class": "mage",
     "rarity": "legendary",
@@ -3874,7 +5989,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Painter",
-      "fr": "Le Peintre"
+      "fr": "Le Peintre",
+      "de": "Der Maler",
+      "es": "El Pintor",
+      "it": "Il Pittore",
+      "pt": "O Pintor",
+      "ru": "Художник"
     }
   },
   {
@@ -3882,7 +6002,12 @@
     "gameId": 2301,
     "name": {
       "en": "Solaris Skyre",
-      "fr": "Solaris Skyre"
+      "fr": "Solaris Skyre",
+      "de": "Solaris Skyre",
+      "es": "Solaris Skyre",
+      "it": "Solaris Skyre",
+      "pt": "Solaris Skyre",
+      "ru": "Соларис Скайр"
     },
     "class": "mage",
     "rarity": "legendary",
@@ -3892,7 +6017,12 @@
     "damageType": "magic",
     "title": {
       "en": "Fate's Gambit",
-      "fr": "Pari du destin"
+      "fr": "Pari du destin",
+      "de": "Schicksalsgambit",
+      "es": "Gambito del Destino",
+      "it": "Azzardo del destino",
+      "pt": "Gambito do Destino",
+      "ru": "Гамбит Судьбы"
     }
   },
   {
@@ -3900,7 +6030,12 @@
     "gameId": 2302,
     "name": {
       "en": "Guan Yu",
-      "fr": "Guan Yu"
+      "fr": "Guan Yu",
+      "de": "Guan Yu",
+      "es": "Guan Yu",
+      "it": "Guan Yu",
+      "pt": "Guan Yu",
+      "ru": "Гуань Юй"
     },
     "class": "tactician",
     "rarity": "legendary",
@@ -3911,7 +6046,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Crescent Blade",
-      "fr": "La Lame du croissant"
+      "fr": "La Lame du croissant",
+      "de": "Die Halbmondklinge",
+      "es": "La Hoja de la Medialuna",
+      "it": "Lama a mezzaluna",
+      "pt": "A Lâmina Crescente",
+      "ru": "Лунный Клинок"
     }
   },
   {
@@ -3919,7 +6059,12 @@
     "gameId": 2304,
     "name": {
       "en": "Varro Draccus",
-      "fr": "Varro Draccus"
+      "fr": "Varro Draccus",
+      "de": "Varro Draccus",
+      "es": "Varro Draccus",
+      "it": "Varro Draccus",
+      "pt": "Varro Draccus",
+      "ru": "Варро Драккус"
     },
     "class": "mage",
     "rarity": "legendary",
@@ -3930,7 +6075,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Debt Collector",
-      "fr": "Le Collecteur de dettes"
+      "fr": "Le Collecteur de dettes",
+      "de": "Der Schuldeneintreiber",
+      "es": "El Cobrador de Deudas",
+      "it": "Esattore dei debiti",
+      "pt": "O Cobrador de Dívidas",
+      "ru": "Сборщик Долгов"
     }
   },
   {
@@ -3938,7 +6088,12 @@
     "gameId": 2305,
     "name": {
       "en": "Malrik",
-      "fr": "Malrik"
+      "fr": "Malrik",
+      "de": "Malrik",
+      "es": "Malrik",
+      "it": "Malrik",
+      "pt": "Malrik",
+      "ru": "Малрик"
     },
     "class": "mage",
     "rarity": "legendary",
@@ -3949,7 +6104,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Rogue of Runes",
-      "fr": "Renégat des runes"
+      "fr": "Renégat des runes",
+      "de": "Der Schurke der Runen",
+      "es": "El Bribón de las Runas",
+      "it": "Furfante delle rune",
+      "pt": "O Trapaceiro das Runas",
+      "ru": "Повелитель Рун"
     }
   },
   {
@@ -3957,7 +6117,12 @@
     "gameId": 2306,
     "name": {
       "en": "Gretchen",
-      "fr": "Gretchen"
+      "fr": "Gretchen",
+      "de": "Gretchen",
+      "es": "Gretchen",
+      "it": "Gretchen",
+      "pt": "Gretchen",
+      "ru": "Гретхен"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -3968,7 +6133,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Crimson Inquisitor",
-      "fr": "L'Inquisitrice cramoisie"
+      "fr": "L'Inquisitrice cramoisie",
+      "de": "Die karmesinrote Inquisitorin",
+      "es": "La Inquisidora Carmesí",
+      "it": "Inquisitrice cremisi",
+      "pt": "A Inquisidora Carmesim",
+      "ru": "Багровый Инквизитор"
     }
   },
   {
@@ -3976,7 +6146,12 @@
     "gameId": 2308,
     "name": {
       "en": "Lyra",
-      "fr": "Lyra"
+      "fr": "Lyra",
+      "de": "Lyra",
+      "es": "Lyra",
+      "it": "Lyra",
+      "pt": "Lyra",
+      "ru": "Лира"
     },
     "class": "mage",
     "rarity": "legendary",
@@ -3987,7 +6162,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Cosmic Seer",
-      "fr": "Voyante cosmique"
+      "fr": "Voyante cosmique",
+      "de": "Die kosmische Wahrsagerin",
+      "es": "La Vidente Cósmica",
+      "it": "La Veggente cosmica",
+      "pt": "A Vidente Cósmica",
+      "ru": "Космическая Провидица"
     }
   },
   {
@@ -3995,7 +6175,12 @@
     "gameId": 2309,
     "name": {
       "en": "Astrael",
-      "fr": "Astraël"
+      "fr": "Astraël",
+      "de": "Astrael",
+      "es": "Astrael",
+      "it": "Astrael",
+      "pt": "Astrael",
+      "ru": "Астраэль"
     },
     "class": "tactician",
     "rarity": "legendary",
@@ -4006,7 +6191,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Duskborn Marquis",
-      "fr": "Marquis du crépuscule"
+      "fr": "Marquis du crépuscule",
+      "de": "Der Marquis des Zwielichts",
+      "es": "Marqués Nacido del Crepúsculo",
+      "it": "Marchese nato dal crepuscolo",
+      "pt": "O Marquês do Crepúsculo",
+      "ru": "Сумеречный Маркиз"
     }
   },
   {
@@ -4014,7 +6204,12 @@
     "gameId": 2310,
     "name": {
       "en": "Aurelius Gale",
-      "fr": "Aurelius Gale"
+      "fr": "Aurelius Gale",
+      "de": "Aurelius Gale",
+      "es": "Aurelius Gale",
+      "it": "Aurelius Gale",
+      "pt": "Aurelius Gale",
+      "ru": "Аврелий Буреносный"
     },
     "class": "mage",
     "rarity": "legendary",
@@ -4024,7 +6219,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Burning Lyre",
-      "fr": "La Lyre ardente"
+      "fr": "La Lyre ardente",
+      "de": "Die brennende Leier",
+      "es": "La Lira Ardiente",
+      "it": "Lira ardente",
+      "pt": "A Lira Ardente",
+      "ru": "Пылающая Лира"
     }
   },
   {
@@ -4032,7 +6232,12 @@
     "gameId": 2311,
     "name": {
       "en": "Lu Bu",
-      "fr": "Lu Bu"
+      "fr": "Lu Bu",
+      "de": "Lü Bu",
+      "es": "Lu Bu",
+      "it": "Lu Bu",
+      "pt": "Lu Bu",
+      "ru": "Люй Бу"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -4043,7 +6248,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Flying General",
-      "fr": "Le Général volant"
+      "fr": "Le Général volant",
+      "de": "Der Fliegende General",
+      "es": "El General Volador",
+      "it": "Generale dei cieli",
+      "pt": "O General Voador",
+      "ru": "Летающий Командир"
     }
   },
   {
@@ -4051,7 +6261,12 @@
     "gameId": 2312,
     "name": {
       "en": "Cassiel",
-      "fr": "Cassiel"
+      "fr": "Cassiel",
+      "de": "Cassiel",
+      "es": "Cassiel",
+      "it": "Cassiel",
+      "pt": "Cassiel",
+      "ru": "Кассиэль"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -4062,7 +6277,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Blade of Justice",
-      "fr": "Lame de justice"
+      "fr": "Lame de justice",
+      "de": "Die Klinge der Gerechtigkeit",
+      "es": "La Espada de la Justicia",
+      "it": "Spada della giustizia",
+      "pt": "A Lâmina da Justiça",
+      "ru": "Клинок Правосудия"
     }
   },
   {
@@ -4070,7 +6290,12 @@
     "gameId": 2313,
     "name": {
       "en": "Leikan",
-      "fr": "Leikan"
+      "fr": "Leikan",
+      "de": "Leikan",
+      "es": "Leikan",
+      "it": "Leikan",
+      "pt": "Leikan",
+      "ru": "Лейкан"
     },
     "class": "tactician",
     "rarity": "legendary",
@@ -4081,7 +6306,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Storm's Seal",
-      "fr": "Le Sceau de la tempête"
+      "fr": "Le Sceau de la tempête",
+      "de": "Das Siegel des Sturms",
+      "es": "El Sello de la Tormenta",
+      "it": "Sigillo della tempesta",
+      "pt": "O Selo da Tempestade",
+      "ru": "Печать Бури"
     }
   },
   {
@@ -4089,7 +6319,12 @@
     "gameId": 2314,
     "name": {
       "en": "Elysia",
-      "fr": "Elysia"
+      "fr": "Elysia",
+      "de": "Elysia",
+      "es": "Elysia",
+      "it": "Elysia",
+      "pt": "Elysia",
+      "ru": "Элизия"
     },
     "class": "fighter",
     "rarity": "epic",
@@ -4099,7 +6334,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Skyward Sovereign",
-      "fr": "Souveraine des cieux"
+      "fr": "Souveraine des cieux",
+      "de": "Die himmlische Herrscherin",
+      "es": "La Soberana del Cielo",
+      "it": "Sovrana del cielo",
+      "pt": "A Soberana No Céu",
+      "ru": "Небесная Правительница"
     }
   },
   {
@@ -4107,7 +6347,12 @@
     "gameId": 2316,
     "name": {
       "en": "Ruen Hollow",
-      "fr": "Ruen Hollow"
+      "fr": "Ruen Hollow",
+      "de": "Ruen Hollow",
+      "es": "Ruen Hollow",
+      "it": "Ruen Hollow",
+      "pt": "Ruen Hollow",
+      "ru": "Руэн Холлоу"
     },
     "class": "marksman",
     "rarity": "legendary",
@@ -4118,7 +6363,12 @@
     "damageType": "physical",
     "title": {
       "en": "Fortune's Shadow",
-      "fr": "L'Ombre de la fortune"
+      "fr": "L'Ombre de la fortune",
+      "de": "Schicksalsschatten",
+      "es": "La Sombra de la Fortuna",
+      "it": "Ombra della fortuna",
+      "pt": "A Sombra da Fortuna",
+      "ru": "Тень Фортуны"
     }
   },
   {
@@ -4126,7 +6376,12 @@
     "gameId": 2317,
     "name": {
       "en": "Draelyn",
-      "fr": "Draelyn"
+      "fr": "Draelyn",
+      "de": "Draelyn",
+      "es": "Draelyn",
+      "it": "Draelyn",
+      "pt": "Draelyn",
+      "ru": "Драэлин"
     },
     "class": "defender",
     "rarity": "legendary",
@@ -4137,7 +6392,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Scaled Scion",
-      "fr": "Héritière aux écailles"
+      "fr": "Héritière aux écailles",
+      "de": "Die Schuppenerbin",
+      "es": "El Vástago Escamado",
+      "it": "Erede squamata",
+      "pt": "A Herdeira Escamada",
+      "ru": "Потомок Чешуйчатых"
     }
   },
   {
@@ -4145,7 +6405,12 @@
     "gameId": 2318,
     "name": {
       "en": "Knight Arlott",
-      "fr": "Chevalier Arlott"
+      "fr": "Chevalier Arlott",
+      "de": "Ritter Arlott",
+      "es": "Caballero Arlott",
+      "it": "Cavaliere Arlott",
+      "pt": "Cavaleiro Arlott",
+      "ru": "Рыцарь Арлотт"
     },
     "class": "defender",
     "rarity": "legendary",
@@ -4156,7 +6421,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Grave Keeper",
-      "fr": "Le Gardien des Tombes"
+      "fr": "Le Gardien des Tombes",
+      "de": "Der Grabwächter",
+      "es": "El Guardatumbas",
+      "it": "Custode delle tombe",
+      "pt": "O Guardião das Sepulturas",
+      "ru": "Хранитель Могил"
     }
   },
   {
@@ -4164,7 +6434,12 @@
     "gameId": 2319,
     "name": {
       "en": "\"Graves\" Greybeard",
-      "fr": "\"Graves\" Barbe-Grise"
+      "fr": "\"Graves\" Barbe-Grise",
+      "de": "Graubart „Graves“",
+      "es": "\"Graves\" Barbagrís",
+      "it": "\"Fossa\" Barbagrigia",
+      "pt": "\"Graves\" Barba-Cinzenta",
+      "ru": "Грейвз Седобородый"
     },
     "class": "defender",
     "rarity": "legendary",
@@ -4174,7 +6449,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Lost Mariner",
-      "fr": "Le Marin perdu"
+      "fr": "Le Marin perdu",
+      "de": "Der verlorene Seemann",
+      "es": "El Marinero Perdido",
+      "it": "Marinaio perduto",
+      "pt": "O Marinheiro Perdido",
+      "ru": "Заблудший Моряк"
     }
   },
   {
@@ -4182,7 +6462,12 @@
     "gameId": 2320,
     "name": {
       "en": "Twyla",
-      "fr": "Twyla"
+      "fr": "Twyla",
+      "de": "Twyla",
+      "es": "Twyla",
+      "it": "Twyla",
+      "pt": "Twyla",
+      "ru": "Твайла"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -4192,7 +6477,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Red Smile",
-      "fr": "Le Sourire rouge"
+      "fr": "Le Sourire rouge",
+      "de": "Das rote Lächeln",
+      "es": "La Sonrisa Roja",
+      "it": "Il Sorriso rosso",
+      "pt": "O Sorriso Vermelho",
+      "ru": "Алая Улыбка"
     }
   },
   {
@@ -4200,7 +6490,12 @@
     "gameId": 2321,
     "name": {
       "en": "Sythra",
-      "fr": "Sythra"
+      "fr": "Sythra",
+      "de": "Sythra",
+      "es": "Sythra",
+      "it": "Sythra",
+      "pt": "Sythra",
+      "ru": "Ситра"
     },
     "class": "marksman",
     "rarity": "legendary",
@@ -4211,7 +6506,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Serpent's Embrace",
-      "fr": "Étreinte du serpent"
+      "fr": "Étreinte du serpent",
+      "de": "Die Schlangenumarmung",
+      "es": "El Abrazo de la Serpiente",
+      "it": "Bacio del serpente",
+      "pt": "O Abraço da Serpente",
+      "ru": "Объятия Змеи"
     }
   },
   {
@@ -4219,7 +6519,12 @@
     "gameId": 2323,
     "name": {
       "en": "Aedrin",
-      "fr": "Aedrin"
+      "fr": "Aedrin",
+      "de": "Aedrin",
+      "es": "Aedrin",
+      "it": "Aedrin",
+      "pt": "Aedrin",
+      "ru": "Эйдрин"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -4229,7 +6534,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Frostfallen Crown",
-      "fr": "La Couronne de givre"
+      "fr": "La Couronne de givre",
+      "de": "Die frostgefallene Krone",
+      "es": "La Corona de la Gran Nevada",
+      "it": "La Corona del gelo funesto",
+      "pt": "A Coroa Caída na Geada",
+      "ru": "Обледенелая Корона"
     }
   },
   {
@@ -4237,7 +6547,12 @@
     "gameId": 2326,
     "name": {
       "en": "Moriden",
-      "fr": "Moriden"
+      "fr": "Moriden",
+      "de": "Moriden",
+      "es": "Moriden",
+      "it": "Moriden",
+      "pt": "Moriden",
+      "ru": "Мориден"
     },
     "class": "tactician",
     "rarity": "legendary",
@@ -4248,7 +6563,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Wraithborn Rider",
-      "fr": "Cavalier spectral"
+      "fr": "Cavalier spectral",
+      "de": "Der Schattengeborene Reiter",
+      "es": "El Jinete Espectral",
+      "it": "Cavaliere spettrale",
+      "pt": "O Cavaleiro Espectral",
+      "ru": "Проклятый Всадник"
     }
   },
   {
@@ -4256,7 +6576,12 @@
     "gameId": 2333,
     "name": {
       "en": "Count Dracula",
-      "fr": "Comte Dracula"
+      "fr": "Comte Dracula",
+      "de": "Graf Dracula",
+      "es": "Conde Drácula",
+      "it": "Conte Dracula",
+      "pt": "Conde Drácula",
+      "ru": "Граф Дракула"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -4267,7 +6592,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Dark Prince",
-      "fr": "Le Prince des ténèbres"
+      "fr": "Le Prince des ténèbres",
+      "de": "Der dunkle Prinz",
+      "es": "El Príncipe Oscuro",
+      "it": "Principe oscuro",
+      "pt": "O Príncipe das Trevas",
+      "ru": "Темный Принц"
     }
   },
   {
@@ -4275,7 +6605,12 @@
     "gameId": 2334,
     "name": {
       "en": "Dr. Van Helsing",
-      "fr": "Dr Van Helsing"
+      "fr": "Dr Van Helsing",
+      "de": "Dr. Van Helsing",
+      "es": "Dr. Van Helsing",
+      "it": "Dr. Van Helsing",
+      "pt": "Dr. Van Helsing",
+      "ru": "Д-р Ван Хельсинг"
     },
     "class": "marksman",
     "rarity": "legendary",
@@ -4286,7 +6621,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Professor",
-      "fr": "Le Professeur"
+      "fr": "Le Professeur",
+      "de": "Der Professor",
+      "es": "El Profesor",
+      "it": "Professore",
+      "pt": "O Professor",
+      "ru": "Профессор"
     }
   },
   {
@@ -4294,7 +6634,12 @@
     "gameId": 2335,
     "name": {
       "en": "Lady Mina",
-      "fr": "Dame Mina"
+      "fr": "Dame Mina",
+      "de": "Lady Mina",
+      "es": "Lady Mina",
+      "it": "Lady Mina",
+      "pt": "Madame Mina",
+      "ru": "Леди Мина"
     },
     "class": "mage",
     "rarity": "legendary",
@@ -4305,7 +6650,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Eternal Bride",
-      "fr": "La Mariée éternelle"
+      "fr": "La Mariée éternelle",
+      "de": "Die ewige Braut",
+      "es": "La Novia Eterna",
+      "it": "Sposa eterna",
+      "pt": "A Noiva Eterna",
+      "ru": "Вечная Невеста"
     }
   },
   {
@@ -4313,7 +6663,12 @@
     "gameId": 2342,
     "name": {
       "en": "Vlad Draculea",
-      "fr": "Vlad Draculea"
+      "fr": "Vlad Draculea",
+      "de": "Vlad Draculea",
+      "es": "Vlad Draculea",
+      "it": "Vlad Draculea",
+      "pt": "Vlad Draculea",
+      "ru": "Влад Дракула"
     },
     "class": "tactician",
     "rarity": "legendary",
@@ -4323,7 +6678,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Impaler",
-      "fr": "L'Empaleur"
+      "fr": "L'Empaleur",
+      "de": "Der Pfähler",
+      "es": "El Empalador",
+      "it": "Impalatore",
+      "pt": "O Empalador",
+      "ru": "Колосажатель"
     }
   },
   {
@@ -4331,7 +6691,12 @@
     "gameId": 2344,
     "name": {
       "en": "Rosalia",
-      "fr": "Rosalia"
+      "fr": "Rosalia",
+      "de": "Rosalia",
+      "es": "Rosalía",
+      "it": "Rosalia",
+      "pt": "Rosalia",
+      "ru": "Розалия"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -4341,7 +6706,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Paintress",
-      "fr": "La Peintre"
+      "fr": "La Peintre",
+      "de": "Die Malerin",
+      "es": "La Pintora",
+      "it": "La Pittrice",
+      "pt": "A Pintora",
+      "ru": "Художница"
     }
   },
   {
@@ -4349,7 +6719,12 @@
     "gameId": 2348,
     "name": {
       "en": "Clarissa",
-      "fr": "Clarissa"
+      "fr": "Clarissa",
+      "de": "Clarissa",
+      "es": "Clarisa",
+      "it": "Clarissa",
+      "pt": "Clarissa",
+      "ru": "Кларисса"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -4359,7 +6734,12 @@
     "damageType": "magic",
     "title": {
       "en": "The Sepulcher's Daughter",
-      "fr": "La Fille du sépulcre"
+      "fr": "La Fille du sépulcre",
+      "de": "Die Tochter des Grabmals",
+      "es": "La Hija del Sepulcro",
+      "it": "Figlia del sepolcro",
+      "pt": "A Filha do Sepulcro",
+      "ru": "Дочь Усыпальницы"
     }
   },
   {
@@ -4367,7 +6747,12 @@
     "gameId": 2351,
     "name": {
       "en": "Ezio Auditore",
-      "fr": "Ezio Auditore"
+      "fr": "Ezio Auditore",
+      "de": "Ezio Auditore",
+      "es": "Ezio Auditore",
+      "it": "Ezio Auditore",
+      "pt": "Ezio Auditore",
+      "ru": "Эцио Аудиторе"
     },
     "class": "tactician",
     "rarity": "legendary",
@@ -4378,7 +6763,12 @@
     "damageType": "physical",
     "title": {
       "en": "Master Assassin",
-      "fr": "Maître Assassin"
+      "fr": "Maître Assassin",
+      "de": "Meisterassassine",
+      "es": "Maestro Asesino",
+      "it": "Maestro Assassino",
+      "pt": "Mestre Assassino",
+      "ru": "Мастер-Ассасин"
     }
   },
   {
@@ -4386,7 +6776,12 @@
     "gameId": 2352,
     "name": {
       "en": "Eivor Varinsdottir",
-      "fr": "Eivor Varinsdóttir"
+      "fr": "Eivor Varinsdóttir",
+      "de": "Eivor Varinsdottir",
+      "es": "Eivor Varinsdottir",
+      "it": "Eivor Varinsdottir",
+      "pt": "Eivor Varinsdottir",
+      "ru": "Эйвор Варинсдоттир"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -4397,7 +6792,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Wolf-Kissed",
-      "fr": "L'Amie-des-loups"
+      "fr": "L'Amie-des-loups",
+      "de": "Die Wolfsgeküsste",
+      "es": "Matalobos",
+      "it": "Morso di lupo",
+      "pt": "A Marca-de-Lobo",
+      "ru": "Сестра Волка"
     }
   },
   {
@@ -4405,7 +6805,12 @@
     "gameId": 2353,
     "name": {
       "en": "Bayek",
-      "fr": "Bayek"
+      "fr": "Bayek",
+      "de": "Bayek",
+      "es": "Bayek",
+      "it": "Bayek",
+      "pt": "Bayek",
+      "ru": "Байек"
     },
     "class": "marksman",
     "rarity": "legendary",
@@ -4416,7 +6821,12 @@
     "damageType": "physical",
     "title": {
       "en": "Medjay of Siwa",
-      "fr": "Medjaÿ de Siwa"
+      "fr": "Medjaÿ de Siwa",
+      "de": "Medjai von Siwa",
+      "es": "Medjay de Siwa",
+      "it": "Medjay di Siwa",
+      "pt": "Medjai de Siuá",
+      "ru": "Меджай из Сивы"
     }
   },
   {
@@ -4424,7 +6834,12 @@
     "gameId": 2354,
     "name": {
       "en": "Corven",
-      "fr": "Corven"
+      "fr": "Corven",
+      "de": "Corven",
+      "es": "Corven",
+      "it": "Corven",
+      "pt": "Corven",
+      "ru": "Корвен"
     },
     "class": "marksman",
     "rarity": "legendary",
@@ -4435,7 +6850,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Gilded Gentleman",
-      "fr": "Le Gentleman doré"
+      "fr": "Le Gentleman doré",
+      "de": "Der vergoldete Gentleman",
+      "es": "El Caballero Dorado",
+      "it": "Gentiluomo dorato",
+      "pt": "O Cavalheiro Dourado",
+      "ru": "Золоченый Джентльмен"
     }
   },
   {
@@ -4443,7 +6863,12 @@
     "gameId": 2355,
     "name": {
       "en": "Kassandra",
-      "fr": "Kassandra"
+      "fr": "Kassandra",
+      "de": "Kassandra",
+      "es": "Kassandra",
+      "it": "Kassandra",
+      "pt": "Kassandra",
+      "ru": "Кассандра"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -4454,7 +6879,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Eagle Bearer",
-      "fr": "La Porteuse d'aigle"
+      "fr": "La Porteuse d'aigle",
+      "de": "Die Adlerträgerin",
+      "es": "La Portadora del Águila",
+      "it": "Ombra dell'aquila",
+      "pt": "A Portadora da Águia",
+      "ru": "Хозяйка Орла"
     }
   },
   {
@@ -4462,7 +6892,12 @@
     "gameId": 2356,
     "name": {
       "en": "Vera",
-      "fr": "Vera"
+      "fr": "Vera",
+      "de": "Vera",
+      "es": "Vera",
+      "it": "Vera",
+      "pt": "Vera",
+      "ru": "Вера"
     },
     "class": "marksman",
     "rarity": "legendary",
@@ -4472,7 +6907,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Wasteland Optic",
-      "fr": "L'Optique des friches"
+      "fr": "L'Optique des friches",
+      "de": "Die Ödland-Optik",
+      "es": "La Óptica del Páramo",
+      "it": "Ottica della Terra desolata",
+      "pt": "A Lente das Terras Ermas",
+      "ru": "Оптика Пустоши"
     }
   },
   {
@@ -4480,7 +6920,12 @@
     "gameId": 2358,
     "name": {
       "en": "Veyrathia",
-      "fr": "Veyrathia"
+      "fr": "Veyrathia",
+      "de": "Veyrathia",
+      "es": "Veyrathia",
+      "it": "Veyrathia",
+      "pt": "Veyrathia",
+      "ru": "Вейратия"
     },
     "class": "fighter",
     "rarity": "epic",
@@ -4490,7 +6935,12 @@
     "damageType": "physical",
     "title": {
       "en": "Nightwing Sovereign",
-      "fr": "Souveraine des ailes nocturnes"
+      "fr": "Souveraine des ailes nocturnes",
+      "de": "Herrin der Nachtschwingen",
+      "es": "Soberana del Ala Nocturna",
+      "it": "Sovrana Ala notturna",
+      "pt": "Soberana da Ala Noturna",
+      "ru": "Повелительница Ночного Крыла"
     }
   },
   {
@@ -4498,7 +6948,12 @@
     "gameId": 2359,
     "name": {
       "en": "Dane",
-      "fr": "Dane"
+      "fr": "Dane",
+      "de": "Dane",
+      "es": "Dane",
+      "it": "Dane",
+      "pt": "Dane",
+      "ru": "Дэйн"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -4508,7 +6963,12 @@
     "damageType": "physical",
     "title": {
       "en": "Subject-42",
-      "fr": "Sujet-42"
+      "fr": "Sujet-42",
+      "de": "Subjekt-42",
+      "es": "Sujeto-42",
+      "it": "Soggetto-42",
+      "pt": "Sujeito-42",
+      "ru": "Объект 42"
     }
   },
   {
@@ -4516,7 +6976,12 @@
     "gameId": 2361,
     "name": {
       "en": "Oakenvar",
-      "fr": "Oakenvar"
+      "fr": "Oakenvar",
+      "de": "Oakenvar",
+      "es": "Oakenvar",
+      "it": "Oakenvar",
+      "pt": "Oakenvar",
+      "ru": "Окенвар"
     },
     "class": "defender",
     "rarity": "legendary",
@@ -4526,7 +6991,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Grove Warden",
-      "fr": "Le Gardien du bosquet"
+      "fr": "Le Gardien du bosquet",
+      "de": "Der Hainwächter",
+      "es": "El Guardián de la Arboleda",
+      "it": "Custode del bosco",
+      "pt": "O Guardião do Bosque",
+      "ru": "Страж Рощи"
     }
   },
   {
@@ -4534,7 +7004,12 @@
     "gameId": 2362,
     "name": {
       "en": "Jezebelle",
-      "fr": "Jezebelle"
+      "fr": "Jezebelle",
+      "de": "Jezebelle",
+      "es": "Jezebelle",
+      "it": "Jezebelle",
+      "pt": "Jezebelle",
+      "ru": "Изабель"
     },
     "class": "marksman",
     "rarity": "legendary",
@@ -4544,7 +7019,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Primordial Sin",
-      "fr": "Le Péché originel"
+      "fr": "Le Péché originel",
+      "de": "Die Ursünde",
+      "es": "El Pecado Primordial",
+      "it": "Peccato primordiale",
+      "pt": "O Pecado Primordial",
+      "ru": "Первородный Грех"
     }
   },
   {
@@ -4552,7 +7032,12 @@
     "gameId": 2363,
     "name": {
       "en": "Cainan",
-      "fr": "Cainan"
+      "fr": "Cainan",
+      "de": "Cainan",
+      "es": "Cainan",
+      "it": "Cainan",
+      "pt": "Cainan",
+      "ru": "Кайнан"
     },
     "class": "tactician",
     "rarity": "legendary",
@@ -4563,7 +7048,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Unclaimed Heir",
-      "fr": "L'Héritier sans couronne"
+      "fr": "L'Héritier sans couronne",
+      "de": "Der verleugnete Erbe",
+      "es": "El Heredero Renegado",
+      "it": "Erede ignorato",
+      "pt": "O Herdeiro Não Reivindicado",
+      "ru": "Непризнанный Наследник"
     }
   },
   {
@@ -4571,7 +7061,12 @@
     "gameId": 2364,
     "name": {
       "en": "Gu Shi",
-      "fr": "Gu Shi"
+      "fr": "Gu Shi",
+      "de": "Gu Shi",
+      "es": "Gu Shi",
+      "it": "Gu Shi",
+      "pt": "Gu Shi",
+      "ru": "Гу Ши"
     },
     "class": "marksman",
     "rarity": "legendary",
@@ -4582,7 +7077,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Wayward Noble",
-      "fr": "Le Noble rebelle"
+      "fr": "Le Noble rebelle",
+      "de": "Der eigenwillige Adlige",
+      "es": "El Noble Rebelde",
+      "it": "Nobile errante",
+      "pt": "O Nobre Rebelde",
+      "ru": "Своенравный Дворянин"
     }
   },
   {
@@ -4590,7 +7090,12 @@
     "gameId": 2365,
     "name": {
       "en": "Su Yue",
-      "fr": "Su Yue"
+      "fr": "Su Yue",
+      "de": "Su Yue",
+      "es": "Su Yue",
+      "it": "Su Yue",
+      "pt": "Su Yue",
+      "ru": "Су Юэ"
     },
     "class": "tactician",
     "rarity": "legendary",
@@ -4601,7 +7106,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Jadefrost Maiden",
-      "fr": "La Demoiselle de givre de jade"
+      "fr": "La Demoiselle de givre de jade",
+      "de": "Die Jadefrost-Maid",
+      "es": "La Doncella de Escarcha de Jade",
+      "it": "Fanciulla del gelo di giada",
+      "pt": "A Donzela da Geada de Jade",
+      "ru": "Дева Нефритового Мороза"
     }
   },
   {
@@ -4609,7 +7119,12 @@
     "gameId": 2372,
     "name": {
       "en": "Ezio della Notte",
-      "fr": "Ezio della Notte"
+      "fr": "Ezio della Notte",
+      "de": "Ezio della Notte",
+      "es": "Ezio della Notte",
+      "it": "Ezio della Notte",
+      "pt": "Ezio della Notte",
+      "ru": "Эцио делла Нотте"
     },
     "class": "fighter",
     "rarity": "legendary",
@@ -4620,7 +7135,12 @@
     "damageType": "physical",
     "title": {
       "en": "Shadow of Firenze",
-      "fr": "Ombre de Firenze"
+      "fr": "Ombre de Firenze",
+      "de": "Schatten von Firenze",
+      "es": "Sombra de Florencia",
+      "it": "Ombra di Firenze",
+      "pt": "Sombra de Firenze",
+      "ru": "Тень Флоренции"
     }
   },
   {
@@ -4628,7 +7148,12 @@
     "gameId": 2382,
     "name": {
       "en": "Evie Frye",
-      "fr": "Evie Frye"
+      "fr": "Evie Frye",
+      "de": "Evie Frye",
+      "es": "Evie Frye",
+      "it": "Evie Frye",
+      "pt": "Evie Frye",
+      "ru": "Иви Фрай"
     },
     "class": "marksman",
     "rarity": "legendary",
@@ -4638,7 +7163,12 @@
     "damageType": "physical",
     "title": {
       "en": "The Shadowed Dame",
-      "fr": "La Dame de l'ombre"
+      "fr": "La Dame de l'ombre",
+      "de": "Die schattenumhüllte Dame",
+      "es": "La Dama de las Sombras",
+      "it": "Dama dell'ombra",
+      "pt": "A Dama das Sombras",
+      "ru": "Дама из Тени"
     }
   },
   {
@@ -4646,7 +7176,12 @@
     "gameId": 3050,
     "name": {
       "en": "Elukas",
-      "fr": "Elukas"
+      "fr": "Elukas",
+      "de": "Elukas",
+      "es": "Elukas",
+      "it": "Elukas",
+      "pt": "Elukas",
+      "ru": "Элукас"
     },
     "class": "marksman",
     "rarity": "rare",
@@ -4656,7 +7191,12 @@
     "damageType": "physical",
     "title": {
       "en": "Snowpiercer",
-      "fr": "Perce-neige"
+      "fr": "Perce-neige",
+      "de": "Schneeschütze",
+      "es": "Perforanieves",
+      "it": "Squarcianeve",
+      "pt": "Atirador de Gelo",
+      "ru": "Пронзающий Снег"
     }
   },
   {
@@ -4664,7 +7204,12 @@
     "gameId": 3112,
     "name": {
       "en": "Gonkba",
-      "fr": "Gonkba"
+      "fr": "Gonkba",
+      "de": "Gonkba",
+      "es": "Gonkba",
+      "it": "Gonkba",
+      "pt": "Gonkba",
+      "ru": "Гонкба"
     },
     "class": "mage",
     "rarity": "rare",
@@ -4674,7 +7219,12 @@
     "damageType": "physical",
     "title": {
       "en": "Spikecaster",
-      "fr": "Lanceur de pique"
+      "fr": "Lanceur de pique",
+      "de": "Stachelwerfer",
+      "es": "Conjuraespinas",
+      "it": "Lanciapicche",
+      "pt": "Lança Espinhos",
+      "ru": "Заклинатель Шипов"
     }
   }
 ]

@@ -4,7 +4,12 @@
     "gameId": 101,
     "name": {
       "en": "The Watchguard",
-      "fr": "La Sentinelle"
+      "fr": "La Sentinelle",
+      "de": "Die Wächter",
+      "es": "El Escuadrón de los Guardianes",
+      "it": "Squadra delle Sentinelle",
+      "pt": "A Guarda Vigilante",
+      "ru": "Стража"
     }
   },
   {
@@ -12,7 +17,12 @@
     "gameId": 102,
     "name": {
       "en": "The North Throne",
-      "fr": "Le Royaume du Nord"
+      "fr": "Le Royaume du Nord",
+      "de": "Der Nordthron",
+      "es": "El Trono Boreal",
+      "it": "Il Trono del Nord",
+      "pt": "O Trono do Norte",
+      "ru": "Трон севера"
     }
   },
   {
@@ -20,7 +30,12 @@
     "gameId": 103,
     "name": {
       "en": "The Nightmare Council",
-      "fr": "Le conseil du cauchemar"
+      "fr": "Le conseil du cauchemar",
+      "de": "Der Albtraum-Rat",
+      "es": "El Consejo de la Pesadilla",
+      "it": "Il Consiglio dell'Incubo",
+      "pt": "O Conselho do Pesadelo",
+      "ru": "Совет кошмара"
     }
   },
   {
@@ -28,7 +43,12 @@
     "gameId": 104,
     "name": {
       "en": "The Cursed Cult",
-      "fr": "Le culte maudit"
+      "fr": "Le culte maudit",
+      "de": "Der verfluchte Kult",
+      "es": "La Secta de los Malditos",
+      "it": "Il Culto Maledetto",
+      "pt": "O Culto Maldito",
+      "ru": "Проклятый культ"
     }
   },
   {
@@ -36,7 +56,12 @@
     "gameId": 105,
     "name": {
       "en": "The Infernal Blast",
-      "fr": "L'explosion infernale"
+      "fr": "L'explosion infernale",
+      "de": "Die höllische Explosion",
+      "es": "La Llama Infernal",
+      "it": "L'Esplosione Infernale",
+      "pt": "A Explosão Infernal",
+      "ru": "Адский взрыв"
     }
   },
   {
@@ -44,7 +69,12 @@
     "gameId": 106,
     "name": {
       "en": "The Star Piercers",
-      "fr": "Les perceurs d'étoiles"
+      "fr": "Les perceurs d'étoiles",
+      "de": "Die Sterndurchbohrer",
+      "es": "Los Perforadores Estelares",
+      "it": "I Perforatori di stelle",
+      "pt": "Os Perfuradores das Estrelas",
+      "ru": "Звездные странники"
     }
   },
   {
@@ -52,7 +82,12 @@
     "gameId": 107,
     "name": {
       "en": "The Esoteria Order",
-      "fr": "L'ordre d'Esoteria"
+      "fr": "L'ordre d'Esoteria",
+      "de": "Der Esoterikorden",
+      "es": "La Orden de los Arcanos",
+      "it": "L'Ordine dell'Esoteria",
+      "pt": "A Ordem Esotérica",
+      "ru": "Орден таинств"
     }
   },
   {
@@ -60,7 +95,12 @@
     "gameId": 108,
     "name": {
       "en": "The Chaos Dominion",
-      "fr": "Conquérants du chaos"
+      "fr": "Conquérants du chaos",
+      "de": "Das Chaosdominion",
+      "es": "Conquistadores del Caos",
+      "it": "Il Dominio del Caos",
+      "pt": "O Domínio do Caos",
+      "ru": "Доминион хаоса"
     }
   },
   {
@@ -68,7 +108,12 @@
     "gameId": 109,
     "name": {
       "en": "The Supreme Arbiters",
-      "fr": "Arbitres suprêmes"
+      "fr": "Arbitres suprêmes",
+      "de": "Die obersten Richter",
+      "es": "Los Árbitros Supremos",
+      "it": "I Giudici Supremi",
+      "pt": "Os Árbitros Supremos",
+      "ru": "Верховные судьи"
     }
   },
   {
@@ -76,7 +121,12 @@
     "gameId": 110,
     "name": {
       "en": "The Grey Blades",
-      "fr": "Les Lames grises"
+      "fr": "Les Lames grises",
+      "de": "Die grauen Klingen",
+      "es": "Los Filos Grises",
+      "it": "Lame grigie",
+      "pt": "As Lâminas Cinzentas",
+      "ru": "Серые клинки"
     }
   }
 ]

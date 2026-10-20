@@ -3,8 +3,7 @@ import { defaultLocale } from './locales.js';
 export type Locale = 'en' | 'fr' | 'de' | 'es' | 'it' | 'pt' | 'pl' | 'ru';
 
 // Textes de l'interface. Les noms du jeu (héros, sets, modes) sont dans src/data.
-// Les traductions des classes sont provisoires : à remplacer par les termes
-// officiels du jeu quand on les aura.
+// Les noms des classes sont ceux du jeu (sauf en polonais, que le jeu ne propose pas).
 export const ui = {
   en: {
     siteTitle: 'Watcher of Realms Guide',
@@ -71,8 +70,8 @@ export const ui = {
     'class.fighter': 'Combattant',
     'class.mage': 'Mage',
     'class.marksman': 'Tireur',
-    'class.defender': 'Défenseur',
-    'class.healer': 'Soigneur',
+    'class.defender': 'Gardien',
+    'class.healer': 'Guérisseur',
     'class.tactician': 'Tacticien',
     'damage.physical': 'Physique',
     'damage.magic': 'Magique',
@@ -144,10 +143,10 @@ export const ui = {
     'footer.disclaimer': 'Sitio de fans, no afiliado a Moonton. Watcher of Realms y su contenido pertenecen a sus propietarios.',
     'class.fighter': 'Luchador',
     'class.mage': 'Mago',
-    'class.marksman': 'Tirador',
+    'class.marksman': 'Cazador',
     'class.defender': 'Defensor',
     'class.healer': 'Sanador',
-    'class.tactician': 'Táctico',
+    'class.tactician': 'Dominio táctico',
     'damage.physical': 'Físico',
     'damage.magic': 'Mágico',
     'rarity.legendary': 'Legendario',
@@ -184,7 +183,7 @@ export const ui = {
     'class.marksman': 'Tiratore',
     'class.defender': 'Difensore',
     'class.healer': 'Guaritore',
-    'class.tactician': 'Tattico',
+    'class.tactician': 'Stratega',
     'damage.physical': 'Fisico',
     'damage.magic': 'Magico',
     'rarity.legendary': 'Leggendario',
@@ -216,12 +215,12 @@ export const ui = {
     'server.europe': 'Europa',
     'data.example': 'Dados de exemplo, não verificados.',
     'footer.disclaimer': 'Site de fãs, sem afiliação com a Moonton. Watcher of Realms e seu conteúdo pertencem aos respectivos donos.',
-    'class.fighter': 'Lutador',
+    'class.fighter': 'Guerreiro',
     'class.mage': 'Mago',
     'class.marksman': 'Atirador',
-    'class.defender': 'Defensor',
+    'class.defender': 'Protetor',
     'class.healer': 'Curandeiro',
-    'class.tactician': 'Tático',
+    'class.tactician': 'Estrategista',
     'damage.physical': 'Físico',
     'damage.magic': 'Mágico',
     'rarity.legendary': 'Lendário',
