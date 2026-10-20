@@ -1,0 +1,50 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { localize, useTranslations, type Locale } from '../../i18n/ui';
+import { href, langPaths } from '../../lib/i18n-paths';
+import { heroClasses } from '../../lib/heroes';
+import { servers, tiers } from '../../content.config';
+
+export const getStaticPaths = langPaths;
+const lang = Astro.params.lang as Locale;
+const t = useTranslations(lang);
+const heroes = await getCollection('heroes');
+const modes = await getCollection('modes');
+// Classe d'abord les héros qui ont la meilleure note, tous modes confondus.
+const rank = (h: (typeof heroes)[number], server: (typeof servers)[number]) =>
+  Math.min(tiers.length, ...Object.values(h.data.tiers[server] ?? {}).map((tier) => tiers.indexOf(tier)));
+---
+<Base lang={lang} title={t('tier.title')}>
+  <h1>{t('tier.title')}</h1>
+  {servers.map((server) => (
+    <div data-server={server}>
+      {heroClasses.map((cls) => {
+        const list = heroes.filter((h) => h.data.class === cls);
+        return list.length > 0 && (
+          <section>
+            <h2>{t(`class.${cls}`)}</h2>
+            <table>
+              <thead>
+                <tr>
+                  <th></th>
+                  {modes.map((m) => <th>{localize(m.data.name, lang)}</th>)}
+                </tr>
+              </thead>
+              <tbody>
+                {list
+                  .sort((a, b) => rank(a, server) - rank(b, server))
+                  .map((h) => (
+                    <tr>
+                      <th><a href={href(lang, `heroes/${h.id}/`)}>{localize(h.data.name, lang)}</a></th>
+                      {modes.map((m) => <td>{h.data.tiers[server]?.[m.id] ?? '–'}</td>)}
+                    </tr>
+                  ))}
+              </tbody>
+            </table>
+          </section>
+        );
+      })}
+    </div>
+  ))}
+</Base>

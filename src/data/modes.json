@@ -1,0 +1,10 @@
+[
+  { "id": "campaign", "category": "pve", "name": { "en": "Campaign", "fr": "Campagne" } },
+  { "id": "void-rift", "category": "pve", "name": { "en": "Void Rift" } },
+  { "id": "immortal-codex", "category": "pve", "name": { "en": "Immortal Codex" } },
+  { "id": "halls-of-illusion", "category": "pve", "name": { "en": "Malrik's Halls of Illusion" } },
+  { "id": "gear-raid", "category": "pve", "name": { "en": "Gear Raid" } },
+  { "id": "arena", "category": "pvp", "name": { "en": "Arena", "fr": "Arène" } },
+  { "id": "guild-boss", "category": "guild", "name": { "en": "Guild Boss" } },
+  { "id": "guild-war", "category": "guild", "name": { "en": "Guild War" } }
+]

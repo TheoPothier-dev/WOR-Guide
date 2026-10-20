@@ -1,0 +1,23 @@
+---
+// Racine : envoie vers la langue du navigateur si elle est disponible, sinon l'anglais.
+import { locales, localeNames, defaultLocale } from '../i18n/locales.js';
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Watcher of Realms Guide</title>
+    <noscript><meta http-equiv="refresh" content={`0; url=/${defaultLocale}/`} /></noscript>
+    <script is:inline define:vars={{ locales, defaultLocale }}>
+      const wanted = (navigator.languages || [navigator.language]).map((l) => l.slice(0, 2).toLowerCase());
+      const lang = wanted.find((l) => locales.includes(l)) || defaultLocale;
+      location.replace(`/${lang}/`);
+    </script>
+  </head>
+  <body>
+    <ul>
+      {locales.map((l) => <li><a href={`/${l}/`}>{localeNames[l as keyof typeof localeNames]}</a></li>)}
+    </ul>
+  </body>
+</html>

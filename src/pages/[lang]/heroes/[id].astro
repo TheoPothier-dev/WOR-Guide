@@ -1,0 +1,69 @@
+---
+import { getCollection, getEntry } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+import { localize, useTranslations, type Locale } from '../../../i18n/ui';
+import { locales } from '../../../i18n/locales.js';
+import { servers } from '../../../content.config';
+
+export async function getStaticPaths() {
+  const heroes = await getCollection('heroes');
+  return locales.flatMap((lang) => heroes.map((hero) => ({ params: { lang, id: hero.id }, props: { hero } })));
+}
+
+const lang = Astro.params.lang as Locale;
+const t = useTranslations(lang);
+const { hero } = Astro.props;
+const h = hero.data;
+const name = localize(h.name, lang);
+const faction = h.faction ? await getEntry(h.faction) : undefined;
+const modes = await getCollection('modes');
+const pct = (n?: number) => (n === undefined ? '' : ` (${n.toLocaleString(lang)} % ${t('hero.usage')})`);
+---
+<Base lang={lang} title={name}>
+  <h1>{name}</h1>
+  {h.example && <p class="example">{t('data.example')}</p>}
+  <dl>
+    <dt>{t('hero.class')}</dt><dd>{t(`class.${h.class}`)}</dd>
+    {h.rarity && <><dt>{t('hero.rarity')}</dt><dd>{t(`rarity.${h.rarity}`)}</dd></>}
+    {faction && <><dt>{t('hero.faction')}</dt><dd>{localize(faction.data.name, lang)}</dd></>}
+    {h.damageType && <><dt>{t('hero.damageType')}</dt><dd>{t(`damage.${h.damageType}`)}</dd></>}
+  </dl>
+
+  <h2>{t('hero.builds')}</h2>
+  {servers.map((server) => {
+    const builds = h.builds[server] ?? [];
+    return (
+      <div data-server={server}>
+        {builds.length === 0 && <p>{t('hero.noBuild')}</p>}
+        {builds.map((b) => (
+          <section>
+            <h3>{localize(b.label, lang)}</h3>
+            <h4>{t('hero.gearSets')}</h4>
+            <ul>{b.sets.map((s) => <li>{s.name}{pct(s.usage)}</li>)}</ul>
+            {b.artifacts.length > 0 && (
+              <>
+                <h4>{t('hero.artifacts')}</h4>
+                <ul>{b.artifacts.map((a) => <li>{a.name}{pct(a.usage)}</li>)}</ul>
+              </>
+            )}
+            {b.notes && <p>{localize(b.notes, lang)}</p>}
+          </section>
+        ))}
+      </div>
+    );
+  })}
+
+  <h2>{t('hero.tiers')}</h2>
+  {servers.map((server) => (
+    <table data-server={server}>
+      <tbody>
+        {modes.map((m) => (
+          <tr>
+            <th>{localize(m.data.name, lang)}</th>
+            <td>{h.tiers[server]?.[m.id] ?? t('tier.notRated')}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  ))}
+</Base>

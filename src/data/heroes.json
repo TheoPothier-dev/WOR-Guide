@@ -1,0 +1,42 @@
+[
+  {
+    "id": "valara",
+    "example": true,
+    "name": { "en": "Valara" },
+    "class": "tactician",
+    "builds": {
+      "global": [
+        {
+          "label": { "en": "Most used", "fr": "Le plus joué" },
+          "source": "Official guide site (act.gms.moontontech.com/worcommunity), server not specified",
+          "sets": [
+            { "name": "Wicked Vengeance", "usage": 68.72 },
+            { "name": "Warlord", "usage": 23.89 },
+            { "name": "Annihilating Might", "usage": 2.31 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "rorkesh",
+    "example": true,
+    "name": { "en": "Rorkesh" },
+    "class": "marksman",
+    "rarity": "legendary",
+    "faction": "grey-blades",
+    "builds": {
+      "global": [
+        {
+          "label": { "en": "Most used", "fr": "Le plus joué" },
+          "source": "Official guide site (watcherofrealms.mproject.skystone.games/worcommunity), server not specified",
+          "sets": [
+            { "name": "Wicked Vengeance", "usage": 63.2 },
+            { "name": "Warlord", "usage": 20.57 },
+            { "name": "Annihilating Might", "usage": 3.4 }
+          ]
+        }
+      ]
+    }
+  }
+]

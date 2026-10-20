@@ -1,0 +1,57 @@
+---
+import { locales, localeNames } from '../i18n/locales.js';
+import { useTranslations, type Locale } from '../i18n/ui';
+import { href, switchLang } from '../lib/i18n-paths';
+import ServerSwitch from '../components/ServerSwitch.astro';
+
+interface Props {
+  lang: Locale;
+  title?: string;
+}
+const { lang, title } = Astro.props;
+const t = useTranslations(lang);
+const pageTitle = title ? `${title} | ${t('siteTitle')}` : t('siteTitle');
+---
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    {locales.map((l) => <link rel="alternate" hreflang={l} href={new URL(switchLang(Astro.url.pathname, l as Locale), Astro.site)} />)}
+  </head>
+  <body>
+    <header>
+      <a class="brand" href={href(lang)}>{t('siteTitle')}</a>
+      <nav>
+        <a href={href(lang, 'heroes/')}>{t('nav.heroes')}</a>
+        <a href={href(lang, 'tier-list/')}>{t('nav.tierList')}</a>
+      </nav>
+      <ServerSwitch lang={lang} />
+      <select aria-label="Language" onchange="location.href = this.value">
+        {locales.map((l) => (
+          <option value={switchLang(Astro.url.pathname, l as Locale)} selected={l === lang}>
+            {localeNames[l as Locale]}
+          </option>
+        ))}
+      </select>
+    </header>
+    <main>
+      <slot />
+    </main>
+    <footer>{t('footer.disclaimer')}</footer>
+  </body>
+</html>
+
+<style is:global>
+  /* Mise en page minimale : le design viendra plus tard. */
+  body { font-family: system-ui, sans-serif; margin: 0 auto; max-width: 960px; padding: 0 16px; line-height: 1.5; }
+  header { display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: center; padding: 12px 0; border-bottom: 1px solid #ccc; }
+  header nav { display: flex; gap: 12px; flex: 1; }
+  .brand { font-weight: bold; }
+  footer { margin: 40px 0 20px; font-size: 0.85em; color: #666; }
+  table { border-collapse: collapse; width: 100%; }
+  th, td { border: 1px solid #ddd; padding: 4px 8px; text-align: left; }
+  .example { background: #fff3cd; padding: 4px 8px; }
+  [hidden] { display: none !important; }
+</style>

@@ -1,0 +1,37 @@
+---
+import { servers } from '../content.config';
+import { useTranslations, type Locale } from '../i18n/ui';
+
+const { lang } = Astro.props as { lang: Locale };
+const t = useTranslations(lang);
+---
+<label class="server-switch">
+  {t('server.label')}
+  <select data-server-select>
+    {servers.map((s) => <option value={s}>{t(`server.${s}`)}</option>)}
+  </select>
+</label>
+
+<script>
+  // Montre seulement les blocs du serveur choisi ; le choix est retenu entre les pages.
+  const KEY = 'wor-server';
+  function apply(server: string) {
+    document.querySelectorAll<HTMLElement>('[data-server]').forEach((el) => {
+      el.hidden = el.dataset.server !== server;
+    });
+    document.querySelectorAll<HTMLSelectElement>('[data-server-select]').forEach((s) => (s.value = server));
+  }
+  let saved = 'global';
+  try {
+    saved = localStorage.getItem(KEY) ?? 'global';
+  } catch {}
+  apply(saved);
+  document.querySelectorAll<HTMLSelectElement>('[data-server-select]').forEach((select) =>
+    select.addEventListener('change', () => {
+      try {
+        localStorage.setItem(KEY, select.value);
+      } catch {}
+      apply(select.value);
+    }),
+  );
+</script>

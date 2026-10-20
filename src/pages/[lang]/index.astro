@@ -1,0 +1,17 @@
+---
+import Base from '../../layouts/Base.astro';
+import { useTranslations, type Locale } from '../../i18n/ui';
+import { href, langPaths } from '../../lib/i18n-paths';
+
+export const getStaticPaths = langPaths;
+const lang = Astro.params.lang as Locale;
+const t = useTranslations(lang);
+---
+<Base lang={lang}>
+  <h1>{t('siteTitle')}</h1>
+  <p>{t('home.intro')}</p>
+  <ul>
+    <li><a href={href(lang, 'heroes/')}>{t('nav.heroes')}</a></li>
+    <li><a href={href(lang, 'tier-list/')}>{t('nav.tierList')}</a></li>
+  </ul>
+</Base>
