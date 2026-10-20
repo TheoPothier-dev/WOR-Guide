@@ -4,6 +4,7 @@ import Base from '../../layouts/Base.astro';
 import { localize, useTranslations, type Locale } from '../../i18n/ui';
 import { readdirSync } from 'node:fs';
 import { asset, langPaths } from '../../lib/i18n-paths';
+import FilterBar from '../../components/FilterBar.astro';
 
 export const getStaticPaths = langPaths;
 const lang = Astro.params.lang as Locale;
@@ -11,29 +12,58 @@ const t = useTranslations(lang);
 const sets = (await getCollection('sets')).sort((a, b) => localize(a.data.name, lang).localeCompare(localize(b.data.name, lang), lang));
 // Images des pièces de chaque set (public/sets/<set>_<n>.webp), extraites du jeu.
 const pieceFiles = readdirSync('public/sets');
+// Sets actuels : 2 pièces (ids 71xxxx) et 3 pièces (72xxxx) ; les autres sont les anciens sets 4 pièces.
+const groups = [
+  { key: 'two', sets: sets.filter((s) => s.id.startsWith('71')) },
+  { key: 'three', sets: sets.filter((s) => s.id.startsWith('72')) },
+  { key: 'legacy', sets: sets.filter((s) => !/^7[12]/.test(s.id)) },
+] as const;
+// Catégories de filtre déduites du texte anglais des bonus.
+const tagKeys = ['atk', 'crit', 'defense', 'heal', 'rage', 'speed'] as const;
+const tags = (s: (typeof sets)[number]) => {
+  const text = s.data.bonuses.map((b) => b.description.en).join(' ');
+  const out: string[] = [];
+  if (/\bATK\b(?! Spd)|DMG \+|DMG by|Penetration|ignores/i.test(text)) out.push('atk');
+  if (/Crit/i.test(text)) out.push('crit');
+  if (/\bHP\b|DEF|DMG Taken|Reduction|shield|Block/i.test(text)) out.push('defense');
+  if (/Healing/i.test(text)) out.push('heal');
+  if (/Rage/i.test(text)) out.push('rage');
+  if (/Spd|Cost/i.test(text)) out.push('speed');
+  return out;
+};
 const pieces = (gameId: number) => pieceFiles.filter((f) => f.startsWith(`${gameId}_`)).sort().map((f) => asset(`sets/${f}`));
 ---
 <Base lang={lang} title={t('sets.title')} description={t('home.sets')}>
   <h1>{t('sets.title')}</h1>
-  <div class="grid">
-    {sets.map((s) => (
-      <article class="card" id={s.id}>
-        <h3>{localize(s.data.name, lang)}</h3>
-        <div class="pieces">
-          {pieces(s.data.gameId).map((src) => <img src={src} alt="" width="100" height="100" loading="lazy" />)}
-        </div>
-        <ul class="bonuses">
-          {s.data.bonuses.map((b) => (
-            <li class="text">{localize(b.description, lang)}</li>
-          ))}
-        </ul>
-      </article>
-    ))}
-  </div>
+  <FilterBar placeholder={t('filter.placeholder')} allLabel={t('filter.all')} emptyText={t('filter.none')} chips={tagKeys.map((k) => ({ value: k, label: t(`tag.${k}`) }))} />
+  <nav class="toc">{groups.map((g) => <a href={`#${g.key}`}>{t(`sets.${g.key}`)}</a>)}</nav>
+  {groups.map((g) => (
+    <section data-filter-group>
+      <h2 id={g.key}>{t(`sets.${g.key}`)}</h2>
+      <div class="grid">
+        {g.sets.map((s) => (
+          <article class="card" id={s.id} data-filter-item data-text={localize(s.data.name, lang) + ' ' + s.data.bonuses.map((b) => localize(b.description, lang)).join(' ')} data-tags={tags(s).join(' ')}>
+            <h3>{localize(s.data.name, lang)}</h3>
+            <div class="pieces">
+              {pieces(s.data.gameId).map((src) => <img src={src} alt="" width="100" height="100" loading="lazy" />)}
+            </div>
+            <ul class="bonuses">
+              {s.data.bonuses.map((b) => (
+                <li class="text">{localize(b.description, lang)}</li>
+              ))}
+            </ul>
+          </article>
+        ))}
+      </div>
+    </section>
+  ))}
 </Base>
 
 <style>
   h3 { color: var(--gold-2); }
+  .toc { display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: 0.9rem; }
+  .toc a { color: var(--muted); }
+  .toc a:hover { color: var(--gold-2); }
   .pieces { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; margin: 4px 0 12px; }
   .pieces img { width: 100%; height: auto; aspect-ratio: 1; border-radius: 8px; background: radial-gradient(circle, var(--surface-2), var(--bg)); border: 1px solid var(--border); }
   .bonuses { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; font-size: 0.92rem; }

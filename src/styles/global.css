@@ -49,6 +49,11 @@ h3 { font-size: 1.05rem; margin: 0 0 0.4em; }
 .container { width: 100%; max-width: 1200px; margin: 0 auto; padding: 0 16px; }
 main.container { flex: 1; padding-bottom: 48px; }
 
+/* Lien d'évitement, visible seulement au clavier */
+.skip { position: absolute; left: 8px; top: -60px; z-index: 20; background: var(--gold); color: #1a1406; padding: 8px 14px; border-radius: 8px; font-weight: 600; }
+.skip:focus { top: 8px; color: #1a1406; }
+main:focus { outline: none; }
+
 /* En-tête */
 .site-header {
   position: sticky; top: 0; z-index: 10;

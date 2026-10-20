@@ -1,10 +1,10 @@
 [
-  { "id": "campaign", "category": "pve", "name": { "en": "Campaign", "fr": "Campagne" } },
-  { "id": "void-rift", "category": "pve", "name": { "en": "Void Rift" } },
-  { "id": "immortal-codex", "category": "pve", "name": { "en": "Immortal Codex" } },
-  { "id": "halls-of-illusion", "category": "pve", "name": { "en": "Malrik's Halls of Illusion" } },
-  { "id": "gear-raid", "category": "pve", "name": { "en": "Gear Raid" } },
-  { "id": "arena", "category": "pvp", "name": { "en": "Arena", "fr": "Arène" } },
-  { "id": "guild-boss", "category": "guild", "name": { "en": "Guild Boss" } },
-  { "id": "guild-war", "category": "guild", "name": { "en": "Guild War" } }
+  {"id": "campaign", "category": "pve", "name": {"en": "Campaign", "fr": "Campagne", "de": "Kampagne", "es": "Campaña", "it": "Campagna", "pt": "Campanha", "pl": "Kampania", "ru": "Кампания"}},
+  {"id": "void-rift", "category": "pve", "name": {"en": "Void Rift", "fr": "Brèche du néant", "de": "Leerenriss", "es": "Grieta del vacío", "it": "Spaccatura del vuoto", "pt": "Fenda do Vazio", "ru": "Разлом пустоты"}},
+  {"id": "immortal-codex", "category": "pve", "name": {"en": "Immortal Codex", "fr": "Codex immortel", "de": "Ewiger Kodex", "es": "Códice inmortal", "it": "Codice Immortale", "pt": "Códice Imortal", "ru": "Кодекс бессмертных"}},
+  {"id": "halls-of-illusion", "category": "pve", "name": {"en": "Malrik's Halls of Illusion", "fr": "Salles d'illusion de Malrik", "de": "Malriks Illusionshallen", "es": "Salas de ilusión de Malrik", "it": "Sale dell'illusione di Malrik", "pt": "Salões de Ilusão do Malrik", "ru": "Чертоги иллюзий Малрика"}},
+  {"id": "gear-raid", "category": "pve", "name": {"en": "Gear Raid", "fr": "Raid d'équipement", "de": "Ausrüstungsraid", "es": "Incursión de equipo", "it": "Raid Equip", "pt": "Incursão de Equipamento", "ru": "Рейд для снаряжения"}},
+  {"id": "arena", "category": "pvp", "name": {"en": "Arena", "fr": "Arène", "de": "Arena", "es": "Arena", "it": "Arena", "pt": "Arena", "pl": "Arena", "ru": "Арена"}},
+  {"id": "guild-boss", "category": "guild", "name": {"en": "Guild Boss", "fr": "Boss de guilde", "de": "Gildenboss", "es": "Jefe de clan", "it": "Boss della gilda", "pt": "Chefe da Guilda", "ru": "Босс гильдии"}},
+  {"id": "guild-war", "category": "guild", "name": {"en": "Guild War", "fr": "Guerre de guildes", "de": "Gildenkrieg", "es": "Guerra de los Clanes", "it": "Guerra tra gilde", "pt": "Guerra de Guilda", "ru": "Война гильдий"}}
 ]

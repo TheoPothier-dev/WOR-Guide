@@ -1,14 +1,16 @@
 ---
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
-import { useTranslations, type Locale } from '../../i18n/ui';
-import { href, langPaths } from '../../lib/i18n-paths';
+import { localize, useTranslations, type Locale } from '../../i18n/ui';
+import { href, heroHead, langPaths } from '../../lib/i18n-paths';
+import news from '../../data/news.json';
 
 export const getStaticPaths = langPaths;
 const lang = Astro.params.lang as Locale;
 const t = useTranslations(lang);
+const heroes = await getCollection('heroes');
 const counts = {
-  heroes: (await getCollection('heroes')).length,
+  heroes: heroes.length,
   sets: (await getCollection('sets')).length,
   artifacts: (await getCollection('artifacts')).length,
 };
@@ -18,17 +20,64 @@ const sections = [
   { path: 'sets/', title: t('nav.sets'), text: t('home.sets'), count: counts.sets },
   { path: 'artifacts/', title: t('nav.artifacts'), text: t('home.artifacts'), count: counts.artifacts },
 ];
+// Les actus citent les héros par leur nom anglais, parfois abrégé (« Ezio », « Eivor »).
+const findHero = (name: string) => {
+  const n = name.toLowerCase();
+  return heroes.find((h) => h.data.name.en.toLowerCase() === n) ?? heroes.find((h) => h.data.name.en.toLowerCase().startsWith(n + ' '));
+};
+const typeLabel = (type: string) => t(`news.${type as 'update' | 'event' | 'hero' | 'collab' | 'code'}`);
+const text = (en: string, fr: string) => localize({ en, fr }, lang);
+const day = (d: string) => new Date(d + 'T12:00:00Z').toLocaleDateString(lang, { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
+const updated = day(new Date().toISOString().slice(0, 10));
 ---
 <Base lang={lang}>
   <section class="hero">
     <h1>{t('siteTitle')}</h1>
     <p>{t('home.intro')}</p>
+    <button type="button" class="big-search" data-search-open>
+      <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2" /><path d="M16.5 16.5L21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round" /></svg>
+      {t('search.placeholder')}
+    </button>
   </section>
+
+  <section class="news">
+    <div class="news-head">
+      <h2>{t('home.news')}</h2>
+      <small class="muted">{t('home.updated')} {updated}</small>
+    </div>
+    <div class="news-list">
+      {news.map((n) => {
+        const linked = n.heroes.map(findHero).filter((h) => h !== undefined);
+        return (
+          <article class={`card item type-${n.type}`} data-start={n.date} data-end={n.end ?? ''}>
+            <header>
+              <span class="type">{typeLabel(n.type)}</span>
+              <span class="state" data-live={t('news.live')} data-soon={t('news.soon')} hidden></span>
+              <time datetime={n.date}>{day(n.date)}{n.end && ` · ${t('news.until')} ${day(n.end)}`}</time>
+            </header>
+            <h3>{text(n.title_en, n.title_fr)}</h3>
+            <p>{text(n.summary_en, n.summary_fr)}</p>
+            <footer>
+              <span class="faces">
+                {linked.map((h) => (
+                  <a href={href(lang, `heroes/${h.id}/`)} title={localize(h.data.name, lang)}><img src={heroHead(h.data.gameId)} alt={localize(h.data.name, lang)} width="36" height="54" loading="lazy" /></a>
+                ))}
+              </span>
+              <a class="source" href={n.source} rel="noopener" target="_blank">{t('news.source')} ↗</a>
+            </footer>
+          </article>
+        );
+      })}
+    </div>
+    <p class="muted note"><small>{t('news.note')}</small></p>
+  </section>
+
+  <h2>{t('home.explore')}</h2>
   <div class="sections">
     {sections.map((s) => (
       <a class="card section" href={href(lang, s.path)}>
         <div class="head">
-          <h2>{s.title}</h2>
+          <h3>{s.title}</h3>
           {s.count !== undefined && <span class="count">{s.count}</span>}
         </div>
         <p class="muted">{s.text}</p>
@@ -38,14 +87,59 @@ const sections = [
 </Base>
 
 <style>
-  .hero { text-align: center; padding: clamp(24px, 6vw, 64px) 0 clamp(16px, 4vw, 40px); }
+  .hero { text-align: center; padding: clamp(20px, 5vw, 56px) 0 clamp(8px, 2vw, 16px); }
   .hero h1 { font-size: clamp(2rem, 6vw, 3.4rem); margin: 0 0 0.3em; }
   .hero p { font-size: 1.1rem; color: var(--muted); max-width: 40em; margin: 0 auto; }
+  .big-search {
+    display: inline-flex; align-items: center; gap: 10px; margin-top: 20px; width: min(480px, 100%);
+    font: inherit; color: var(--muted); cursor: pointer; text-align: left;
+    background: var(--surface); border: 1px solid var(--border); border-radius: 999px; padding: 12px 18px;
+  }
+  .big-search:hover { border-color: var(--gold); color: var(--text); }
+
+  .news-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; border-bottom: 1px solid var(--border); margin: 1.8em 0 0.9em; }
+  .news-head h2 { border: 0; margin: 0; padding-bottom: 0.3em; }
+  .news-list { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
+  .item { display: flex; flex-direction: column; gap: 6px; border-left: 3px solid var(--border); }
+  .item header { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; font-size: 0.8rem; }
+  .item time { color: var(--muted); }
+  .item h3 { margin: 2px 0 0; color: var(--gold-2); }
+  .item p { margin: 0; font-size: 0.92rem; color: #d4d0c4; flex: 1; }
+  .item footer { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-top: 6px; }
+  .faces { display: flex; gap: 4px; flex-wrap: wrap; }
+  .faces img { width: 30px; height: 45px; border-radius: 5px; object-fit: cover; border: 1px solid var(--border); }
+  .source { font-size: 0.8rem; color: var(--muted); white-space: nowrap; }
+  .type, .state { font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; font-size: 0.7rem; padding: 2px 8px; border-radius: 4px; background: var(--surface-2); color: var(--muted); }
+  .state { background: rgba(123, 211, 137, 0.18); color: #9fe0aa; }
+  .state.soon { background: rgba(79, 157, 255, 0.16); color: #8cc0ff; }
+  .type-update { border-left-color: var(--gold); }
+  .type-update .type { background: rgba(217, 181, 108, 0.18); color: var(--gold-2); }
+  .type-event { border-left-color: #7bd389; }
+  .type-hero { border-left-color: var(--legendary); }
+  .type-collab { border-left-color: var(--epic); }
+  .type-collab .type { background: rgba(168, 116, 255, 0.18); color: #c9a6ff; }
+  .type-code { border-left-color: var(--rare); }
+  .note { margin: 10px 0 0; }
+
   .sections { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
   .head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; margin-bottom: 0.4em; }
   .section { color: var(--text); transition: border-color 0.15s, transform 0.15s; }
   .section:hover { border-color: var(--gold); transform: translateY(-2px); color: var(--text); }
-  .section h2 { margin: 0; border: 0; padding: 0; }
+  .section h3 { margin: 0; font-size: 1.2rem; color: var(--gold); }
   .section p { margin: 0; }
   .count { font-family: var(--heading); font-size: 1.4rem; color: var(--gold); }
 </style>
+
+<script>
+  // « En cours » / « À venir » selon la date du jour du visiteur, pas celle de la publication du site.
+  const today = new Date().toISOString().slice(0, 10);
+  for (const item of document.querySelectorAll<HTMLElement>('.news .item')) {
+    const { start, end } = item.dataset;
+    const state = item.querySelector<HTMLElement>('.state')!;
+    const label = start! > today ? 'soon' : end && end >= today ? 'live' : '';
+    if (!label) continue;
+    state.textContent = state.dataset[label]!;
+    state.classList.toggle('soon', label === 'soon');
+    state.hidden = false;
+  }
+</script>

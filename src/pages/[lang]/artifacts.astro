@@ -6,6 +6,7 @@ import { readdirSync } from 'node:fs';
 import { asset, href, heroHead, langPaths } from '../../lib/i18n-paths';
 import { heroClasses } from '../../lib/heroes';
 import ClassIcon from '../../components/ClassIcon.astro';
+import FilterBar from '../../components/FilterBar.astro';
 
 export const getStaticPaths = langPaths;
 const lang = Astro.params.lang as Locale;
@@ -20,16 +21,19 @@ const general = artifacts.filter((a) => !a.data.heroGameId && !a.data.class);
 ---
 <Base lang={lang} title={t('artifacts.title')} description={t('home.artifacts')}>
   <h1>{t('artifacts.title')}</h1>
+  <FilterBar placeholder={t('filter.placeholder')} allLabel={t('filter.all')} emptyText={t('filter.none')} chips={[...heroClasses.map((c) => ({ value: c, label: t(`class.${c}`) })), { value: 'exclusive', label: t('artifacts.exclusive') }]} />
+  <nav class="toc"><a href="#by-class">{t('artifacts.byClass')}</a><a href="#general">{t('artifacts.general')}</a><a href="#exclusive">{t('artifacts.exclusive')}</a></nav>
 
-  <h2>{t('artifacts.byClass')}</h2>
+  <div data-filter-group>
+  <h2 id="by-class">{t('artifacts.byClass')}</h2>
   {heroClasses.map((cls) => {
     const list = artifacts.filter((a) => a.data.class === cls);
     return list.length > 0 && (
-      <section>
+      <section data-filter-group>
         <h3 class="class"><ClassIcon cls={cls} size={22} /> {t(`class.${cls}`)}</h3>
         <div class="grid">
           {list.map((a) => (
-            <article class="card art" id={a.id}>
+            <article class="card art" id={a.id} data-filter-item data-tags={cls}>
               {icon(a.data.gameId) ? <img class="icon" src={icon(a.data.gameId)} alt="" width="64" height="64" loading="lazy" /> : <span class="icon"></span>}
             <h4>{localize(a.data.name, lang)} <span class="badge">{t('artifacts.rank')} {a.data.rank}</span></h4>
               {a.data.description && <p class="text">{localize(a.data.description, lang)}</p>}
@@ -39,28 +43,32 @@ const general = artifacts.filter((a) => !a.data.heroGameId && !a.data.class);
       </section>
     );
   })}
+  </div>
 
   {general.length > 0 && (
     <>
-      <h2>{t('artifacts.general')}</h2>
+      <section data-filter-group>
+      <h2 id="general">{t('artifacts.general')}</h2>
       <div class="grid">
         {general.map((a) => (
-          <article class="card art" id={a.id}>
+          <article class="card art" id={a.id} data-filter-item data-tags="general">
             {icon(a.data.gameId) ? <img class="icon" src={icon(a.data.gameId)} alt="" width="64" height="64" loading="lazy" /> : <span class="icon"></span>}
             <h4>{localize(a.data.name, lang)} <span class="badge">{t('artifacts.rank')} {a.data.rank}</span></h4>
             {a.data.description && <p class="text">{localize(a.data.description, lang)}</p>}
           </article>
         ))}
       </div>
+      </section>
     </>
   )}
 
-  <h2>{t('artifacts.exclusive')}</h2>
+  <section data-filter-group>
+  <h2 id="exclusive">{t('artifacts.exclusive')}</h2>
   <div class="grid">
     {exclusive.map((a) => {
       const hero = heroes.get(a.data.heroGameId!)!;
       return (
-        <article class="card art" id={a.id}>
+        <article class="card art" id={a.id} data-filter-item data-tags={`exclusive ${hero.data.class}`} data-text={`${localize(a.data.name, lang)} ${localize(hero.data.name, lang)} ${a.data.description ? localize(a.data.description, lang) : ''}`}>
           {icon(a.data.gameId) ? <img class="icon" src={icon(a.data.gameId)} alt="" width="64" height="64" loading="lazy" /> : <span class="icon"></span>}
           <h4>{localize(a.data.name, lang)}</h4>
           <a class="hero" href={href(lang, `heroes/${hero.id}/`)}><img class="thumb" src={heroHead(hero.data.gameId)} alt="" width="32" height="32" loading="lazy" /> {localize(hero.data.name, lang)}</a>
@@ -69,6 +77,7 @@ const general = artifacts.filter((a) => !a.data.heroGameId && !a.data.class);
       );
     })}
   </div>
+  </section>
 </Base>
 
 <style>
@@ -81,4 +90,7 @@ const general = artifacts.filter((a) => !a.data.heroGameId && !a.data.class);
   .hero { font-size: 0.9rem; display: inline-flex; align-items: center; gap: 8px; }
   .thumb { width: 32px; height: 32px; border-radius: 50%; object-fit: cover; object-position: top; border: 1px solid var(--border); }
   .class { display: flex; align-items: center; gap: 8px; }
+  .toc { display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: 0.9rem; }
+  .toc a { color: var(--muted); }
+  .toc a:hover { color: var(--gold-2); }
 </style>

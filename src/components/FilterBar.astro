@@ -1,0 +1,54 @@
+---
+// Barre de filtre côté client : texte (sans accents) et pastilles.
+// Les éléments filtrés portent data-filter-item, data-text et data-tags ; les blocs data-filter-group vides sont masqués.
+interface Props {
+  placeholder: string;
+  allLabel: string;
+  chips?: { value: string; label: string }[];
+  emptyText: string;
+}
+const { placeholder, allLabel, chips = [], emptyText } = Astro.props;
+---
+<div class="filter-bar" data-filter-bar>
+  <input type="search" placeholder={placeholder} aria-label={placeholder} />
+  {chips.length > 0 && (
+    <div class="chips" role="group">
+      <button type="button" class="chip" data-tag="" aria-pressed="true">{allLabel}</button>
+      {chips.map((c) => <button type="button" class="chip" data-tag={c.value} aria-pressed="false">{c.label}</button>)}
+    </div>
+  )}
+</div>
+<p class="muted filter-empty" hidden>{emptyText}</p>
+
+<style>
+  .filter-bar { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; margin: 12px 0 8px; }
+  .filter-bar input { flex: 1 1 220px; max-width: 360px; }
+</style>
+
+<script>
+  const norm = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+  for (const bar of document.querySelectorAll<HTMLElement>('[data-filter-bar]')) {
+    const input = bar.querySelector('input')!;
+    const chips = [...bar.querySelectorAll<HTMLButtonElement>('[data-tag]')];
+    const empty = bar.nextElementSibling as HTMLElement;
+    const items = [...document.querySelectorAll<HTMLElement>('[data-filter-item]')];
+    items.forEach((el) => (el.dataset.key = norm(el.dataset.text ?? el.textContent ?? '')));
+    let tag = '';
+    const apply = () => {
+      const q = norm(input.value.trim());
+      let shown = 0;
+      for (const el of items) {
+        const ok = (!q || el.dataset.key!.includes(q)) && (!tag || (el.dataset.tags ?? '').split(' ').includes(tag));
+        el.hidden = !ok;
+        if (ok) shown++;
+      }
+      for (const g of document.querySelectorAll<HTMLElement>('[data-filter-group]')) {
+        g.hidden = !g.querySelector('[data-filter-item]:not([hidden])');
+      }
+      chips.forEach((c) => c.setAttribute('aria-pressed', String(c.dataset.tag === tag)));
+      empty.hidden = shown > 0;
+    };
+    input.addEventListener('input', apply);
+    chips.forEach((c) => c.addEventListener('click', () => { tag = c.dataset.tag!; apply(); }));
+  }
+</script>

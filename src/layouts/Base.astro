@@ -48,6 +48,7 @@ const imageUrl = new URL(asset(image), Astro.site);
     {locales.map((l) => <link rel="alternate" hreflang={l} href={new URL(switchLang(path, l as Locale), Astro.site)} />)}
   </head>
   <body>
+    <a class="skip" href="#main">{t('nav.skip')}</a>
     <header class="site-header">
       <div class="container">
         <a class="brand" href={href(lang)}><span class="long">Watcher of Realms</span><span class="short">WoR</span> <span class="sub">Guide</span></a>
@@ -70,7 +71,7 @@ const imageUrl = new URL(asset(image), Astro.site);
         </div>
       </div>
     </header>
-    <main class="container">
+    <main class="container" id="main" tabindex="-1">
       <slot />
     </main>
     <footer class="site-footer">

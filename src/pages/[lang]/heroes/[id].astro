@@ -2,7 +2,7 @@
 import { getCollection, getEntry } from 'astro:content';
 import Base from '../../../layouts/Base.astro';
 import { existsSync } from 'node:fs';
-import { asset, heroBust, href } from '../../../lib/i18n-paths';
+import { asset, heroBust, heroHead, href } from '../../../lib/i18n-paths';
 import { localize, useTranslations, type Locale, type LocalizedText } from '../../../i18n/ui';
 import { locales } from '../../../i18n/locales.js';
 import { servers } from '../../../content.config';
@@ -45,9 +45,21 @@ const setsById = new Map((await getCollection('sets')).map((s) => [s.id, s]));
 const artifactsById = new Map((await getCollection('artifacts')).map((a) => [a.id, a]));
 const setImage = (gameId: number) => (existsSync(`public/sets/${gameId}_0.webp`) ? asset(`sets/${gameId}_0.webp`) : undefined);
 const artifactImage = (gameId: number) => (existsSync(`public/artifacts/${gameId}.webp`) ? asset(`artifacts/${gameId}.webp`) : undefined);
+// Héros précédent et suivant, dans l'ordre alphabétique de la langue.
+const ordered = (await getCollection('heroes')).sort((a, b) => localize(a.data.name, lang).localeCompare(localize(b.data.name, lang), lang));
+const at = ordered.findIndex((x) => x.id === hero.id);
+const prev = ordered.at(at - 1)!;
+const next = ordered.at((at + 1) % ordered.length)!;
 const pct = (n?: number) => (n === undefined ? '' : ` (${n.toLocaleString(lang)} % ${t('hero.usage')})`);
 ---
 <Base lang={lang} title={name} description={`${name} : ${description}`} image={h.gameId ? `heroes/bust/${h.gameId}.webp` : undefined} server>
+  <nav class="crumbs" aria-label={t('nav.heroes')}>
+    <a href={href(lang, 'heroes/')}>← {t('nav.heroes')}</a>
+    <span class="step">
+      <a href={href(lang, `heroes/${prev.id}/`)} rel="prev"><img src={heroHead(prev.data.gameId)} alt="" width="24" height="36" />‹ {localize(prev.data.name, lang)}</a>
+      <a href={href(lang, `heroes/${next.id}/`)} rel="next">{localize(next.data.name, lang)} ›<img src={heroHead(next.data.gameId)} alt="" width="24" height="36" /></a>
+    </span>
+  </nav>
   <div class="layout">
     <aside class="side">
       <div class={`card identity ${h.rarity ?? ''}`}>
@@ -188,7 +200,7 @@ const pct = (n?: number) => (n === undefined ? '' : ` (${n.toLocaleString(lang)}
           <h2>{t('hero.awakenings')}</h2>
           <ol class="awakenings">
             {h.awakenings.map((a) => (
-              <li class="card">
+              <li class:list={['card', { stat: a.stat }]}>
                 <span class="level">{a.level}</span>
                 <p class="text">{localize(a.description, lang)}</p>
               </li>
@@ -233,7 +245,13 @@ const pct = (n?: number) => (n === undefined ? '' : ` (${n.toLocaleString(lang)}
 </Base>
 
 <style>
-  .layout { display: grid; gap: 24px; margin-top: 20px; }
+  .layout { display: grid; gap: 24px; margin-top: 12px; }
+  .crumbs { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-top: 14px; font-size: 0.9rem; }
+  .crumbs a { color: var(--muted); display: inline-flex; align-items: center; gap: 6px; }
+  .crumbs a:hover { color: var(--gold-2); }
+  .crumbs .step { display: flex; gap: 14px; min-width: 0; }
+  .crumbs img { width: 24px; height: 36px; border-radius: 4px; object-fit: cover; }
+  @media (max-width: 520px) { .crumbs .step a { max-width: 42vw; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; } }
   @media (min-width: 960px) {
     .layout { grid-template-columns: 340px 1fr; align-items: start; }
     .content > section:first-child h2 { margin-top: 0; }
@@ -303,6 +321,8 @@ const pct = (n?: number) => (n === undefined ? '' : ` (${n.toLocaleString(lang)}
   .awakenings { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
   .awakenings li { display: flex; gap: 14px; align-items: flex-start; }
   .awakenings p { margin: 0; }
+  .awakenings .stat { padding-top: 10px; padding-bottom: 10px; align-items: center; }
+  .awakenings .stat p { color: var(--gold-2); font-weight: 600; }
   .level {
     flex: none; width: 32px; height: 32px; border-radius: 50%; display: grid; place-items: center;
     font-family: var(--heading); font-weight: 700; background: var(--gold); color: #1a1406;
