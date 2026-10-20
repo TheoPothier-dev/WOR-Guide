@@ -2,8 +2,9 @@
 import { getCollection } from 'astro:content';
 import Base from '../../../layouts/Base.astro';
 import { localize, useTranslations, type Locale } from '../../../i18n/ui';
-import { href, langPaths } from '../../../lib/i18n-paths';
-import { heroClasses, classIcon } from '../../../lib/heroes';
+import { href, heroHead, langPaths } from '../../../lib/i18n-paths';
+import { heroClasses } from '../../../lib/heroes';
+import ClassIcon from '../../../components/ClassIcon.astro';
 
 export const getStaticPaths = langPaths;
 const lang = Astro.params.lang as Locale;
@@ -23,7 +24,7 @@ const factionNames = new Map((await getCollection('factions')).map((f) => [f.id,
     <input type="search" placeholder={t('heroes.search')} aria-label={t('heroes.search')} data-search />
     <div class="chips" data-filter="class">
       <button class="chip" type="button" aria-pressed="true" data-value="">{t('filter.all')}</button>
-      {heroClasses.map((c) => <button class="chip" type="button" aria-pressed="false" data-value={c}>{classIcon[c]} {t(`class.${c}`)}</button>)}
+      {heroClasses.map((c) => <button class="chip" type="button" aria-pressed="false" data-value={c}><ClassIcon cls={c} /> {t(`class.${c}`)}</button>)}
     </div>
     <div class="chips" data-filter="rarity">
       <button class="chip" type="button" aria-pressed="true" data-value="">{t('filter.all')}</button>
@@ -36,15 +37,12 @@ const factionNames = new Map((await getCollection('factions')).map((f) => [f.id,
       const name = localize(h.data.name, lang);
       return (
         <li data-class={h.data.class} data-rarity={h.data.rarity} data-name={name.toLowerCase()}>
-          <a class={`hero-card ${h.data.rarity ?? ''}`} href={href(lang, `heroes/${h.id}/`)}>
-            <span class="icon" aria-hidden="true">{classIcon[h.data.class]}</span>
+          <a class={`hero-card ${h.data.rarity ?? ''}`} href={href(lang, `heroes/${h.id}/`)} title={h.data.factions.map((f) => factionNames.get(f.id)).join(', ')}>
+            <img class="portrait" src={heroHead(h.data.gameId)} alt="" width="122" height="185" loading="lazy" />
+            <span class="cls"><ClassIcon cls={h.data.class} size={20} /></span>
             <span class="info">
               <strong>{name}</strong>
               {h.data.title && <span class="title">{localize(h.data.title, lang)}</span>}
-              <span class="meta">
-                {t(`class.${h.data.class}`)}
-                {h.data.factions.length > 0 && <> · {h.data.factions.map((f) => factionNames.get(f.id)).join(', ')}</>}
-              </span>
             </span>
           </a>
         </li>
@@ -57,28 +55,33 @@ const factionNames = new Map((await getCollection('factions')).map((f) => [f.id,
 <style>
   .filters { display: flex; flex-direction: column; gap: 10px; margin-bottom: 20px; }
   .filters input { max-width: 360px; padding: 9px 12px; }
-  .hero-grid { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); }
+  .hero-grid { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(118px, 1fr)); }
+  @media (min-width: 720px) { .hero-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 16px; } }
   .hero-card {
-    display: flex; gap: 12px; align-items: center; height: 100%;
-    padding: 12px; border-radius: var(--radius); color: var(--text);
-    background: var(--surface); border: 1px solid var(--border); border-left: 4px solid var(--border);
-    transition: border-color 0.15s, background 0.15s;
+    position: relative; display: block; aspect-ratio: 122 / 185; overflow: hidden;
+    border-radius: var(--radius); border: 2px solid var(--border); background: var(--surface);
+    color: var(--text); transition: transform 0.15s, box-shadow 0.15s;
   }
-  .hero-card:hover { background: var(--surface-2); color: var(--text); }
-  .hero-card.legendary { border-left-color: var(--legendary); }
-  .hero-card.epic { border-left-color: var(--epic); }
-  .hero-card.rare { border-left-color: var(--rare); }
-  .icon {
-    flex: none; width: 42px; height: 42px; border-radius: 50%; display: grid; place-items: center;
-    font-size: 1.3rem; background: var(--surface-2); color: var(--gold); border: 1px solid var(--border);
+  .hero-card:hover { transform: translateY(-3px); color: var(--text); box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5); }
+  .hero-card.legendary { border-color: var(--legendary); background: linear-gradient(#3a2a10, var(--surface)); }
+  .hero-card.epic { border-color: var(--epic); background: linear-gradient(#2a1a45, var(--surface)); }
+  .hero-card.rare { border-color: var(--rare); background: linear-gradient(#132a48, var(--surface)); }
+  .portrait { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: top; }
+  .cls {
+    position: absolute; top: 6px; left: 6px; width: 28px; height: 28px; border-radius: 50%;
+    display: grid; place-items: center; background: rgba(13, 16, 23, 0.75); border: 1px solid rgba(255, 255, 255, 0.15);
   }
-  .info { display: flex; flex-direction: column; min-width: 0; }
-  .info strong { font-family: var(--heading); }
+  .info {
+    position: absolute; left: 0; right: 0; bottom: 0; padding: 28px 8px 8px;
+    display: flex; flex-direction: column; text-align: center;
+    background: linear-gradient(transparent, rgba(8, 10, 15, 0.92) 45%);
+  }
+  .info strong { font-family: var(--heading); font-size: 0.95rem; line-height: 1.2; }
   .legendary strong { color: var(--legendary); }
   .epic strong { color: #c9a6ff; }
   .rare strong { color: #8cc0ff; }
-  .title { font-size: 0.8rem; font-style: italic; color: var(--muted); }
-  .meta { font-size: 0.8rem; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .title { font-size: 0.7rem; font-style: italic; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .chip :global(.class-icon) { vertical-align: -3px; }
 </style>
 
 <script>

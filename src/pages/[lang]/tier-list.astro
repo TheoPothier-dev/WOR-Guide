@@ -2,8 +2,9 @@
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import { localize, useTranslations, type Locale } from '../../i18n/ui';
-import { href, langPaths } from '../../lib/i18n-paths';
-import { heroClasses, classIcon } from '../../lib/heroes';
+import { href, heroHead, langPaths } from '../../lib/i18n-paths';
+import { heroClasses } from '../../lib/heroes';
+import ClassIcon from '../../components/ClassIcon.astro';
 import { servers, tiers } from '../../content.config';
 
 export const getStaticPaths = langPaths;
@@ -27,7 +28,7 @@ const rank = (h: (typeof heroes)[number], server: (typeof servers)[number]) => {
         const list = heroes.filter((h) => h.data.class === cls);
         return list.length > 0 && (
           <section>
-            <h2>{classIcon[cls]} {t(`class.${cls}`)}</h2>
+            <h2 class="class"><ClassIcon cls={cls} size={26} /> {t(`class.${cls}`)}</h2>
             <div class="table-wrap"><table>
               <thead>
                 <tr>
@@ -40,7 +41,7 @@ const rank = (h: (typeof heroes)[number], server: (typeof servers)[number]) => {
                   .sort((a, b) => rank(a, server) - rank(b, server))
                   .map((h) => (
                     <tr>
-                      <th><a href={href(lang, `heroes/${h.id}/`)}>{localize(h.data.name, lang)}</a></th>
+                      <th><a class="hero" href={href(lang, `heroes/${h.id}/`)}><img class={`thumb ${h.data.rarity ?? ''}`} src={heroHead(h.data.gameId)} alt="" width="36" height="36" loading="lazy" />{localize(h.data.name, lang)}</a></th>
                       {modes.map((m) => {
                         const tier = h.data.tiers[server]?.[m.id];
                         return <td>{tier ? <span class={`tier tier-${tier}`}>{tier}</span> : <span class="tier-none">–</span>}</td>;
@@ -61,4 +62,10 @@ const rank = (h: (typeof heroes)[number], server: (typeof servers)[number]) => {
   thead th:first-child { background: var(--surface-2); }
   td { text-align: center; }
   thead th { font-size: 0.8rem; }
+  .class { display: flex; align-items: center; gap: 10px; }
+  .hero { display: flex; align-items: center; gap: 10px; }
+  .thumb { width: 36px; height: 36px; border-radius: 50%; object-fit: cover; object-position: top; border: 2px solid var(--border); flex: none; }
+  .thumb.legendary { border-color: var(--legendary); }
+  .thumb.epic { border-color: var(--epic); }
+  .thumb.rare { border-color: var(--rare); }
 </style>

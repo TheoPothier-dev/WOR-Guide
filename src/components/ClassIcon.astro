@@ -1,0 +1,10 @@
+---
+import { asset } from '../lib/i18n-paths';
+
+interface Props {
+  cls: string;
+  size?: number;
+}
+const { cls, size = 18 } = Astro.props;
+---
+<img class="class-icon" src={asset(`icons/class/${cls}.png`)} alt="" width={size} height={size} loading="lazy" />

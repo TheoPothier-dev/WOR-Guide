@@ -67,3 +67,8 @@ Les héros, factions, classes, raretés et noms (anglais, français) sont extrai
 ---
 
 Site de fans, non affilié à Moonton.
+
+## Images
+
+- `public/heroes/head/<gameId>.webp` (portrait des cartes) et `public/heroes/bust/<gameId>.webp` (buste) : sprites `HeroHead_*` et `HeroBust_*` extraits des fichiers `Atlas_HeroCard*.unity3d` et `HeroBust_*.unity3d` du jeu.
+- `public/icons/class/` : icônes de classe (`Profession_*` dans `Atlas_HeroCard.unity3d`).

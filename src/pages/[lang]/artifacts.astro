@@ -2,8 +2,9 @@
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import { localize, useTranslations, type Locale } from '../../i18n/ui';
-import { href, langPaths } from '../../lib/i18n-paths';
-import { heroClasses, classIcon } from '../../lib/heroes';
+import { href, heroHead, langPaths } from '../../lib/i18n-paths';
+import { heroClasses } from '../../lib/heroes';
+import ClassIcon from '../../components/ClassIcon.astro';
 
 export const getStaticPaths = langPaths;
 const lang = Astro.params.lang as Locale;
@@ -21,7 +22,7 @@ const general = artifacts.filter((a) => !a.data.heroGameId && !a.data.class);
     const list = artifacts.filter((a) => a.data.class === cls);
     return list.length > 0 && (
       <section>
-        <h3 class="class">{classIcon[cls]} {t(`class.${cls}`)}</h3>
+        <h3 class="class"><ClassIcon cls={cls} size={22} /> {t(`class.${cls}`)}</h3>
         <div class="grid">
           {list.map((a) => (
             <article class="card">
@@ -55,7 +56,7 @@ const general = artifacts.filter((a) => !a.data.heroGameId && !a.data.class);
       return (
         <article class="card">
           <h4>{localize(a.data.name, lang)}</h4>
-          <a class="hero" href={href(lang, `heroes/${hero.id}/`)}>{classIcon[hero.data.class]} {localize(hero.data.name, lang)}</a>
+          <a class="hero" href={href(lang, `heroes/${hero.id}/`)}><img class="thumb" src={heroHead(hero.data.gameId)} alt="" width="32" height="32" loading="lazy" /> {localize(hero.data.name, lang)}</a>
           {a.data.description && <p class="text">{localize(a.data.description, lang)}</p>}
         </article>
       );
@@ -67,5 +68,7 @@ const general = artifacts.filter((a) => !a.data.heroGameId && !a.data.class);
   .class { margin: 1.4em 0 0.6em; color: var(--text); }
   h4 { margin: 0 0 0.5em; font-family: var(--heading); color: var(--gold-2); display: flex; justify-content: space-between; gap: 8px; align-items: baseline; }
   .card p { margin: 0.4em 0 0; font-size: 0.92rem; color: #d4d0c4; }
-  .hero { font-size: 0.9rem; }
+  .hero { font-size: 0.9rem; display: inline-flex; align-items: center; gap: 8px; }
+  .thumb { width: 32px; height: 32px; border-radius: 50%; object-fit: cover; object-position: top; border: 1px solid var(--border); }
+  .class { display: flex; align-items: center; gap: 8px; }
 </style>
