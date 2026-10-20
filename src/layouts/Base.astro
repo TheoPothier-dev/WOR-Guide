@@ -3,6 +3,7 @@ import { locales, localeNames } from '../i18n/locales.js';
 import { useTranslations, type Locale } from '../i18n/ui';
 import { asset, href, switchLang } from '../lib/i18n-paths';
 import ServerSwitch from '../components/ServerSwitch.astro';
+import Search from '../components/Search.astro';
 
 import '@fontsource/cinzel/600.css';
 import '@fontsource/cinzel/700.css';
@@ -57,11 +58,12 @@ const imageUrl = new URL(asset(image), Astro.site);
           <a href={href(lang, 'artifacts/')} aria-current={current('artifacts/')}>{t('nav.artifacts')}</a>
         </nav>
         <div class="header-tools">
+          <Search lang={lang} />
           {server && <ServerSwitch lang={lang} />}
-          <select aria-label="Language" onchange="location.href = this.value">
+          <select class="lang" aria-label="Language" onchange="location.href = this.value">
             {locales.map((l) => (
               <option value={switchLang(path, l as Locale)} selected={l === lang}>
-                {localeNames[l as Locale]}
+                {l.toUpperCase()} · {localeNames[l as Locale]}
               </option>
             ))}
           </select>

@@ -1,0 +1,127 @@
+---
+import { useTranslations, type Locale } from '../i18n/ui';
+import { href } from '../lib/i18n-paths';
+
+const { lang } = Astro.props as { lang: Locale };
+const t = useTranslations(lang);
+const types = { h: t('search.hero'), s: t('search.set'), a: t('search.artifact') };
+---
+<button type="button" class="search-open" aria-label={t('search.label')} data-search-open>
+  <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2" /><path d="M16.5 16.5L21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round" /></svg>
+  <span class="hint">{t('search.label')}</span>
+  <kbd>Ctrl K</kbd>
+</button>
+<dialog class="search" data-index={href(lang, 'search.json')} data-types={JSON.stringify(types)}>
+  <form method="dialog" class="search-box">
+    <input type="search" placeholder={t('search.placeholder')} aria-label={t('search.label')} autocomplete="off" />
+    <button class="close" value="close" aria-label="Esc">Esc</button>
+  </form>
+  <ul class="results" role="listbox"></ul>
+  <p class="empty muted" hidden>{t('heroes.none')}</p>
+</dialog>
+
+<style is:global>
+  .search-open {
+    display: flex; align-items: center; gap: 8px; cursor: pointer; font: inherit; font-size: 0.85rem;
+    color: var(--muted); background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 6px 10px;
+  }
+  .search-open:hover { border-color: var(--gold); color: var(--text); }
+  .search-open kbd { font: inherit; font-size: 0.7rem; padding: 1px 5px; border: 1px solid var(--border); border-radius: 4px; }
+  @media (max-width: 1100px) { .search-open .hint, .search-open kbd { display: none; } }
+  .search {
+    width: min(640px, calc(100vw - 24px)); max-height: min(560px, calc(100dvh - 48px)); margin: 48px auto auto; padding: 0;
+    color: var(--text); background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+  }
+  .search[open] { display: flex; flex-direction: column; }
+  .search::backdrop { background: rgba(5, 7, 10, 0.7); }
+  .search-box { display: flex; gap: 8px; padding: 12px; border-bottom: 1px solid var(--border); }
+  .search-box input { flex: 1; font-size: 1rem; padding: 10px 12px; }
+  .search .close { font: inherit; font-size: 0.8rem; color: var(--muted); background: none; border: 1px solid var(--border); border-radius: 6px; padding: 0 10px; cursor: pointer; }
+  .search .results { list-style: none; margin: 0; padding: 6px; overflow-y: auto; }
+  .search .results a { display: flex; align-items: center; gap: 12px; padding: 6px 8px; border-radius: 8px; color: var(--text); }
+  .search .results a:hover, .search .results a[aria-selected='true'] { background: var(--surface-2); }
+  .search .results img, .search .results .ph { width: 36px; height: 36px; flex: none; border-radius: 6px; object-fit: cover; object-position: top; background: var(--surface-2); }
+  .search .results .name { flex: 1; min-width: 0; }
+  .search .results small { display: block; color: var(--muted); }
+  .search .results .type { font-size: 0.75rem; color: var(--muted); }
+  .search .empty { padding: 12px 18px; margin: 0; }
+</style>
+
+<script>
+  // Recherche globale : l'index de la langue se charge à la première ouverture.
+  const dialog = document.querySelector<HTMLDialogElement>('dialog.search')!;
+  const input = dialog.querySelector('input')!;
+  const list = dialog.querySelector('.results')!;
+  const empty = dialog.querySelector<HTMLElement>('.empty')!;
+  const types: Record<string, string> = JSON.parse(dialog.dataset.types!);
+  type Item = [string, string, string, string, string];
+  let index: (Item & { key?: string })[] | undefined;
+  let selected = 0;
+  const norm = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+
+  async function open() {
+    dialog.showModal();
+    input.select();
+    if (!index) {
+      const items: Item[] = await (await fetch(dialog.dataset.index!)).json();
+      index = items.map((i) => Object.assign(i, { key: norm(i[1] + ' ' + i[4]) }));
+      render();
+    }
+  }
+
+  function render() {
+    if (!index) return;
+    const q = norm(input.value.trim());
+    // Les noms qui commencent par la recherche passent devant.
+    const hits = q
+      ? index.filter((i) => i.key!.includes(q)).sort((a, b) => Number(!norm(a[1]).startsWith(q)) - Number(!norm(b[1]).startsWith(q))).slice(0, 30)
+      : [];
+    selected = 0;
+    list.replaceChildren(
+      ...hits.map(([type, name, url, img, extra], i) => {
+        const li = document.createElement('li');
+        const a = document.createElement('a');
+        a.href = url;
+        a.setAttribute('aria-selected', String(i === 0));
+        const pic = img ? Object.assign(document.createElement('img'), { src: img, alt: '', loading: 'lazy' }) : Object.assign(document.createElement('span'), { className: 'ph' });
+        const label = document.createElement('span');
+        label.className = 'name';
+        label.textContent = name;
+        if (extra) label.append(Object.assign(document.createElement('small'), { textContent: extra }));
+        a.append(pic, label, Object.assign(document.createElement('span'), { className: 'type', textContent: types[type] }));
+        a.addEventListener('click', () => dialog.close());
+        li.append(a);
+        return li;
+      }),
+    );
+    empty.hidden = !q || hits.length > 0;
+  }
+
+  function move(step: number) {
+    const links = [...list.querySelectorAll('a')];
+    if (!links.length) return;
+    selected = (selected + step + links.length) % links.length;
+    links.forEach((l, i) => l.setAttribute('aria-selected', String(i === selected)));
+    links[selected].scrollIntoView({ block: 'nearest' });
+  }
+
+  document.querySelectorAll('[data-search-open]').forEach((b) => b.addEventListener('click', open));
+  input.addEventListener('input', render);
+  input.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowDown') { e.preventDefault(); move(1); }
+    if (e.key === 'ArrowUp') { e.preventDefault(); move(-1); }
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      const link = list.querySelectorAll('a')[selected];
+      if (link) { dialog.close(); location.href = link.href; }
+    }
+  });
+  dialog.addEventListener('click', (e) => { if (e.target === dialog) dialog.close(); });
+  document.addEventListener('keydown', (e) => {
+    const typing = (e.target as HTMLElement).closest('input, select, textarea');
+    if ((e.key === 'k' && (e.ctrlKey || e.metaKey)) || (e.key === '/' && !typing)) {
+      e.preventDefault();
+      open();
+    }
+  });
+</script>

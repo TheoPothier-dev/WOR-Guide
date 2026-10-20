@@ -75,6 +75,9 @@ main.container { flex: 1; padding-bottom: 48px; }
   .brand .short { display: inline; }
   .header-tools { margin-left: auto; }
   .header-tools label span { display: none; }
+  .header-tools select { max-width: 92px; }
+  .header-tools select.lang { width: 4.6em; }
+  .brand { font-size: 1.05rem; }
   .main-nav {
     position: fixed; z-index: 10; left: 0; right: 0; bottom: 0;
     display: grid; grid-template-columns: repeat(4, 1fr); gap: 0;
@@ -103,6 +106,8 @@ select:focus, input:focus { outline: 2px solid var(--gold); outline-offset: 1px;
 .muted { color: var(--muted); }
 .text { white-space: pre-line; }
 [hidden] { display: none !important; }
+[id] { scroll-margin-top: 80px; }
+:target.card { border-color: var(--gold); box-shadow: 0 0 0 2px rgba(217, 181, 108, 0.35); }
 
 .badge {
   display: inline-flex; align-items: center; gap: 4px;

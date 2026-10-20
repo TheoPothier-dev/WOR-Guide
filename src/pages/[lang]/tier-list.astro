@@ -12,62 +12,170 @@ const lang = Astro.params.lang as Locale;
 const t = useTranslations(lang);
 const heroes = await getCollection('heroes');
 const modes = await getCollection('modes');
+const defaultMode = 'campaign';
 // Classe d'abord par la note générale (Campagne), puis par la meilleure note tous modes confondus.
 const tierIndex = (tier?: string) => (tier ? tiers.indexOf(tier as (typeof tiers)[number]) : tiers.length);
 const rank = (h: (typeof heroes)[number], server: (typeof servers)[number]) => {
   const own = h.data.tiers[server] ?? {};
   return tierIndex(own.campaign) * 10 + Math.min(tiers.length, ...Object.values(own).map((tier) => tierIndex(tier)));
 };
+const sorted = (server: (typeof servers)[number]) => [...heroes].sort((a, b) => rank(a, server) - rank(b, server));
 ---
 <Base lang={lang} title={t('tier.title')} description={t('home.tier')} server>
   <h1>{t('tier.title')}</h1>
   <p class="example">{t('tier.draft')}</p>
+
+  <div class="filters">
+    <label class="mode">{t('tier.mode')}
+      <select data-mode>
+        {modes.map((m) => <option value={m.id} selected={m.id === defaultMode}>{localize(m.data.name, lang)}</option>)}
+      </select>
+    </label>
+    <div class="chips" role="group">
+      <button type="button" class="chip" data-class="" aria-pressed="true">{t('filter.all')}</button>
+      {heroClasses.map((cls) => (
+        <button type="button" class="chip" data-class={cls} aria-pressed="false"><ClassIcon cls={cls} size={16} /> {t(`class.${cls}`)}</button>
+      ))}
+    </div>
+  </div>
+
   {servers.map((server) => (
-    <div data-server={server}>
-      {heroClasses.map((cls) => {
-        const list = heroes.filter((h) => h.data.class === cls);
-        return list.length > 0 && (
-          <section>
-            <h2 class="class"><ClassIcon cls={cls} size={26} /> {t(`class.${cls}`)}</h2>
-            <div class="table-wrap"><table>
-              <thead>
-                <tr>
-                  <th></th>
-                  {modes.map((m) => <th>{localize(m.data.name, lang)}</th>)}
-                </tr>
-              </thead>
-              <tbody>
-                {list
-                  .sort((a, b) => rank(a, server) - rank(b, server))
-                  .map((h) => (
+    <div class="board" data-server={server}>
+      {tiers.map((tier) => (
+        <section class="rank" data-tier={tier}>
+          <div class={`label tier-${tier}`}>{tier}</div>
+          <div class="heroes">
+            {sorted(server)
+              .filter((h) => h.data.tiers[server]?.[defaultMode] === tier)
+              .map((h) => (
+                <a class={`hero ${h.data.rarity ?? ''}`} href={href(lang, `heroes/${h.id}/`)} data-cls={h.data.class} data-tiers={JSON.stringify(h.data.tiers[server] ?? {})}>
+                  <img src={heroHead(h.data.gameId)} alt="" width="122" height="185" loading="lazy" />
+                  <span>{localize(h.data.name, lang)}</span>
+                </a>
+              ))}
+          </div>
+        </section>
+      ))}
+      <div class="pool" hidden>
+        {sorted(server)
+          .filter((h) => !tiers.includes(h.data.tiers[server]?.[defaultMode] as (typeof tiers)[number]))
+          .map((h) => (
+            <a class={`hero ${h.data.rarity ?? ''}`} href={href(lang, `heroes/${h.id}/`)} data-cls={h.data.class} data-tiers={JSON.stringify(h.data.tiers[server] ?? {})}>
+              <img src={heroHead(h.data.gameId)} alt="" width="122" height="185" loading="lazy" />
+              <span>{localize(h.data.name, lang)}</span>
+            </a>
+          ))}
+      </div>
+    </div>
+  ))}
+
+  <details class="full">
+    <summary>{t('tier.table')}</summary>
+    {servers.map((server) => (
+      <div data-server={server}>
+        {heroClasses.map((cls) => {
+          const list = sorted(server).filter((h) => h.data.class === cls);
+          return list.length > 0 && (
+            <section>
+              <h2 class="class"><ClassIcon cls={cls} size={26} /> {t(`class.${cls}`)}</h2>
+              <div class="table-wrap"><table>
+                <thead>
+                  <tr>
+                    <th></th>
+                    {modes.map((m) => <th>{localize(m.data.name, lang)}</th>)}
+                  </tr>
+                </thead>
+                <tbody>
+                  {list.map((h) => (
                     <tr>
-                      <th><a class="hero" href={href(lang, `heroes/${h.id}/`)}><img class={`thumb ${h.data.rarity ?? ''}`} src={heroHead(h.data.gameId)} alt="" width="48" height="64" loading="lazy" />{localize(h.data.name, lang)}</a></th>
+                      <th><a class="row-hero" href={href(lang, `heroes/${h.id}/`)}><img class={`thumb ${h.data.rarity ?? ''}`} src={heroHead(h.data.gameId)} alt="" width="48" height="64" loading="lazy" />{localize(h.data.name, lang)}</a></th>
                       {modes.map((m) => {
                         const tier = h.data.tiers[server]?.[m.id];
                         return <td>{tier ? <span class={`tier tier-${tier}`}>{tier}</span> : <span class="tier-none">–</span>}</td>;
                       })}
                     </tr>
                   ))}
-              </tbody>
-            </table></div>
-          </section>
-        );
-      })}
-    </div>
-  ))}
+                </tbody>
+              </table></div>
+            </section>
+          );
+        })}
+      </div>
+    ))}
+  </details>
 </Base>
 
 <style>
+  .filters { display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: center; margin: 20px 0 16px; }
+  .mode { display: flex; align-items: center; gap: 8px; color: var(--muted); font-size: 0.9rem; }
+  .chip { display: inline-flex; align-items: center; gap: 6px; }
+
+  .board { display: grid; gap: 8px; }
+  .rank { display: grid; grid-template-columns: 56px 1fr; gap: 10px; align-items: stretch; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 8px; }
+  .rank:not(:has(.hero:not([hidden]))) { display: none; }
+  .label { display: grid; place-items: center; border-radius: 8px; font: 700 1.5rem var(--heading); }
+  .heroes { display: grid; grid-template-columns: repeat(auto-fill, minmax(72px, 1fr)); gap: 8px; }
+  @media (min-width: 720px) {
+    .rank { grid-template-columns: 72px 1fr; }
+    .heroes { grid-template-columns: repeat(auto-fill, minmax(86px, 1fr)); }
+  }
+  .hero { display: flex; flex-direction: column; gap: 4px; color: var(--text); font-size: 0.75rem; text-align: center; min-width: 0; }
+  .hero img { width: 100%; height: auto; aspect-ratio: 122 / 185; object-fit: cover; border-radius: 8px; border: 2px solid var(--border); background: var(--surface-2); }
+  .hero.legendary img { border-color: var(--legendary); }
+  .hero.epic img { border-color: var(--epic); }
+  .hero.rare img { border-color: var(--rare); }
+  .hero span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .hero:hover img { filter: brightness(1.15); }
+
+  .full { margin-top: 32px; }
+  .full summary { cursor: pointer; font: 600 1.1rem var(--heading); color: var(--gold); padding: 8px 0; }
   table th:first-child { position: sticky; left: 0; background: var(--surface); z-index: 1; white-space: nowrap; }
   thead th:first-child { background: var(--surface-2); }
   td { text-align: center; }
   thead th { font-size: 0.8rem; }
   .class { display: flex; align-items: center; gap: 10px; }
-  .hero { display: flex; align-items: center; gap: 12px; font-size: 0.95rem; }
+  .row-hero { display: flex; align-items: center; gap: 12px; font-size: 0.95rem; }
   tbody th { padding-top: 6px; padding-bottom: 6px; }
   .thumb { width: 48px; height: 64px; border-radius: 8px; object-fit: cover; object-position: top; border: 2px solid var(--border); flex: none; background: var(--surface-2); }
-  @media (min-width: 720px) { .thumb { width: 60px; height: 80px; } }
   .thumb.legendary { border-color: var(--legendary); }
   .thumb.epic { border-color: var(--epic); }
   .thumb.rare { border-color: var(--rare); }
 </style>
+
+<script>
+  // Range les héros dans les rangées du mode choisi et applique le filtre de classe ; le choix reste dans l'adresse.
+  const modeSelect = document.querySelector<HTMLSelectElement>('[data-mode]')!;
+  const chips = [...document.querySelectorAll<HTMLButtonElement>('[data-class]')];
+  const params = new URLSearchParams(location.search);
+  if (params.get('mode') && [...modeSelect.options].some((o) => o.value === params.get('mode'))) modeSelect.value = params.get('mode')!;
+  let cls = params.get('class') ?? '';
+
+  function render() {
+    const mode = modeSelect.value;
+    for (const board of document.querySelectorAll<HTMLElement>('.board')) {
+      const rows = new Map([...board.querySelectorAll<HTMLElement>('.rank')].map((r) => [r.dataset.tier!, r.querySelector('.heroes')!]));
+      const pool = board.querySelector('.pool')!;
+      // Les cartes sont déjà triées par note générale : on les replace dans cet ordre.
+      const cards = [...board.querySelectorAll<HTMLElement>('.hero')].sort((a, b) => Number(a.dataset.order) - Number(b.dataset.order));
+      for (const card of cards) {
+        const tier = JSON.parse(card.dataset.tiers!)[mode];
+        (rows.get(tier) ?? pool).append(card);
+        card.hidden = cls !== '' && card.dataset.cls !== cls;
+      }
+    }
+    chips.forEach((c) => c.setAttribute('aria-pressed', String(c.dataset.class === cls)));
+    const url = new URL(location.href);
+    mode === 'campaign' ? url.searchParams.delete('mode') : url.searchParams.set('mode', mode);
+    cls ? url.searchParams.set('class', cls) : url.searchParams.delete('class');
+    history.replaceState(null, '', url);
+  }
+
+  for (const board of document.querySelectorAll<HTMLElement>('.board')) {
+    // Mémorise l'ordre initial (tri par note générale) pour le conserver d'un mode à l'autre.
+    const all = [...board.querySelectorAll<HTMLElement>('.rank .hero'), ...board.querySelectorAll<HTMLElement>('.pool .hero')];
+    all.forEach((card, i) => (card.dataset.order = String(i)));
+  }
+  modeSelect.addEventListener('change', render);
+  chips.forEach((c) => c.addEventListener('click', () => { cls = c.dataset.class!; render(); }));
+  render();
+</script>
