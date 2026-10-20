@@ -21,12 +21,18 @@ const modeIds = modesData.map((m) => m.id) as [string, ...string[]];
 
 const usageItem = z.object({
   name: z.string(),
+  // Identifiant du set ou de l'artefact (sets.json / artifacts.json), pour l'image et le nom traduit.
+  id: z.string().optional(),
+  // Nombre de pièces portées, pour un set.
+  pieces: z.number().int().optional(),
   // Pourcentage d'utilisation relevé sur le site officiel, si connu.
   usage: z.number().min(0).max(100).optional(),
 });
 
 const build = z.object({
   label: localized,
+  // Fiabilité de la source : high, medium ou low.
+  confidence: z.enum(['high', 'medium', 'low']).optional(),
   // D'où vient le build (URL ou description), pour pouvoir le revérifier.
   source: z.string().optional(),
   sets: z.array(usageItem),

@@ -2,7 +2,7 @@
 import { getCollection, getEntry } from 'astro:content';
 import Base from '../../../layouts/Base.astro';
 import { existsSync } from 'node:fs';
-import { asset, heroBust } from '../../../lib/i18n-paths';
+import { asset, heroBust, href } from '../../../lib/i18n-paths';
 import { localize, useTranslations, type Locale, type LocalizedText } from '../../../i18n/ui';
 import { locales } from '../../../i18n/locales.js';
 import { servers } from '../../../content.config';
@@ -41,6 +41,10 @@ const fixedValue = (k: string, v: number) => {
 };
 const overall = 'campaign';
 const description = [h.title && localize(h.title, lang), t(`class.${h.class}`), h.rarity && t(`rarity.${h.rarity}`)].filter(Boolean).join(' · ');
+const setsById = new Map((await getCollection('sets')).map((s) => [s.id, s]));
+const artifactsById = new Map((await getCollection('artifacts')).map((a) => [a.id, a]));
+const setImage = (gameId: number) => (existsSync(`public/sets/${gameId}_0.webp`) ? asset(`sets/${gameId}_0.webp`) : undefined);
+const artifactImage = (gameId: number) => (existsSync(`public/artifacts/${gameId}.webp`) ? asset(`artifacts/${gameId}.webp`) : undefined);
 const pct = (n?: number) => (n === undefined ? '' : ` (${n.toLocaleString(lang)} % ${t('hero.usage')})`);
 ---
 <Base lang={lang} title={name} description={`${name} : ${description}`} image={h.gameId ? `heroes/bust/${h.gameId}.webp` : undefined} server>
@@ -122,15 +126,34 @@ const pct = (n?: number) => (n === undefined ? '' : ` (${n.toLocaleString(lang)}
               {builds.map((b) => (
                 <div class="card build">
                   <h3>{localize(b.label, lang)}</h3>
-                  <h4>{t('hero.gearSets')}</h4>
-                  <ul>{b.sets.map((s) => <li>{s.name}{pct(s.usage)}</li>)}</ul>
-                  {b.artifacts.length > 0 && (
-                    <>
-                      <h4>{t('hero.artifacts')}</h4>
-                      <ul>{b.artifacts.map((a) => <li>{a.name}{pct(a.usage)}</li>)}</ul>
-                    </>
-                  )}
-                  {b.notes && <p>{localize(b.notes, lang)}</p>}
+                  <ul class="items">
+                    {b.sets.map((it) => {
+                      const set = it.id ? setsById.get(it.id) : undefined;
+                      const img = set && setImage(set.data.gameId);
+                      return (
+                        <li>
+                          <a href={set ? `${href(lang, 'sets/')}#${set.id}` : undefined}>
+                            {img ? <img src={img} alt="" width="48" height="48" loading="lazy" /> : <span class="ph"></span>}
+                            <span><small>{t('hero.gearSets')}{it.pieces ? ` · ${it.pieces}` : ''}</small>{set ? localize(set.data.name, lang) : it.name}{pct(it.usage)}</span>
+                          </a>
+                        </li>
+                      );
+                    })}
+                    {b.artifacts.map((it) => {
+                      const art = it.id ? artifactsById.get(it.id) : undefined;
+                      const img = art && artifactImage(art.data.gameId);
+                      return (
+                        <li>
+                          <a href={art ? `${href(lang, 'artifacts/')}#${art.id}` : undefined}>
+                            {img ? <img src={img} alt="" width="48" height="48" loading="lazy" /> : <span class="ph"></span>}
+                            <span><small>{t('hero.artifacts')}</small>{art ? localize(art.data.name, lang) : it.name}{pct(it.usage)}</span>
+                          </a>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                  {b.notes && <p class="build-note">{localize(b.notes, lang)}</p>}
+                  {b.confidence && <p class="muted"><small>{t('build.draft')}</small></p>}
                 </div>
               ))}
             </div>
@@ -279,7 +302,14 @@ const pct = (n?: number) => (n === undefined ? '' : ` (${n.toLocaleString(lang)}
     font-family: var(--heading); font-weight: 700; background: var(--gold); color: #1a1406;
   }
   .gold { color: var(--gold-2); }
-  .build h4 { margin: 0.8em 0 0.2em; color: var(--muted); font-size: 0.85rem; }
+  .build { display: grid; gap: 10px; }
+  .build h3 { margin: 0; color: var(--gold-2); }
+  .items { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+  .items a { display: flex; align-items: center; gap: 10px; color: var(--text); background: var(--surface-2); border: 1px solid var(--border); border-radius: 8px; padding: 6px 10px 6px 6px; height: 100%; }
+  .items a[href]:hover { border-color: var(--gold); }
+  .items img, .items .ph { width: 48px; height: 48px; flex: none; border-radius: 6px; background: var(--bg); object-fit: contain; }
+  .items small { display: block; color: var(--muted); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; }
+  .build-note { margin: 0; color: #d4d0c4; }
 </style>
 
 <script>
