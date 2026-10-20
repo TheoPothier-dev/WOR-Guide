@@ -18,7 +18,7 @@ const iconFiles = new Set(readdirSync('public/artifacts'));
 const icon = (gameId: number) => (iconFiles.has(`${gameId}.webp`) ? asset(`artifacts/${gameId}.webp`) : undefined);
 const general = artifacts.filter((a) => !a.data.heroGameId && !a.data.class);
 ---
-<Base lang={lang} title={t('artifacts.title')}>
+<Base lang={lang} title={t('artifacts.title')} description={t('home.artifacts')}>
   <h1>{t('artifacts.title')}</h1>
 
   <h2>{t('artifacts.byClass')}</h2>

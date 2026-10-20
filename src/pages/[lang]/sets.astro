@@ -13,7 +13,7 @@ const sets = (await getCollection('sets')).sort((a, b) => localize(a.data.name, 
 const pieceFiles = readdirSync('public/sets');
 const pieces = (gameId: number) => pieceFiles.filter((f) => f.startsWith(`${gameId}_`)).sort().map((f) => asset(`sets/${f}`));
 ---
-<Base lang={lang} title={t('sets.title')}>
+<Base lang={lang} title={t('sets.title')} description={t('home.sets')}>
   <h1>{t('sets.title')}</h1>
   <div class="grid">
     {sets.map((s) => (

@@ -19,7 +19,7 @@ const rank = (h: (typeof heroes)[number], server: (typeof servers)[number]) => {
   return tierIndex(own.campaign) * 10 + Math.min(tiers.length, ...Object.values(own).map((tier) => tierIndex(tier)));
 };
 ---
-<Base lang={lang} title={t('tier.title')}>
+<Base lang={lang} title={t('tier.title')} description={t('home.tier')} server>
   <h1>{t('tier.title')}</h1>
   <p class="example">{t('tier.draft')}</p>
   {servers.map((server) => (

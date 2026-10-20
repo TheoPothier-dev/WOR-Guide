@@ -17,7 +17,7 @@ const heroes = (await getCollection('heroes')).sort(
 );
 const factionNames = new Map((await getCollection('factions')).map((f) => [f.id, localize(f.data.name, lang)]));
 ---
-<Base lang={lang} title={t('heroes.title')}>
+<Base lang={lang} title={t('heroes.title')} description={t('home.heroes')}>
   <h1>{t('heroes.title')}</h1>
 
   <div class="filters">

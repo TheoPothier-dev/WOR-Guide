@@ -39,9 +39,11 @@ const fixedValue = (k: string, v: number) => {
   if (k === 'critDmg') return (v * 0.01).toLocaleString(lang) + ' %';
   return v.toLocaleString(lang);
 };
+const overall = 'campaign';
+const description = [h.title && localize(h.title, lang), t(`class.${h.class}`), h.rarity && t(`rarity.${h.rarity}`)].filter(Boolean).join(' · ');
 const pct = (n?: number) => (n === undefined ? '' : ` (${n.toLocaleString(lang)} % ${t('hero.usage')})`);
 ---
-<Base lang={lang} title={name}>
+<Base lang={lang} title={name} description={`${name} : ${description}`} image={h.gameId ? `heroes/bust/${h.gameId}.webp` : undefined} server>
   <div class="layout">
     <aside class="side">
       <div class={`card identity ${h.rarity ?? ''}`}>
@@ -57,14 +59,26 @@ const pct = (n?: number) => (n === undefined ? '' : ` (${n.toLocaleString(lang)}
           {h.damageType && <span class="badge">{t(`damage.${h.damageType}`)}</span>}
           {factions.map((f) => <span class="badge">{localize(f.data.name, lang)}</span>)}
         </div>
+        {overall && servers.map((server) => {
+          const tier = h.tiers[server]?.[overall];
+          return tier && (
+            <a class="overall" href="#tiers" data-server={server}>
+              <span class={`tier tier-${tier}`}>{tier}</span> {t('tier.overall')}
+            </a>
+          );
+        })}
         {h.example && <p class="example">{t('data.example')}</p>}
       </div>
 
       {model && (
         <div class="card model-card">
           <h2>{t('hero.model')}</h2>
-          <model-viewer src={model} alt={name} camera-controls auto-rotate touch-action="pan-y" exposure="1.4" shadow-intensity="1" camera-orbit="0deg 82deg 4.2m" camera-target="0m 1.05m 0m" field-of-view="30deg" min-camera-orbit="auto auto 1.2m" max-camera-orbit="auto auto 6m" interaction-prompt="none"></model-viewer>
-          <p class="note muted">{t('hero.modelHint')}</p>
+          <button type="button" class="show-model" data-model={model}>
+            <img src={heroBust(h.gameId)} alt="" width="296" height="132" loading="lazy" />
+            <span>▶ {t('hero.modelShow')}</span>
+          </button>
+          <model-viewer hidden alt={name} camera-controls auto-rotate touch-action="pan-y" exposure="1.4" shadow-intensity="1" camera-orbit="0deg 82deg 4.2m" camera-target="0m 1.05m 0m" field-of-view="30deg" min-camera-orbit="auto auto 1.2m" max-camera-orbit="auto auto 6m" interaction-prompt="none"></model-viewer>
+          <p class="note muted" hidden>{t('hero.modelHint')}</p>
         </div>
       )}
 
@@ -167,7 +181,7 @@ const pct = (n?: number) => (n === undefined ? '' : ` (${n.toLocaleString(lang)}
       </section>
 
       <section>
-        <h2>{t('hero.tiers')}</h2>
+        <h2 id="tiers">{t('hero.tiers')}</h2>
         <p class="muted"><small>{t('tier.draft')}</small></p>
         {servers.map((server) => (
           <div class="table-wrap" data-server={server}>
@@ -215,6 +229,18 @@ const pct = (n?: number) => (n === undefined ? '' : ` (${n.toLocaleString(lang)}
     width: 56px; height: 56px; border-radius: 50%; display: grid; place-items: center;
     background: var(--surface-2); border: 1px solid var(--gold);
   }
+  .overall { grid-column: 1 / -1; display: flex; align-items: center; gap: 10px; color: var(--text); font-weight: 600; }
+  .overall .tier { font-size: 1.3rem; padding: 2px 10px; }
+  .show-model {
+    position: relative; display: block; width: 100%; padding: 0; cursor: pointer; overflow: hidden;
+    border: 1px solid var(--border); border-radius: 8px; background: radial-gradient(circle at 50% 40%, var(--surface-2), var(--surface));
+  }
+  .show-model img { display: block; width: 100%; height: auto; opacity: 0.55; }
+  .show-model span {
+    position: absolute; inset: 0; display: grid; place-items: center;
+    font: 600 1rem var(--heading); color: var(--gold-2); letter-spacing: 0.04em;
+  }
+  .show-model:hover img { opacity: 0.8; }
   .stats-card h2, .model-card h2 { margin-top: 0; }
   model-viewer { width: 100%; height: 420px; background: radial-gradient(circle at 50% 40%, var(--surface-2), var(--surface)); border-radius: 8px; --poster-color: transparent; }
   .stats-form { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 12px; }
@@ -247,8 +273,18 @@ const pct = (n?: number) => (n === undefined ? '' : ` (${n.toLocaleString(lang)}
 </style>
 
 <script>
-  // Charge le lecteur 3D seulement sur les pages qui ont un modèle.
-  if (document.querySelector('model-viewer')) import('@google/model-viewer');
+  // Le lecteur 3D et le modèle (plus d'1 Mo) ne se chargent qu'au clic.
+  for (const button of document.querySelectorAll<HTMLButtonElement>('.show-model')) {
+    button.addEventListener('click', async () => {
+      await import('@google/model-viewer');
+      const card = button.parentElement!;
+      const viewer = card.querySelector('model-viewer')!;
+      viewer.setAttribute('src', button.dataset.model!);
+      viewer.hidden = false;
+      card.querySelector<HTMLElement>('.note')!.hidden = false;
+      button.remove();
+    });
+  }
 
   type Stats = {
     stars: { star: number; levelFrom: number; levelTo: number; base: number[]; top: number[] }[];

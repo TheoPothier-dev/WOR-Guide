@@ -1,36 +1,55 @@
 ---
 import { locales, localeNames } from '../i18n/locales.js';
 import { useTranslations, type Locale } from '../i18n/ui';
-import { href, switchLang } from '../lib/i18n-paths';
+import { asset, href, switchLang } from '../lib/i18n-paths';
 import ServerSwitch from '../components/ServerSwitch.astro';
+
+import '@fontsource/cinzel/600.css';
+import '@fontsource/cinzel/700.css';
+import '@fontsource/inter/400.css';
+import '@fontsource/inter/600.css';
+import '../styles/global.css';
 
 interface Props {
   lang: Locale;
   title?: string;
+  description?: string;
+  /** Image d'aperçu (chemin sous public/) pour les liens partagés. */
+  image?: string;
+  /** Affiche le choix du serveur, seulement sur les pages où il change le contenu. */
+  server?: boolean;
 }
-const { lang, title } = Astro.props;
+const { lang, title, description, image = 'og.png', server = false } = Astro.props;
 const t = useTranslations(lang);
-import '../styles/global.css';
 const path = Astro.url.pathname;
 const current = (section: string) => (path.startsWith(href(lang, section)) ? 'page' : undefined);
 const pageTitle = title ? `${title} | ${t('siteTitle')}` : t('siteTitle');
+const pageDescription = description ?? t('home.intro');
+const imageUrl = new URL(asset(image), Astro.site);
 ---
 <!doctype html>
 <html lang={lang}>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="theme-color" content="#0d1017" />
     <title>{pageTitle}</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+    <meta name="description" content={pageDescription} />
+    <link rel="icon" href={asset('favicon.svg')} type="image/svg+xml" />
+    <link rel="apple-touch-icon" href={asset('apple-touch-icon.png')} />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={t('siteTitle')} />
+    <meta property="og:title" content={title ?? t('siteTitle')} />
+    <meta property="og:description" content={pageDescription} />
+    <meta property="og:url" content={new URL(path, Astro.site)} />
+    <meta property="og:image" content={imageUrl} />
+    <meta name="twitter:card" content={image === 'og.png' ? 'summary_large_image' : 'summary'} />
     {locales.map((l) => <link rel="alternate" hreflang={l} href={new URL(switchLang(path, l as Locale), Astro.site)} />)}
   </head>
   <body>
     <header class="site-header">
       <div class="container">
-        <a class="brand" href={href(lang)}>Watcher of Realms <span>Guide</span></a>
+        <a class="brand" href={href(lang)}><span class="long">Watcher of Realms</span><span class="short">WoR</span> <span class="sub">Guide</span></a>
         <nav class="main-nav">
           <a href={href(lang, 'heroes/')} aria-current={current('heroes/')}>{t('nav.heroes')}</a>
           <a href={href(lang, 'tier-list/')} aria-current={current('tier-list/')}>{t('nav.tierList')}</a>
@@ -38,7 +57,7 @@ const pageTitle = title ? `${title} | ${t('siteTitle')}` : t('siteTitle');
           <a href={href(lang, 'artifacts/')} aria-current={current('artifacts/')}>{t('nav.artifacts')}</a>
         </nav>
         <div class="header-tools">
-          <ServerSwitch lang={lang} />
+          {server && <ServerSwitch lang={lang} />}
           <select aria-label="Language" onchange="location.href = this.value">
             {locales.map((l) => (
               <option value={switchLang(path, l as Locale)} selected={l === lang}>
