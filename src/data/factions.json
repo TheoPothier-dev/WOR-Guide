@@ -1,3 +1,82 @@
 [
-  { "id": "grey-blades", "name": { "en": "Grey Blades" } }
+  {
+    "id": "the-watchguard",
+    "gameId": 101,
+    "name": {
+      "en": "The Watchguard",
+      "fr": "La Sentinelle"
+    }
+  },
+  {
+    "id": "the-north-throne",
+    "gameId": 102,
+    "name": {
+      "en": "The North Throne",
+      "fr": "Le Royaume du Nord"
+    }
+  },
+  {
+    "id": "the-nightmare-council",
+    "gameId": 103,
+    "name": {
+      "en": "The Nightmare Council",
+      "fr": "Le conseil du cauchemar"
+    }
+  },
+  {
+    "id": "the-cursed-cult",
+    "gameId": 104,
+    "name": {
+      "en": "The Cursed Cult",
+      "fr": "Le culte maudit"
+    }
+  },
+  {
+    "id": "the-infernal-blast",
+    "gameId": 105,
+    "name": {
+      "en": "The Infernal Blast",
+      "fr": "L'explosion infernale"
+    }
+  },
+  {
+    "id": "the-star-piercers",
+    "gameId": 106,
+    "name": {
+      "en": "The Star Piercers",
+      "fr": "Les perceurs d'étoiles"
+    }
+  },
+  {
+    "id": "the-esoteria-order",
+    "gameId": 107,
+    "name": {
+      "en": "The Esoteria Order",
+      "fr": "L'ordre d'Esoteria"
+    }
+  },
+  {
+    "id": "the-chaos-dominion",
+    "gameId": 108,
+    "name": {
+      "en": "The Chaos Dominion",
+      "fr": "Conquérants du chaos"
+    }
+  },
+  {
+    "id": "the-supreme-arbiters",
+    "gameId": 109,
+    "name": {
+      "en": "The Supreme Arbiters",
+      "fr": "Arbitres suprêmes"
+    }
+  },
+  {
+    "id": "the-grey-blades",
+    "gameId": 110,
+    "name": {
+      "en": "The Grey Blades",
+      "fr": "Les Lames grises"
+    }
+  }
 ]

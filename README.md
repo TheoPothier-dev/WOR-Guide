@@ -33,11 +33,13 @@ Exemple de héros :
 
 ```json
 {
-  "id": "rorkesh",
-  "name": { "en": "Rorkesh" },
+  "id": "corven",
+  "gameId": 2354,
+  "name": { "en": "Corven", "fr": "Corven" },
+  "title": { "en": "...", "fr": "..." },
   "class": "marksman",
   "rarity": "legendary",
-  "faction": "grey-blades",
+  "factions": ["the-grey-blades"],
   "damageType": "physical",
   "builds": {
     "global": [
@@ -57,7 +59,7 @@ Exemple de héros :
 
 Notes possibles : `S+`, `S`, `A`, `B`, `C`, `D`.
 
-Les deux héros actuels sont des exemples tirés de recherches web, à vérifier dans le jeu.
+Les héros, factions, classes, raretés et noms (anglais, français) sont extraits des fichiers du jeu PC (version 1.6.39). `gameId` est l'identifiant interne du jeu. Les builds et les notes de tier list restent à remplir.
 
 ---
 

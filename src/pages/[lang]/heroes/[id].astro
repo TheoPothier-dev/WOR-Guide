@@ -15,17 +15,18 @@ const t = useTranslations(lang);
 const { hero } = Astro.props;
 const h = hero.data;
 const name = localize(h.name, lang);
-const faction = h.faction ? await getEntry(h.faction) : undefined;
+const factions = await Promise.all(h.factions.map((f) => getEntry(f)));
 const modes = await getCollection('modes');
 const pct = (n?: number) => (n === undefined ? '' : ` (${n.toLocaleString(lang)} % ${t('hero.usage')})`);
 ---
 <Base lang={lang} title={name}>
   <h1>{name}</h1>
+  {h.title && <p>{localize(h.title, lang)}</p>}
   {h.example && <p class="example">{t('data.example')}</p>}
   <dl>
     <dt>{t('hero.class')}</dt><dd>{t(`class.${h.class}`)}</dd>
     {h.rarity && <><dt>{t('hero.rarity')}</dt><dd>{t(`rarity.${h.rarity}`)}</dd></>}
-    {faction && <><dt>{t('hero.faction')}</dt><dd>{localize(faction.data.name, lang)}</dd></>}
+    {factions.length > 0 && <><dt>{t('hero.faction')}</dt><dd>{factions.map((f) => localize(f.data.name, lang)).join(', ')}</dd></>}
     {h.damageType && <><dt>{t('hero.damageType')}</dt><dd>{t(`damage.${h.damageType}`)}</dd></>}
   </dl>
 

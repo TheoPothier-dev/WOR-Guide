@@ -39,7 +39,11 @@ const perServer = <T extends z.ZodTypeAny>(schema: T) =>
 
 const factions = defineCollection({
   loader: file('src/data/factions.json'),
-  schema: z.object({ name: localized }),
+  schema: z.object({
+    // Identifiant interne du jeu, pour relier les données extraites.
+    gameId: z.number().int().optional(),
+    name: localized,
+  }),
 });
 
 const modes = defineCollection({
@@ -53,10 +57,12 @@ const modes = defineCollection({
 const heroes = defineCollection({
   loader: file('src/data/heroes.json'),
   schema: z.object({
+    gameId: z.number().int().optional(),
     name: localized,
+    title: localized.optional(),
     class: z.enum(['fighter', 'mage', 'marksman', 'defender', 'healer', 'tactician']),
     rarity: z.enum(['legendary', 'epic', 'rare']).optional(),
-    faction: reference('factions').optional(),
+    factions: z.array(reference('factions')).default([]),
     damageType: z.enum(['physical', 'magic']).optional(),
     // true tant que les données n'ont pas été vérifiées dans le jeu.
     example: z.boolean().default(false),

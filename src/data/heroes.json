@@ -1,42 +1,4680 @@
 [
   {
-    "id": "valara",
-    "example": true,
-    "name": { "en": "Valara" },
-    "class": "tactician",
-    "builds": {
-      "global": [
-        {
-          "label": { "en": "Most used", "fr": "Le plus joué" },
-          "source": "Official guide site (act.gms.moontontech.com/worcommunity), server not specified",
-          "sets": [
-            { "name": "Wicked Vengeance", "usage": 68.72 },
-            { "name": "Warlord", "usage": 23.89 },
-            { "name": "Annihilating Might", "usage": 2.31 }
-          ]
-        }
-      ]
+    "id": "rex",
+    "gameId": 2001,
+    "name": {
+      "en": "Rex",
+      "fr": "Rex"
+    },
+    "class": "defender",
+    "rarity": "rare",
+    "factions": [
+      "the-watchguard"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "General",
+      "fr": "Général"
     }
   },
   {
-    "id": "rorkesh",
-    "example": true,
-    "name": { "en": "Rorkesh" },
+    "id": "brienne",
+    "gameId": 2002,
+    "name": {
+      "en": "Brienne",
+      "fr": "Brienne"
+    },
+    "class": "marksman",
+    "rarity": "epic",
+    "factions": [
+      "the-watchguard",
+      "the-star-piercers"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Falcon's Eye",
+      "fr": "L'œil du faucon"
+    }
+  },
+  {
+    "id": "salazar",
+    "gameId": 2004,
+    "name": {
+      "en": "Salazar",
+      "fr": "Salazar"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-nightmare-council"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Bloodblade Chieftain",
+      "fr": "Chef de Lamesang"
+    }
+  },
+  {
+    "id": "niro",
+    "gameId": 2005,
+    "name": {
+      "en": "Niro",
+      "fr": "Niro"
+    },
+    "class": "mage",
+    "rarity": "rare",
+    "factions": [
+      "the-cursed-cult",
+      "the-watchguard"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Pyromancer",
+      "fr": "Pyromancien"
+    }
+  },
+  {
+    "id": "marri",
+    "gameId": 2006,
+    "name": {
+      "en": "Marri",
+      "fr": "Marri"
+    },
+    "class": "mage",
+    "rarity": "epic",
+    "factions": [
+      "the-north-throne"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Daughter of the Tides",
+      "fr": "Fille des marées"
+    }
+  },
+  {
+    "id": "wrath",
+    "gameId": 2009,
+    "name": {
+      "en": "Wrath",
+      "fr": "Fureur"
+    },
+    "class": "fighter",
+    "rarity": "epic",
+    "factions": [
+      "the-nightmare-council"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Hell's Sixth Seat",
+      "fr": "Sixième siège de l'enfer"
+    }
+  },
+  {
+    "id": "camille",
+    "gameId": 2010,
+    "name": {
+      "en": "Camille",
+      "fr": "Camille"
+    },
+    "class": "healer",
+    "rarity": "rare",
+    "factions": [
+      "the-watchguard"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Lightblessed",
+      "fr": "Bénie par la lumière"
+    }
+  },
+  {
+    "id": "komodo",
+    "gameId": 2011,
+    "name": {
+      "en": "Komodo",
+      "fr": "Komodo"
+    },
+    "class": "fighter",
+    "rarity": "epic",
+    "factions": [
+      "the-nightmare-council"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Skeletal Assassin",
+      "fr": "Assassin squelettique"
+    }
+  },
+  {
+    "id": "borut",
+    "gameId": 2012,
+    "name": {
+      "en": "Borut",
+      "fr": "Borut"
+    },
+    "class": "fighter",
+    "rarity": "rare",
+    "factions": [
+      "the-watchguard"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Brassheart Bruiser",
+      "fr": "Cogneur Cœur de cuivre"
+    }
+  },
+  {
+    "id": "voltus",
+    "gameId": 2015,
+    "name": {
+      "en": "Voltus",
+      "fr": "Voltus"
+    },
+    "class": "mage",
+    "rarity": "rare",
+    "factions": [
+      "the-cursed-cult"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Stormfused",
+      "fr": "Maître des éclairs"
+    }
+  },
+  {
+    "id": "soleil",
+    "gameId": 2016,
+    "name": {
+      "en": "Soleil",
+      "fr": "Soleil"
+    },
+    "class": "mage",
+    "rarity": "epic",
+    "factions": [
+      "the-watchguard",
+      "the-infernal-blast"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Sunflare Prodigy",
+      "fr": "Prodige des rayons"
+    }
+  },
+  {
+    "id": "maul",
+    "gameId": 2017,
+    "name": {
+      "en": "Maul",
+      "fr": "Maul"
+    },
+    "class": "marksman",
+    "rarity": "epic",
+    "factions": [
+      "the-north-throne"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Wereshark Shredder",
+      "fr": "Déchiqueteur Homme-requin"
+    }
+  },
+  {
+    "id": "nocturne",
+    "gameId": 2018,
+    "name": {
+      "en": "Nocturne",
+      "fr": "Nocturne"
+    },
+    "class": "mage",
+    "rarity": "legendary",
+    "factions": [
+      "the-north-throne",
+      "the-infernal-blast"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Soul Siphon",
+      "fr": "Siphon d'âme"
+    }
+  },
+  {
+    "id": "ajax",
+    "gameId": 2019,
+    "name": {
+      "en": "Ajax",
+      "fr": "Ajax"
+    },
+    "class": "mage",
+    "rarity": "legendary",
+    "damageType": "magic",
+    "title": {
+      "en": "The Dragonsbane",
+      "fr": "Le Fléaudragon"
+    }
+  },
+  {
+    "id": "gluttony",
+    "gameId": 2020,
+    "name": {
+      "en": "Gluttony",
+      "fr": "Gourmandise"
+    },
+    "class": "fighter",
+    "rarity": "epic",
+    "factions": [
+      "the-nightmare-council"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Hell's Fifth Seat",
+      "fr": "Cinquième siège de l'enfer"
+    }
+  },
+  {
+    "id": "king-harz",
+    "gameId": 2021,
+    "name": {
+      "en": "King Harz",
+      "fr": "Roi Harz"
+    },
+    "class": "defender",
+    "rarity": "legendary",
+    "factions": [
+      "the-north-throne"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Northfrost Crown",
+      "fr": "Souverain de Norgivre"
+    }
+  },
+  {
+    "id": "cyrene",
+    "gameId": 2022,
+    "name": {
+      "en": "Cyrene",
+      "fr": "Cyrene"
+    },
+    "class": "fighter",
+    "rarity": "epic",
+    "factions": [
+      "the-watchguard",
+      "the-cursed-cult"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Sandstorm Huntress",
+      "fr": "Chasseuse des sables"
+    }
+  },
+  {
+    "id": "dolores",
+    "gameId": 2023,
+    "name": {
+      "en": "Dolores",
+      "fr": "Dolorès"
+    },
+    "class": "healer",
+    "rarity": "epic",
+    "factions": [
+      "the-infernal-blast"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Muse of Desire",
+      "fr": "Muse du désir"
+    }
+  },
+  {
+    "id": "vortex",
+    "gameId": 2024,
+    "name": {
+      "en": "Vortex",
+      "fr": "Vortex"
+    },
+    "class": "healer",
+    "rarity": "epic",
+    "factions": [
+      "the-north-throne"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Maelstrom's Mind",
+      "fr": "Esprit du Maelstrom"
+    }
+  },
+  {
+    "id": "baron",
+    "gameId": 2025,
+    "name": {
+      "en": "Baron",
+      "fr": "Baron"
+    },
+    "class": "defender",
+    "rarity": "epic",
+    "factions": [
+      "the-nightmare-council"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Headless Sentinel",
+      "fr": "Sentinelle sans tête"
+    }
+  },
+  {
+    "id": "ain",
+    "gameId": 2026,
+    "name": {
+      "en": "Ain",
+      "fr": "Ain"
+    },
+    "class": "fighter",
+    "rarity": "epic",
+    "factions": [
+      "the-watchguard"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Masked Prince",
+      "fr": "Prince masqué"
+    }
+  },
+  {
+    "id": "scorch",
+    "gameId": 2027,
+    "name": {
+      "en": "Scorch",
+      "fr": "Cram"
+    },
+    "class": "fighter",
+    "rarity": "epic",
+    "factions": [
+      "the-infernal-blast"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Spitfire Fiend",
+      "fr": "Démon de Crachefeu"
+    }
+  },
+  {
+    "id": "dagna",
+    "gameId": 2028,
+    "name": {
+      "en": "Dagna",
+      "fr": "Dagna"
+    },
+    "class": "defender",
+    "rarity": "rare",
+    "factions": [
+      "the-north-throne"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Armorer",
+      "fr": "Armurière"
+    }
+  },
+  {
+    "id": "nauvras",
+    "gameId": 2029,
+    "name": {
+      "en": "Nauvras",
+      "fr": "Nauvras"
+    },
+    "class": "mage",
+    "rarity": "epic",
+    "factions": [
+      "the-nightmare-council",
+      "the-esoteria-order"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Noon Devil",
+      "fr": "Démon de midi"
+    }
+  },
+  {
+    "id": "morene",
+    "gameId": 2030,
+    "name": {
+      "en": "Morene",
+      "fr": "Morène"
+    },
+    "class": "marksman",
+    "rarity": "rare",
+    "factions": [
+      "the-infernal-blast",
+      "the-star-piercers"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Swashbuckler",
+      "fr": "Pirate"
+    }
+  },
+  {
+    "id": "hatssut",
+    "gameId": 2034,
+    "name": {
+      "en": "Hatssut",
+      "fr": "Hatssut"
+    },
     "class": "marksman",
     "rarity": "legendary",
-    "faction": "grey-blades",
-    "builds": {
-      "global": [
-        {
-          "label": { "en": "Most used", "fr": "Le plus joué" },
-          "source": "Official guide site (watcherofrealms.mproject.skystone.games/worcommunity), server not specified",
-          "sets": [
-            { "name": "Wicked Vengeance", "usage": 63.2 },
-            { "name": "Warlord", "usage": 20.57 },
-            { "name": "Annihilating Might", "usage": 3.4 }
-          ]
-        }
-      ]
+    "factions": [
+      "the-nightmare-council"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Avenging Empress",
+      "fr": "Impératrice vengeresse"
+    }
+  },
+  {
+    "id": "brunor",
+    "gameId": 2035,
+    "name": {
+      "en": "Brunor",
+      "fr": "Brunor"
+    },
+    "class": "marksman",
+    "rarity": "epic",
+    "factions": [
+      "the-north-throne",
+      "the-infernal-blast"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Longshot Bombardier",
+      "fr": "Bombardier de précision"
+    }
+  },
+  {
+    "id": "lightlocke",
+    "gameId": 2038,
+    "name": {
+      "en": "Lightlocke",
+      "fr": "Lightlocke"
+    },
+    "class": "healer",
+    "rarity": "epic",
+    "factions": [
+      "the-watchguard",
+      "the-north-throne"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "High Archpriest",
+      "fr": "Haut archiprêtre"
+    }
+  },
+  {
+    "id": "ghan",
+    "gameId": 2040,
+    "name": {
+      "en": "Ghan",
+      "fr": "Ghan"
+    },
+    "class": "defender",
+    "rarity": "legendary",
+    "factions": [
+      "the-chaos-dominion"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Bloodaxe Khagan",
+      "fr": "Khagan Hachesang"
+    }
+  },
+  {
+    "id": "daemon",
+    "gameId": 2041,
+    "name": {
+      "en": "Daemon",
+      "fr": "Démon"
+    },
+    "class": "fighter",
+    "rarity": "epic",
+    "factions": [
+      "the-nightmare-council"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Exile of Bloodmoon",
+      "fr": "Exilé de Lune de sang"
+    }
+  },
+  {
+    "id": "volka",
+    "gameId": 2042,
+    "name": {
+      "en": "Volka",
+      "fr": "Volka"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-nightmare-council"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Blood Mother",
+      "fr": "La matriarche sanglante"
+    }
+  },
+  {
+    "id": "titus",
+    "gameId": 2043,
+    "name": {
+      "en": "Titus",
+      "fr": "Titus"
+    },
+    "class": "defender",
+    "rarity": "epic",
+    "factions": [
+      "the-infernal-blast"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Iron Warden",
+      "fr": "Gardien de fer"
+    }
+  },
+  {
+    "id": "regulus",
+    "gameId": 2045,
+    "name": {
+      "en": "Regulus",
+      "fr": "Régulus"
+    },
+    "class": "defender",
+    "rarity": "legendary",
+    "factions": [
+      "the-watchguard"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Shield of the Morning",
+      "fr": "Bouclier du matin"
+    }
+  },
+  {
+    "id": "livian",
+    "gameId": 2046,
+    "name": {
+      "en": "Livian",
+      "fr": "Livianne"
+    },
+    "class": "defender",
+    "rarity": "epic",
+    "factions": [
+      "the-watchguard",
+      "the-star-piercers"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Aristocratic Aegis",
+      "fr": "Égide de l'aristocratie"
+    }
+  },
+  {
+    "id": "olague",
+    "gameId": 2047,
+    "name": {
+      "en": "Olague",
+      "fr": "Olague"
+    },
+    "class": "defender",
+    "rarity": "epic",
+    "factions": [
+      "the-north-throne"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Unyielding Bastion",
+      "fr": "Bastion inflexible"
+    }
+  },
+  {
+    "id": "zilitu",
+    "gameId": 2048,
+    "name": {
+      "en": "Zilitu",
+      "fr": "Zilitu"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-infernal-blast"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Infernal Temptress",
+      "fr": "Tentatrice infernale"
+    }
+  },
+  {
+    "id": "nazeem",
+    "gameId": 2049,
+    "name": {
+      "en": "Nazeem",
+      "fr": "Nazeem"
+    },
+    "class": "mage",
+    "rarity": "epic",
+    "factions": [
+      "the-esoteria-order"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Bloodletting Spellsword",
+      "fr": "Épéiste Tranchelame"
+    }
+  },
+  {
+    "id": "drogo",
+    "gameId": 2051,
+    "name": {
+      "en": "Drogo",
+      "fr": "Drogo"
+    },
+    "class": "marksman",
+    "rarity": "rare",
+    "factions": [
+      "the-star-piercers"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Crackshot",
+      "fr": "Fin tireur"
+    }
+  },
+  {
+    "id": "dalyn",
+    "gameId": 2053,
+    "name": {
+      "en": "Dalyn",
+      "fr": "Daline"
+    },
+    "class": "fighter",
+    "rarity": "epic",
+    "factions": [
+      "the-watchguard"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Twinblade Justicar",
+      "fr": "Justicier Doublelame"
+    }
+  },
+  {
+    "id": "calypso",
+    "gameId": 2054,
+    "name": {
+      "en": "Calypso",
+      "fr": "Calypso"
+    },
+    "class": "marksman",
+    "rarity": "legendary",
+    "factions": [
+      "the-star-piercers"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Mindpiercer",
+      "fr": "Liseuse d'esprits"
+    }
+  },
+  {
+    "id": "meriel",
+    "gameId": 2055,
+    "name": {
+      "en": "Meriel",
+      "fr": "Mériel"
+    },
+    "class": "defender",
+    "rarity": "epic",
+    "factions": [
+      "the-watchguard"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Holylight Paladin",
+      "fr": "Paladin de la lumière sacrée"
+    }
+  },
+  {
+    "id": "sorzus",
+    "gameId": 2056,
+    "name": {
+      "en": "Sorzus",
+      "fr": "Sorzus"
+    },
+    "class": "mage",
+    "rarity": "rare",
+    "factions": [
+      "the-nightmare-council"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Spellbinder",
+      "fr": "Égérie des sortilèges"
+    }
+  },
+  {
+    "id": "torodor",
+    "gameId": 2058,
+    "name": {
+      "en": "Torodor",
+      "fr": "Torodor"
+    },
+    "class": "defender",
+    "rarity": "legendary",
+    "factions": [
+      "the-nightmare-council"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Undying Bull",
+      "fr": "Taureau indéfectible"
+    }
+  },
+  {
+    "id": "greed",
+    "gameId": 2059,
+    "name": {
+      "en": "Greed",
+      "fr": "Avarice"
+    },
+    "class": "mage",
+    "rarity": "epic",
+    "factions": [
+      "the-nightmare-council",
+      "the-cursed-cult"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Hell's Second Seat",
+      "fr": "Second siège de l'enfer"
+    }
+  },
+  {
+    "id": "cyclone",
+    "gameId": 2060,
+    "name": {
+      "en": "Cyclone",
+      "fr": "Cyclone"
+    },
+    "class": "fighter",
+    "rarity": "epic",
+    "factions": [
+      "the-esoteria-order"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Unyielding Gale",
+      "fr": "Tempête inflexible"
+    }
+  },
+  {
+    "id": "voroth",
+    "gameId": 2061,
+    "name": {
+      "en": "Voroth",
+      "fr": "Voroth"
+    },
+    "class": "fighter",
+    "rarity": "epic",
+    "factions": [
+      "the-north-throne"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Frozenheart Chief",
+      "fr": "Chef Coeurdeglace"
+    }
+  },
+  {
+    "id": "theowin",
+    "gameId": 2063,
+    "name": {
+      "en": "Theowin",
+      "fr": "Théowin"
+    },
+    "class": "marksman",
+    "rarity": "epic",
+    "factions": [
+      "the-star-piercers"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Sightless Twisterblade",
+      "fr": "Lame sans vue"
+    }
+  },
+  {
+    "id": "elowyn",
+    "gameId": 2066,
+    "name": {
+      "en": "Elowyn",
+      "fr": "Elowyn"
+    },
+    "class": "healer",
+    "rarity": "legendary",
+    "factions": [
+      "the-esoteria-order"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Meadow Sage",
+      "fr": "Sagesse des prés"
+    }
+  },
+  {
+    "id": "deimos",
+    "gameId": 2069,
+    "name": {
+      "en": "Deimos",
+      "fr": "Deimos"
+    },
+    "class": "fighter",
+    "rarity": "epic",
+    "factions": [
+      "the-nightmare-council"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Bloodhunter",
+      "fr": "Chasseur sanglant"
+    }
+  },
+  {
+    "id": "valkyra",
+    "gameId": 2085,
+    "name": {
+      "en": "Valkyra",
+      "fr": "Valkyra"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-north-throne",
+      "the-supreme-arbiters"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Godblade of Northfrost",
+      "fr": "Lame de Norgivre"
+    }
+  },
+  {
+    "id": "aveline",
+    "gameId": 2087,
+    "name": {
+      "en": "Aveline",
+      "fr": "Aveline"
+    },
+    "class": "defender",
+    "rarity": "epic",
+    "factions": [
+      "the-north-throne",
+      "the-watchguard"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Warhorse Heroine",
+      "fr": "Héroïne centaure"
+    }
+  },
+  {
+    "id": "eliza",
+    "gameId": 2096,
+    "name": {
+      "en": "Eliza",
+      "fr": "Eliza"
+    },
+    "class": "marksman",
+    "rarity": "epic",
+    "factions": [
+      "the-star-piercers"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Silent Serpent",
+      "fr": "La Vipère silencieuse"
+    }
+  },
+  {
+    "id": "idril",
+    "gameId": 2097,
+    "name": {
+      "en": "Idril",
+      "fr": "Idril"
+    },
+    "class": "marksman",
+    "rarity": "epic",
+    "factions": [
+      "the-watchguard",
+      "the-star-piercers"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Wildwood Ranger",
+      "fr": "Rôdeur des bois sauvages"
+    }
+  },
+  {
+    "id": "estrid",
+    "gameId": 2098,
+    "name": {
+      "en": "Estrid",
+      "fr": "Estride"
+    },
+    "class": "fighter",
+    "rarity": "epic",
+    "factions": [
+      "the-north-throne"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Stormborn Brawler",
+      "fr": "Cogneuse de maison tempête"
+    }
+  },
+  {
+    "id": "midan",
+    "gameId": 2100,
+    "name": {
+      "en": "Midan",
+      "fr": "Midan"
+    },
+    "class": "healer",
+    "rarity": "epic",
+    "factions": [
+      "the-north-throne"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Sister of the Light",
+      "fr": "Soeur de la lumière"
+    }
+  },
+  {
+    "id": "aeon",
+    "gameId": 2101,
+    "name": {
+      "en": "Aeon",
+      "fr": "Éon"
+    },
+    "class": "mage",
+    "rarity": "epic",
+    "factions": [
+      "the-cursed-cult"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Mistress of Oblivion",
+      "fr": "Maîtresse du néant"
+    }
+  },
+  {
+    "id": "eona",
+    "gameId": 2102,
+    "name": {
+      "en": "Eona",
+      "fr": "Ëona"
+    },
+    "class": "mage",
+    "rarity": "epic",
+    "factions": [
+      "the-watchguard",
+      "the-cursed-cult"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Sister of the Night",
+      "fr": "Soeur de la nuit"
+    }
+  },
+  {
+    "id": "hollow",
+    "gameId": 2103,
+    "name": {
+      "en": "Hollow",
+      "fr": "Hollow"
+    },
+    "class": "healer",
+    "rarity": "epic",
+    "factions": [
+      "the-cursed-cult"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Marionette Spellweaver",
+      "fr": "Marionnette tisserêve"
+    }
+  },
+  {
+    "id": "carosa",
+    "gameId": 2106,
+    "name": {
+      "en": "Carosa",
+      "fr": "Carosa"
+    },
+    "class": "mage",
+    "rarity": "legendary",
+    "factions": [
+      "the-cursed-cult"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Forbidden Scholar",
+      "fr": "Savante interdite."
+    }
+  },
+  {
+    "id": "isolde",
+    "gameId": 2108,
+    "name": {
+      "en": "Isolde",
+      "fr": "Isolde"
+    },
+    "class": "defender",
+    "rarity": "epic",
+    "factions": [
+      "the-north-throne"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "People's Protector",
+      "fr": "Protectrice du peuple"
+    }
+  },
+  {
+    "id": "imani",
+    "gameId": 2111,
+    "name": {
+      "en": "Imani",
+      "fr": "Imani"
+    },
+    "class": "mage",
+    "rarity": "epic",
+    "factions": [
+      "the-infernal-blast"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Wandering Flameprophet",
+      "fr": "Prophète des flammes errante"
+    }
+  },
+  {
+    "id": "osiren",
+    "gameId": 2115,
+    "name": {
+      "en": "Osiren",
+      "fr": "Osiren"
+    },
+    "class": "mage",
+    "rarity": "epic",
+    "factions": [
+      "the-cursed-cult"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Queen's Soulmancer",
+      "fr": "Âmancier de la reine"
+    }
+  },
+  {
+    "id": "selene",
+    "gameId": 2117,
+    "name": {
+      "en": "Selene",
+      "fr": "Sélène"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-esoteria-order"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Bloodspiller Viscount",
+      "fr": "La Vicomtesse Massacreuse"
+    }
+  },
+  {
+    "id": "tazira",
+    "gameId": 2118,
+    "name": {
+      "en": "Tazira",
+      "fr": "Tazira"
+    },
+    "class": "marksman",
+    "rarity": "epic",
+    "factions": [
+      "the-star-piercers"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Plumed Sniper",
+      "fr": "Tireuse à plumes"
+    }
+  },
+  {
+    "id": "shamir",
+    "gameId": 2119,
+    "name": {
+      "en": "Shamir",
+      "fr": "Shamir"
+    },
+    "class": "mage",
+    "rarity": "legendary",
+    "factions": [
+      "the-north-throne"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Mind of the Depths",
+      "fr": "Esprit des profondeurs"
+    }
+  },
+  {
+    "id": "laurel",
+    "gameId": 2120,
+    "name": {
+      "en": "Laurel",
+      "fr": "Laurelle"
+    },
+    "class": "mage",
+    "rarity": "epic",
+    "factions": [
+      "the-esoteria-order"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Verdant Daughter",
+      "fr": "La fille verdoyante"
+    }
+  },
+  {
+    "id": "captain-reve",
+    "gameId": 2121,
+    "name": {
+      "en": "Captain Reve",
+      "fr": "Capitaine Reve"
+    },
+    "class": "defender",
+    "rarity": "legendary",
+    "factions": [
+      "the-cursed-cult"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Riptide Reaver",
+      "fr": "Le Pilleur des reflux"
+    }
+  },
+  {
+    "id": "ares",
+    "gameId": 2127,
+    "name": {
+      "en": "Ares",
+      "fr": "Arès"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-nightmare-council"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Longhorn Impaler",
+      "fr": "L'Empaleur à cornes"
+    }
+  },
+  {
+    "id": "krodor",
+    "gameId": 2128,
+    "name": {
+      "en": "Krodor",
+      "fr": "Krodor"
+    },
+    "class": "defender",
+    "rarity": "legendary",
+    "factions": [
+      "the-north-throne"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Glacial Guardian",
+      "fr": "Le Gardien glacial"
+    }
+  },
+  {
+    "id": "rhox",
+    "gameId": 2129,
+    "name": {
+      "en": "Rhox",
+      "fr": "Rhox"
+    },
+    "class": "defender",
+    "rarity": "epic",
+    "factions": [
+      "the-north-throne"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Wasteland Titan",
+      "fr": "Titan des friches"
+    }
+  },
+  {
+    "id": "laseer",
+    "gameId": 2130,
+    "name": {
+      "en": "Laseer",
+      "fr": "Laseer"
+    },
+    "class": "mage",
+    "rarity": "legendary",
+    "factions": [
+      "the-cursed-cult"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Sandswept King",
+      "fr": "Le Roi des sables"
+    }
+  },
+  {
+    "id": "ardeth",
+    "gameId": 2131,
+    "name": {
+      "en": "Ardeth",
+      "fr": "Ardeth"
+    },
+    "class": "defender",
+    "rarity": "epic",
+    "factions": [
+      "the-esoteria-order"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Soulreaping Vanguard",
+      "fr": "Avant-garde moissonneur d'âmes"
+    }
+  },
+  {
+    "id": "arrogance",
+    "gameId": 2132,
+    "name": {
+      "en": "Arrogance",
+      "fr": "Arrogance"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-nightmare-council"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Cinderstalker Zukhil",
+      "fr": "Cinderstalker Zukhil"
+    }
+  },
+  {
+    "id": "luneria",
+    "gameId": 2133,
+    "name": {
+      "en": "Luneria",
+      "fr": "Luneria"
+    },
+    "class": "marksman",
+    "rarity": "epic",
+    "factions": [
+      "the-star-piercers"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Moonshroud Maven",
+      "fr": "Enchanteresse lunaire"
+    }
+  },
+  {
+    "id": "zelus",
+    "gameId": 2134,
+    "name": {
+      "en": "Zelus",
+      "fr": "Zélus"
+    },
+    "class": "mage",
+    "rarity": "legendary",
+    "factions": [
+      "the-cursed-cult"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Lord of Styx",
+      "fr": "Seigneur de Styx"
+    }
+  },
+  {
+    "id": "lili",
+    "gameId": 2135,
+    "name": {
+      "en": "Lili",
+      "fr": "Lili"
+    },
+    "class": "healer",
+    "rarity": "epic",
+    "factions": [
+      "the-star-piercers",
+      "the-esoteria-order"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Forgotten Flower",
+      "fr": "La fleur oubliée"
+    }
+  },
+  {
+    "id": "solcadens",
+    "gameId": 2136,
+    "name": {
+      "en": "Solcadens",
+      "fr": "Solcadens"
+    },
+    "class": "mage",
+    "rarity": "legendary",
+    "factions": [
+      "the-infernal-blast"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Hellfire Emperor",
+      "fr": "Empereur de l'Inferno"
+    }
+  },
+  {
+    "id": "jorge",
+    "gameId": 2137,
+    "name": {
+      "en": "Jorge",
+      "fr": "Jorge"
+    },
+    "class": "defender",
+    "rarity": "epic",
+    "factions": [
+      "the-chaos-dominion",
+      "the-cursed-cult"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Rotten Mercenary",
+      "fr": "Mercenaire putréfié"
+    }
+  },
+  {
+    "id": "nissandei",
+    "gameId": 2138,
+    "name": {
+      "en": "Nissandei",
+      "fr": "Nissandei"
+    },
+    "class": "healer",
+    "rarity": "epic",
+    "factions": [
+      "the-star-piercers"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Nightingale Hermit",
+      "fr": "Hermite rossignol"
+    }
+  },
+  {
+    "id": "raiden",
+    "gameId": 2139,
+    "name": {
+      "en": "Raiden",
+      "fr": "Raiden"
+    },
+    "class": "mage",
+    "rarity": "epic",
+    "factions": [
+      "the-esoteria-order"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Voltaic Frostmage",
+      "fr": "Mage de givre foudroyant"
+    }
+  },
+  {
+    "id": "azzoth",
+    "gameId": 2141,
+    "name": {
+      "en": "Azzoth",
+      "fr": "Azzoth"
+    },
+    "class": "mage",
+    "rarity": "epic",
+    "factions": [
+      "the-infernal-blast"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Brimstone Prince",
+      "fr": "Prince sulfureux"
+    }
+  },
+  {
+    "id": "atrox",
+    "gameId": 2143,
+    "name": {
+      "en": "Atrox",
+      "fr": "Atrox"
+    },
+    "class": "fighter",
+    "rarity": "epic",
+    "factions": [
+      "the-cursed-cult",
+      "the-chaos-dominion"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Damned Warrior",
+      "fr": "Guerrier damné"
+    }
+  },
+  {
+    "id": "drayga",
+    "gameId": 2144,
+    "name": {
+      "en": "Drayga",
+      "fr": "Drayga"
+    },
+    "class": "defender",
+    "rarity": "epic",
+    "factions": [
+      "the-nightmare-council"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Reformed Shield",
+      "fr": "Le Bouclier réformé"
+    }
+  },
+  {
+    "id": "autumn",
+    "gameId": 2145,
+    "name": {
+      "en": "Autumn",
+      "fr": "Automne"
+    },
+    "class": "healer",
+    "rarity": "rare",
+    "factions": [
+      "the-infernal-blast"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Red Owl",
+      "fr": "Chouette rouge"
+    }
+  },
+  {
+    "id": "abomination",
+    "gameId": 2146,
+    "name": {
+      "en": "Abomination",
+      "fr": "Abomination"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-nightmare-council"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Sin of the Damned",
+      "fr": "Le péché des damnés"
+    }
+  },
+  {
+    "id": "morrigan",
+    "gameId": 2147,
+    "name": {
+      "en": "Morrigan",
+      "fr": "Morrigan"
+    },
+    "class": "mage",
+    "rarity": "legendary",
+    "factions": [
+      "the-cursed-cult"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Burnt Witch",
+      "fr": "Sorcière incinérée"
+    }
+  },
+  {
+    "id": "janqhar",
+    "gameId": 2150,
+    "name": {
+      "en": "Janqhar",
+      "fr": "Janqhar"
+    },
+    "class": "fighter",
+    "rarity": "epic",
+    "factions": [
+      "the-esoteria-order"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Pharaoh's Thrall",
+      "fr": "Esclave du pharaon"
+    }
+  },
+  {
+    "id": "selkath",
+    "gameId": 2151,
+    "name": {
+      "en": "Selkath",
+      "fr": "Selkath"
+    },
+    "class": "mage",
+    "rarity": "epic",
+    "factions": [
+      "the-esoteria-order"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Swamp Spumemaker",
+      "fr": "Faiseur d'écume des marécages"
+    }
+  },
+  {
+    "id": "pyros",
+    "gameId": 2152,
+    "name": {
+      "en": "Pyros",
+      "fr": "Pyros"
+    },
+    "class": "mage",
+    "rarity": "epic",
+    "factions": [
+      "the-infernal-blast"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Infernal Shaman",
+      "fr": "Chaman infernal"
+    }
+  },
+  {
+    "id": "aracha",
+    "gameId": 2153,
+    "name": {
+      "en": "Aracha",
+      "fr": "Aracha"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-star-piercers"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Crimson Widow",
+      "fr": "Veuve écarlate"
+    }
+  },
+  {
+    "id": "vladov",
+    "gameId": 2159,
+    "name": {
+      "en": "Vladov",
+      "fr": "Vladov"
+    },
+    "class": "fighter",
+    "rarity": "epic",
+    "factions": [
+      "the-chaos-dominion",
+      "the-nightmare-council"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Bloodtooth",
+      "fr": "Dendsang"
+    }
+  },
+  {
+    "id": "nyx",
+    "gameId": 2160,
+    "name": {
+      "en": "Nyx",
+      "fr": "Nyx"
+    },
+    "class": "marksman",
+    "rarity": "legendary",
+    "factions": [
+      "the-star-piercers"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Daughter of Blood",
+      "fr": "Fille du Sang"
+    }
+  },
+  {
+    "id": "esme",
+    "gameId": 2161,
+    "name": {
+      "en": "Esme",
+      "fr": "Esmée"
+    },
+    "class": "marksman",
+    "rarity": "epic",
+    "factions": [
+      "the-star-piercers"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Venom's Shadow",
+      "fr": "Ombre du venin"
+    }
+  },
+  {
+    "id": "trusk",
+    "gameId": 2163,
+    "name": {
+      "en": "Trusk",
+      "fr": "Trusk"
+    },
+    "class": "defender",
+    "rarity": "legendary",
+    "factions": [
+      "the-esoteria-order"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Thorned Bastion",
+      "fr": "Le Bastion à corne"
+    }
+  },
+  {
+    "id": "orim",
+    "gameId": 2165,
+    "name": {
+      "en": "Orim",
+      "fr": "Orim"
+    },
+    "class": "defender",
+    "rarity": "legendary",
+    "factions": [
+      "the-infernal-blast"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Volcanic Anvil",
+      "fr": "L'enclume Volcanique"
+    }
+  },
+  {
+    "id": "maw",
+    "gameId": 2166,
+    "name": {
+      "en": "Maw",
+      "fr": "Maw"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-nightmare-council"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Devourer",
+      "fr": "Le Dévoreur"
+    }
+  },
+  {
+    "id": "lugaru",
+    "gameId": 2167,
+    "name": {
+      "en": "Lugaru",
+      "fr": "Lugaru"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-chaos-dominion",
+      "the-nightmare-council"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Wolf King",
+      "fr": "Le Roi Loup"
+    }
+  },
+  {
+    "id": "fenris",
+    "gameId": 2168,
+    "name": {
+      "en": "Fenris",
+      "fr": "Fenris"
+    },
+    "class": "marksman",
+    "rarity": "legendary",
+    "factions": [
+      "the-north-throne"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Cursed Khan",
+      "fr": "Khan maudit"
+    }
+  },
+  {
+    "id": "apsan",
+    "gameId": 2169,
+    "name": {
+      "en": "Apsan",
+      "fr": "Apsan"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-star-piercers"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Roaring Javelin",
+      "fr": "Le javelot rugissant"
+    }
+  },
+  {
+    "id": "vargus",
+    "gameId": 2170,
+    "name": {
+      "en": "Vargus",
+      "fr": "Vargus"
+    },
+    "class": "marksman",
+    "rarity": "epic",
+    "factions": [
+      "the-chaos-dominion",
+      "the-star-piercers"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Lunar Assassin",
+      "fr": "L'assassin lunaire"
+    }
+  },
+  {
+    "id": "laya",
+    "gameId": 2171,
+    "name": {
+      "en": "Laya",
+      "fr": "Laya"
+    },
+    "class": "healer",
+    "rarity": "legendary",
+    "factions": [
+      "the-watchguard"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Celestial Chordspeaker",
+      "fr": "La voix céleste"
+    }
+  },
+  {
+    "id": "dassomi",
+    "gameId": 2172,
+    "name": {
+      "en": "Dassomi",
+      "fr": "Dassomi"
+    },
+    "class": "healer",
+    "rarity": "legendary",
+    "factions": [
+      "the-chaos-dominion",
+      "the-esoteria-order"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Dream Giver",
+      "fr": "Donneur de rêves"
+    }
+  },
+  {
+    "id": "kria",
+    "gameId": 2173,
+    "name": {
+      "en": "Kria",
+      "fr": "Kria"
+    },
+    "class": "mage",
+    "rarity": "legendary",
+    "factions": [
+      "the-cursed-cult"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Mother of Crows",
+      "fr": "Mère des corbeaux"
+    }
+  },
+  {
+    "id": "ymiret",
+    "gameId": 2174,
+    "name": {
+      "en": "Ymiret",
+      "fr": "Ymiret"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "damageType": "physical",
+    "title": {
+      "en": "Frostbourne Leviathan",
+      "fr": "Léviathan Glacial"
+    }
+  },
+  {
+    "id": "valeriya",
+    "gameId": 2175,
+    "name": {
+      "en": "Valeriya",
+      "fr": "Valeriya"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-chaos-dominion",
+      "the-nightmare-council"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Beast Knight",
+      "fr": "La bête chevaleresse"
+    }
+  },
+  {
+    "id": "cyrus",
+    "gameId": 2176,
+    "name": {
+      "en": "Cyrus",
+      "fr": "Cyrus"
+    },
+    "class": "defender",
+    "rarity": "legendary",
+    "factions": [
+      "the-esoteria-order"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Conqueror",
+      "fr": "Conquérant"
+    }
+  },
+  {
+    "id": "azhor",
+    "gameId": 2177,
+    "name": {
+      "en": "Azhor",
+      "fr": "Azhor"
+    },
+    "class": "defender",
+    "rarity": "legendary",
+    "factions": [
+      "the-nightmare-council"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Hellforge Betrayer",
+      "fr": "Le Traître de Forgenfer"
+    }
+  },
+  {
+    "id": "cerberus",
+    "gameId": 2178,
+    "name": {
+      "en": "Cerberus",
+      "fr": "Cerbeus"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-cursed-cult",
+      "the-chaos-dominion"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Skull Collector",
+      "fr": "Le collectionneur de crânes"
+    }
+  },
+  {
+    "id": "diaochan",
+    "gameId": 2179,
+    "name": {
+      "en": "Diaochan",
+      "fr": "Diaochan"
+    },
+    "class": "healer",
+    "rarity": "legendary",
+    "factions": [
+      "the-watchguard",
+      "the-infernal-blast"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Moon's Radiance",
+      "fr": "Radiance de la Lune"
+    }
+  },
+  {
+    "id": "silas",
+    "gameId": 2180,
+    "name": {
+      "en": "Silas",
+      "fr": "Silas"
+    },
+    "class": "marksman",
+    "rarity": "legendary",
+    "factions": [
+      "the-star-piercers"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Blind King",
+      "fr": "Le roi aveugle"
+    }
+  },
+  {
+    "id": "setram",
+    "gameId": 2181,
+    "name": {
+      "en": "Setram",
+      "fr": "Setram"
+    },
+    "class": "marksman",
+    "rarity": "legendary",
+    "factions": [
+      "the-infernal-blast"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Guardian of Enigmas",
+      "fr": "Gardien des énigmes"
+    }
+  },
+  {
+    "id": "aylin",
+    "gameId": 2182,
+    "name": {
+      "en": "Aylin",
+      "fr": "Aylin"
+    },
+    "class": "healer",
+    "rarity": "legendary",
+    "factions": [
+      "the-infernal-blast"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Moon Seraph",
+      "fr": "Ange de la Lune"
+    }
+  },
+  {
+    "id": "khamet",
+    "gameId": 2183,
+    "name": {
+      "en": "Khamet",
+      "fr": "Khamet"
+    },
+    "class": "mage",
+    "rarity": "legendary",
+    "factions": [
+      "the-esoteria-order"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Pharaoh of Decay",
+      "fr": "Pharaon de décadence"
+    }
+  },
+  {
+    "id": "venoma",
+    "gameId": 2184,
+    "name": {
+      "en": "Venoma",
+      "fr": "Venoma"
+    },
+    "class": "mage",
+    "rarity": "legendary",
+    "factions": [
+      "the-esoteria-order"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Snakeblood Empress",
+      "fr": "L'Impératrice Sandserpent"
+    }
+  },
+  {
+    "id": "gisele",
+    "gameId": 2185,
+    "name": {
+      "en": "Gisele",
+      "fr": "Gisèle"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-chaos-dominion",
+      "the-nightmare-council"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Eternal Duelist",
+      "fr": "La duelliste éternelle"
+    }
+  },
+  {
+    "id": "nisalt",
+    "gameId": 2186,
+    "name": {
+      "en": "Nisalt",
+      "fr": "Nisalt"
+    },
+    "class": "mage",
+    "rarity": "epic",
+    "factions": [
+      "the-esoteria-order"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Toxin of the Sands",
+      "fr": "Toxine des sables"
+    }
+  },
+  {
+    "id": "ferssi",
+    "gameId": 2187,
+    "name": {
+      "en": "Ferssi",
+      "fr": "Ferssi"
+    },
+    "class": "healer",
+    "rarity": "legendary",
+    "factions": [
+      "the-infernal-blast"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Healing Parasite",
+      "fr": "Le parasite guérisseur"
+    }
+  },
+  {
+    "id": "vierna",
+    "gameId": 2188,
+    "name": {
+      "en": "Vierna",
+      "fr": "Vierna"
+    },
+    "class": "mage",
+    "rarity": "legendary",
+    "factions": [
+      "the-cursed-cult"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Wraith Queen",
+      "fr": "La reine fantômatique"
+    }
+  },
+  {
+    "id": "ezryn",
+    "gameId": 2189,
+    "name": {
+      "en": "Ezryn",
+      "fr": "Ezryn"
+    },
+    "class": "healer",
+    "rarity": "legendary",
+    "factions": [
+      "the-esoteria-order"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Emerald Flame",
+      "fr": "La Flamme d'émeraude"
+    }
+  },
+  {
+    "id": "elddr",
+    "gameId": 2190,
+    "name": {
+      "en": "Elddr",
+      "fr": "Elddr"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-north-throne"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Thunder of Winter",
+      "fr": "Foudre de l'hiver"
+    }
+  },
+  {
+    "id": "crach",
+    "gameId": 2191,
+    "name": {
+      "en": "Crach",
+      "fr": "Crach"
+    },
+    "class": "marksman",
+    "rarity": "legendary",
+    "factions": [
+      "the-watchguard"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Surefire Cannon",
+      "fr": "Œil de lynx"
+    }
+  },
+  {
+    "id": "kalina",
+    "gameId": 2192,
+    "name": {
+      "en": "Kalina",
+      "fr": "Kalina"
+    },
+    "class": "mage",
+    "rarity": "epic",
+    "factions": [
+      "the-esoteria-order"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Witch of the Wastelands",
+      "fr": "Sorcière des terres désolées"
+    }
+  },
+  {
+    "id": "kaede",
+    "gameId": 2193,
+    "name": {
+      "en": "Kaede",
+      "fr": "Kaede"
+    },
+    "class": "mage",
+    "rarity": "legendary",
+    "factions": [
+      "the-esoteria-order",
+      "the-chaos-dominion"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Soaring Spirit",
+      "fr": "L'esprit volant fulgurant"
+    }
+  },
+  {
+    "id": "ai",
+    "gameId": 2195,
+    "name": {
+      "en": "Ai",
+      "fr": "Ai"
+    },
+    "class": "mage",
+    "rarity": "epic",
+    "factions": [
+      "the-esoteria-order",
+      "the-north-throne"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Crystal Spellbreaker",
+      "fr": "Briseur des sorts de cristaux"
+    }
+  },
+  {
+    "id": "harpun",
+    "gameId": 2196,
+    "name": {
+      "en": "Harpun",
+      "fr": "Harpun"
+    },
+    "class": "marksman",
+    "rarity": "epic",
+    "factions": [
+      "the-north-throne"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Sawtooth Sharpshooter",
+      "fr": "Dendscie tireur d'élite"
+    }
+  },
+  {
+    "id": "gwendolyn",
+    "gameId": 2197,
+    "name": {
+      "en": "Gwendolyn",
+      "fr": "Gwendoline"
+    },
+    "class": "healer",
+    "rarity": "legendary",
+    "factions": [
+      "the-north-throne"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Northern Star",
+      "fr": "L'étoile du Nord"
+    }
+  },
+  {
+    "id": "twinfiend",
+    "gameId": 2198,
+    "name": {
+      "en": "Twinfiend",
+      "fr": "Doubletronche"
+    },
+    "class": "mage",
+    "rarity": "legendary",
+    "factions": [
+      "the-infernal-blast"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Brothers Grotesque",
+      "fr": "Les frères grotesques"
+    }
+  },
+  {
+    "id": "sargak",
+    "gameId": 2200,
+    "name": {
+      "en": "Sargak",
+      "fr": "Sargak"
+    },
+    "class": "marksman",
+    "rarity": "legendary",
+    "factions": [
+      "the-chaos-dominion",
+      "the-star-piercers"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Gruesome Spear",
+      "fr": "La Lance macabre"
+    }
+  },
+  {
+    "id": "carnelian",
+    "gameId": 2201,
+    "name": {
+      "en": "Carnelian",
+      "fr": "Corneline"
+    },
+    "class": "healer",
+    "rarity": "legendary",
+    "factions": [
+      "the-chaos-dominion",
+      "the-cursed-cult"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Soul Soother",
+      "fr": "L'Apaisante"
+    }
+  },
+  {
+    "id": "durza",
+    "gameId": 2202,
+    "name": {
+      "en": "Durza",
+      "fr": "Durza"
+    },
+    "class": "mage",
+    "rarity": "legendary",
+    "factions": [
+      "the-chaos-dominion",
+      "the-cursed-cult"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Bloodtusk Shaman",
+      "fr": "Le Chaman brochesang"
+    }
+  },
+  {
+    "id": "sadie",
+    "gameId": 2203,
+    "name": {
+      "en": "Sadie",
+      "fr": "Sadie"
+    },
+    "class": "healer",
+    "rarity": "legendary",
+    "factions": [
+      "the-north-throne"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Rallying Songbird",
+      "fr": "La Barde unificatrice."
+    }
+  },
+  {
+    "id": "falcia",
+    "gameId": 2204,
+    "name": {
+      "en": "Falcia",
+      "fr": "Falcia"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-north-throne",
+      "the-esoteria-order"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Triblade Demonsbane",
+      "fr": "La Fléaudémon trilames"
+    }
+  },
+  {
+    "id": "hex",
+    "gameId": 2205,
+    "name": {
+      "en": "Hex",
+      "fr": "Hex"
+    },
+    "class": "marksman",
+    "rarity": "legendary",
+    "factions": [
+      "the-infernal-blast",
+      "the-star-piercers"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Mad Diviner",
+      "fr": "Le Devin fou"
+    }
+  },
+  {
+    "id": "raizan",
+    "gameId": 2206,
+    "name": {
+      "en": "Raizan",
+      "fr": "Raizan"
+    },
+    "class": "marksman",
+    "rarity": "legendary",
+    "factions": [
+      "the-nightmare-council"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Shattered Tempest",
+      "fr": "Tempête brisée"
+    }
+  },
+  {
+    "id": "thunkles",
+    "gameId": 2207,
+    "name": {
+      "en": "Thunkles",
+      "fr": "Thunkles"
+    },
+    "class": "defender",
+    "rarity": "epic",
+    "factions": [
+      "the-cursed-cult"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Bloodied Butcher",
+      "fr": "Le Boucher sanglant"
+    }
+  },
+  {
+    "id": "eirlys",
+    "gameId": 2209,
+    "name": {
+      "en": "Eirlys",
+      "fr": "Eirlys"
+    },
+    "class": "healer",
+    "rarity": "legendary",
+    "factions": [
+      "the-watchguard",
+      "the-north-throne"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Winter's Mercy",
+      "fr": "Clémence de l'hiver"
+    }
+  },
+  {
+    "id": "ardea",
+    "gameId": 2211,
+    "name": {
+      "en": "Ardea",
+      "fr": "Ardéa"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-chaos-dominion",
+      "the-north-throne"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Blade of the Inferno",
+      "fr": "Lame des enfers"
+    }
+  },
+  {
+    "id": "boreas",
+    "gameId": 2212,
+    "name": {
+      "en": "Boreas",
+      "fr": "Boréas"
+    },
+    "class": "mage",
+    "rarity": "legendary",
+    "factions": [
+      "the-esoteria-order",
+      "the-north-throne"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Arbiter of Frost",
+      "fr": "Juge de givre"
+    }
+  },
+  {
+    "id": "helga",
+    "gameId": 2214,
+    "name": {
+      "en": "Helga",
+      "fr": "Helga"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-esoteria-order"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Carrion Queen",
+      "fr": "La reine corneille"
+    }
+  },
+  {
+    "id": "abyzou",
+    "gameId": 2216,
+    "name": {
+      "en": "Abyzou",
+      "fr": "Abyzou"
+    },
+    "class": "mage",
+    "rarity": "epic",
+    "factions": [
+      "the-cursed-cult"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Skull Keeper",
+      "fr": "Gardienne des crânes"
+    }
+  },
+  {
+    "id": "uredin",
+    "gameId": 2217,
+    "name": {
+      "en": "Uredin",
+      "fr": "Uredin"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-chaos-dominion",
+      "the-cursed-cult"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Noble Reaper",
+      "fr": "Le Noble faucheur"
+    }
+  },
+  {
+    "id": "brokkir",
+    "gameId": 2218,
+    "name": {
+      "en": "Brokkir",
+      "fr": "Brokkir"
+    },
+    "class": "defender",
+    "rarity": "legendary",
+    "factions": [
+      "the-north-throne"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Frosthammer",
+      "fr": "Le Givre-marteau"
+    }
+  },
+  {
+    "id": "magmus",
+    "gameId": 2219,
+    "name": {
+      "en": "Magmus",
+      "fr": "Magmus"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-nightmare-council"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Hell's Arbiter",
+      "fr": "Juge de l'enfer"
+    }
+  },
+  {
+    "id": "admiral-claw",
+    "gameId": 2220,
+    "name": {
+      "en": "Admiral Claw",
+      "fr": "Amiral Griffe"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-chaos-dominion",
+      "the-nightmare-council"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Blackblood Marauder",
+      "fr": "Le bandit Sangnoir"
+    }
+  },
+  {
+    "id": "kai",
+    "gameId": 2221,
+    "name": {
+      "en": "Kai",
+      "fr": "Kai"
+    },
+    "class": "marksman",
+    "rarity": "legendary",
+    "factions": [
+      "the-star-piercers"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Beast's Bane",
+      "fr": "Le fléau des bêtes"
+    }
+  },
+  {
+    "id": "kineza",
+    "gameId": 2222,
+    "name": {
+      "en": "Kineza",
+      "fr": "Kineza"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-nightmare-council"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Staff of Qi",
+      "fr": "Le Bâton de chi"
+    }
+  },
+  {
+    "id": "demi",
+    "gameId": 2223,
+    "name": {
+      "en": "Demi",
+      "fr": "Demi"
+    },
+    "class": "mage",
+    "rarity": "legendary",
+    "factions": [
+      "the-cursed-cult"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Drummer of the Damned",
+      "fr": "Le tambour des damnés"
+    }
+  },
+  {
+    "id": "pelagios",
+    "gameId": 2224,
+    "name": {
+      "en": "Pelagios",
+      "fr": "Pelagios"
+    },
+    "class": "marksman",
+    "rarity": "legendary",
+    "factions": [
+      "the-supreme-arbiters",
+      "the-star-piercers"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Furious Torrent",
+      "fr": "Maelström"
+    }
+  },
+  {
+    "id": "jeera",
+    "gameId": 2225,
+    "name": {
+      "en": "Jeera",
+      "fr": "Jeera"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-supreme-arbiters",
+      "the-north-throne"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Golden Lioness",
+      "fr": "La Lionne dorée"
+    }
+  },
+  {
+    "id": "eunomia",
+    "gameId": 2226,
+    "name": {
+      "en": "Eunomia",
+      "fr": "Eunomie"
+    },
+    "class": "healer",
+    "rarity": "legendary",
+    "factions": [
+      "the-supreme-arbiters",
+      "the-watchguard"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Divine Panacea",
+      "fr": "Panacée divine"
+    }
+  },
+  {
+    "id": "lust",
+    "gameId": 2228,
+    "name": {
+      "en": "Lust",
+      "fr": "Luxure"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-nightmare-council"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Immolating Sadist",
+      "fr": "La sadique immolée"
+    }
+  },
+  {
+    "id": "valderon",
+    "gameId": 2230,
+    "name": {
+      "en": "Valderon",
+      "fr": "Valdéron"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-chaos-dominion"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Fallen Justice",
+      "fr": "Justicier déchu"
+    }
+  },
+  {
+    "id": "nastya",
+    "gameId": 2231,
+    "name": {
+      "en": "Nastya",
+      "fr": "Nastya"
+    },
+    "class": "mage",
+    "rarity": "legendary",
+    "factions": [
+      "the-esoteria-order"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Iron Maiden",
+      "fr": "Vierge de fer"
+    }
+  },
+  {
+    "id": "lynx",
+    "gameId": 2232,
+    "name": {
+      "en": "Lynx",
+      "fr": "Lynx"
+    },
+    "class": "marksman",
+    "rarity": "legendary",
+    "factions": [
+      "the-north-throne"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Frostfox Chimera",
+      "fr": "Chimère givre-renard"
+    }
+  },
+  {
+    "id": "valara",
+    "gameId": 2233,
+    "name": {
+      "en": "Valara",
+      "fr": "Valara"
+    },
+    "class": "tactician",
+    "rarity": "legendary",
+    "factions": [
+      "the-supreme-arbiters",
+      "the-esoteria-order"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Soul's Guide",
+      "fr": "Guide des âmes"
+    }
+  },
+  {
+    "id": "rivenhald",
+    "gameId": 2234,
+    "name": {
+      "en": "Rivenhald",
+      "fr": "Rivenhald"
+    },
+    "class": "tactician",
+    "rarity": "legendary",
+    "factions": [
+      "the-north-throne"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Hornbound Sovereign",
+      "fr": "Le Souverain aux cornes"
+    }
+  },
+  {
+    "id": "malvira",
+    "gameId": 2235,
+    "name": {
+      "en": "Malvira",
+      "fr": "Malvira"
+    },
+    "class": "defender",
+    "rarity": "legendary",
+    "factions": [
+      "the-north-throne",
+      "the-cursed-cult"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Keeper of the Dead",
+      "fr": "Gardienne des Morts"
+    }
+  },
+  {
+    "id": "rygar",
+    "gameId": 2236,
+    "name": {
+      "en": "Rygar",
+      "fr": "Rygar"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-nightmare-council"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Scorned Ravager",
+      "fr": "Le Ravageur bafoué"
+    }
+  },
+  {
+    "id": "numera",
+    "gameId": 2237,
+    "name": {
+      "en": "Numera",
+      "fr": "Numera"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-star-piercers",
+      "the-esoteria-order"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Grimthorn Guardian",
+      "fr": "Gardienne Sombrépine"
+    }
+  },
+  {
+    "id": "lady-alexandra",
+    "gameId": 2238,
+    "name": {
+      "en": "Lady Alexandra",
+      "fr": "Dame Alexandra"
+    },
+    "class": "marksman",
+    "rarity": "legendary",
+    "factions": [
+      "the-supreme-arbiters",
+      "the-star-piercers"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Royal Assassin",
+      "fr": "Assassine royale"
+    }
+  },
+  {
+    "id": "myca",
+    "gameId": 2239,
+    "name": {
+      "en": "Myca",
+      "fr": "Myca"
+    },
+    "class": "marksman",
+    "rarity": "legendary",
+    "factions": [
+      "the-infernal-blast"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Chimeric Phoenix",
+      "fr": "Le Phénix Chimérique"
+    }
+  },
+  {
+    "id": "khadgrim",
+    "gameId": 2240,
+    "name": {
+      "en": "Khadgrim",
+      "fr": "Khadgrim"
+    },
+    "class": "defender",
+    "rarity": "legendary",
+    "factions": [
+      "the-supreme-arbiters",
+      "the-north-throne"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Frostbeard Legacy",
+      "fr": "L'Héritage des Barbes-givrées"
+    }
+  },
+  {
+    "id": "serephina",
+    "gameId": 2241,
+    "name": {
+      "en": "Serephina",
+      "fr": "Séréphine"
+    },
+    "class": "mage",
+    "rarity": "legendary",
+    "factions": [
+      "the-esoteria-order"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Caustic Serpent",
+      "fr": "La Vipère mordante"
+    }
+  },
+  {
+    "id": "beelzebub",
+    "gameId": 2242,
+    "name": {
+      "en": "Beelzebub",
+      "fr": "Belzébuth"
+    },
+    "class": "mage",
+    "rarity": "legendary",
+    "factions": [
+      "the-cursed-cult"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Lord of the Flies",
+      "fr": "Seigneur des mouches"
+    }
+  },
+  {
+    "id": "razaak",
+    "gameId": 2243,
+    "name": {
+      "en": "Razaak",
+      "fr": "Razaak"
+    },
+    "class": "marksman",
+    "rarity": "legendary",
+    "factions": [
+      "the-star-piercers"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Driftwood Impaler",
+      "fr": "L'Empaleur des flots"
+    }
+  },
+  {
+    "id": "alaura",
+    "gameId": 2244,
+    "name": {
+      "en": "Alaura",
+      "fr": "Alaura"
+    },
+    "class": "marksman",
+    "rarity": "legendary",
+    "factions": [
+      "the-watchguard",
+      "the-star-piercers"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Subtle Arrow",
+      "fr": "La flèche subtile"
+    }
+  },
+  {
+    "id": "constance",
+    "gameId": 2245,
+    "name": {
+      "en": "Constance",
+      "fr": "Constance"
+    },
+    "class": "defender",
+    "rarity": "legendary",
+    "factions": [
+      "the-watchguard",
+      "the-supreme-arbiters"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Hammer of the Holylight",
+      "fr": "Marteau de la Lumière Sacrée"
+    }
+  },
+  {
+    "id": "magda",
+    "gameId": 2246,
+    "name": {
+      "en": "Magda",
+      "fr": "Magda"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-cursed-cult"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Wrathful Avenger",
+      "fr": "La Vengeresse furieuse"
+    }
+  },
+  {
+    "id": "faelin",
+    "gameId": 2247,
+    "name": {
+      "en": "Faelin",
+      "fr": "Faelin"
+    },
+    "class": "mage",
+    "rarity": "epic",
+    "factions": [
+      "the-esoteria-order"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Buckthorn Druid",
+      "fr": "Druide du nerprun"
+    }
+  },
+  {
+    "id": "thallen",
+    "gameId": 2248,
+    "name": {
+      "en": "Thallen",
+      "fr": "Thallen"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-supreme-arbiters",
+      "the-esoteria-order"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Cosmic Guillotine",
+      "fr": "Guillotine cosmique"
+    }
+  },
+  {
+    "id": "vixera",
+    "gameId": 2249,
+    "name": {
+      "en": "Vixera",
+      "fr": "Vixera"
+    },
+    "class": "mage",
+    "rarity": "epic",
+    "factions": [
+      "the-esoteria-order"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Breath of Decay",
+      "fr": "Souffle de la décomposition"
+    }
+  },
+  {
+    "id": "beatrix",
+    "gameId": 2250,
+    "name": {
+      "en": "Beatrix",
+      "fr": "Beatrix"
+    },
+    "class": "mage",
+    "rarity": "legendary",
+    "factions": [
+      "the-cursed-cult",
+      "the-esoteria-order"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Shadow Collector",
+      "fr": "La Collectionneuse des ténèbres"
+    }
+  },
+  {
+    "id": "anai",
+    "gameId": 2251,
+    "name": {
+      "en": "Anai",
+      "fr": "Anaï"
+    },
+    "class": "mage",
+    "rarity": "legendary",
+    "factions": [
+      "the-infernal-blast"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Arid Viper",
+      "fr": "La vipère aride"
+    }
+  },
+  {
+    "id": "iovar",
+    "gameId": 2253,
+    "name": {
+      "en": "Iovar",
+      "fr": "Iovar"
+    },
+    "class": "marksman",
+    "rarity": "legendary",
+    "factions": [
+      "the-star-piercers"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Forest Sentinel",
+      "fr": "Sentinelle de la forêt"
+    }
+  },
+  {
+    "id": "alistair",
+    "gameId": 2254,
+    "name": {
+      "en": "Alistair",
+      "fr": "Alistair"
+    },
+    "class": "mage",
+    "rarity": "legendary",
+    "factions": [
+      "the-supreme-arbiters",
+      "the-watchguard"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Meteor Sage",
+      "fr": "Sage des météores"
+    }
+  },
+  {
+    "id": "xaris",
+    "gameId": 2255,
+    "name": {
+      "en": "Xaris",
+      "fr": "Xaris"
+    },
+    "class": "mage",
+    "rarity": "legendary",
+    "factions": [
+      "the-cursed-cult"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Soulflayer",
+      "fr": "Le Chasseur d'âmes"
+    }
+  },
+  {
+    "id": "xena",
+    "gameId": 2256,
+    "name": {
+      "en": "Xena",
+      "fr": "Xena"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-infernal-blast"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Dragon's Kiss",
+      "fr": "L'Aimée du dragon"
+    }
+  },
+  {
+    "id": "artemis",
+    "gameId": 2257,
+    "name": {
+      "en": "Artemis",
+      "fr": "Artémis"
+    },
+    "class": "healer",
+    "rarity": "legendary",
+    "factions": [
+      "the-cursed-cult"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Sanguine Surgeon",
+      "fr": "Le Chirurgien sanglant"
+    }
+  },
+  {
+    "id": "lord-phineas",
+    "gameId": 2259,
+    "name": {
+      "en": "Lord Phineas",
+      "fr": "Seigneur Phineas"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-infernal-blast"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Viscount of Flame",
+      "fr": "Vicomte des flammes"
+    }
+  },
+  {
+    "id": "rork",
+    "gameId": 2260,
+    "name": {
+      "en": "Rork",
+      "fr": "Rork"
+    },
+    "class": "fighter",
+    "rarity": "epic",
+    "factions": [
+      "the-north-throne"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Frostbitten Thane",
+      "fr": "Le Baron de givre"
+    }
+  },
+  {
+    "id": "vorn",
+    "gameId": 2263,
+    "name": {
+      "en": "Vorn",
+      "fr": "Vorn"
+    },
+    "class": "marksman",
+    "rarity": "legendary",
+    "factions": [
+      "the-star-piercers",
+      "the-esoteria-order"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Shackled Horror",
+      "fr": "Horreur enchaînée"
+    }
+  },
+  {
+    "id": "kigiri",
+    "gameId": 2264,
+    "name": {
+      "en": "Kigiri",
+      "fr": "Kigiri"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-watchguard",
+      "the-nightmare-council"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Undying Ronin",
+      "fr": "Ronin immortel"
+    }
+  },
+  {
+    "id": "oren",
+    "gameId": 2265,
+    "name": {
+      "en": "Oren",
+      "fr": "Oren"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-supreme-arbiters"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Sol Excelsus",
+      "fr": "Sol Excelsus"
+    }
+  },
+  {
+    "id": "ingrid",
+    "gameId": 2266,
+    "name": {
+      "en": "Ingrid",
+      "fr": "Ingrid"
+    },
+    "class": "mage",
+    "rarity": "legendary",
+    "factions": [
+      "the-watchguard",
+      "the-supreme-arbiters"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Regalis Excelsa",
+      "fr": "Regalis Excelsa"
+    }
+  },
+  {
+    "id": "akira",
+    "gameId": 2267,
+    "name": {
+      "en": "Akira",
+      "fr": "Akira"
+    },
+    "class": "marksman",
+    "rarity": "legendary",
+    "factions": [
+      "the-star-piercers",
+      "the-north-throne"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Rivetstorm Machinist",
+      "fr": "La Machiniste de la Tempête de Rivets"
+    }
+  },
+  {
+    "id": "lucius",
+    "gameId": 2268,
+    "name": {
+      "en": "Lucius",
+      "fr": "Lucius"
+    },
+    "class": "marksman",
+    "rarity": "legendary",
+    "factions": [
+      "the-watchguard"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Oblivion's Edge",
+      "fr": "Le Tranchant de l'Oubli"
+    }
+  },
+  {
+    "id": "dahlia",
+    "gameId": 2269,
+    "name": {
+      "en": "Dahlia",
+      "fr": "Dahlia"
+    },
+    "class": "mage",
+    "rarity": "legendary",
+    "factions": [
+      "the-cursed-cult",
+      "the-esoteria-order"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Death's Blossom",
+      "fr": "Fleur funèbre"
+    }
+  },
+  {
+    "id": "aeris",
+    "gameId": 2271,
+    "name": {
+      "en": "Aeris",
+      "fr": "Aeris"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-watchguard",
+      "the-esoteria-order"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Gilded Falcon",
+      "fr": "Faucon doré"
+    }
+  },
+  {
+    "id": "gul-drak",
+    "gameId": 2272,
+    "name": {
+      "en": "Gul'Drak",
+      "fr": "Gul'Drak"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-chaos-dominion",
+      "the-infernal-blast"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Bloodsworn Reaver",
+      "fr": "Saccageur de sang juré"
+    }
+  },
+  {
+    "id": "yuri",
+    "gameId": 2273,
+    "name": {
+      "en": "Yuri",
+      "fr": "Yuri"
+    },
+    "class": "marksman",
+    "rarity": "legendary",
+    "factions": [
+      "the-nightmare-council",
+      "the-star-piercers"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Foxfire Kitsune",
+      "fr": "Kitsune flamboyante"
+    }
+  },
+  {
+    "id": "calista",
+    "gameId": 2274,
+    "name": {
+      "en": "Calista",
+      "fr": "Calista"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-watchguard"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Spear of Valor",
+      "fr": "Lance de la bravoure"
+    }
+  },
+  {
+    "id": "talin",
+    "gameId": 2275,
+    "name": {
+      "en": "Talin",
+      "fr": "Talinne"
+    },
+    "class": "marksman",
+    "rarity": "legendary",
+    "factions": [
+      "the-watchguard",
+      "the-star-piercers"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Spiritclaw Druid",
+      "fr": "Druide griffesprit"
+    }
+  },
+  {
+    "id": "kane",
+    "gameId": 2276,
+    "name": {
+      "en": "Kane",
+      "fr": "Kane"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-supreme-arbiters",
+      "the-north-throne"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Final Fang",
+      "fr": "Le Croc ultime"
+    }
+  },
+  {
+    "id": "edith",
+    "gameId": 2277,
+    "name": {
+      "en": "Edith",
+      "fr": "Édith"
+    },
+    "class": "defender",
+    "rarity": "legendary",
+    "factions": [
+      "the-watchguard"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Light's Crusade",
+      "fr": "Croisade de la lumière"
+    }
+  },
+  {
+    "id": "glacius",
+    "gameId": 2278,
+    "name": {
+      "en": "Glacius",
+      "fr": "Glacius"
+    },
+    "class": "mage",
+    "rarity": "legendary",
+    "factions": [
+      "the-north-throne"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Winter's Reaper",
+      "fr": "Faucheur de l'hiver"
+    }
+  },
+  {
+    "id": "xasny",
+    "gameId": 2281,
+    "name": {
+      "en": "Xasny",
+      "fr": "Xasny"
+    },
+    "class": "fighter",
+    "rarity": "epic",
+    "factions": [
+      "the-esoteria-order"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Warden of the Damned",
+      "fr": "Gardien des damnés"
+    }
+  },
+  {
+    "id": "praetus",
+    "gameId": 2282,
+    "name": {
+      "en": "Praetus",
+      "fr": "Praetus"
+    },
+    "class": "mage",
+    "rarity": "legendary",
+    "factions": [
+      "the-supreme-arbiters"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Sun Supreme",
+      "fr": "Soleil suprême"
+    }
+  },
+  {
+    "id": "erlang-shen",
+    "gameId": 2283,
+    "name": {
+      "en": "Erlang Shen",
+      "fr": "Erlang Shen"
+    },
+    "class": "defender",
+    "rarity": "legendary",
+    "factions": [
+      "the-supreme-arbiters",
+      "the-star-piercers"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Mind's Eye",
+      "fr": "Œil de l'esprit"
+    }
+  },
+  {
+    "id": "anora",
+    "gameId": 2284,
+    "name": {
+      "en": "Anora",
+      "fr": "Anora"
+    },
+    "class": "mage",
+    "rarity": "legendary",
+    "factions": [
+      "the-cursed-cult",
+      "the-esoteria-order"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Silver Seraphim",
+      "fr": "Le Séraphin d'argent"
+    }
+  },
+  {
+    "id": "nerissa",
+    "gameId": 2285,
+    "name": {
+      "en": "Nerissa",
+      "fr": "Nerissa"
+    },
+    "class": "healer",
+    "rarity": "legendary",
+    "factions": [
+      "the-esoteria-order"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Song of the Siren",
+      "fr": "Chant des sirènes"
+    }
+  },
+  {
+    "id": "sergei",
+    "gameId": 2286,
+    "name": {
+      "en": "Sergei",
+      "fr": "Sergei"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-chaos-dominion",
+      "the-nightmare-council"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Sundered Fist",
+      "fr": "Le Poing brisé"
+    }
+  },
+  {
+    "id": "filippa",
+    "gameId": 2287,
+    "name": {
+      "en": "Filippa",
+      "fr": "Filippa"
+    },
+    "class": "marksman",
+    "rarity": "epic",
+    "factions": [
+      "the-esoteria-order"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Enchanted Arrow",
+      "fr": "Flèche enchantée"
+    }
+  },
+  {
+    "id": "talula",
+    "gameId": 2288,
+    "name": {
+      "en": "Talula",
+      "fr": "Talula"
+    },
+    "class": "healer",
+    "rarity": "legendary",
+    "factions": [
+      "the-star-piercers"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Holly Blue",
+      "fr": "Azuré sacrée"
+    }
+  },
+  {
+    "id": "lulu",
+    "gameId": 2289,
+    "name": {
+      "en": "Lulu",
+      "fr": "Lulu"
+    },
+    "class": "tactician",
+    "rarity": "legendary",
+    "factions": [
+      "the-north-throne"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Metal Lotus",
+      "fr": "Le Lotus de métal"
+    }
+  },
+  {
+    "id": "sun-wukong",
+    "gameId": 2290,
+    "name": {
+      "en": "Sun Wukong",
+      "fr": "Sun Wukong"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-nightmare-council",
+      "the-watchguard"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Heaven's Equal",
+      "fr": "L'égal des dieux"
+    }
+  },
+  {
+    "id": "init",
+    "gameId": 2291,
+    "name": {
+      "en": "Init",
+      "fr": "Init"
+    },
+    "class": "mage",
+    "rarity": "legendary",
+    "factions": [
+      "the-supreme-arbiters",
+      "the-esoteria-order"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Embalmer",
+      "fr": "L'Embaumeur"
+    }
+  },
+  {
+    "id": "ne-zha",
+    "gameId": 2292,
+    "name": {
+      "en": "Ne Zha",
+      "fr": "Ne Zha"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-watchguard",
+      "the-esoteria-order"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Crimson Lotus",
+      "fr": "Lotus écarlate"
+    }
+  },
+  {
+    "id": "janus-grismore",
+    "gameId": 2294,
+    "name": {
+      "en": "Janus Grismore",
+      "fr": "Janus Grismore"
+    },
+    "class": "mage",
+    "rarity": "legendary",
+    "factions": [
+      "the-infernal-blast"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Ashen Flame",
+      "fr": "La flamme cendrée"
+    }
+  },
+  {
+    "id": "velisse",
+    "gameId": 2296,
+    "name": {
+      "en": "Velisse",
+      "fr": "Velisse"
+    },
+    "class": "mage",
+    "rarity": "legendary",
+    "factions": [
+      "the-cursed-cult"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Uncoiled Desire",
+      "fr": "Désir délié"
+    }
+  },
+  {
+    "id": "ezareth",
+    "gameId": 2297,
+    "name": {
+      "en": "Ezareth",
+      "fr": "Ezareth"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-cursed-cult"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The World Eater",
+      "fr": "Le Dévoreur du monde"
+    }
+  },
+  {
+    "id": "violetta-vane",
+    "gameId": 2299,
+    "name": {
+      "en": "Violetta Vane",
+      "fr": "Violetta Vane"
+    },
+    "class": "mage",
+    "rarity": "legendary",
+    "factions": [
+      "the-infernal-blast"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Velvet Blade",
+      "fr": "La Lame de velours"
+    }
+  },
+  {
+    "id": "pierre",
+    "gameId": 2300,
+    "name": {
+      "en": "Pierre",
+      "fr": "Pierre"
+    },
+    "class": "mage",
+    "rarity": "legendary",
+    "factions": [
+      "the-chaos-dominion",
+      "the-cursed-cult"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Painter",
+      "fr": "Le Peintre"
+    }
+  },
+  {
+    "id": "solaris-skyre",
+    "gameId": 2301,
+    "name": {
+      "en": "Solaris Skyre",
+      "fr": "Solaris Skyre"
+    },
+    "class": "mage",
+    "rarity": "legendary",
+    "factions": [
+      "the-north-throne"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "Fate's Gambit",
+      "fr": "Pari du destin"
+    }
+  },
+  {
+    "id": "guan-yu",
+    "gameId": 2302,
+    "name": {
+      "en": "Guan Yu",
+      "fr": "Guan Yu"
+    },
+    "class": "tactician",
+    "rarity": "legendary",
+    "factions": [
+      "the-watchguard",
+      "the-north-throne"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Crescent Blade",
+      "fr": "La Lame du croissant"
+    }
+  },
+  {
+    "id": "varro-draccus",
+    "gameId": 2304,
+    "name": {
+      "en": "Varro Draccus",
+      "fr": "Varro Draccus"
+    },
+    "class": "mage",
+    "rarity": "legendary",
+    "factions": [
+      "the-chaos-dominion",
+      "the-esoteria-order"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Debt Collector",
+      "fr": "Le Collecteur de dettes"
+    }
+  },
+  {
+    "id": "malrik",
+    "gameId": 2305,
+    "name": {
+      "en": "Malrik",
+      "fr": "Malrik"
+    },
+    "class": "mage",
+    "rarity": "legendary",
+    "factions": [
+      "the-infernal-blast",
+      "the-esoteria-order"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Rogue of Runes",
+      "fr": "Renégat des runes"
+    }
+  },
+  {
+    "id": "gretchen",
+    "gameId": 2306,
+    "name": {
+      "en": "Gretchen",
+      "fr": "Gretchen"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-chaos-dominion",
+      "the-infernal-blast"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Crimson Inquisitor",
+      "fr": "L'Inquisitrice cramoisie"
+    }
+  },
+  {
+    "id": "lyra",
+    "gameId": 2308,
+    "name": {
+      "en": "Lyra",
+      "fr": "Lyra"
+    },
+    "class": "mage",
+    "rarity": "legendary",
+    "factions": [
+      "the-infernal-blast",
+      "the-esoteria-order"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Cosmic Seer",
+      "fr": "Voyante cosmique"
+    }
+  },
+  {
+    "id": "astrael",
+    "gameId": 2309,
+    "name": {
+      "en": "Astrael",
+      "fr": "Astraël"
+    },
+    "class": "tactician",
+    "rarity": "legendary",
+    "factions": [
+      "the-north-throne",
+      "the-nightmare-council"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Duskborn Marquis",
+      "fr": "Marquis du crépuscule"
+    }
+  },
+  {
+    "id": "aurelius-gale",
+    "gameId": 2310,
+    "name": {
+      "en": "Aurelius Gale",
+      "fr": "Aurelius Gale"
+    },
+    "class": "mage",
+    "rarity": "legendary",
+    "factions": [
+      "the-cursed-cult"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Burning Lyre",
+      "fr": "La Lyre ardente"
+    }
+  },
+  {
+    "id": "lu-bu",
+    "gameId": 2311,
+    "name": {
+      "en": "Lu Bu",
+      "fr": "Lu Bu"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-chaos-dominion",
+      "the-north-throne"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Flying General",
+      "fr": "Le Général volant"
+    }
+  },
+  {
+    "id": "cassiel",
+    "gameId": 2312,
+    "name": {
+      "en": "Cassiel",
+      "fr": "Cassiel"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-supreme-arbiters",
+      "the-north-throne"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Blade of Justice",
+      "fr": "Lame de justice"
+    }
+  },
+  {
+    "id": "leikan",
+    "gameId": 2313,
+    "name": {
+      "en": "Leikan",
+      "fr": "Leikan"
+    },
+    "class": "tactician",
+    "rarity": "legendary",
+    "factions": [
+      "the-supreme-arbiters",
+      "the-nightmare-council"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Storm's Seal",
+      "fr": "Le Sceau de la tempête"
+    }
+  },
+  {
+    "id": "elysia",
+    "gameId": 2314,
+    "name": {
+      "en": "Elysia",
+      "fr": "Elysia"
+    },
+    "class": "fighter",
+    "rarity": "epic",
+    "factions": [
+      "the-supreme-arbiters"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Skyward Sovereign",
+      "fr": "Souveraine des cieux"
+    }
+  },
+  {
+    "id": "ruen-hollow",
+    "gameId": 2316,
+    "name": {
+      "en": "Ruen Hollow",
+      "fr": "Ruen Hollow"
+    },
+    "class": "marksman",
+    "rarity": "legendary",
+    "factions": [
+      "the-star-piercers",
+      "the-grey-blades"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Fortune's Shadow",
+      "fr": "L'Ombre de la fortune"
+    }
+  },
+  {
+    "id": "draelyn",
+    "gameId": 2317,
+    "name": {
+      "en": "Draelyn",
+      "fr": "Draelyn"
+    },
+    "class": "defender",
+    "rarity": "legendary",
+    "factions": [
+      "the-watchguard",
+      "the-north-throne"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Scaled Scion",
+      "fr": "Héritière aux écailles"
+    }
+  },
+  {
+    "id": "knight-arlott",
+    "gameId": 2318,
+    "name": {
+      "en": "Knight Arlott",
+      "fr": "Chevalier Arlott"
+    },
+    "class": "defender",
+    "rarity": "legendary",
+    "factions": [
+      "the-cursed-cult",
+      "the-infernal-blast"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Grave Keeper",
+      "fr": "Le Gardien des Tombes"
+    }
+  },
+  {
+    "id": "graves-greybeard",
+    "gameId": 2319,
+    "name": {
+      "en": "\"Graves\" Greybeard",
+      "fr": "\"Graves\" Barbe-Grise"
+    },
+    "class": "defender",
+    "rarity": "legendary",
+    "factions": [
+      "the-esoteria-order"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Lost Mariner",
+      "fr": "Le Marin perdu"
+    }
+  },
+  {
+    "id": "twyla",
+    "gameId": 2320,
+    "name": {
+      "en": "Twyla",
+      "fr": "Twyla"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-nightmare-council"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Red Smile",
+      "fr": "Le Sourire rouge"
+    }
+  },
+  {
+    "id": "sythra",
+    "gameId": 2321,
+    "name": {
+      "en": "Sythra",
+      "fr": "Sythra"
+    },
+    "class": "marksman",
+    "rarity": "legendary",
+    "factions": [
+      "the-chaos-dominion",
+      "the-star-piercers"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Serpent's Embrace",
+      "fr": "Étreinte du serpent"
+    }
+  },
+  {
+    "id": "aedrin",
+    "gameId": 2323,
+    "name": {
+      "en": "Aedrin",
+      "fr": "Aedrin"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-north-throne"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Frostfallen Crown",
+      "fr": "La Couronne de givre"
+    }
+  },
+  {
+    "id": "moriden",
+    "gameId": 2326,
+    "name": {
+      "en": "Moriden",
+      "fr": "Moriden"
+    },
+    "class": "tactician",
+    "rarity": "legendary",
+    "factions": [
+      "the-nightmare-council",
+      "the-esoteria-order"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Wraithborn Rider",
+      "fr": "Cavalier spectral"
+    }
+  },
+  {
+    "id": "count-dracula",
+    "gameId": 2333,
+    "name": {
+      "en": "Count Dracula",
+      "fr": "Comte Dracula"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-chaos-dominion",
+      "the-star-piercers"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Dark Prince",
+      "fr": "Le Prince des ténèbres"
+    }
+  },
+  {
+    "id": "dr-van-helsing",
+    "gameId": 2334,
+    "name": {
+      "en": "Dr. Van Helsing",
+      "fr": "Dr Van Helsing"
+    },
+    "class": "marksman",
+    "rarity": "legendary",
+    "factions": [
+      "the-star-piercers",
+      "the-nightmare-council"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Professor",
+      "fr": "Le Professeur"
+    }
+  },
+  {
+    "id": "lady-mina",
+    "gameId": 2335,
+    "name": {
+      "en": "Lady Mina",
+      "fr": "Dame Mina"
+    },
+    "class": "mage",
+    "rarity": "legendary",
+    "factions": [
+      "the-north-throne",
+      "the-star-piercers"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Eternal Bride",
+      "fr": "La Mariée éternelle"
+    }
+  },
+  {
+    "id": "vlad-draculea",
+    "gameId": 2342,
+    "name": {
+      "en": "Vlad Draculea",
+      "fr": "Vlad Draculea"
+    },
+    "class": "tactician",
+    "rarity": "legendary",
+    "factions": [
+      "the-cursed-cult"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Impaler",
+      "fr": "L'Empaleur"
+    }
+  },
+  {
+    "id": "rosalia",
+    "gameId": 2344,
+    "name": {
+      "en": "Rosalia",
+      "fr": "Rosalia"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-cursed-cult"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Paintress",
+      "fr": "La Peintre"
+    }
+  },
+  {
+    "id": "clarissa",
+    "gameId": 2348,
+    "name": {
+      "en": "Clarissa",
+      "fr": "Clarissa"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-esoteria-order"
+    ],
+    "damageType": "magic",
+    "title": {
+      "en": "The Sepulcher's Daughter",
+      "fr": "La Fille du sépulcre"
+    }
+  },
+  {
+    "id": "ezio-auditore",
+    "gameId": 2351,
+    "name": {
+      "en": "Ezio Auditore",
+      "fr": "Ezio Auditore"
+    },
+    "class": "tactician",
+    "rarity": "legendary",
+    "factions": [
+      "the-supreme-arbiters",
+      "the-watchguard"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Master Assassin",
+      "fr": "Maître Assassin"
+    }
+  },
+  {
+    "id": "eivor-varinsdottir",
+    "gameId": 2352,
+    "name": {
+      "en": "Eivor Varinsdottir",
+      "fr": "Eivor Varinsdóttir"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-watchguard",
+      "the-north-throne"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Wolf-Kissed",
+      "fr": "L'Amie-des-loups"
+    }
+  },
+  {
+    "id": "bayek",
+    "gameId": 2353,
+    "name": {
+      "en": "Bayek",
+      "fr": "Bayek"
+    },
+    "class": "marksman",
+    "rarity": "legendary",
+    "factions": [
+      "the-star-piercers",
+      "the-nightmare-council"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Medjay of Siwa",
+      "fr": "Medjaÿ de Siwa"
+    }
+  },
+  {
+    "id": "corven",
+    "gameId": 2354,
+    "name": {
+      "en": "Corven",
+      "fr": "Corven"
+    },
+    "class": "marksman",
+    "rarity": "legendary",
+    "factions": [
+      "the-grey-blades",
+      "the-star-piercers"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Gilded Gentleman",
+      "fr": "Le Gentleman doré"
+    }
+  },
+  {
+    "id": "kassandra",
+    "gameId": 2355,
+    "name": {
+      "en": "Kassandra",
+      "fr": "Kassandra"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-supreme-arbiters",
+      "the-watchguard"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Eagle Bearer",
+      "fr": "La Porteuse d'aigle"
+    }
+  },
+  {
+    "id": "vera",
+    "gameId": 2356,
+    "name": {
+      "en": "Vera",
+      "fr": "Vera"
+    },
+    "class": "marksman",
+    "rarity": "legendary",
+    "factions": [
+      "the-star-piercers"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Wasteland Optic",
+      "fr": "L'Optique des friches"
+    }
+  },
+  {
+    "id": "veyrathia",
+    "gameId": 2358,
+    "name": {
+      "en": "Veyrathia",
+      "fr": "Veyrathia"
+    },
+    "class": "fighter",
+    "rarity": "epic",
+    "factions": [
+      "the-nightmare-council"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Nightwing Sovereign",
+      "fr": "Souveraine des ailes nocturnes"
+    }
+  },
+  {
+    "id": "dane",
+    "gameId": 2359,
+    "name": {
+      "en": "Dane",
+      "fr": "Dane"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-watchguard"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Subject-42",
+      "fr": "Sujet-42"
+    }
+  },
+  {
+    "id": "oakenvar",
+    "gameId": 2361,
+    "name": {
+      "en": "Oakenvar",
+      "fr": "Oakenvar"
+    },
+    "class": "defender",
+    "rarity": "legendary",
+    "factions": [
+      "the-watchguard"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Grove Warden",
+      "fr": "Le Gardien du bosquet"
+    }
+  },
+  {
+    "id": "jezebelle",
+    "gameId": 2362,
+    "name": {
+      "en": "Jezebelle",
+      "fr": "Jezebelle"
+    },
+    "class": "marksman",
+    "rarity": "legendary",
+    "factions": [
+      "the-chaos-dominion"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Primordial Sin",
+      "fr": "Le Péché originel"
+    }
+  },
+  {
+    "id": "cainan",
+    "gameId": 2363,
+    "name": {
+      "en": "Cainan",
+      "fr": "Cainan"
+    },
+    "class": "tactician",
+    "rarity": "legendary",
+    "factions": [
+      "the-watchguard",
+      "the-infernal-blast"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Unclaimed Heir",
+      "fr": "L'Héritier sans couronne"
+    }
+  },
+  {
+    "id": "gu-shi",
+    "gameId": 2364,
+    "name": {
+      "en": "Gu Shi",
+      "fr": "Gu Shi"
+    },
+    "class": "marksman",
+    "rarity": "legendary",
+    "factions": [
+      "the-star-piercers",
+      "the-infernal-blast"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Wayward Noble",
+      "fr": "Le Noble rebelle"
+    }
+  },
+  {
+    "id": "su-yue",
+    "gameId": 2365,
+    "name": {
+      "en": "Su Yue",
+      "fr": "Su Yue"
+    },
+    "class": "tactician",
+    "rarity": "legendary",
+    "factions": [
+      "the-supreme-arbiters",
+      "the-north-throne"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Jadefrost Maiden",
+      "fr": "La Demoiselle de givre de jade"
+    }
+  },
+  {
+    "id": "ezio-della-notte",
+    "gameId": 2372,
+    "name": {
+      "en": "Ezio della Notte",
+      "fr": "Ezio della Notte"
+    },
+    "class": "fighter",
+    "rarity": "legendary",
+    "factions": [
+      "the-chaos-dominion",
+      "the-star-piercers"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Shadow of Firenze",
+      "fr": "Ombre de Firenze"
+    }
+  },
+  {
+    "id": "evie-frye",
+    "gameId": 2382,
+    "name": {
+      "en": "Evie Frye",
+      "fr": "Evie Frye"
+    },
+    "class": "marksman",
+    "rarity": "legendary",
+    "factions": [
+      "the-star-piercers"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "The Shadowed Dame",
+      "fr": "La Dame de l'ombre"
+    }
+  },
+  {
+    "id": "elukas",
+    "gameId": 3050,
+    "name": {
+      "en": "Elukas",
+      "fr": "Elukas"
+    },
+    "class": "marksman",
+    "rarity": "rare",
+    "factions": [
+      "the-cursed-cult"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Snowpiercer",
+      "fr": "Perce-neige"
+    }
+  },
+  {
+    "id": "gonkba",
+    "gameId": 3112,
+    "name": {
+      "en": "Gonkba",
+      "fr": "Gonkba"
+    },
+    "class": "mage",
+    "rarity": "rare",
+    "factions": [
+      "the-esoteria-order"
+    ],
+    "damageType": "physical",
+    "title": {
+      "en": "Spikecaster",
+      "fr": "Lanceur de pique"
     }
   }
 ]
