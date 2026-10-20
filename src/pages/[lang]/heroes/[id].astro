@@ -155,6 +155,7 @@ const pct = (n?: number) => (n === undefined ? '' : ` (${n.toLocaleString(lang)}
 
       <section>
         <h2>{t('hero.tiers')}</h2>
+        <p class="muted"><small>{t('tier.draft')}</small></p>
         {servers.map((server) => (
           <div class="table-wrap" data-server={server}>
             <table>

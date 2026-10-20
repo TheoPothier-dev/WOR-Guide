@@ -1,0 +1,868 @@
+{
+ "abomination": {
+  "campaign": "B"
+ },
+ "abyzou": {
+  "campaign": "B"
+ },
+ "admiral-claw": {
+  "campaign": "B"
+ },
+ "aedrin": {
+  "campaign": "A",
+  "guild-boss": "C"
+ },
+ "aeris": {
+  "campaign": "A",
+  "halls-of-illusion": "B"
+ },
+ "ai": {
+  "campaign": "B"
+ },
+ "ain": {
+  "campaign": "C",
+  "guild-boss": "C"
+ },
+ "ajax": {
+  "campaign": "A",
+  "guild-boss": "B"
+ },
+ "akira": {
+  "campaign": "A"
+ },
+ "alistair": {
+  "campaign": "B"
+ },
+ "anora": {
+  "campaign": "A"
+ },
+ "apsan": {
+  "campaign": "C"
+ },
+ "aracha": {
+  "campaign": "A"
+ },
+ "ardea": {
+  "campaign": "S",
+  "guild-boss": "S"
+ },
+ "ardeth": {
+  "campaign": "D"
+ },
+ "ares": {
+  "campaign": "A"
+ },
+ "arrogance": {
+  "campaign": "A",
+  "guild-boss": "C"
+ },
+ "artemis": {
+  "campaign": "A"
+ },
+ "astrael": {
+  "campaign": "B"
+ },
+ "atrox": {
+  "campaign": "B"
+ },
+ "aurelius-gale": {
+  "campaign": "A"
+ },
+ "autumn": {
+  "campaign": "A"
+ },
+ "aveline": {
+  "campaign": "B",
+  "immortal-codex": "B"
+ },
+ "aylin": {
+  "campaign": "A",
+  "guild-boss": "S"
+ },
+ "azhor": {
+  "campaign": "D"
+ },
+ "baron": {
+  "campaign": "A",
+  "immortal-codex": "A"
+ },
+ "bayek": {
+  "campaign": "A"
+ },
+ "beatrix": {
+  "campaign": "A"
+ },
+ "beelzebub": {
+  "campaign": "S",
+  "gear-raid": "S+",
+  "guild-boss": "S",
+  "guild-war": "S"
+ },
+ "boreas": {
+  "campaign": "A",
+  "gear-raid": "A",
+  "guild-boss": "C",
+  "guild-war": "A"
+ },
+ "brokkir": {
+  "campaign": "S",
+  "void-rift": "A",
+  "immortal-codex": "S",
+  "halls-of-illusion": "A",
+  "gear-raid": "A",
+  "guild-war": "S"
+ },
+ "brunor": {
+  "campaign": "C"
+ },
+ "cainan": {
+  "campaign": "S",
+  "immortal-codex": "A"
+ },
+ "calista": {
+  "campaign": "B"
+ },
+ "camille": {
+  "campaign": "D"
+ },
+ "captain-reve": {
+  "campaign": "A",
+  "immortal-codex": "A"
+ },
+ "carnelian": {
+  "campaign": "S"
+ },
+ "cassiel": {
+  "campaign": "A"
+ },
+ "cerberus": {
+  "campaign": "B"
+ },
+ "clarissa": {
+  "campaign": "B"
+ },
+ "constance": {
+  "campaign": "A",
+  "void-rift": "A",
+  "guild-war": "S"
+ },
+ "corven": {
+  "campaign": "B"
+ },
+ "count-dracula": {
+  "campaign": "A",
+  "arena": "S"
+ },
+ "cyclone": {
+  "campaign": "D"
+ },
+ "cyrene": {
+  "campaign": "B"
+ },
+ "cyrus": {
+  "campaign": "S",
+  "immortal-codex": "S",
+  "gear-raid": "S",
+  "guild-boss": "S",
+  "guild-war": "S"
+ },
+ "daemon": {
+  "campaign": "D"
+ },
+ "dagna": {
+  "campaign": "B"
+ },
+ "dahlia": {
+  "campaign": "B"
+ },
+ "dalyn": {
+  "campaign": "B"
+ },
+ "dane": {
+  "campaign": "A",
+  "guild-boss": "B"
+ },
+ "dassomi": {
+  "campaign": "B"
+ },
+ "deimos": {
+  "campaign": "B"
+ },
+ "demi": {
+  "campaign": "A",
+  "gear-raid": "A",
+  "guild-boss": "S"
+ },
+ "diaochan": {
+  "campaign": "S+",
+  "immortal-codex": "A",
+  "gear-raid": "S+",
+  "arena": "S",
+  "guild-boss": "S+"
+ },
+ "dolores": {
+  "campaign": "S",
+  "void-rift": "A",
+  "gear-raid": "S",
+  "guild-boss": "S",
+  "guild-war": "A"
+ },
+ "dr-van-helsing": {
+  "campaign": "A"
+ },
+ "draelyn": {
+  "campaign": "S+",
+  "halls-of-illusion": "S",
+  "gear-raid": "S",
+  "guild-boss": "S",
+  "guild-war": "S"
+ },
+ "drayga": {
+  "campaign": "C"
+ },
+ "durza": {
+  "campaign": "A",
+  "guild-boss": "S"
+ },
+ "edith": {
+  "campaign": "B"
+ },
+ "eirlys": {
+  "campaign": "S",
+  "halls-of-illusion": "S",
+  "gear-raid": "S",
+  "arena": "S",
+  "guild-boss": "S+",
+  "guild-war": "A"
+ },
+ "eivor-varinsdottir": {
+  "campaign": "S",
+  "immortal-codex": "A"
+ },
+ "elddr": {
+  "campaign": "A",
+  "guild-boss": "A"
+ },
+ "eliza": {
+  "campaign": "B"
+ },
+ "elowyn": {
+  "campaign": "S",
+  "void-rift": "S",
+  "gear-raid": "S",
+  "arena": "A",
+  "guild-boss": "S",
+  "guild-war": "A"
+ },
+ "elysia": {
+  "campaign": "A"
+ },
+ "eona": {
+  "campaign": "B"
+ },
+ "erlang-shen": {
+  "campaign": "S",
+  "gear-raid": "A",
+  "arena": "S",
+  "guild-boss": "A",
+  "guild-war": "B"
+ },
+ "estrid": {
+  "campaign": "A"
+ },
+ "eunomia": {
+  "campaign": "A"
+ },
+ "evie-frye": {
+  "campaign": "S"
+ },
+ "ezareth": {
+  "campaign": "S",
+  "gear-raid": "S",
+  "guild-boss": "S",
+  "guild-war": "S"
+ },
+ "ezio-auditore": {
+  "campaign": "A"
+ },
+ "ezio-della-notte": {
+  "campaign": "S"
+ },
+ "ezryn": {
+  "campaign": "B"
+ },
+ "falcia": {
+  "campaign": "B"
+ },
+ "fenris": {
+  "campaign": "B"
+ },
+ "ferssi": {
+  "campaign": "A",
+  "guild-boss": "A"
+ },
+ "ghan": {
+  "campaign": "A",
+  "immortal-codex": "A"
+ },
+ "gisele": {
+  "campaign": "D"
+ },
+ "glacius": {
+  "campaign": "B",
+  "guild-boss": "B",
+  "guild-war": "A"
+ },
+ "gluttony": {
+  "campaign": "C"
+ },
+ "graves-greybeard": {
+  "campaign": "A"
+ },
+ "greed": {
+  "campaign": "B"
+ },
+ "gretchen": {
+  "campaign": "S",
+  "arena": "S",
+  "guild-boss": "S"
+ },
+ "gu-shi": {
+  "campaign": "S+",
+  "gear-raid": "A",
+  "guild-boss": "A",
+  "guild-war": "S"
+ },
+ "guan-yu": {
+  "campaign": "S",
+  "guild-boss": "S",
+  "guild-war": "B"
+ },
+ "gul-drak": {
+  "campaign": "B"
+ },
+ "gwendolyn": {
+  "campaign": "A"
+ },
+ "hatssut": {
+  "campaign": "S",
+  "gear-raid": "S",
+  "arena": "S"
+ },
+ "helga": {
+  "campaign": "B"
+ },
+ "hex": {
+  "campaign": "A",
+  "void-rift": "S",
+  "guild-boss": "A"
+ },
+ "hollow": {
+  "campaign": "S",
+  "gear-raid": "B",
+  "guild-boss": "C"
+ },
+ "idril": {
+  "campaign": "A"
+ },
+ "imani": {
+  "campaign": "B"
+ },
+ "ingrid": {
+  "campaign": "S+",
+  "void-rift": "S",
+  "immortal-codex": "A",
+  "halls-of-illusion": "S",
+  "gear-raid": "S+",
+  "arena": "S+",
+  "guild-boss": "S+",
+  "guild-war": "S"
+ },
+ "init": {
+  "campaign": "B"
+ },
+ "iovar": {
+  "campaign": "S",
+  "void-rift": "A",
+  "gear-raid": "S",
+  "arena": "S",
+  "guild-war": "S"
+ },
+ "isolde": {
+  "campaign": "A",
+  "immortal-codex": "A"
+ },
+ "janqhar": {
+  "campaign": "C"
+ },
+ "janus-grismore": {
+  "campaign": "A"
+ },
+ "jeera": {
+  "campaign": "B"
+ },
+ "jezebelle": {
+  "campaign": "S+"
+ },
+ "jorge": {
+  "campaign": "B"
+ },
+ "kai": {
+  "campaign": "B"
+ },
+ "kalina": {
+  "campaign": "C"
+ },
+ "kane": {
+  "campaign": "B"
+ },
+ "kassandra": {
+  "campaign": "S+",
+  "immortal-codex": "S",
+  "gear-raid": "B",
+  "guild-boss": "B",
+  "guild-war": "S+"
+ },
+ "khadgrim": {
+  "campaign": "S"
+ },
+ "khamet": {
+  "campaign": "A",
+  "gear-raid": "S"
+ },
+ "kigiri": {
+  "campaign": "S",
+  "gear-raid": "A",
+  "guild-boss": "S+"
+ },
+ "kineza": {
+  "campaign": "C"
+ },
+ "king-harz": {
+  "campaign": "S",
+  "immortal-codex": "A"
+ },
+ "knight-arlott": {
+  "campaign": "B"
+ },
+ "komodo": {
+  "campaign": "D"
+ },
+ "kria": {
+  "campaign": "C"
+ },
+ "krodor": {
+  "campaign": "B",
+  "immortal-codex": "A"
+ },
+ "lady-alexandra": {
+  "campaign": "S",
+  "halls-of-illusion": "A",
+  "gear-raid": "S",
+  "arena": "S"
+ },
+ "lady-mina": {
+  "campaign": "B",
+  "halls-of-illusion": "B",
+  "arena": "S"
+ },
+ "laseer": {
+  "campaign": "C"
+ },
+ "laurel": {
+  "campaign": "B"
+ },
+ "laya": {
+  "campaign": "S",
+  "immortal-codex": "A",
+  "gear-raid": "S",
+  "guild-boss": "S",
+  "guild-war": "S"
+ },
+ "leikan": {
+  "campaign": "B",
+  "halls-of-illusion": "A"
+ },
+ "lightlocke": {
+  "campaign": "C"
+ },
+ "lili": {
+  "campaign": "C"
+ },
+ "livian": {
+  "campaign": "B"
+ },
+ "lord-phineas": {
+  "campaign": "A",
+  "guild-boss": "A"
+ },
+ "lu-bu": {
+  "campaign": "A"
+ },
+ "lucius": {
+  "campaign": "A"
+ },
+ "lugaru": {
+  "campaign": "B"
+ },
+ "lulu": {
+  "campaign": "A"
+ },
+ "luneria": {
+  "campaign": "B"
+ },
+ "lust": {
+  "campaign": "B"
+ },
+ "lyra": {
+  "campaign": "A",
+  "gear-raid": "C",
+  "guild-boss": "S"
+ },
+ "magda": {
+  "campaign": "A",
+  "gear-raid": "S"
+ },
+ "magmus": {
+  "campaign": "C"
+ },
+ "malrik": {
+  "campaign": "B"
+ },
+ "malvira": {
+  "campaign": "S",
+  "void-rift": "S",
+  "arena": "S"
+ },
+ "marri": {
+  "campaign": "A"
+ },
+ "maul": {
+  "campaign": "A"
+ },
+ "maw": {
+  "campaign": "C"
+ },
+ "meriel": {
+  "campaign": "C"
+ },
+ "midan": {
+  "campaign": "B"
+ },
+ "morene": {
+  "campaign": "D"
+ },
+ "moriden": {
+  "campaign": "A",
+  "halls-of-illusion": "A",
+  "guild-boss": "S"
+ },
+ "morrigan": {
+  "campaign": "A"
+ },
+ "myca": {
+  "campaign": "B"
+ },
+ "nastya": {
+  "campaign": "S",
+  "gear-raid": "A",
+  "guild-boss": "S+",
+  "guild-war": "S"
+ },
+ "nauvras": {
+  "campaign": "C"
+ },
+ "ne-zha": {
+  "campaign": "S",
+  "void-rift": "A",
+  "halls-of-illusion": "A",
+  "gear-raid": "S",
+  "guild-boss": "A",
+  "guild-war": "S"
+ },
+ "nerissa": {
+  "campaign": "S",
+  "halls-of-illusion": "A",
+  "gear-raid": "S",
+  "guild-boss": "A"
+ },
+ "niro": {
+  "campaign": "C"
+ },
+ "nissandei": {
+  "campaign": "B"
+ },
+ "nocturne": {
+  "campaign": "B"
+ },
+ "numera": {
+  "campaign": "S",
+  "halls-of-illusion": "S",
+  "guild-boss": "S"
+ },
+ "nyx": {
+  "campaign": "B"
+ },
+ "oakenvar": {
+  "campaign": "B"
+ },
+ "olague": {
+  "campaign": "A",
+  "immortal-codex": "B"
+ },
+ "oren": {
+  "campaign": "S+",
+  "gear-raid": "S",
+  "arena": "S+",
+  "guild-boss": "B",
+  "guild-war": "S+"
+ },
+ "orim": {
+  "campaign": "C"
+ },
+ "pelagios": {
+  "campaign": "B"
+ },
+ "pierre": {
+  "campaign": "B"
+ },
+ "praetus": {
+  "campaign": "S",
+  "halls-of-illusion": "S",
+  "gear-raid": "S",
+  "guild-boss": "S",
+  "guild-war": "A"
+ },
+ "pyros": {
+  "campaign": "B"
+ },
+ "raizan": {
+  "campaign": "B",
+  "guild-boss": "B"
+ },
+ "razaak": {
+  "campaign": "A"
+ },
+ "regulus": {
+  "campaign": "A",
+  "immortal-codex": "A"
+ },
+ "rhox": {
+  "campaign": "B"
+ },
+ "rivenhald": {
+  "campaign": "S",
+  "gear-raid": "S"
+ },
+ "rork": {
+  "campaign": "B"
+ },
+ "rosalia": {
+  "campaign": "A",
+  "gear-raid": "S"
+ },
+ "ruen-hollow": {
+  "campaign": "A"
+ },
+ "rygar": {
+  "campaign": "A",
+  "guild-boss": "A"
+ },
+ "sadie": {
+  "campaign": "B"
+ },
+ "salazar": {
+  "campaign": "B",
+  "guild-boss": "B"
+ },
+ "sargak": {
+  "campaign": "A"
+ },
+ "scorch": {
+  "campaign": "D"
+ },
+ "selene": {
+  "campaign": "B"
+ },
+ "sergei": {
+  "campaign": "S",
+  "guild-boss": "S"
+ },
+ "setram": {
+  "campaign": "A",
+  "guild-boss": "B"
+ },
+ "shamir": {
+  "campaign": "C"
+ },
+ "silas": {
+  "campaign": "S",
+  "void-rift": "A",
+  "gear-raid": "S"
+ },
+ "solaris-skyre": {
+  "campaign": "A"
+ },
+ "solcadens": {
+  "campaign": "S",
+  "guild-boss": "S"
+ },
+ "soleil": {
+  "campaign": "C"
+ },
+ "su-yue": {
+  "campaign": "S",
+  "guild-war": "S"
+ },
+ "sun-wukong": {
+  "campaign": "S",
+  "void-rift": "S",
+  "immortal-codex": "A",
+  "halls-of-illusion": "S",
+  "guild-boss": "S+"
+ },
+ "sythra": {
+  "campaign": "A",
+  "gear-raid": "A"
+ },
+ "talin": {
+  "campaign": "A"
+ },
+ "talula": {
+  "campaign": "A",
+  "guild-boss": "B"
+ },
+ "thallen": {
+  "campaign": "A"
+ },
+ "theowin": {
+  "campaign": "B"
+ },
+ "thunkles": {
+  "campaign": "A"
+ },
+ "titus": {
+  "campaign": "C"
+ },
+ "torodor": {
+  "campaign": "S",
+  "immortal-codex": "A",
+  "guild-boss": "A"
+ },
+ "trusk": {
+  "campaign": "A",
+  "immortal-codex": "A"
+ },
+ "twinfiend": {
+  "campaign": "B"
+ },
+ "twyla": {
+  "campaign": "A",
+  "guild-boss": "C"
+ },
+ "uredin": {
+  "campaign": "B"
+ },
+ "valara": {
+  "campaign": "S+",
+  "halls-of-illusion": "S",
+  "gear-raid": "S+",
+  "arena": "A",
+  "guild-boss": "C",
+  "guild-war": "S+"
+ },
+ "valderon": {
+  "campaign": "S",
+  "guild-boss": "S"
+ },
+ "valeriya": {
+  "campaign": "A"
+ },
+ "valkyra": {
+  "campaign": "A"
+ },
+ "varro-draccus": {
+  "campaign": "B"
+ },
+ "velisse": {
+  "campaign": "A"
+ },
+ "venoma": {
+  "campaign": "B"
+ },
+ "vera": {
+  "campaign": "S",
+  "gear-raid": "A"
+ },
+ "veyrathia": {
+  "campaign": "A"
+ },
+ "vierna": {
+  "campaign": "S",
+  "gear-raid": "S",
+  "arena": "A",
+  "guild-boss": "B"
+ },
+ "violetta-vane": {
+  "campaign": "A",
+  "guild-boss": "A"
+ },
+ "vixera": {
+  "campaign": "B"
+ },
+ "vlad-draculea": {
+  "campaign": "C"
+ },
+ "vladov": {
+  "campaign": "C"
+ },
+ "volka": {
+  "campaign": "S",
+  "void-rift": "A",
+  "gear-raid": "A"
+ },
+ "voltus": {
+  "campaign": "C"
+ },
+ "vorn": {
+  "campaign": "B",
+  "guild-boss": "A"
+ },
+ "voroth": {
+  "campaign": "C"
+ },
+ "vortex": {
+  "campaign": "B",
+  "guild-boss": "B"
+ },
+ "wrath": {
+  "campaign": "B"
+ },
+ "xaris": {
+  "campaign": "A",
+  "guild-boss": "S"
+ },
+ "xasny": {
+  "campaign": "A"
+ },
+ "xena": {
+  "campaign": "A"
+ },
+ "ymiret": {
+  "campaign": "S",
+  "halls-of-illusion": "B",
+  "gear-raid": "A",
+  "guild-boss": "A"
+ },
+ "yuri": {
+  "campaign": "A"
+ },
+ "zelus": {
+  "campaign": "B",
+  "gear-raid": "A"
+ },
+ "zilitu": {
+  "campaign": "A",
+  "guild-boss": "A"
+ }
+}

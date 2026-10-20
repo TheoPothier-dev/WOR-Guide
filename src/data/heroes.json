@@ -729,6 +729,16 @@
         "rageAuto": 13,
         "rageHit": 7
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B",
+        "guild-boss": "B"
+      },
+      "europe": {
+        "campaign": "B",
+        "guild-boss": "B"
+      }
     }
   },
   {
@@ -950,6 +960,14 @@
         "rageBasic": 10,
         "rageAuto": 14,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "C"
+      },
+      "europe": {
+        "campaign": "C"
       }
     }
   },
@@ -1191,6 +1209,14 @@
         "rageBasic": 10,
         "rageAuto": 14,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A"
+      },
+      "europe": {
+        "campaign": "A"
       }
     }
   },
@@ -1436,6 +1462,14 @@
         "rageAuto": 13,
         "rageHit": 7
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
+      }
     }
   },
   {
@@ -1657,6 +1691,14 @@
         "rageBasic": 9,
         "rageAuto": 15,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "D"
+      },
+      "europe": {
+        "campaign": "D"
       }
     }
   },
@@ -1899,6 +1941,14 @@
         "rageBasic": 10,
         "rageAuto": 12,
         "rageHit": 8
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "D"
+      },
+      "europe": {
+        "campaign": "D"
       }
     }
   },
@@ -2342,6 +2392,14 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "C"
+      },
+      "europe": {
+        "campaign": "C"
+      }
     }
   },
   {
@@ -2584,6 +2642,14 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "C"
+      },
+      "europe": {
+        "campaign": "C"
+      }
     }
   },
   {
@@ -2813,6 +2879,14 @@
         "rageBasic": 10,
         "rageAuto": 14,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A"
+      },
+      "europe": {
+        "campaign": "A"
       }
     }
   },
@@ -3060,6 +3134,14 @@
         "rageBasic": 10,
         "rageAuto": 14,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
       }
     }
   },
@@ -3338,6 +3420,16 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A",
+        "guild-boss": "B"
+      },
+      "europe": {
+        "campaign": "A",
+        "guild-boss": "B"
+      }
     }
   },
   {
@@ -3579,6 +3671,14 @@
         "rageBasic": 10,
         "rageAuto": 13,
         "rageHit": 7
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "C"
+      },
+      "europe": {
+        "campaign": "C"
       }
     }
   },
@@ -3837,6 +3937,16 @@
         "rageAuto": 14,
         "rageHit": 12
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S",
+        "immortal-codex": "A"
+      },
+      "europe": {
+        "campaign": "S",
+        "immortal-codex": "A"
+      }
     }
   },
   {
@@ -4081,6 +4191,14 @@
         "rageAuto": 12,
         "rageHit": 9
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
+      }
     }
   },
   {
@@ -4321,6 +4439,22 @@
         "rageBasic": 3,
         "rageAuto": 18,
         "rageHit": 9
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S",
+        "void-rift": "A",
+        "gear-raid": "S",
+        "guild-boss": "S",
+        "guild-war": "A"
+      },
+      "europe": {
+        "campaign": "S",
+        "void-rift": "A",
+        "gear-raid": "S",
+        "guild-boss": "S",
+        "guild-war": "A"
       }
     }
   },
@@ -4563,6 +4697,16 @@
         "rageAuto": 15,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B",
+        "guild-boss": "B"
+      },
+      "europe": {
+        "campaign": "B",
+        "guild-boss": "B"
+      }
     }
   },
   {
@@ -4803,6 +4947,16 @@
         "rageBasic": 4,
         "rageAuto": 14,
         "rageHit": 12
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A",
+        "immortal-codex": "A"
+      },
+      "europe": {
+        "campaign": "A",
+        "immortal-codex": "A"
       }
     }
   },
@@ -5046,6 +5200,16 @@
         "rageAuto": 13,
         "rageHit": 5
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "C",
+        "guild-boss": "C"
+      },
+      "europe": {
+        "campaign": "C",
+        "guild-boss": "C"
+      }
     }
   },
   {
@@ -5287,6 +5451,14 @@
         "rageAuto": 12,
         "rageHit": 8
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "D"
+      },
+      "europe": {
+        "campaign": "D"
+      }
     }
   },
   {
@@ -5507,6 +5679,14 @@
         "rageBasic": 4,
         "rageAuto": 14,
         "rageHit": 12
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
       }
     }
   },
@@ -5764,6 +5944,14 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "C"
+      },
+      "europe": {
+        "campaign": "C"
+      }
     }
   },
   {
@@ -5998,6 +6186,14 @@
         "rageBasic": 10,
         "rageAuto": 14,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "D"
+      },
+      "europe": {
+        "campaign": "D"
       }
     }
   },
@@ -6245,6 +6441,18 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S",
+        "gear-raid": "S",
+        "arena": "S"
+      },
+      "europe": {
+        "campaign": "S",
+        "gear-raid": "S",
+        "arena": "S"
+      }
     }
   },
   {
@@ -6487,6 +6695,14 @@
         "rageBasic": 10,
         "rageAuto": 14,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "C"
+      },
+      "europe": {
+        "campaign": "C"
       }
     }
   },
@@ -6743,6 +6959,14 @@
         "rageBasic": 9,
         "rageAuto": 15,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "C"
+      },
+      "europe": {
+        "campaign": "C"
       }
     }
   },
@@ -7035,6 +7259,16 @@
         "rageAuto": 14,
         "rageHit": 9
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A",
+        "immortal-codex": "A"
+      },
+      "europe": {
+        "campaign": "A",
+        "immortal-codex": "A"
+      }
     }
   },
   {
@@ -7288,6 +7522,14 @@
         "rageBasic": 10,
         "rageAuto": 12,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "D"
+      },
+      "europe": {
+        "campaign": "D"
       }
     }
   },
@@ -7549,6 +7791,18 @@
         "rageAuto": 12,
         "rageHit": 9
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S",
+        "void-rift": "A",
+        "gear-raid": "A"
+      },
+      "europe": {
+        "campaign": "S",
+        "void-rift": "A",
+        "gear-raid": "A"
+      }
     }
   },
   {
@@ -7803,6 +8057,14 @@
         "rageAuto": 14,
         "rageHit": 8
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "C"
+      },
+      "europe": {
+        "campaign": "C"
+      }
     }
   },
   {
@@ -8049,6 +8311,16 @@
         "rageAuto": 14,
         "rageHit": 12
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A",
+        "immortal-codex": "A"
+      },
+      "europe": {
+        "campaign": "A",
+        "immortal-codex": "A"
+      }
     }
   },
   {
@@ -8293,6 +8565,14 @@
         "rageAuto": 14,
         "rageHit": 12
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
+      }
     }
   },
   {
@@ -8522,6 +8802,16 @@
         "rageBasic": 4,
         "rageAuto": 14,
         "rageHit": 12
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A",
+        "immortal-codex": "B"
+      },
+      "europe": {
+        "campaign": "A",
+        "immortal-codex": "B"
       }
     }
   },
@@ -8768,6 +9058,16 @@
         "rageBasic": 8,
         "rageAuto": 14,
         "rageHit": 8
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A",
+        "guild-boss": "A"
+      },
+      "europe": {
+        "campaign": "A",
+        "guild-boss": "A"
       }
     }
   },
@@ -9499,6 +9799,14 @@
         "rageAuto": 12,
         "rageHit": 9
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
+      }
     }
   },
   {
@@ -10002,6 +10310,14 @@
         "rageAuto": 14,
         "rageHit": 12
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "C"
+      },
+      "europe": {
+        "campaign": "C"
+      }
     }
   },
   {
@@ -10480,6 +10796,18 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S",
+        "immortal-codex": "A",
+        "guild-boss": "A"
+      },
+      "europe": {
+        "campaign": "S",
+        "immortal-codex": "A",
+        "guild-boss": "A"
+      }
     }
   },
   {
@@ -10723,6 +11051,14 @@
         "rageBasic": 10,
         "rageAuto": 14,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
       }
     }
   },
@@ -10979,6 +11315,14 @@
         "rageAuto": 13,
         "rageHit": 7
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "D"
+      },
+      "europe": {
+        "campaign": "D"
+      }
     }
   },
   {
@@ -11221,6 +11565,14 @@
         "rageAuto": 13,
         "rageHit": 7
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "C"
+      },
+      "europe": {
+        "campaign": "C"
+      }
     }
   },
   {
@@ -11462,6 +11814,14 @@
         "rageBasic": 10,
         "rageAuto": 14,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
       }
     }
   },
@@ -11710,6 +12070,24 @@
         "rageAuto": 15,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S",
+        "void-rift": "S",
+        "gear-raid": "S",
+        "arena": "A",
+        "guild-boss": "S",
+        "guild-war": "A"
+      },
+      "europe": {
+        "campaign": "S",
+        "void-rift": "S",
+        "gear-raid": "S",
+        "arena": "A",
+        "guild-boss": "S",
+        "guild-war": "A"
+      }
     }
   },
   {
@@ -11950,6 +12328,14 @@
         "rageBasic": 10,
         "rageAuto": 12,
         "rageHit": 8
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
       }
     }
   },
@@ -12241,6 +12627,14 @@
         "rageAuto": 12,
         "rageHit": 8
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A"
+      },
+      "europe": {
+        "campaign": "A"
+      }
     }
   },
   {
@@ -12483,6 +12877,16 @@
         "rageBasic": 4,
         "rageAuto": 14,
         "rageHit": 12
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B",
+        "immortal-codex": "B"
+      },
+      "europe": {
+        "campaign": "B",
+        "immortal-codex": "B"
       }
     }
   },
@@ -12738,6 +13142,14 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
+      }
     }
   },
   {
@@ -12979,6 +13391,14 @@
         "rageBasic": 10,
         "rageAuto": 14,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A"
+      },
+      "europe": {
+        "campaign": "A"
       }
     }
   },
@@ -13234,6 +13654,14 @@
         "rageAuto": 13,
         "rageHit": 7
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A"
+      },
+      "europe": {
+        "campaign": "A"
+      }
     }
   },
   {
@@ -13474,6 +13902,14 @@
         "rageBasic": 9,
         "rageAuto": 15,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
       }
     }
   },
@@ -13972,6 +14408,14 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
+      }
     }
   },
   {
@@ -14212,6 +14656,18 @@
         "rageBasic": 9,
         "rageAuto": 15,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S",
+        "gear-raid": "B",
+        "guild-boss": "C"
+      },
+      "europe": {
+        "campaign": "S",
+        "gear-raid": "B",
+        "guild-boss": "C"
       }
     }
   },
@@ -14734,6 +15190,16 @@
         "rageAuto": 14,
         "rageHit": 12
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A",
+        "immortal-codex": "A"
+      },
+      "europe": {
+        "campaign": "A",
+        "immortal-codex": "A"
+      }
     }
   },
   {
@@ -14962,6 +15428,14 @@
         "rageBasic": 10,
         "rageAuto": 14,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
       }
     }
   },
@@ -15485,6 +15959,14 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
+      }
     }
   },
   {
@@ -15986,6 +16468,14 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "C"
+      },
+      "europe": {
+        "campaign": "C"
+      }
     }
   },
   {
@@ -16214,6 +16704,14 @@
         "rageBasic": 10,
         "rageAuto": 14,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
       }
     }
   },
@@ -16516,6 +17014,16 @@
         "rageAuto": 14,
         "rageHit": 12
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A",
+        "immortal-codex": "A"
+      },
+      "europe": {
+        "campaign": "A",
+        "immortal-codex": "A"
+      }
     }
   },
   {
@@ -16775,6 +17283,14 @@
         "rageBasic": 10,
         "rageAuto": 13,
         "rageHit": 5
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A"
+      },
+      "europe": {
+        "campaign": "A"
       }
     }
   },
@@ -17055,6 +17571,16 @@
         "rageAuto": 14,
         "rageHit": 9
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B",
+        "immortal-codex": "A"
+      },
+      "europe": {
+        "campaign": "B",
+        "immortal-codex": "A"
+      }
     }
   },
   {
@@ -17308,6 +17834,14 @@
         "rageBasic": 4,
         "rageAuto": 14,
         "rageHit": 9
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
       }
     }
   },
@@ -17569,6 +18103,14 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "C"
+      },
+      "europe": {
+        "campaign": "C"
+      }
     }
   },
   {
@@ -17809,6 +18351,14 @@
         "rageBasic": 8,
         "rageAuto": 14,
         "rageHit": 8
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "D"
+      },
+      "europe": {
+        "campaign": "D"
       }
     }
   },
@@ -18092,6 +18642,16 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A",
+        "guild-boss": "C"
+      },
+      "europe": {
+        "campaign": "A",
+        "guild-boss": "C"
+      }
     }
   },
   {
@@ -18346,6 +18906,14 @@
         "rageBasic": 10,
         "rageAuto": 14,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
       }
     }
   },
@@ -18606,6 +19174,16 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B",
+        "gear-raid": "A"
+      },
+      "europe": {
+        "campaign": "B",
+        "gear-raid": "A"
+      }
     }
   },
   {
@@ -18848,6 +19426,14 @@
         "rageBasic": 9,
         "rageAuto": 15,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "C"
+      },
+      "europe": {
+        "campaign": "C"
       }
     }
   },
@@ -19118,6 +19704,16 @@
         "rageBasic": 4,
         "rageAuto": 19,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S",
+        "guild-boss": "S"
+      },
+      "europe": {
+        "campaign": "S",
+        "guild-boss": "S"
       }
     }
   },
@@ -19396,6 +19992,14 @@
         "rageAuto": 14,
         "rageHit": 9
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
+      }
     }
   },
   {
@@ -19637,6 +20241,14 @@
         "rageBasic": 9,
         "rageAuto": 15,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
       }
     }
   },
@@ -20386,6 +20998,14 @@
         "rageAuto": 15,
         "rageHit": 7
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
+      }
     }
   },
   {
@@ -20641,6 +21261,14 @@
         "rageAuto": 14,
         "rageHit": 9
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "C"
+      },
+      "europe": {
+        "campaign": "C"
+      }
     }
   },
   {
@@ -20860,6 +21488,14 @@
         "rageBasic": 3,
         "rageAuto": 18,
         "rageHit": 9
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A"
+      },
+      "europe": {
+        "campaign": "A"
       }
     }
   },
@@ -21107,6 +21743,14 @@
         "rageBasic": 10,
         "rageAuto": 13,
         "rageHit": 5
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
       }
     }
   },
@@ -21367,6 +22011,14 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A"
+      },
+      "europe": {
+        "campaign": "A"
+      }
     }
   },
   {
@@ -21621,6 +22273,14 @@
         "rageBasic": 10,
         "rageAuto": 12,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "C"
+      },
+      "europe": {
+        "campaign": "C"
       }
     }
   },
@@ -22104,6 +22764,14 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
+      }
     }
   },
   {
@@ -22374,6 +23042,14 @@
         "rageBasic": 8,
         "rageAuto": 14,
         "rageHit": 8
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A"
+      },
+      "europe": {
+        "campaign": "A"
       }
     }
   },
@@ -22651,6 +23327,14 @@
         "rageAuto": 12,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "C"
+      },
+      "europe": {
+        "campaign": "C"
+      }
     }
   },
   {
@@ -22896,6 +23580,14 @@
         "rageBasic": 10,
         "rageAuto": 14,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
       }
     }
   },
@@ -23411,6 +24103,16 @@
         "rageAuto": 14,
         "rageHit": 9
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A",
+        "immortal-codex": "A"
+      },
+      "europe": {
+        "campaign": "A",
+        "immortal-codex": "A"
+      }
     }
   },
   {
@@ -23669,6 +24371,14 @@
         "rageBasic": 8,
         "rageAuto": 14,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "C"
+      },
+      "europe": {
+        "campaign": "C"
       }
     }
   },
@@ -23936,6 +24646,14 @@
         "rageBasic": 10,
         "rageAuto": 13,
         "rageHit": 5
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "C"
+      },
+      "europe": {
+        "campaign": "C"
       }
     }
   },
@@ -24217,6 +24935,14 @@
         "rageAuto": 13,
         "rageHit": 5
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
+      }
     }
   },
   {
@@ -24475,6 +25201,14 @@
         "rageBasic": 10,
         "rageAuto": 14,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
       }
     }
   },
@@ -24736,6 +25470,14 @@
         "rageBasic": 8,
         "rageAuto": 14,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "C"
+      },
+      "europe": {
+        "campaign": "C"
       }
     }
   },
@@ -25284,6 +26026,22 @@
         "rageAuto": 15,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S",
+        "immortal-codex": "A",
+        "gear-raid": "S",
+        "guild-boss": "S",
+        "guild-war": "S"
+      },
+      "europe": {
+        "campaign": "S",
+        "immortal-codex": "A",
+        "gear-raid": "S",
+        "guild-boss": "S",
+        "guild-war": "S"
+      }
     }
   },
   {
@@ -25567,6 +26325,14 @@
         "rageAuto": 15,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
+      }
     }
   },
   {
@@ -25824,6 +26590,14 @@
         "rageBasic": 10,
         "rageAuto": 14,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "C"
+      },
+      "europe": {
+        "campaign": "C"
       }
     }
   },
@@ -26146,6 +26920,20 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S",
+        "halls-of-illusion": "B",
+        "gear-raid": "A",
+        "guild-boss": "A"
+      },
+      "europe": {
+        "campaign": "S",
+        "halls-of-illusion": "B",
+        "gear-raid": "A",
+        "guild-boss": "A"
+      }
     }
   },
   {
@@ -26428,6 +27216,14 @@
         "rageAuto": 13,
         "rageHit": 5
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A"
+      },
+      "europe": {
+        "campaign": "A"
+      }
     }
   },
   {
@@ -26698,6 +27494,22 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S",
+        "immortal-codex": "S",
+        "gear-raid": "S",
+        "guild-boss": "S",
+        "guild-war": "S"
+      },
+      "europe": {
+        "campaign": "S",
+        "immortal-codex": "S",
+        "gear-raid": "S",
+        "guild-boss": "S",
+        "guild-war": "S"
+      }
     }
   },
   {
@@ -26956,6 +27768,14 @@
         "rageBasic": 4,
         "rageAuto": 14,
         "rageHit": 9
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "D"
+      },
+      "europe": {
+        "campaign": "D"
       }
     }
   },
@@ -27238,6 +28058,14 @@
         "rageAuto": 13,
         "rageHit": 5
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
+      }
     }
   },
   {
@@ -27518,6 +28346,22 @@
         "rageBasic": 9,
         "rageAuto": 18,
         "rageHit": 9
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S+",
+        "immortal-codex": "A",
+        "gear-raid": "S+",
+        "arena": "S",
+        "guild-boss": "S+"
+      },
+      "europe": {
+        "campaign": "S+",
+        "immortal-codex": "A",
+        "gear-raid": "S+",
+        "arena": "S",
+        "guild-boss": "S+"
       }
     }
   },
@@ -27800,6 +28644,18 @@
         "rageAuto": 13,
         "rageHit": 5
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S",
+        "void-rift": "A",
+        "gear-raid": "S"
+      },
+      "europe": {
+        "campaign": "S",
+        "void-rift": "A",
+        "gear-raid": "S"
+      }
     }
   },
   {
@@ -28058,6 +28914,16 @@
         "rageBasic": 10,
         "rageAuto": 14,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A",
+        "guild-boss": "B"
+      },
+      "europe": {
+        "campaign": "A",
+        "guild-boss": "B"
       }
     }
   },
@@ -28318,6 +29184,16 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A",
+        "guild-boss": "S"
+      },
+      "europe": {
+        "campaign": "A",
+        "guild-boss": "S"
+      }
     }
   },
   {
@@ -28576,6 +29452,16 @@
         "rageBasic": 10,
         "rageAuto": 14,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A",
+        "gear-raid": "S"
+      },
+      "europe": {
+        "campaign": "A",
+        "gear-raid": "S"
       }
     }
   },
@@ -28848,6 +29734,14 @@
         "rageBasic": 10,
         "rageAuto": 14,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
       }
     }
   },
@@ -29149,6 +30043,14 @@
         "rageBasic": 10,
         "rageAuto": 13,
         "rageHit": 5
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "D"
+      },
+      "europe": {
+        "campaign": "D"
       }
     }
   },
@@ -29662,6 +30564,16 @@
         "rageAuto": 15,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A",
+        "guild-boss": "A"
+      },
+      "europe": {
+        "campaign": "A",
+        "guild-boss": "A"
+      }
     }
   },
   {
@@ -29930,6 +30842,20 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S",
+        "gear-raid": "S",
+        "arena": "A",
+        "guild-boss": "B"
+      },
+      "europe": {
+        "campaign": "S",
+        "gear-raid": "S",
+        "arena": "A",
+        "guild-boss": "B"
+      }
     }
   },
   {
@@ -30190,6 +31116,14 @@
         "rageBasic": 9,
         "rageAuto": 15,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
       }
     }
   },
@@ -30460,6 +31394,16 @@
         "rageBasic": 10,
         "rageAuto": 13,
         "rageHit": 5
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A",
+        "guild-boss": "A"
+      },
+      "europe": {
+        "campaign": "A",
+        "guild-boss": "A"
       }
     }
   },
@@ -30975,6 +31919,14 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "C"
+      },
+      "europe": {
+        "campaign": "C"
+      }
     }
   },
   {
@@ -31487,6 +32439,14 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
+      }
     }
   },
   {
@@ -31988,6 +32948,14 @@
         "rageAuto": 15,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A"
+      },
+      "europe": {
+        "campaign": "A"
+      }
     }
   },
   {
@@ -32258,6 +33226,14 @@
         "rageBasic": 10,
         "rageAuto": 14,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
       }
     }
   },
@@ -32540,6 +33516,14 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A"
+      },
+      "europe": {
+        "campaign": "A"
+      }
     }
   },
   {
@@ -32806,6 +33790,14 @@
         "rageBasic": 9,
         "rageAuto": 15,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S"
+      },
+      "europe": {
+        "campaign": "S"
       }
     }
   },
@@ -33074,6 +34066,16 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A",
+        "guild-boss": "S"
+      },
+      "europe": {
+        "campaign": "A",
+        "guild-boss": "S"
+      }
     }
   },
   {
@@ -33335,6 +34337,14 @@
         "rageAuto": 18,
         "rageHit": 9
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
+      }
     }
   },
   {
@@ -33594,6 +34604,14 @@
         "rageBasic": 25,
         "rageAuto": 0,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
       }
     }
   },
@@ -33877,6 +34895,18 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A",
+        "void-rift": "S",
+        "guild-boss": "A"
+      },
+      "europe": {
+        "campaign": "A",
+        "void-rift": "S",
+        "guild-boss": "A"
+      }
     }
   },
   {
@@ -34135,6 +35165,16 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B",
+        "guild-boss": "B"
+      },
+      "europe": {
+        "campaign": "B",
+        "guild-boss": "B"
+      }
     }
   },
   {
@@ -34388,6 +35428,14 @@
         "rageBasic": 4,
         "rageAuto": 14,
         "rageHit": 9
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A"
+      },
+      "europe": {
+        "campaign": "A"
       }
     }
   },
@@ -34669,6 +35717,24 @@
         "rageBasic": 9,
         "rageAuto": 15,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S",
+        "halls-of-illusion": "S",
+        "gear-raid": "S",
+        "arena": "S",
+        "guild-boss": "S+",
+        "guild-war": "A"
+      },
+      "europe": {
+        "campaign": "S",
+        "halls-of-illusion": "S",
+        "gear-raid": "S",
+        "arena": "S",
+        "guild-boss": "S+",
+        "guild-war": "A"
       }
     }
   },
@@ -34952,6 +36018,16 @@
         "rageAuto": 13,
         "rageHit": 5
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S",
+        "guild-boss": "S"
+      },
+      "europe": {
+        "campaign": "S",
+        "guild-boss": "S"
+      }
     }
   },
   {
@@ -35213,6 +36289,20 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A",
+        "gear-raid": "A",
+        "guild-boss": "C",
+        "guild-war": "A"
+      },
+      "europe": {
+        "campaign": "A",
+        "gear-raid": "A",
+        "guild-boss": "C",
+        "guild-war": "A"
+      }
     }
   },
   {
@@ -35472,6 +36562,14 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
+      }
     }
   },
   {
@@ -35726,6 +36824,14 @@
         "rageBasic": 10,
         "rageAuto": 14,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
       }
     }
   },
@@ -36007,6 +37113,14 @@
         "rageAuto": 12,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
+      }
     }
   },
   {
@@ -36266,6 +37380,24 @@
         "rageAuto": 14,
         "rageHit": 9
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S",
+        "void-rift": "A",
+        "immortal-codex": "S",
+        "halls-of-illusion": "A",
+        "gear-raid": "A",
+        "guild-war": "S"
+      },
+      "europe": {
+        "campaign": "S",
+        "void-rift": "A",
+        "immortal-codex": "S",
+        "halls-of-illusion": "A",
+        "gear-raid": "A",
+        "guild-war": "S"
+      }
     }
   },
   {
@@ -36524,6 +37656,14 @@
         "rageBasic": 10,
         "rageAuto": 13,
         "rageHit": 5
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "C"
+      },
+      "europe": {
+        "campaign": "C"
       }
     }
   },
@@ -36805,6 +37945,14 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
+      }
     }
   },
   {
@@ -37062,6 +38210,14 @@
         "rageBasic": 10,
         "rageAuto": 14,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
       }
     }
   },
@@ -37344,6 +38500,14 @@
         "rageAuto": 12,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "C"
+      },
+      "europe": {
+        "campaign": "C"
+      }
     }
   },
   {
@@ -37613,6 +38777,18 @@
         "rageBasic": 10,
         "rageAuto": 14,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A",
+        "gear-raid": "A",
+        "guild-boss": "S"
+      },
+      "europe": {
+        "campaign": "A",
+        "gear-raid": "A",
+        "guild-boss": "S"
       }
     }
   },
@@ -37895,6 +39071,14 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
+      }
     }
   },
   {
@@ -38174,6 +39358,14 @@
         "rageBasic": 10,
         "rageAuto": 13,
         "rageHit": 5
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
       }
     }
   },
@@ -38457,6 +39649,14 @@
         "rageAuto": 15,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A"
+      },
+      "europe": {
+        "campaign": "A"
+      }
     }
   },
   {
@@ -38736,6 +39936,14 @@
         "rageBasic": 10,
         "rageAuto": 12,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
       }
     }
   },
@@ -39029,6 +40237,16 @@
         "rageAuto": 13,
         "rageHit": 5
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S",
+        "guild-boss": "S"
+      },
+      "europe": {
+        "campaign": "S",
+        "guild-boss": "S"
+      }
     }
   },
   {
@@ -39299,6 +40517,20 @@
         "rageBasic": 10,
         "rageAuto": 14,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S",
+        "gear-raid": "A",
+        "guild-boss": "S+",
+        "guild-war": "S"
+      },
+      "europe": {
+        "campaign": "S",
+        "gear-raid": "A",
+        "guild-boss": "S+",
+        "guild-war": "S"
       }
     }
   },
@@ -39862,6 +41094,24 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S+",
+        "halls-of-illusion": "S",
+        "gear-raid": "S+",
+        "arena": "A",
+        "guild-boss": "C",
+        "guild-war": "S+"
+      },
+      "europe": {
+        "campaign": "S+",
+        "halls-of-illusion": "S",
+        "gear-raid": "S+",
+        "arena": "A",
+        "guild-boss": "C",
+        "guild-war": "S+"
+      }
     }
   },
   {
@@ -40154,6 +41404,16 @@
         "rageAuto": 14,
         "rageHit": 9
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S",
+        "gear-raid": "S"
+      },
+      "europe": {
+        "campaign": "S",
+        "gear-raid": "S"
+      }
     }
   },
   {
@@ -40413,6 +41673,18 @@
         "rageBasic": 4,
         "rageAuto": 14,
         "rageHit": 9
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S",
+        "void-rift": "S",
+        "arena": "S"
+      },
+      "europe": {
+        "campaign": "S",
+        "void-rift": "S",
+        "arena": "S"
       }
     }
   },
@@ -40685,6 +41957,16 @@
         "rageAuto": 13,
         "rageHit": 5
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A",
+        "guild-boss": "A"
+      },
+      "europe": {
+        "campaign": "A",
+        "guild-boss": "A"
+      }
     }
   },
   {
@@ -40943,6 +42225,18 @@
         "rageBasic": 8,
         "rageAuto": 14,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S",
+        "halls-of-illusion": "S",
+        "guild-boss": "S"
+      },
+      "europe": {
+        "campaign": "S",
+        "halls-of-illusion": "S",
+        "guild-boss": "S"
       }
     }
   },
@@ -41226,6 +42520,20 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S",
+        "halls-of-illusion": "A",
+        "gear-raid": "S",
+        "arena": "S"
+      },
+      "europe": {
+        "campaign": "S",
+        "halls-of-illusion": "A",
+        "gear-raid": "S",
+        "arena": "S"
+      }
     }
   },
   {
@@ -41483,6 +42791,14 @@
         "rageBasic": 10,
         "rageAuto": 14,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
       }
     }
   },
@@ -41765,6 +43081,14 @@
         "rageBasic": 4,
         "rageAuto": 14,
         "rageHit": 9
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S"
+      },
+      "europe": {
+        "campaign": "S"
       }
     }
   },
@@ -42284,6 +43608,20 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S",
+        "gear-raid": "S+",
+        "guild-boss": "S",
+        "guild-war": "S"
+      },
+      "europe": {
+        "campaign": "S",
+        "gear-raid": "S+",
+        "guild-boss": "S",
+        "guild-war": "S"
+      }
     }
   },
   {
@@ -42585,6 +43923,14 @@
         "rageBasic": 10,
         "rageAuto": 14,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A"
+      },
+      "europe": {
+        "campaign": "A"
       }
     }
   },
@@ -43127,6 +44473,18 @@
         "rageAuto": 14,
         "rageHit": 9
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A",
+        "void-rift": "A",
+        "guild-war": "S"
+      },
+      "europe": {
+        "campaign": "A",
+        "void-rift": "A",
+        "guild-war": "S"
+      }
     }
   },
   {
@@ -43384,6 +44742,16 @@
         "rageBasic": 10,
         "rageAuto": 12,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A",
+        "gear-raid": "S"
+      },
+      "europe": {
+        "campaign": "A",
+        "gear-raid": "S"
       }
     }
   },
@@ -43899,6 +45267,14 @@
         "rageAuto": 12,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A"
+      },
+      "europe": {
+        "campaign": "A"
+      }
     }
   },
   {
@@ -44152,6 +45528,14 @@
         "rageBasic": 10,
         "rageAuto": 14,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
       }
     }
   },
@@ -44412,6 +45796,14 @@
         "rageBasic": 10,
         "rageAuto": 14,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A"
+      },
+      "europe": {
+        "campaign": "A"
       }
     }
   },
@@ -44944,6 +46336,22 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S",
+        "void-rift": "A",
+        "gear-raid": "S",
+        "arena": "S",
+        "guild-war": "S"
+      },
+      "europe": {
+        "campaign": "S",
+        "void-rift": "A",
+        "gear-raid": "S",
+        "arena": "S",
+        "guild-war": "S"
+      }
     }
   },
   {
@@ -45224,6 +46632,14 @@
         "rageAuto": 19,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
+      }
     }
   },
   {
@@ -45481,6 +46897,16 @@
         "rageBasic": 10,
         "rageAuto": 14,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A",
+        "guild-boss": "S"
+      },
+      "europe": {
+        "campaign": "A",
+        "guild-boss": "S"
       }
     }
   },
@@ -45740,6 +47166,14 @@
         "rageAuto": 13,
         "rageHit": 5
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A"
+      },
+      "europe": {
+        "campaign": "A"
+      }
     }
   },
   {
@@ -45985,6 +47419,14 @@
         "rageBasic": 9,
         "rageAuto": 15,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A"
+      },
+      "europe": {
+        "campaign": "A"
       }
     }
   },
@@ -46246,6 +47688,16 @@
         "rageAuto": 13,
         "rageHit": 5
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A",
+        "guild-boss": "A"
+      },
+      "europe": {
+        "campaign": "A",
+        "guild-boss": "A"
+      }
     }
   },
   {
@@ -46499,6 +47951,14 @@
         "rageBasic": 10,
         "rageAuto": 13,
         "rageHit": 5
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
       }
     }
   },
@@ -46761,6 +48221,16 @@
         "rageBasic": 10,
         "rageAuto": 14,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B",
+        "guild-boss": "A"
+      },
+      "europe": {
+        "campaign": "B",
+        "guild-boss": "A"
       }
     }
   },
@@ -47043,6 +48513,18 @@
         "rageBasic": 10,
         "rageAuto": 13,
         "rageHit": 5
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S",
+        "gear-raid": "A",
+        "guild-boss": "S+"
+      },
+      "europe": {
+        "campaign": "S",
+        "gear-raid": "A",
+        "guild-boss": "S+"
       }
     }
   },
@@ -47349,6 +48831,22 @@
         "rageAuto": 12,
         "rageHit": 7
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S+",
+        "gear-raid": "S",
+        "arena": "S+",
+        "guild-boss": "B",
+        "guild-war": "S+"
+      },
+      "europe": {
+        "campaign": "S+",
+        "gear-raid": "S",
+        "arena": "S+",
+        "guild-boss": "B",
+        "guild-war": "S+"
+      }
     }
   },
   {
@@ -47641,6 +49139,28 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S+",
+        "void-rift": "S",
+        "immortal-codex": "A",
+        "halls-of-illusion": "S",
+        "gear-raid": "S+",
+        "arena": "S+",
+        "guild-boss": "S+",
+        "guild-war": "S"
+      },
+      "europe": {
+        "campaign": "S+",
+        "void-rift": "S",
+        "immortal-codex": "A",
+        "halls-of-illusion": "S",
+        "gear-raid": "S+",
+        "arena": "S+",
+        "guild-boss": "S+",
+        "guild-war": "S"
+      }
     }
   },
   {
@@ -47902,6 +49422,14 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A"
+      },
+      "europe": {
+        "campaign": "A"
+      }
     }
   },
   {
@@ -48159,6 +49687,14 @@
         "rageBasic": 10,
         "rageAuto": 14,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A"
+      },
+      "europe": {
+        "campaign": "A"
       }
     }
   },
@@ -48420,6 +49956,14 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
+      }
     }
   },
   {
@@ -48679,6 +50223,16 @@
         "rageBasic": 10,
         "rageAuto": 12,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A",
+        "halls-of-illusion": "B"
+      },
+      "europe": {
+        "campaign": "A",
+        "halls-of-illusion": "B"
       }
     }
   },
@@ -48959,6 +50513,14 @@
         "rageBasic": 10,
         "rageAuto": 13,
         "rageHit": 5
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
       }
     }
   },
@@ -49242,6 +50804,14 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A"
+      },
+      "europe": {
+        "campaign": "A"
+      }
     }
   },
   {
@@ -49501,6 +51071,14 @@
         "rageBasic": 9,
         "rageAuto": 12,
         "rageHit": 7
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
       }
     }
   },
@@ -49762,6 +51340,14 @@
         "rageBasic": 10,
         "rageAuto": 14,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A"
+      },
+      "europe": {
+        "campaign": "A"
       }
     }
   },
@@ -50045,6 +51631,14 @@
         "rageAuto": 12,
         "rageHit": 9
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
+      }
     }
   },
   {
@@ -50304,6 +51898,14 @@
         "rageAuto": 14,
         "rageHit": 9
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
+      }
     }
   },
   {
@@ -50562,6 +52164,18 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B",
+        "guild-boss": "B",
+        "guild-war": "A"
+      },
+      "europe": {
+        "campaign": "B",
+        "guild-boss": "B",
+        "guild-war": "A"
+      }
     }
   },
   {
@@ -50815,6 +52429,14 @@
         "rageBasic": 10,
         "rageAuto": 12,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A"
+      },
+      "europe": {
+        "campaign": "A"
       }
     }
   },
@@ -51107,6 +52729,22 @@
         "rageBasic": 10,
         "rageAuto": 14,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S",
+        "halls-of-illusion": "S",
+        "gear-raid": "S",
+        "guild-boss": "S",
+        "guild-war": "A"
+      },
+      "europe": {
+        "campaign": "S",
+        "halls-of-illusion": "S",
+        "gear-raid": "S",
+        "guild-boss": "S",
+        "guild-war": "A"
       }
     }
   },
@@ -51410,6 +53048,22 @@
         "rageAuto": 14,
         "rageHit": 7
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S",
+        "gear-raid": "A",
+        "arena": "S",
+        "guild-boss": "A",
+        "guild-war": "B"
+      },
+      "europe": {
+        "campaign": "S",
+        "gear-raid": "A",
+        "arena": "S",
+        "guild-boss": "A",
+        "guild-war": "B"
+      }
     }
   },
   {
@@ -51691,6 +53345,14 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A"
+      },
+      "europe": {
+        "campaign": "A"
+      }
     }
   },
   {
@@ -51948,6 +53610,20 @@
         "rageBasic": 9,
         "rageAuto": 15,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S",
+        "halls-of-illusion": "A",
+        "gear-raid": "S",
+        "guild-boss": "A"
+      },
+      "europe": {
+        "campaign": "S",
+        "halls-of-illusion": "A",
+        "gear-raid": "S",
+        "guild-boss": "A"
       }
     }
   },
@@ -52228,6 +53904,16 @@
         "rageBasic": 10,
         "rageAuto": 13,
         "rageHit": 5
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S",
+        "guild-boss": "S"
+      },
+      "europe": {
+        "campaign": "S",
+        "guild-boss": "S"
       }
     }
   },
@@ -52743,6 +54429,16 @@
         "rageAuto": 15,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A",
+        "guild-boss": "B"
+      },
+      "europe": {
+        "campaign": "A",
+        "guild-boss": "B"
+      }
     }
   },
   {
@@ -53014,6 +54710,14 @@
         "rageAuto": 13,
         "rageHit": 5
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A"
+      },
+      "europe": {
+        "campaign": "A"
+      }
     }
   },
   {
@@ -53273,6 +54977,22 @@
         "rageBasic": 10,
         "rageAuto": 13,
         "rageHit": 5
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S",
+        "void-rift": "S",
+        "immortal-codex": "A",
+        "halls-of-illusion": "S",
+        "guild-boss": "S+"
+      },
+      "europe": {
+        "campaign": "S",
+        "void-rift": "S",
+        "immortal-codex": "A",
+        "halls-of-illusion": "S",
+        "guild-boss": "S+"
       }
     }
   },
@@ -53555,6 +55275,14 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
+      }
     }
   },
   {
@@ -53836,6 +55564,24 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S",
+        "void-rift": "A",
+        "halls-of-illusion": "A",
+        "gear-raid": "S",
+        "guild-boss": "A",
+        "guild-war": "S"
+      },
+      "europe": {
+        "campaign": "S",
+        "void-rift": "A",
+        "halls-of-illusion": "A",
+        "gear-raid": "S",
+        "guild-boss": "A",
+        "guild-war": "S"
+      }
     }
   },
   {
@@ -54107,6 +55853,14 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A"
+      },
+      "europe": {
+        "campaign": "A"
+      }
     }
   },
   {
@@ -54364,6 +56118,14 @@
         "rageBasic": 10,
         "rageAuto": 14,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A"
+      },
+      "europe": {
+        "campaign": "A"
       }
     }
   },
@@ -54635,6 +56397,20 @@
         "rageAuto": 12,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S",
+        "gear-raid": "S",
+        "guild-boss": "S",
+        "guild-war": "S"
+      },
+      "europe": {
+        "campaign": "S",
+        "gear-raid": "S",
+        "guild-boss": "S",
+        "guild-war": "S"
+      }
     }
   },
   {
@@ -54893,6 +56669,16 @@
         "rageBasic": 10,
         "rageAuto": 14,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A",
+        "guild-boss": "A"
+      },
+      "europe": {
+        "campaign": "A",
+        "guild-boss": "A"
       }
     }
   },
@@ -55197,6 +56983,14 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
+      }
     }
   },
   {
@@ -55455,6 +57249,14 @@
         "rageBasic": 10,
         "rageAuto": 14,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A"
+      },
+      "europe": {
+        "campaign": "A"
       }
     }
   },
@@ -55728,6 +57530,18 @@
         "rageAuto": 13,
         "rageHit": 5
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S",
+        "guild-boss": "S",
+        "guild-war": "B"
+      },
+      "europe": {
+        "campaign": "S",
+        "guild-boss": "S",
+        "guild-war": "B"
+      }
     }
   },
   {
@@ -55983,6 +57797,14 @@
         "rageBasic": 10,
         "rageAuto": 14,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
       }
     }
   },
@@ -56264,6 +58086,14 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
+      }
     }
   },
   {
@@ -56544,6 +58374,18 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S",
+        "arena": "S",
+        "guild-boss": "S"
+      },
+      "europe": {
+        "campaign": "S",
+        "arena": "S",
+        "guild-boss": "S"
+      }
     }
   },
   {
@@ -56802,6 +58644,18 @@
         "rageBasic": 10,
         "rageAuto": 14,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A",
+        "gear-raid": "C",
+        "guild-boss": "S"
+      },
+      "europe": {
+        "campaign": "A",
+        "gear-raid": "C",
+        "guild-boss": "S"
       }
     }
   },
@@ -57062,6 +58916,14 @@
         "rageAuto": 13,
         "rageHit": 5
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
+      }
     }
   },
   {
@@ -57321,6 +59183,14 @@
         "rageBasic": 10,
         "rageAuto": 14,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A"
+      },
+      "europe": {
+        "campaign": "A"
       }
     }
   },
@@ -57624,6 +59494,14 @@
         "rageAuto": 12,
         "rageHit": 7
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A"
+      },
+      "europe": {
+        "campaign": "A"
+      }
     }
   },
   {
@@ -57905,6 +59783,14 @@
         "rageAuto": 13,
         "rageHit": 5
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A"
+      },
+      "europe": {
+        "campaign": "A"
+      }
     }
   },
   {
@@ -58185,6 +60071,16 @@
         "rageAuto": 13,
         "rageHit": 5
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B",
+        "halls-of-illusion": "A"
+      },
+      "europe": {
+        "campaign": "B",
+        "halls-of-illusion": "A"
+      }
     }
   },
   {
@@ -58460,6 +60356,14 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A"
+      },
+      "europe": {
+        "campaign": "A"
+      }
     }
   },
   {
@@ -58720,6 +60624,14 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A"
+      },
+      "europe": {
+        "campaign": "A"
+      }
     }
   },
   {
@@ -58978,6 +60890,22 @@
         "rageBasic": 4,
         "rageAuto": 14,
         "rageHit": 9
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S+",
+        "halls-of-illusion": "S",
+        "gear-raid": "S",
+        "guild-boss": "S",
+        "guild-war": "S"
+      },
+      "europe": {
+        "campaign": "S+",
+        "halls-of-illusion": "S",
+        "gear-raid": "S",
+        "guild-boss": "S",
+        "guild-war": "S"
       }
     }
   },
@@ -59241,6 +61169,14 @@
         "rageAuto": 14,
         "rageHit": 9
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
+      }
     }
   },
   {
@@ -59498,6 +61434,14 @@
         "rageBasic": 4,
         "rageAuto": 14,
         "rageHit": 9
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A"
+      },
+      "europe": {
+        "campaign": "A"
       }
     }
   },
@@ -59777,6 +61721,16 @@
         "rageBasic": 10,
         "rageAuto": 13,
         "rageHit": 5
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A",
+        "guild-boss": "C"
+      },
+      "europe": {
+        "campaign": "A",
+        "guild-boss": "C"
       }
     }
   },
@@ -60058,6 +62012,16 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A",
+        "gear-raid": "A"
+      },
+      "europe": {
+        "campaign": "A",
+        "gear-raid": "A"
+      }
     }
   },
   {
@@ -60316,6 +62280,16 @@
         "rageBasic": 9,
         "rageAuto": 12,
         "rageHit": 7
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A",
+        "guild-boss": "C"
+      },
+      "europe": {
+        "campaign": "A",
+        "guild-boss": "C"
       }
     }
   },
@@ -60597,6 +62571,18 @@
         "rageBasic": 10,
         "rageAuto": 13,
         "rageHit": 5
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A",
+        "halls-of-illusion": "A",
+        "guild-boss": "S"
+      },
+      "europe": {
+        "campaign": "A",
+        "halls-of-illusion": "A",
+        "guild-boss": "S"
       }
     }
   },
@@ -60900,6 +62886,16 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A",
+        "arena": "S"
+      },
+      "europe": {
+        "campaign": "A",
+        "arena": "S"
+      }
     }
   },
   {
@@ -61159,6 +63155,14 @@
         "rageBasic": 10,
         "rageAuto": 14,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A"
+      },
+      "europe": {
+        "campaign": "A"
       }
     }
   },
@@ -61462,6 +63466,18 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B",
+        "halls-of-illusion": "B",
+        "arena": "S"
+      },
+      "europe": {
+        "campaign": "B",
+        "halls-of-illusion": "B",
+        "arena": "S"
+      }
     }
   },
   {
@@ -61741,6 +63757,14 @@
         "rageBasic": 4,
         "rageAuto": 14,
         "rageHit": 10
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "C"
+      },
+      "europe": {
+        "campaign": "C"
       }
     }
   },
@@ -62022,6 +64046,16 @@
         "rageAuto": 12,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A",
+        "gear-raid": "S"
+      },
+      "europe": {
+        "campaign": "A",
+        "gear-raid": "S"
+      }
     }
   },
   {
@@ -62279,6 +64313,14 @@
         "rageBasic": 10,
         "rageAuto": 12,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
       }
     }
   },
@@ -62562,6 +64604,14 @@
         "rageAuto": 13,
         "rageHit": 5
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A"
+      },
+      "europe": {
+        "campaign": "A"
+      }
     }
   },
   {
@@ -62821,6 +64871,16 @@
         "rageBasic": 10,
         "rageAuto": 13,
         "rageHit": 5
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S",
+        "immortal-codex": "A"
+      },
+      "europe": {
+        "campaign": "S",
+        "immortal-codex": "A"
       }
     }
   },
@@ -63094,6 +65154,14 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A"
+      },
+      "europe": {
+        "campaign": "A"
+      }
     }
   },
   {
@@ -63365,6 +65433,14 @@
         "rageBasic": 10,
         "rageAuto": 14,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
       }
     }
   },
@@ -63659,6 +65735,22 @@
         "rageAuto": 0,
         "rageHit": 0
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S+",
+        "immortal-codex": "S",
+        "gear-raid": "B",
+        "guild-boss": "B",
+        "guild-war": "S+"
+      },
+      "europe": {
+        "campaign": "S+",
+        "immortal-codex": "S",
+        "gear-raid": "B",
+        "guild-boss": "B",
+        "guild-war": "S+"
+      }
     }
   },
   {
@@ -63917,6 +66009,16 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S",
+        "gear-raid": "A"
+      },
+      "europe": {
+        "campaign": "S",
+        "gear-raid": "A"
+      }
     }
   },
   {
@@ -64171,6 +66273,14 @@
         "rageBasic": 8,
         "rageAuto": 14,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A"
+      },
+      "europe": {
+        "campaign": "A"
       }
     }
   },
@@ -64431,6 +66541,16 @@
         "rageAuto": 14,
         "rageHit": 6
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "A",
+        "guild-boss": "B"
+      },
+      "europe": {
+        "campaign": "A",
+        "guild-boss": "B"
+      }
     }
   },
   {
@@ -64689,6 +66809,14 @@
         "rageBasic": 4,
         "rageAuto": 14,
         "rageHit": 9
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "B"
+      },
+      "europe": {
+        "campaign": "B"
       }
     }
   },
@@ -65015,6 +67143,14 @@
         "rageAuto": 12,
         "rageHit": 7
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S+"
+      },
+      "europe": {
+        "campaign": "S+"
+      }
     }
   },
   {
@@ -65308,6 +67444,16 @@
         "rageAuto": 13,
         "rageHit": 5
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S",
+        "immortal-codex": "A"
+      },
+      "europe": {
+        "campaign": "S",
+        "immortal-codex": "A"
+      }
     }
   },
   {
@@ -65600,6 +67746,20 @@
         "rageBasic": 10,
         "rageAuto": 14,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S+",
+        "gear-raid": "A",
+        "guild-boss": "A",
+        "guild-war": "S"
+      },
+      "europe": {
+        "campaign": "S+",
+        "gear-raid": "A",
+        "guild-boss": "A",
+        "guild-war": "S"
       }
     }
   },
@@ -65915,6 +68075,16 @@
         "rageAuto": 13,
         "rageHit": 5
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S",
+        "guild-war": "S"
+      },
+      "europe": {
+        "campaign": "S",
+        "guild-war": "S"
+      }
     }
   },
   {
@@ -66197,6 +68367,14 @@
         "rageAuto": 12,
         "rageHit": 7
       }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S"
+      },
+      "europe": {
+        "campaign": "S"
+      }
     }
   },
   {
@@ -66455,6 +68633,14 @@
         "rageBasic": 10,
         "rageAuto": 14,
         "rageHit": 6
+      }
+    },
+    "tiers": {
+      "global": {
+        "campaign": "S"
+      },
+      "europe": {
+        "campaign": "S"
       }
     }
   },
