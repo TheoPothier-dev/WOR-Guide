@@ -101,6 +101,23 @@ const heroes = defineCollection({
       .default([]),
     awakenings: z.array(z.object({ level: z.number().int(), description: localized })).default([]),
     exclusiveArtifact: reference('artifacts').optional(),
+    // Stats du jeu (PV, ATQ, DÉF, Rés. M.) : par étoile, valeurs au premier et au dernier niveau ;
+    // par promotion (0 à 6), bonus ajouté ; plus les stats fixes.
+    stats: z
+      .object({
+        stars: z.array(
+          z.object({
+            star: z.number().int(),
+            levelFrom: z.number().int(),
+            levelTo: z.number().int(),
+            base: z.array(z.number()).length(4),
+            top: z.array(z.number()).length(4),
+          }),
+        ),
+        promotions: z.array(z.array(z.number()).length(4)),
+        fixed: z.record(z.string(), z.number()),
+      })
+      .optional(),
     // true tant que les données n'ont pas été vérifiées dans le jeu.
     example: z.boolean().default(false),
     builds: perServer(z.array(build)).default({}),

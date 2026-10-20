@@ -1,0 +1,119 @@
+{
+  "hp": {
+    "en": "HP",
+    "fr": "PV",
+    "de": "LP",
+    "es": "Vida",
+    "it": "HP",
+    "pt": "HP",
+    "ru": "ОЗ"
+  },
+  "atk": {
+    "en": "ATK",
+    "fr": "ATQ",
+    "de": "ANG",
+    "es": "Ataque",
+    "it": "ATK",
+    "pt": "ATQ",
+    "ru": "АТК"
+  },
+  "def": {
+    "en": "DEF",
+    "fr": "DÉF",
+    "de": "VERT",
+    "es": "Defensa",
+    "it": "DEF",
+    "pt": "DEF",
+    "ru": "ЗАЩ"
+  },
+  "mres": {
+    "en": "M. RES.",
+    "fr": "Rés. M.",
+    "de": "M. WID",
+    "es": "Res. mágica",
+    "it": "RES. M.",
+    "pt": "RES. M.",
+    "ru": "Сопр. магии"
+  },
+  "interval": {
+    "en": "ATK Interval",
+    "fr": "Intervalle d'ATQ",
+    "de": "ANG-Intervall",
+    "es": "Intervalo de ataque",
+    "it": "Intervallo di ATK",
+    "pt": "Intervalo de ATQ",
+    "ru": "Интервал АТК"
+  },
+  "block": {
+    "en": "Block",
+    "fr": "Parade",
+    "de": "Blocken",
+    "es": "Bloqueo",
+    "it": "Blocco",
+    "pt": "Bloquear",
+    "ru": "Блок"
+  },
+  "cost": {
+    "en": "Cost",
+    "fr": "Coût",
+    "de": "Kosten",
+    "es": "Coste",
+    "it": "Costo",
+    "pt": "Custo",
+    "ru": "Стоимость"
+  },
+  "redeploy": {
+    "en": "Redeployment Time",
+    "fr": "Temps de redéploiement",
+    "de": "Neueinsatzzeit",
+    "es": "Enfriamiento de reenvío",
+    "it": "Tempo di rischieramento",
+    "pt": "Tempo de Reimplantação",
+    "ru": "Время повторного размещения"
+  },
+  "critDmg": {
+    "en": "Crit. DMG",
+    "fr": "DGT crit.",
+    "de": "Krit. DMG",
+    "es": "Daño crítico",
+    "it": "DMG crit.",
+    "pt": "Dano Crítico",
+    "ru": "Крит. УРН"
+  },
+  "atkSpd": {
+    "en": "ATK Spd.",
+    "fr": "Vit. d'ATQ",
+    "de": "ANG-Geschw.",
+    "es": "Velocidad de ataque",
+    "it": "Vel. ATK",
+    "pt": "Vel. de ATQ",
+    "ru": "СА"
+  },
+  "rageBasic": {
+    "en": "Rage Regen (Basic ATK)",
+    "fr": "Régénération de rage (ATQ basique)",
+    "de": "Wut-Regen. (Grund-ANG)",
+    "es": "Regeneración de furia (ataque básico)",
+    "it": "Rigen. rabbia (ATK base)",
+    "pt": "Regeneração de Fúria (ATQ Básico)",
+    "ru": "Восст. ярости при нанесении базовых атак"
+  },
+  "rageAuto": {
+    "en": "Rage Regen (Auto)",
+    "fr": "Régén. de rage (automatique)",
+    "de": "Wut-Regen. (Auto)",
+    "es": "Regeneración de furia (autom.)",
+    "it": "Rigen. rabbia (automatica)",
+    "pt": "Regeneração de Fúria (Auto)",
+    "ru": "Автовосст. ярости"
+  },
+  "rageHit": {
+    "en": "Rage Regen (Attacked)",
+    "fr": "Régénération de rage (attaqué)",
+    "de": "Wut-Regen. (Angegriffen)",
+    "es": "Regeneración de furia (ataque recibido)",
+    "it": "Rigen. rabbia (sotto attacco)",
+    "pt": "Regeneração de Fúria (Atacado)",
+    "ru": "Восст. ярости при получении урона"
+  }
+}

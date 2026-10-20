@@ -4,6 +4,7 @@ import Base from '../../../layouts/Base.astro';
 import { localize, useTranslations, type Locale, type LocalizedText } from '../../../i18n/ui';
 import { locales } from '../../../i18n/locales.js';
 import { servers } from '../../../content.config';
+import statNames from '../../../data/stat-names.json';
 
 export async function getStaticPaths() {
   const heroes = await getCollection('heroes');
@@ -18,6 +19,21 @@ const name = localize(h.name, lang);
 const factions = await Promise.all(h.factions.map((f) => getEntry(f)));
 const modes = await getCollection('modes');
 const artifact = h.exclusiveArtifact ? await getEntry(h.exclusiveArtifact) : undefined;
+const stats = h.stats;
+const mainStats = ['hp', 'atk', 'def', 'mres'] as const;
+const statName = (k: string) => localize((statNames as Record<string, LocalizedText>)[k], lang);
+// Même calcul que le jeu : interpolation linéaire dans la plage de niveaux de l'étoile, plus le bonus de promotion.
+const maxStar = stats?.stars.at(-1);
+const statsAt = (s: NonNullable<typeof maxStar>, level: number, promotion: number[]) => {
+  const r = (level - s.levelFrom) / (s.levelTo - s.levelFrom);
+  return s.base.map((b, i) => Math.floor(b + (s.top[i] - b) * r) + promotion[i]);
+};
+const maxPromotion = stats ? stats.promotions.length - 1 : 0;
+const fixedValue = (k: string, v: number) => {
+  if (k === 'interval') return (v * 0.001).toLocaleString(lang) + ' s';
+  if (k === 'critDmg') return (v * 0.01).toLocaleString(lang) + ' %';
+  return v.toLocaleString(lang);
+};
 const pct = (n?: number) => (n === undefined ? '' : ` (${n.toLocaleString(lang)} % ${t('hero.usage')})`);
 ---
 <Base lang={lang} title={name}>
@@ -30,6 +46,34 @@ const pct = (n?: number) => (n === undefined ? '' : ` (${n.toLocaleString(lang)}
     {factions.length > 0 && <><dt>{t('hero.faction')}</dt><dd>{factions.map((f) => localize(f.data.name, lang)).join(', ')}</dd></>}
     {h.damageType && <><dt>{t('hero.damageType')}</dt><dd>{t(`damage.${h.damageType}`)}</dd></>}
   </dl>
+
+  {stats && maxStar && (
+    <>
+      <h2>{t('hero.stats')}</h2>
+      <form class="stats-form" data-stats={JSON.stringify(stats)}>
+        <label>{t('stats.star')}
+          <select name="star">{stats.stars.map((s) => <option value={s.star} selected={s === maxStar}>{s.star}</option>)}</select>
+        </label>
+        <label>{t('stats.level')}
+          <input name="level" type="number" min={Math.max(1, maxStar.levelFrom)} max={maxStar.levelTo} value={maxStar.levelTo} />
+        </label>
+        <label>{t('stats.promotion')}
+          <select name="promotion">{stats.promotions.map((_, i) => <option value={i} selected={i === maxPromotion}>{i}</option>)}</select>
+        </label>
+      </form>
+      <table class="stats">
+        <tbody>
+          {statsAt(maxStar, maxStar.levelTo, stats.promotions[maxPromotion]).map((v, i) => (
+            <tr><th>{statName(mainStats[i])}</th><td data-stat={i}>{v}</td></tr>
+          ))}
+          {Object.entries(stats.fixed).map(([k, v]) => (
+            <tr><th>{statName(k)}</th><td>{fixedValue(k, v)}</td></tr>
+          ))}
+        </tbody>
+      </table>
+      <p><small>{t('stats.note')}</small></p>
+    </>
+  )}
 
   {h.skills.length > 0 && (
     <>
@@ -106,3 +150,29 @@ const pct = (n?: number) => (n === undefined ? '' : ` (${n.toLocaleString(lang)}
     </table>
   ))}
 </Base>
+
+<script>
+  type Stats = {
+    stars: { star: number; levelFrom: number; levelTo: number; base: number[]; top: number[] }[];
+    promotions: number[][];
+  };
+  for (const form of document.querySelectorAll<HTMLFormElement>('.stats-form')) {
+    const stats: Stats = JSON.parse(form.dataset.stats!);
+    const table = form.nextElementSibling!;
+    const level = form.elements.namedItem('level') as HTMLInputElement;
+    const update = (starChanged: boolean) => {
+      const s = stats.stars.find((x) => x.star === Number((form.elements.namedItem('star') as HTMLSelectElement).value))!;
+      level.min = String(Math.max(1, s.levelFrom));
+      level.max = String(s.levelTo);
+      if (starChanged) level.value = String(s.levelTo);
+      const lvl = Math.min(s.levelTo, Math.max(Number(level.min), Number(level.value) || s.levelTo));
+      const promotion = stats.promotions[Number((form.elements.namedItem('promotion') as HTMLSelectElement).value)];
+      const r = (lvl - s.levelFrom) / (s.levelTo - s.levelFrom);
+      s.base.forEach((b, i) => {
+        table.querySelector(`[data-stat="${i}"]`)!.textContent = String(Math.floor(b + (s.top[i] - b) * r) + promotion[i]);
+      });
+    };
+    form.addEventListener('change', (e) => update((e.target as HTMLElement).getAttribute('name') === 'star'));
+    form.addEventListener('input', () => update(false));
+  }
+</script>
