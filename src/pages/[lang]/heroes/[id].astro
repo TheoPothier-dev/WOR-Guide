@@ -153,7 +153,7 @@ const pct = (n?: number) => (n === undefined ? '' : ` (${n.toLocaleString(lang)}
                     })}
                   </ul>
                   {b.notes && <p class="build-note">{localize(b.notes, lang)}</p>}
-                  {b.confidence && <p class="muted"><small>{t('build.draft')}</small></p>}
+                  {b.confidence && <p class="muted draft"><small>{t('build.draft')}</small></p>}
                 </div>
               ))}
             </div>
@@ -309,7 +309,8 @@ const pct = (n?: number) => (n === undefined ? '' : ` (${n.toLocaleString(lang)}
   .items a[href]:hover { border-color: var(--gold); }
   .items img, .items .ph { width: 48px; height: 48px; flex: none; border-radius: 6px; background: var(--bg); object-fit: contain; }
   .items small { display: block; color: var(--muted); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; }
-  .build-note { margin: 0; color: #d4d0c4; }
+  .build-note, .draft { margin: 0; color: #d4d0c4; }
+  .draft { color: var(--muted); }
 </style>
 
 <script>

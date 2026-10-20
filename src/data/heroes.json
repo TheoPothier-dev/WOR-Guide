@@ -3947,6 +3947,84 @@
         "campaign": "S",
         "immortal-codex": "A"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "medium",
+          "source": "https://watcher-of-realms.fandom.com/wiki/King_Harz/Builds",
+          "sets": [
+            {
+              "name": "Astral Guardian",
+              "id": "711800",
+              "pieces": 2
+            },
+            {
+              "name": "Tempered Will",
+              "id": "722600",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Bastion Ring",
+              "id": "204201"
+            }
+          ],
+          "notes": {
+            "en": "Tank: 3x HP% main stats, damage reduction matters more than extra HP; Guardian or Unshaken Will are fallbacks.",
+            "fr": "Tank : 3x PV % en stats principales, la réduction des dégâts compte plus que les PV ; Guardian ou Unshaken Will en remplacement."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "medium",
+          "source": "https://watcher-of-realms.fandom.com/wiki/King_Harz/Builds",
+          "sets": [
+            {
+              "name": "Astral Guardian",
+              "id": "711800",
+              "pieces": 2
+            },
+            {
+              "name": "Tempered Will",
+              "id": "722600",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Bastion Ring",
+              "id": "204201"
+            }
+          ],
+          "notes": {
+            "en": "Tank: 3x HP% main stats, damage reduction matters more than extra HP; Guardian or Unshaken Will are fallbacks.",
+            "fr": "Tank : 3x PV % en stats principales, la réduction des dégâts compte plus que les PV ; Guardian ou Unshaken Will en remplacement."
+          }
+        }
+      ]
     }
   },
   {
@@ -4456,6 +4534,84 @@
         "guild-boss": "S",
         "guild-war": "A"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Dolores/Builds ; https://fastidious.gg/heroes/dolores",
+          "sets": [
+            {
+              "name": "Drakefire",
+              "id": "711900",
+              "pieces": 2
+            },
+            {
+              "name": "Wings of Grace",
+              "id": "722900",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Golden Scarab",
+              "id": "210001"
+            }
+          ],
+          "notes": {
+            "en": "Pure ATK% buffer (ATK Speed does nothing for her); Warlord is the alternative 2-piece.",
+            "fr": "Soutien pur ATK % (la Vit. d'ATK ne lui sert à rien) ; Warlord en alternative pour le 2 pièces."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Dolores/Builds ; https://fastidious.gg/heroes/dolores",
+          "sets": [
+            {
+              "name": "Drakefire",
+              "id": "711900",
+              "pieces": 2
+            },
+            {
+              "name": "Wings of Grace",
+              "id": "722900",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Golden Scarab",
+              "id": "210001"
+            }
+          ],
+          "notes": {
+            "en": "Pure ATK% buffer (ATK Speed does nothing for her); Warlord is the alternative 2-piece.",
+            "fr": "Soutien pur ATK % (la Vit. d'ATK ne lui sert à rien) ; Warlord en alternative pour le 2 pièces."
+          }
+        }
+      ]
     }
   },
   {
@@ -6453,6 +6609,100 @@
         "gear-raid": "S",
         "arena": "S"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Hatssut/Builds ; https://fastidious.gg/heroes/hatssut",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Cataclysm",
+              "id": "722800",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Hand of Doom",
+              "id": "217001"
+            },
+            {
+              "name": "Aureate Visage",
+              "id": "209901"
+            },
+            {
+              "name": "Reaper's Emblem",
+              "id": "207401"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Soulbound Arcana if no exclusive gear.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Soulbound Arcana sans équipement exclusif."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Hatssut/Builds ; https://fastidious.gg/heroes/hatssut",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Cataclysm",
+              "id": "722800",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Hand of Doom",
+              "id": "217001"
+            },
+            {
+              "name": "Aureate Visage",
+              "id": "209901"
+            },
+            {
+              "name": "Reaper's Emblem",
+              "id": "207401"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Soulbound Arcana if no exclusive gear.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Soulbound Arcana sans équipement exclusif."
+          }
+        }
+      ]
     }
   },
   {
@@ -7803,6 +8053,84 @@
         "void-rift": "A",
         "gear-raid": "A"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Volka/Builds ; https://fastidious.gg/heroes/volka ; https://prospector.gg/hero/volka/",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Cataclysm",
+              "id": "722800",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Cruel Fate",
+              "id": "208501"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Warlord + Soulbound Arcana as the alternative.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Warlord + Soulbound Arcana en alternative."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Volka/Builds ; https://fastidious.gg/heroes/volka ; https://prospector.gg/hero/volka/",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Cataclysm",
+              "id": "722800",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Cruel Fate",
+              "id": "208501"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Warlord + Soulbound Arcana as the alternative.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Warlord + Soulbound Arcana en alternative."
+          }
+        }
+      ]
     }
   },
   {
@@ -10808,6 +11136,92 @@
         "immortal-codex": "A",
         "guild-boss": "A"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Torodor/Builds ; https://fastidious.gg/heroes/torodor ; https://prospector.gg/hero/torodor/",
+          "sets": [
+            {
+              "name": "Astral Guardian",
+              "id": "711800",
+              "pieces": 2
+            },
+            {
+              "name": "Tempered Will",
+              "id": "722600",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Bastion Ring",
+              "id": "204201"
+            },
+            {
+              "name": "Goddess' Grace",
+              "id": "205701"
+            }
+          ],
+          "notes": {
+            "en": "Tank: 3x HP% main stats, damage reduction matters more than extra HP; Guardian or Unshaken Will are fallbacks.",
+            "fr": "Tank : 3x PV % en stats principales, la réduction des dégâts compte plus que les PV ; Guardian ou Unshaken Will en remplacement."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Torodor/Builds ; https://fastidious.gg/heroes/torodor ; https://prospector.gg/hero/torodor/",
+          "sets": [
+            {
+              "name": "Astral Guardian",
+              "id": "711800",
+              "pieces": 2
+            },
+            {
+              "name": "Tempered Will",
+              "id": "722600",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Bastion Ring",
+              "id": "204201"
+            },
+            {
+              "name": "Goddess' Grace",
+              "id": "205701"
+            }
+          ],
+          "notes": {
+            "en": "Tank: 3x HP% main stats, damage reduction matters more than extra HP; Guardian or Unshaken Will are fallbacks.",
+            "fr": "Tank : 3x PV % en stats principales, la réduction des dégâts compte plus que les PV ; Guardian ou Unshaken Will en remplacement."
+          }
+        }
+      ]
     }
   },
   {
@@ -12088,6 +12502,92 @@
         "guild-boss": "S",
         "guild-war": "A"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Elowyn/Builds ; https://fastidious.gg/heroes/elowyn",
+          "sets": [
+            {
+              "name": "Warlord",
+              "id": "711300",
+              "pieces": 2
+            },
+            {
+              "name": "Wings of Grace",
+              "id": "722900",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Tya's Balm",
+              "id": "204401"
+            },
+            {
+              "name": "Golden Scarab",
+              "id": "210001"
+            }
+          ],
+          "notes": {
+            "en": "ATK% and ATK Speed, then Healing Effect and Rage Regen; Light's Grace for more survivability.",
+            "fr": "ATK % et Vit. d'ATK, puis Effet de soin et Régén. de rage ; Light's Grace pour plus de survie."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Elowyn/Builds ; https://fastidious.gg/heroes/elowyn",
+          "sets": [
+            {
+              "name": "Warlord",
+              "id": "711300",
+              "pieces": 2
+            },
+            {
+              "name": "Wings of Grace",
+              "id": "722900",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Tya's Balm",
+              "id": "204401"
+            },
+            {
+              "name": "Golden Scarab",
+              "id": "210001"
+            }
+          ],
+          "notes": {
+            "en": "ATK% and ATK Speed, then Healing Effect and Rage Regen; Light's Grace for more survivability.",
+            "fr": "ATK % et Vit. d'ATK, puis Effet de soin et Régén. de rage ; Light's Grace pour plus de survie."
+          }
+        }
+      ]
     }
   },
   {
@@ -14669,6 +15169,84 @@
         "gear-raid": "B",
         "guild-boss": "C"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "medium",
+          "source": "https://fastidious.gg/heroes/hollow ; https://watcher-of-realms.fandom.com/wiki/Hollow/Builds",
+          "sets": [
+            {
+              "name": "Light's Grace",
+              "id": "711600",
+              "pieces": 2
+            },
+            {
+              "name": "Wings of Grace",
+              "id": "722900",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Golden Scarab",
+              "id": "210001"
+            }
+          ],
+          "notes": {
+            "en": "ATK% and ATK Speed first, then Rage Regen; the wiki uses Whirlwind + Invigoration before end game.",
+            "fr": "ATK % et Vit. d'ATK d'abord, puis Régén. de rage ; le wiki conseille Whirlwind + Invigoration avant la fin de jeu."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "medium",
+          "source": "https://fastidious.gg/heroes/hollow ; https://watcher-of-realms.fandom.com/wiki/Hollow/Builds",
+          "sets": [
+            {
+              "name": "Light's Grace",
+              "id": "711600",
+              "pieces": 2
+            },
+            {
+              "name": "Wings of Grace",
+              "id": "722900",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Golden Scarab",
+              "id": "210001"
+            }
+          ],
+          "notes": {
+            "en": "ATK% and ATK Speed first, then Rage Regen; the wiki uses Whirlwind + Invigoration before end game.",
+            "fr": "ATK % et Vit. d'ATK d'abord, puis Régén. de rage ; le wiki conseille Whirlwind + Invigoration avant la fin de jeu."
+          }
+        }
+      ]
     }
   },
   {
@@ -19715,6 +20293,84 @@
         "campaign": "S",
         "guild-boss": "S"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Solcadens/Builds ; https://fastidious.gg/heroes/solcadens",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Cataclysm",
+              "id": "722800",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Tear of Twilight",
+              "id": "205001"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Solcadens/Builds ; https://fastidious.gg/heroes/solcadens",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Cataclysm",
+              "id": "722800",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Tear of Twilight",
+              "id": "205001"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires."
+          }
+        }
+      ]
     }
   },
   {
@@ -26042,6 +26698,92 @@
         "guild-boss": "S",
         "guild-war": "S"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Laya/Builds ; https://fastidious.gg/heroes/laya",
+          "sets": [
+            {
+              "name": "Light's Grace",
+              "id": "711600",
+              "pieces": 2
+            },
+            {
+              "name": "Wings of Grace",
+              "id": "722900",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Euphonic Coronet",
+              "id": "208701"
+            },
+            {
+              "name": "Tya's Balm",
+              "id": "204401"
+            }
+          ],
+          "notes": {
+            "en": "Aim for 90-150 Healing Effect with ATK% and ATK Speed main stats.",
+            "fr": "Viser 90 à 150 d'Effet de soin avec ATK % et Vit. d'ATK en stats principales."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Laya/Builds ; https://fastidious.gg/heroes/laya",
+          "sets": [
+            {
+              "name": "Light's Grace",
+              "id": "711600",
+              "pieces": 2
+            },
+            {
+              "name": "Wings of Grace",
+              "id": "722900",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Euphonic Coronet",
+              "id": "208701"
+            },
+            {
+              "name": "Tya's Balm",
+              "id": "204401"
+            }
+          ],
+          "notes": {
+            "en": "Aim for 90-150 Healing Effect with ATK% and ATK Speed main stats.",
+            "fr": "Viser 90 à 150 d'Effet de soin avec ATK % et Vit. d'ATK en stats principales."
+          }
+        }
+      ]
     }
   },
   {
@@ -26934,6 +27676,100 @@
         "gear-raid": "A",
         "guild-boss": "A"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Ymiret/Builds ; https://prospector.gg/hero/ymiret/ ; https://fastidious.gg/heroes/ymiret",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Cataclysm",
+              "id": "722800",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Hate's Contagion",
+              "id": "217101"
+            },
+            {
+              "name": "Eye of Sin",
+              "id": "205301"
+            },
+            {
+              "name": "Realm Tear",
+              "id": "207001"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Cataclysm beats Soulbound Arcana thanks to his faction exclusives.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Cataclysm dépasse Soulbound Arcana grâce à ses exclusifs de faction."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Ymiret/Builds ; https://prospector.gg/hero/ymiret/ ; https://fastidious.gg/heroes/ymiret",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Cataclysm",
+              "id": "722800",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Hate's Contagion",
+              "id": "217101"
+            },
+            {
+              "name": "Eye of Sin",
+              "id": "205301"
+            },
+            {
+              "name": "Realm Tear",
+              "id": "207001"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Cataclysm beats Soulbound Arcana thanks to his faction exclusives.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Cataclysm dépasse Soulbound Arcana grâce à ses exclusifs de faction."
+          }
+        }
+      ]
     }
   },
   {
@@ -27510,6 +28346,92 @@
         "guild-boss": "S",
         "guild-war": "S"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Cyrus/Builds ; https://fastidious.gg/heroes/cyrus",
+          "sets": [
+            {
+              "name": "Astral Guardian",
+              "id": "711800",
+              "pieces": 2
+            },
+            {
+              "name": "Tempered Will",
+              "id": "722600",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Bastion Ring",
+              "id": "204201"
+            },
+            {
+              "name": "Regal Crest",
+              "id": "203701"
+            }
+          ],
+          "notes": {
+            "en": "Tank: 3x HP% main stats, damage reduction matters more than extra HP; Guardian or Unshaken Will are fallbacks.",
+            "fr": "Tank : 3x PV % en stats principales, la réduction des dégâts compte plus que les PV ; Guardian ou Unshaken Will en remplacement."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Cyrus/Builds ; https://fastidious.gg/heroes/cyrus",
+          "sets": [
+            {
+              "name": "Astral Guardian",
+              "id": "711800",
+              "pieces": 2
+            },
+            {
+              "name": "Tempered Will",
+              "id": "722600",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Bastion Ring",
+              "id": "204201"
+            },
+            {
+              "name": "Regal Crest",
+              "id": "203701"
+            }
+          ],
+          "notes": {
+            "en": "Tank: 3x HP% main stats, damage reduction matters more than extra HP; Guardian or Unshaken Will are fallbacks.",
+            "fr": "Tank : 3x PV % en stats principales, la réduction des dégâts compte plus que les PV ; Guardian ou Unshaken Will en remplacement."
+          }
+        }
+      ]
     }
   },
   {
@@ -28363,6 +29285,92 @@
         "arena": "S",
         "guild-boss": "S+"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Diaochan/Builds ; https://fastidious.gg/heroes/diaochan",
+          "sets": [
+            {
+              "name": "Warlord",
+              "id": "711300",
+              "pieces": 2
+            },
+            {
+              "name": "Wings of Grace",
+              "id": "722900",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Phoenix Feather Fan",
+              "id": "213601"
+            },
+            {
+              "name": "Golden Scarab",
+              "id": "210001"
+            }
+          ],
+          "notes": {
+            "en": "ATK-scaling healer: 3x ATK% main stats, then HP% for survival.",
+            "fr": "Soigneuse basée sur l'ATK : 3x ATK % en principal, puis PV % pour survivre."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Diaochan/Builds ; https://fastidious.gg/heroes/diaochan",
+          "sets": [
+            {
+              "name": "Warlord",
+              "id": "711300",
+              "pieces": 2
+            },
+            {
+              "name": "Wings of Grace",
+              "id": "722900",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Phoenix Feather Fan",
+              "id": "213601"
+            },
+            {
+              "name": "Golden Scarab",
+              "id": "210001"
+            }
+          ],
+          "notes": {
+            "en": "ATK-scaling healer: 3x ATK% main stats, then HP% for survival.",
+            "fr": "Soigneuse basée sur l'ATK : 3x ATK % en principal, puis PV % pour survivre."
+          }
+        }
+      ]
     }
   },
   {
@@ -28656,6 +29664,92 @@
         "void-rift": "A",
         "gear-raid": "S"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Silas/Builds ; https://fastidious.gg/heroes/silas",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Infernal Roar",
+              "id": "722400",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Eye of Penitence",
+              "id": "210701"
+            },
+            {
+              "name": "Spirit Siphon",
+              "id": "203801"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Hell's Lament is close for pure Ultimate damage.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Hell's Lament est proche pour les dégâts d'ultime."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Silas/Builds ; https://fastidious.gg/heroes/silas",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Infernal Roar",
+              "id": "722400",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Eye of Penitence",
+              "id": "210701"
+            },
+            {
+              "name": "Spirit Siphon",
+              "id": "203801"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Hell's Lament is close for pure Ultimate damage.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Hell's Lament est proche pour les dégâts d'ultime."
+          }
+        }
+      ]
     }
   },
   {
@@ -30856,6 +31950,84 @@
         "arena": "A",
         "guild-boss": "B"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Vierna/Builds ; https://fastidious.gg/heroes/vierna",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Cataclysm",
+              "id": "722800",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Crown of Souls",
+              "id": "211101"
+            }
+          ],
+          "notes": {
+            "en": "3x ATK%, Crit Rate and Crit DMG; ATK Speed has no effect on her.",
+            "fr": "3x ATK %, Taux et Dégâts crit. ; la Vit. d'ATK n'a aucun effet sur elle."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Vierna/Builds ; https://fastidious.gg/heroes/vierna",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Cataclysm",
+              "id": "722800",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Crown of Souls",
+              "id": "211101"
+            }
+          ],
+          "notes": {
+            "en": "3x ATK%, Crit Rate and Crit DMG; ATK Speed has no effect on her.",
+            "fr": "3x ATK %, Taux et Dégâts crit. ; la Vit. d'ATK n'a aucun effet sur elle."
+          }
+        }
+      ]
     }
   },
   {
@@ -33799,6 +34971,92 @@
       "europe": {
         "campaign": "S"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://fastidious.gg/heroes/carnelian ; https://watcher-of-realms.fandom.com/wiki/Carnelian/Builds",
+          "sets": [
+            {
+              "name": "Warlord",
+              "id": "711300",
+              "pieces": 2
+            },
+            {
+              "name": "Wings of Grace",
+              "id": "722900",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Golden Scarab",
+              "id": "210001"
+            },
+            {
+              "name": "Tya's Balm",
+              "id": "204401"
+            }
+          ],
+          "notes": {
+            "en": "ATK Speed first since her revive frequency depends on it, then Rage Regen and ATK%.",
+            "fr": "Vit. d'ATK en priorité car la fréquence de ses résurrections en dépend, puis Régén. de rage et ATK %."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://fastidious.gg/heroes/carnelian ; https://watcher-of-realms.fandom.com/wiki/Carnelian/Builds",
+          "sets": [
+            {
+              "name": "Warlord",
+              "id": "711300",
+              "pieces": 2
+            },
+            {
+              "name": "Wings of Grace",
+              "id": "722900",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Golden Scarab",
+              "id": "210001"
+            },
+            {
+              "name": "Tya's Balm",
+              "id": "204401"
+            }
+          ],
+          "notes": {
+            "en": "ATK Speed first since her revive frequency depends on it, then Rage Regen and ATK%.",
+            "fr": "Vit. d'ATK en priorité car la fréquence de ses résurrections en dépend, puis Régén. de rage et ATK %."
+          }
+        }
+      ]
     }
   },
   {
@@ -35736,6 +36994,100 @@
         "guild-boss": "S+",
         "guild-war": "A"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Eirlys/Builds ; https://fastidious.gg/heroes/eirlys",
+          "sets": [
+            {
+              "name": "Warlord",
+              "id": "711300",
+              "pieces": 2
+            },
+            {
+              "name": "Wings of Grace",
+              "id": "722900",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "The North's Glory",
+              "id": "202901"
+            },
+            {
+              "name": "Golden Scarab",
+              "id": "210001"
+            },
+            {
+              "name": "Tya's Balm",
+              "id": "204401"
+            }
+          ],
+          "notes": {
+            "en": "She overheals, so The North's Glory turns excess healing into shields; 90-150 Healing Effect.",
+            "fr": "Elle soigne en excès, donc The North's Glory convertit le surplus en boucliers ; 90 à 150 d'Effet de soin."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Eirlys/Builds ; https://fastidious.gg/heroes/eirlys",
+          "sets": [
+            {
+              "name": "Warlord",
+              "id": "711300",
+              "pieces": 2
+            },
+            {
+              "name": "Wings of Grace",
+              "id": "722900",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "The North's Glory",
+              "id": "202901"
+            },
+            {
+              "name": "Golden Scarab",
+              "id": "210001"
+            },
+            {
+              "name": "Tya's Balm",
+              "id": "204401"
+            }
+          ],
+          "notes": {
+            "en": "She overheals, so The North's Glory turns excess healing into shields; 90-150 Healing Effect.",
+            "fr": "Elle soigne en excès, donc The North's Glory convertit le surplus en boucliers ; 90 à 150 d'Effet de soin."
+          }
+        }
+      ]
     }
   },
   {
@@ -36028,6 +37380,92 @@
         "campaign": "S",
         "guild-boss": "S"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Ardea/Builds ; https://fastidious.gg/heroes/ardea",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Soulbound Arcana",
+              "id": "722300",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Shattered Hilt",
+              "id": "213901"
+            },
+            {
+              "name": "Realm Tear",
+              "id": "207001"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Her multi-hits are not AoE, so AoE artifacts do not work.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Ses attaques multiples ne sont pas des dégâts de zone, donc les artefacts de zone ne marchent pas."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Ardea/Builds ; https://fastidious.gg/heroes/ardea",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Soulbound Arcana",
+              "id": "722300",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Shattered Hilt",
+              "id": "213901"
+            },
+            {
+              "name": "Realm Tear",
+              "id": "207001"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Her multi-hits are not AoE, so AoE artifacts do not work.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Ses attaques multiples ne sont pas des dégâts de zone, donc les artefacts de zone ne marchent pas."
+          }
+        }
+      ]
     }
   },
   {
@@ -37398,6 +38836,92 @@
         "gear-raid": "A",
         "guild-war": "S"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Brokkir/Builds ; https://fastidious.gg/heroes/brokkir",
+          "sets": [
+            {
+              "name": "Astral Guardian",
+              "id": "711800",
+              "pieces": 2
+            },
+            {
+              "name": "Tempered Will",
+              "id": "722600",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Bastion Ring",
+              "id": "204201"
+            },
+            {
+              "name": "Stoic Winter",
+              "id": "208001"
+            }
+          ],
+          "notes": {
+            "en": "Tank: 3x HP% main stats, damage reduction matters more than extra HP; Guardian or Unshaken Will are fallbacks.",
+            "fr": "Tank : 3x PV % en stats principales, la réduction des dégâts compte plus que les PV ; Guardian ou Unshaken Will en remplacement."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Brokkir/Builds ; https://fastidious.gg/heroes/brokkir",
+          "sets": [
+            {
+              "name": "Astral Guardian",
+              "id": "711800",
+              "pieces": 2
+            },
+            {
+              "name": "Tempered Will",
+              "id": "722600",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Bastion Ring",
+              "id": "204201"
+            },
+            {
+              "name": "Stoic Winter",
+              "id": "208001"
+            }
+          ],
+          "notes": {
+            "en": "Tank: 3x HP% main stats, damage reduction matters more than extra HP; Guardian or Unshaken Will are fallbacks.",
+            "fr": "Tank : 3x PV % en stats principales, la réduction des dégâts compte plus que les PV ; Guardian ou Unshaken Will en remplacement."
+          }
+        }
+      ]
     }
   },
   {
@@ -40247,6 +41771,92 @@
         "campaign": "S",
         "guild-boss": "S"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "medium",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Valderon/Builds ; https://fastidious.gg/heroes/valderon",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Cataclysm",
+              "id": "722800",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Chaotic Doomblade",
+              "id": "214301"
+            },
+            {
+              "name": "Key of the Forsaken",
+              "id": "212601"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Key of the Forsaken in Guild War; Fastidious prefers Warlord + Infernal Roar.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Key of the Forsaken en Guerre de guilde ; Fastidious préfère Warlord + Infernal Roar."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "medium",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Valderon/Builds ; https://fastidious.gg/heroes/valderon",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Cataclysm",
+              "id": "722800",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Chaotic Doomblade",
+              "id": "214301"
+            },
+            {
+              "name": "Key of the Forsaken",
+              "id": "212601"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Key of the Forsaken in Guild War; Fastidious prefers Warlord + Infernal Roar.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Key of the Forsaken en Guerre de guilde ; Fastidious préfère Warlord + Infernal Roar."
+          }
+        }
+      ]
     }
   },
   {
@@ -40532,6 +42142,84 @@
         "guild-boss": "S+",
         "guild-war": "S"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "medium",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Nastya/Builds ; https://fastidious.gg/heroes/nastya",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Hell's Lament",
+              "id": "722500",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Tear of Twilight",
+              "id": "205001"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Hell's Lament is her exclusive ring; Cataclysm or Soulbound Arcana as backups.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Hell's Lament est son anneau exclusif ; Cataclysm ou Soulbound Arcana en secours."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "medium",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Nastya/Builds ; https://fastidious.gg/heroes/nastya",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Hell's Lament",
+              "id": "722500",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Tear of Twilight",
+              "id": "205001"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Hell's Lament is her exclusive ring; Cataclysm or Soulbound Arcana as backups.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Hell's Lament est son anneau exclusif ; Cataclysm ou Soulbound Arcana en secours."
+          }
+        }
+      ]
     }
   },
   {
@@ -41112,6 +42800,92 @@
         "guild-boss": "C",
         "guild-war": "S+"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Valara/Builds ; https://fastidious.gg/heroes/valara",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Cataclysm",
+              "id": "722800",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Dawnbreak",
+              "id": "215101"
+            },
+            {
+              "name": "Helm of Helios",
+              "id": "214801"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Cataclysm helps her build Rage faster.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Cataclysm l'aide à générer sa rage plus vite."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Valara/Builds ; https://fastidious.gg/heroes/valara",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Cataclysm",
+              "id": "722800",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Dawnbreak",
+              "id": "215101"
+            },
+            {
+              "name": "Helm of Helios",
+              "id": "214801"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Cataclysm helps her build Rage faster.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Cataclysm l'aide à générer sa rage plus vite."
+          }
+        }
+      ]
     }
   },
   {
@@ -41414,6 +43188,92 @@
         "campaign": "S",
         "gear-raid": "S"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Rivenhald/Builds ; https://fastidious.gg/heroes/rivenhald",
+          "sets": [
+            {
+              "name": "Drakefire",
+              "id": "711900",
+              "pieces": 2
+            },
+            {
+              "name": "Wings of Grace",
+              "id": "722900",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Frosthorn Staff",
+              "id": "218101"
+            },
+            {
+              "name": "Dwarven Strider",
+              "id": "214701"
+            }
+          ],
+          "notes": {
+            "en": "Support build: 3x ATK%, then ATK Speed and Rage Regen.",
+            "fr": "Build soutien : 3x ATK %, puis Vit. d'ATK et Régén. de rage."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Rivenhald/Builds ; https://fastidious.gg/heroes/rivenhald",
+          "sets": [
+            {
+              "name": "Drakefire",
+              "id": "711900",
+              "pieces": 2
+            },
+            {
+              "name": "Wings of Grace",
+              "id": "722900",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Frosthorn Staff",
+              "id": "218101"
+            },
+            {
+              "name": "Dwarven Strider",
+              "id": "214701"
+            }
+          ],
+          "notes": {
+            "en": "Support build: 3x ATK%, then ATK Speed and Rage Regen.",
+            "fr": "Build soutien : 3x ATK %, puis Vit. d'ATK et Régén. de rage."
+          }
+        }
+      ]
     }
   },
   {
@@ -41686,6 +43546,92 @@
         "void-rift": "S",
         "arena": "S"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Malvira/Builds ; https://fastidious.gg/heroes/malvira",
+          "sets": [
+            {
+              "name": "Astral Guardian",
+              "id": "711800",
+              "pieces": 2
+            },
+            {
+              "name": "Tempered Will",
+              "id": "722600",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Wall of Lament",
+              "id": "220001"
+            },
+            {
+              "name": "Bastion Ring",
+              "id": "204201"
+            }
+          ],
+          "notes": {
+            "en": "Tank build with 3x HP%; a DPS variant uses Goldmane + Undying Savage instead.",
+            "fr": "Build tank en 3x PV % ; une variante DPS utilise plutôt Goldmane + Undying Savage."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Malvira/Builds ; https://fastidious.gg/heroes/malvira",
+          "sets": [
+            {
+              "name": "Astral Guardian",
+              "id": "711800",
+              "pieces": 2
+            },
+            {
+              "name": "Tempered Will",
+              "id": "722600",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Wall of Lament",
+              "id": "220001"
+            },
+            {
+              "name": "Bastion Ring",
+              "id": "204201"
+            }
+          ],
+          "notes": {
+            "en": "Tank build with 3x HP%; a DPS variant uses Goldmane + Undying Savage instead.",
+            "fr": "Build tank en 3x PV % ; une variante DPS utilise plutôt Goldmane + Undying Savage."
+          }
+        }
+      ]
     }
   },
   {
@@ -42238,6 +44184,92 @@
         "halls-of-illusion": "S",
         "guild-boss": "S"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Numera/Builds ; https://fastidious.gg/heroes/numera",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Cataclysm",
+              "id": "722800",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Shattered Hilt",
+              "id": "213901"
+            },
+            {
+              "name": "Realm Tear",
+              "id": "207001"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Cataclysm lets her trigger her Ultimate more often.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Cataclysm lui permet de lancer son ultime plus souvent."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Numera/Builds ; https://fastidious.gg/heroes/numera",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Cataclysm",
+              "id": "722800",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Shattered Hilt",
+              "id": "213901"
+            },
+            {
+              "name": "Realm Tear",
+              "id": "207001"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Cataclysm lets her trigger her Ultimate more often.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Cataclysm lui permet de lancer son ultime plus souvent."
+          }
+        }
+      ]
     }
   },
   {
@@ -42534,6 +44566,100 @@
         "gear-raid": "S",
         "arena": "S"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "medium",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Lady_Alexandra/Builds ; https://fastidious.gg/heroes/lady-alexandra",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Greyfang",
+              "id": "723000",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Divine Justice",
+              "id": "213101"
+            },
+            {
+              "name": "Hand of Doom",
+              "id": "217001"
+            },
+            {
+              "name": "Blightcaller's Claw",
+              "id": "214001"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Infernal Roar if she cannot kill often; Fastidious prefers Cataclysm.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Infernal Roar si elle ne tue pas assez souvent ; Fastidious préfère Cataclysm."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "medium",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Lady_Alexandra/Builds ; https://fastidious.gg/heroes/lady-alexandra",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Greyfang",
+              "id": "723000",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Divine Justice",
+              "id": "213101"
+            },
+            {
+              "name": "Hand of Doom",
+              "id": "217001"
+            },
+            {
+              "name": "Blightcaller's Claw",
+              "id": "214001"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Infernal Roar if she cannot kill often; Fastidious prefers Cataclysm.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Infernal Roar si elle ne tue pas assez souvent ; Fastidious préfère Cataclysm."
+          }
+        }
+      ]
     }
   },
   {
@@ -43090,6 +45216,92 @@
       "europe": {
         "campaign": "S"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Khadgrim/Builds ; https://fastidious.gg/heroes/khadgrim ; https://prospector.gg/hero/khadgrim/",
+          "sets": [
+            {
+              "name": "Astral Guardian",
+              "id": "711800",
+              "pieces": 2
+            },
+            {
+              "name": "Tempered Will",
+              "id": "722600",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Heart of the Mountain",
+              "id": "216701"
+            },
+            {
+              "name": "Bastion Ring",
+              "id": "204201"
+            }
+          ],
+          "notes": {
+            "en": "Tank: 3x HP% with his exclusive artifact; Bastion Ring as the alternative.",
+            "fr": "Tank : 3x PV % avec son artefact exclusif ; Bastion Ring en alternative."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Khadgrim/Builds ; https://fastidious.gg/heroes/khadgrim ; https://prospector.gg/hero/khadgrim/",
+          "sets": [
+            {
+              "name": "Astral Guardian",
+              "id": "711800",
+              "pieces": 2
+            },
+            {
+              "name": "Tempered Will",
+              "id": "722600",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Heart of the Mountain",
+              "id": "216701"
+            },
+            {
+              "name": "Bastion Ring",
+              "id": "204201"
+            }
+          ],
+          "notes": {
+            "en": "Tank: 3x HP% with his exclusive artifact; Bastion Ring as the alternative.",
+            "fr": "Tank : 3x PV % avec son artefact exclusif ; Bastion Ring en alternative."
+          }
+        }
+      ]
     }
   },
   {
@@ -43622,6 +45834,84 @@
         "guild-boss": "S",
         "guild-war": "S"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Beelzebub/Builds ; https://fastidious.gg/heroes/beelzebub",
+          "sets": [
+            {
+              "name": "Warlord",
+              "id": "711300",
+              "pieces": 2
+            },
+            {
+              "name": "Wings of Grace",
+              "id": "722900",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Carrion's Call",
+              "id": "213801"
+            }
+          ],
+          "notes": {
+            "en": "Support build with 3x ATK%; a hybrid DPS version swaps Wings of Grace for Cataclysm.",
+            "fr": "Build soutien en 3x ATK % ; une version hybride DPS remplace Wings of Grace par Cataclysm."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Beelzebub/Builds ; https://fastidious.gg/heroes/beelzebub",
+          "sets": [
+            {
+              "name": "Warlord",
+              "id": "711300",
+              "pieces": 2
+            },
+            {
+              "name": "Wings of Grace",
+              "id": "722900",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Carrion's Call",
+              "id": "213801"
+            }
+          ],
+          "notes": {
+            "en": "Support build with 3x ATK%; a hybrid DPS version swaps Wings of Grace for Cataclysm.",
+            "fr": "Build soutien en 3x ATK % ; une version hybride DPS remplace Wings of Grace par Cataclysm."
+          }
+        }
+      ]
     }
   },
   {
@@ -46352,6 +48642,100 @@
         "arena": "S",
         "guild-war": "S"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "medium",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Iovar/Builds ; https://fastidious.gg/heroes/iovar",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Hell's Lament",
+              "id": "722500",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Sentinel's Eye",
+              "id": "214401"
+            },
+            {
+              "name": "Blightcaller's Claw",
+              "id": "214001"
+            },
+            {
+              "name": "Spirit Siphon",
+              "id": "203801"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. His fast Ultimates keep Hell's Lament up; Cataclysm is second choice.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Ses ultimes rapides maintiennent Hell's Lament actif ; Cataclysm en second choix."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "medium",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Iovar/Builds ; https://fastidious.gg/heroes/iovar",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Hell's Lament",
+              "id": "722500",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Sentinel's Eye",
+              "id": "214401"
+            },
+            {
+              "name": "Blightcaller's Claw",
+              "id": "214001"
+            },
+            {
+              "name": "Spirit Siphon",
+              "id": "203801"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. His fast Ultimates keep Hell's Lament up; Cataclysm is second choice.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Ses ultimes rapides maintiennent Hell's Lament actif ; Cataclysm en second choix."
+          }
+        }
+      ]
     }
   },
   {
@@ -48526,6 +50910,92 @@
         "gear-raid": "A",
         "guild-boss": "S+"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Kigiri/Builds ; https://fastidious.gg/heroes/kigiri",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Cataclysm",
+              "id": "722800",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Demonic Relic",
+              "id": "213201"
+            },
+            {
+              "name": "Realm Tear",
+              "id": "207001"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Kigiri/Builds ; https://fastidious.gg/heroes/kigiri",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Cataclysm",
+              "id": "722800",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Demonic Relic",
+              "id": "213201"
+            },
+            {
+              "name": "Realm Tear",
+              "id": "207001"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires."
+          }
+        }
+      ]
     }
   },
   {
@@ -48847,6 +51317,92 @@
         "guild-boss": "B",
         "guild-war": "S+"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "medium",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Oren/Builds ; https://fastidious.gg/heroes/oren",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Hell's Lament",
+              "id": "722500",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Hate's Contagion",
+              "id": "217101"
+            },
+            {
+              "name": "Eye of Sin",
+              "id": "205301"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. From A3 the wiki swaps Hell's Lament for Cataclysm.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. À partir de l'Éveil 3, le wiki remplace Hell's Lament par Cataclysm."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "medium",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Oren/Builds ; https://fastidious.gg/heroes/oren",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Hell's Lament",
+              "id": "722500",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Hate's Contagion",
+              "id": "217101"
+            },
+            {
+              "name": "Eye of Sin",
+              "id": "205301"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. From A3 the wiki swaps Hell's Lament for Cataclysm.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. À partir de l'Éveil 3, le wiki remplace Hell's Lament par Cataclysm."
+          }
+        }
+      ]
     }
   },
   {
@@ -49161,6 +51717,84 @@
         "guild-boss": "S+",
         "guild-war": "S"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "medium",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Ingrid/Builds ; https://fastidious.gg/heroes/ingrid",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Cataclysm",
+              "id": "722800",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Tear of Twilight",
+              "id": "205001"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Cataclysm with a Watchguard or Arbiter ring; Infernal Roar from A3.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Cataclysm avec un anneau Watchguard ou Arbiter ; Infernal Roar dès l'Éveil 3."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "medium",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Ingrid/Builds ; https://fastidious.gg/heroes/ingrid",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Cataclysm",
+              "id": "722800",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Tear of Twilight",
+              "id": "205001"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Cataclysm with a Watchguard or Arbiter ring; Infernal Roar from A3.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Cataclysm avec un anneau Watchguard ou Arbiter ; Infernal Roar dès l'Éveil 3."
+          }
+        }
+      ]
     }
   },
   {
@@ -52746,6 +55380,84 @@
         "guild-boss": "S",
         "guild-war": "A"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Praetus/Builds ; https://fastidious.gg/heroes/praetus",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Cataclysm",
+              "id": "722800",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Tear of Twilight",
+              "id": "205001"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Hell's Lament if he has a constant Rage Regen buff.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Hell's Lament s'il a un bonus de Régén. de rage constant."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Praetus/Builds ; https://fastidious.gg/heroes/praetus",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Cataclysm",
+              "id": "722800",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Tear of Twilight",
+              "id": "205001"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Hell's Lament if he has a constant Rage Regen buff.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Hell's Lament s'il a un bonus de Régén. de rage constant."
+          }
+        }
+      ]
     }
   },
   {
@@ -53064,6 +55776,100 @@
         "guild-boss": "A",
         "guild-war": "B"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Erlang_Shen/Builds ; https://fastidious.gg/heroes/erlangshen",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Cataclysm",
+              "id": "722800",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Triple-Bladed Glaive",
+              "id": "215701"
+            },
+            {
+              "name": "Aureate Pledge",
+              "id": "217201"
+            },
+            {
+              "name": "Dragonblood Goblet",
+              "id": "214101"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. His exclusive artifact beats any Mythic one even at low level.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Son artefact exclusif surpasse tout artefact mythique même à bas niveau."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Erlang_Shen/Builds ; https://fastidious.gg/heroes/erlangshen",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Cataclysm",
+              "id": "722800",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Triple-Bladed Glaive",
+              "id": "215701"
+            },
+            {
+              "name": "Aureate Pledge",
+              "id": "217201"
+            },
+            {
+              "name": "Dragonblood Goblet",
+              "id": "214101"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. His exclusive artifact beats any Mythic one even at low level.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Son artefact exclusif surpasse tout artefact mythique même à bas niveau."
+          }
+        }
+      ]
     }
   },
   {
@@ -53625,6 +56431,92 @@
         "gear-raid": "S",
         "guild-boss": "A"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Nerissa/Builds ; https://fastidious.gg/heroes/nerissa",
+          "sets": [
+            {
+              "name": "Warlord",
+              "id": "711300",
+              "pieces": 2
+            },
+            {
+              "name": "Wings of Grace",
+              "id": "722900",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Tya's Balm",
+              "id": "204401"
+            },
+            {
+              "name": "Golden Scarab",
+              "id": "210001"
+            }
+          ],
+          "notes": {
+            "en": "ATK% and ATK Speed main stats, 90-150 Healing Effect; Light's Grace is the alternative.",
+            "fr": "ATK % et Vit. d'ATK en principal, 90 à 150 d'Effet de soin ; Light's Grace en alternative."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Nerissa/Builds ; https://fastidious.gg/heroes/nerissa",
+          "sets": [
+            {
+              "name": "Warlord",
+              "id": "711300",
+              "pieces": 2
+            },
+            {
+              "name": "Wings of Grace",
+              "id": "722900",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Tya's Balm",
+              "id": "204401"
+            },
+            {
+              "name": "Golden Scarab",
+              "id": "210001"
+            }
+          ],
+          "notes": {
+            "en": "ATK% and ATK Speed main stats, 90-150 Healing Effect; Light's Grace is the alternative.",
+            "fr": "ATK % et Vit. d'ATK en principal, 90 à 150 d'Effet de soin ; Light's Grace en alternative."
+          }
+        }
+      ]
     }
   },
   {
@@ -53915,6 +56807,92 @@
         "campaign": "S",
         "guild-boss": "S"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Sergei/Builds ; https://fastidious.gg/heroes/sergei",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Hell's Lament",
+              "id": "722500",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Talisman of Resolve",
+              "id": "212701"
+            },
+            {
+              "name": "Shattered Hilt",
+              "id": "213901"
+            }
+          ],
+          "notes": {
+            "en": "3x ATK% (or 2x ATK% + Crit DMG with Chaos lords); his short Ultimate fits Hell's Lament.",
+            "fr": "3x ATK % (ou 2x ATK % + Dégâts crit. avec un seigneur Chaos) ; son ultime court convient à Hell's Lament."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Sergei/Builds ; https://fastidious.gg/heroes/sergei",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Hell's Lament",
+              "id": "722500",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Talisman of Resolve",
+              "id": "212701"
+            },
+            {
+              "name": "Shattered Hilt",
+              "id": "213901"
+            }
+          ],
+          "notes": {
+            "en": "3x ATK% (or 2x ATK% + Crit DMG with Chaos lords); his short Ultimate fits Hell's Lament.",
+            "fr": "3x ATK % (ou 2x ATK % + Dégâts crit. avec un seigneur Chaos) ; son ultime court convient à Hell's Lament."
+          }
+        }
+      ]
     }
   },
   {
@@ -54994,6 +57972,92 @@
         "halls-of-illusion": "S",
         "guild-boss": "S+"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Sun_Wukong/Builds ; https://fastidious.gg/heroes/sun-wukong",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Cataclysm",
+              "id": "722800",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Golden Cudgel",
+              "id": "213301"
+            },
+            {
+              "name": "Shattered Hilt",
+              "id": "213901"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Aim for 60,000 HP in Guild War.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Viser 60 000 PV en Guerre de guilde."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Sun_Wukong/Builds ; https://fastidious.gg/heroes/sun-wukong",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Cataclysm",
+              "id": "722800",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Golden Cudgel",
+              "id": "213301"
+            },
+            {
+              "name": "Shattered Hilt",
+              "id": "213901"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Aim for 60,000 HP in Guild War.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Viser 60 000 PV en Guerre de guilde."
+          }
+        }
+      ]
     }
   },
   {
@@ -55582,6 +58646,92 @@
         "guild-boss": "A",
         "guild-war": "S"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Ne_Zha/Builds ; https://fastidious.gg/heroes/nezha",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Cataclysm",
+              "id": "722800",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Fire-Tipped Spear",
+              "id": "215601"
+            },
+            {
+              "name": "Frigid Flame",
+              "id": "205401"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Ne_Zha/Builds ; https://fastidious.gg/heroes/nezha",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Cataclysm",
+              "id": "722800",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Fire-Tipped Spear",
+              "id": "215601"
+            },
+            {
+              "name": "Frigid Flame",
+              "id": "205401"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires."
+          }
+        }
+      ]
     }
   },
   {
@@ -56411,6 +59561,100 @@
         "guild-boss": "S",
         "guild-war": "S"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Ezareth/Builds ; https://fastidious.gg/heroes/ezareth",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Cataclysm",
+              "id": "722800",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Hate's Contagion",
+              "id": "217101"
+            },
+            {
+              "name": "Eye of Sin",
+              "id": "205301"
+            },
+            {
+              "name": "Wailing Skull",
+              "id": "204601"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Cataclysm only with steady crowd control.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Cataclysm seulement avec un contrôle de foule régulier."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Ezareth/Builds ; https://fastidious.gg/heroes/ezareth",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Cataclysm",
+              "id": "722800",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Hate's Contagion",
+              "id": "217101"
+            },
+            {
+              "name": "Eye of Sin",
+              "id": "205301"
+            },
+            {
+              "name": "Wailing Skull",
+              "id": "204601"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Cataclysm only with steady crowd control.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Cataclysm seulement avec un contrôle de foule régulier."
+          }
+        }
+      ]
     }
   },
   {
@@ -57542,6 +60786,100 @@
         "guild-boss": "S",
         "guild-war": "B"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Guan_Yu/Builds ; https://fastidious.gg/heroes/guan-yu",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Cataclysm",
+              "id": "722800",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Green Crescent Blade",
+              "id": "217601"
+            },
+            {
+              "name": "Resonance Bell",
+              "id": "217301"
+            },
+            {
+              "name": "Helm of Helios",
+              "id": "214801"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Cataclysm with a Watchguard ring; Hell's Lament for Matrix.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Cataclysm avec un anneau Watchguard ; Hell's Lament pour la Matrice."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Guan_Yu/Builds ; https://fastidious.gg/heroes/guan-yu",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Cataclysm",
+              "id": "722800",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Green Crescent Blade",
+              "id": "217601"
+            },
+            {
+              "name": "Resonance Bell",
+              "id": "217301"
+            },
+            {
+              "name": "Helm of Helios",
+              "id": "214801"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Cataclysm with a Watchguard ring; Hell's Lament for Matrix.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Cataclysm avec un anneau Watchguard ; Hell's Lament pour la Matrice."
+          }
+        }
+      ]
     }
   },
   {
@@ -58386,6 +61724,92 @@
         "arena": "S",
         "guild-boss": "S"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Gretchen/Builds ; https://fastidious.gg/heroes/gretchen",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Cataclysm",
+              "id": "722800",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Shattered Hilt",
+              "id": "213901"
+            },
+            {
+              "name": "Realm Tear",
+              "id": "207001"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Gretchen/Builds ; https://fastidious.gg/heroes/gretchen",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Cataclysm",
+              "id": "722800",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Shattered Hilt",
+              "id": "213901"
+            },
+            {
+              "name": "Realm Tear",
+              "id": "207001"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires."
+          }
+        }
+      ]
     }
   },
   {
@@ -60907,6 +64331,84 @@
         "guild-boss": "S",
         "guild-war": "S"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "medium",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Draelyn/Builds ; https://fastidious.gg/heroes/draelyn",
+          "sets": [
+            {
+              "name": "Astral Guardian",
+              "id": "711800",
+              "pieces": 2
+            },
+            {
+              "name": "Wings of Grace",
+              "id": "722900",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Ironbloom of Mercy",
+              "id": "219901"
+            }
+          ],
+          "notes": {
+            "en": "HP-scaling healer: HP% and ATK Speed, then Rage Regen and Healing; tank hybrid swaps to Tempered Will + Bastion Ring.",
+            "fr": "Soigneuse basée sur les PV : PV % et Vit. d'ATK, puis Régén. de rage et Soins ; la version tank passe sur Tempered Will + Bastion Ring."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "medium",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Draelyn/Builds ; https://fastidious.gg/heroes/draelyn",
+          "sets": [
+            {
+              "name": "Astral Guardian",
+              "id": "711800",
+              "pieces": 2
+            },
+            {
+              "name": "Wings of Grace",
+              "id": "722900",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Ironbloom of Mercy",
+              "id": "219901"
+            }
+          ],
+          "notes": {
+            "en": "HP-scaling healer: HP% and ATK Speed, then Rage Regen and Healing; tank hybrid swaps to Tempered Will + Bastion Ring.",
+            "fr": "Soigneuse basée sur les PV : PV % et Vit. d'ATK, puis Régén. de rage et Soins ; la version tank passe sur Tempered Will + Bastion Ring."
+          }
+        }
+      ]
     }
   },
   {
@@ -64882,6 +68384,84 @@
         "campaign": "S",
         "immortal-codex": "A"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "medium",
+          "source": "https://fastidious.gg/heroes/eivor-varinsdottir ; https://prospector.gg/hero/eivor-varinsdottir/",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Cataclysm",
+              "id": "722800",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Varin's Axe",
+              "id": "219301"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Warlord + Soulbound Arcana as the alternative.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Warlord + Soulbound Arcana en alternative."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "medium",
+          "source": "https://fastidious.gg/heroes/eivor-varinsdottir ; https://prospector.gg/hero/eivor-varinsdottir/",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Cataclysm",
+              "id": "722800",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Varin's Axe",
+              "id": "219301"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Warlord + Soulbound Arcana as the alternative.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Warlord + Soulbound Arcana en alternative."
+          }
+        }
+      ]
     }
   },
   {
@@ -65751,6 +69331,92 @@
         "guild-boss": "B",
         "guild-war": "S+"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "medium",
+          "source": "https://prospector.gg/hero/kassandra/ ; https://hellhades.com/kassandra-joins-watcher-of-realms/ ; https://fastidious.gg/heroes/kassandra",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Hell's Lament",
+              "id": "722500",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Spear of Leonidas",
+              "id": "219201"
+            },
+            {
+              "name": "Shattered Hilt",
+              "id": "213901"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Fastidious suggests Cataclysm instead of Hell's Lament late game.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Fastidious conseille plutôt Cataclysm que Hell's Lament en fin de jeu."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "medium",
+          "source": "https://prospector.gg/hero/kassandra/ ; https://hellhades.com/kassandra-joins-watcher-of-realms/ ; https://fastidious.gg/heroes/kassandra",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Hell's Lament",
+              "id": "722500",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Spear of Leonidas",
+              "id": "219201"
+            },
+            {
+              "name": "Shattered Hilt",
+              "id": "213901"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Fastidious suggests Cataclysm instead of Hell's Lament late game.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Fastidious conseille plutôt Cataclysm que Hell's Lament en fin de jeu."
+          }
+        }
+      ]
     }
   },
   {
@@ -66019,6 +69685,92 @@
         "campaign": "S",
         "gear-raid": "A"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "medium",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Vera/Builds",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Cataclysm",
+              "id": "722800",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Spirit Siphon",
+              "id": "203801"
+            },
+            {
+              "name": "Blightcaller's Claw",
+              "id": "214001"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Soulbound Arcana if you lack exclusive gear.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Soulbound Arcana sans équipement exclusif."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "medium",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Vera/Builds",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Cataclysm",
+              "id": "722800",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Spirit Siphon",
+              "id": "203801"
+            },
+            {
+              "name": "Blightcaller's Claw",
+              "id": "214001"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Soulbound Arcana if you lack exclusive gear.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Soulbound Arcana sans équipement exclusif."
+          }
+        }
+      ]
     }
   },
   {
@@ -67151,6 +70903,92 @@
       "europe": {
         "campaign": "S+"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "medium",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Jezebelle/Builds ; https://fastidious.gg/heroes/jezebelle",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Hell's Lament",
+              "id": "722500",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Perdition",
+              "id": "218801"
+            },
+            {
+              "name": "Hand of Doom",
+              "id": "217001"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Avoid Cataclysm: her Seeds of Malice attack cannot crit.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Éviter Cataclysm : son attaque Seeds of Malice ne peut pas faire de crit."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "medium",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Jezebelle/Builds ; https://fastidious.gg/heroes/jezebelle",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Hell's Lament",
+              "id": "722500",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Perdition",
+              "id": "218801"
+            },
+            {
+              "name": "Hand of Doom",
+              "id": "217001"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Avoid Cataclysm: her Seeds of Malice attack cannot crit.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Éviter Cataclysm : son attaque Seeds of Malice ne peut pas faire de crit."
+          }
+        }
+      ]
     }
   },
   {
@@ -67454,6 +71292,74 @@
         "campaign": "S",
         "immortal-codex": "A"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "medium",
+          "source": "https://fastidious.gg/heroes/cainan ; https://topuplist.com/blogs/detail/watcher-of-realms-cainan-guide-build-gear-should-you-pull",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Absolution",
+              "id": "218901"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Accessory set unconfirmed (Fastidious suggests Cataclysm).",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Set d'accessoires non confirmé (Fastidious suggère Cataclysm)."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "medium",
+          "source": "https://fastidious.gg/heroes/cainan ; https://topuplist.com/blogs/detail/watcher-of-realms-cainan-guide-build-gear-should-you-pull",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Absolution",
+              "id": "218901"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Accessory set unconfirmed (Fastidious suggests Cataclysm).",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Set d'accessoires non confirmé (Fastidious suggère Cataclysm)."
+          }
+        }
+      ]
     }
   },
   {
@@ -67761,6 +71667,84 @@
         "guild-boss": "A",
         "guild-war": "S"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Gu_Shi/Builds ; https://fastidious.gg/heroes/gu%20shi",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Cataclysm",
+              "id": "722800",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Pathbreaker",
+              "id": "218501"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. High late penetration lets him lean on Crit DMG.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Sa forte pénétration en fin d'ascension permet de miser sur les Dégâts crit."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Gu_Shi/Builds ; https://fastidious.gg/heroes/gu%20shi",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Cataclysm",
+              "id": "722800",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Pathbreaker",
+              "id": "218501"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. High late penetration lets him lean on Crit DMG.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Sa forte pénétration en fin d'ascension permet de miser sur les Dégâts crit."
+          }
+        }
+      ]
     }
   },
   {
@@ -68085,6 +72069,84 @@
         "campaign": "S",
         "guild-war": "S"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Su_Yue/Builds ; https://fastidious.gg/heroes/su-yue",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Hell's Lament",
+              "id": "722500",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Moonfrost",
+              "id": "218601"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Her Ultimate fires on deploy, so Hell's Lament fits; Cataclysm with Arbiter ring is second.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Son ultime se déclenche au déploiement, d'où Hell's Lament ; Cataclysm avec anneau Arbiter en second."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Su_Yue/Builds ; https://fastidious.gg/heroes/su-yue",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Hell's Lament",
+              "id": "722500",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Moonfrost",
+              "id": "218601"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Her Ultimate fires on deploy, so Hell's Lament fits; Cataclysm with Arbiter ring is second.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Son ultime se déclenche au déploiement, d'où Hell's Lament ; Cataclysm avec anneau Arbiter en second."
+          }
+        }
+      ]
     }
   },
   {
@@ -68375,6 +72437,92 @@
       "europe": {
         "campaign": "S"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "medium",
+          "source": "https://hellhades.com/ezio-della-notte-joins-watcher-of-realms/ ; https://www.allclash.com/best-build-for-ezio-della-notte-in-watcher-of-realms-gear-stat-prio-artifact-awaken-prio/",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Soulbound Arcana",
+              "id": "722300",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Heart of Darkness",
+              "id": "219601"
+            },
+            {
+              "name": "Hate's Contagion",
+              "id": "217101"
+            }
+          ],
+          "notes": {
+            "en": "ATK% on all accessories, then Crit and ATK Speed; AllClash suggests Cataclysm late game. Not the same hero as Ezio Auditore.",
+            "fr": "ATK % sur tous les accessoires, puis crit. et Vit. d'ATK ; AllClash suggère Cataclysm en fin de jeu. Différent d'Ezio Auditore."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "medium",
+          "source": "https://hellhades.com/ezio-della-notte-joins-watcher-of-realms/ ; https://www.allclash.com/best-build-for-ezio-della-notte-in-watcher-of-realms-gear-stat-prio-artifact-awaken-prio/",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Soulbound Arcana",
+              "id": "722300",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "Heart of Darkness",
+              "id": "219601"
+            },
+            {
+              "name": "Hate's Contagion",
+              "id": "217101"
+            }
+          ],
+          "notes": {
+            "en": "ATK% on all accessories, then Crit and ATK Speed; AllClash suggests Cataclysm late game. Not the same hero as Ezio Auditore.",
+            "fr": "ATK % sur tous les accessoires, puis crit. et Vit. d'ATK ; AllClash suggère Cataclysm en fin de jeu. Différent d'Ezio Auditore."
+          }
+        }
+      ]
     }
   },
   {
@@ -68642,6 +72790,100 @@
       "europe": {
         "campaign": "S"
       }
+    },
+    "builds": {
+      "global": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Evie_Frye/Builds ; https://prospector.gg/hero/evie-frye/",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Hell's Lament",
+              "id": "722500",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "M1877 \"Thunderer\"",
+              "id": "219501"
+            },
+            {
+              "name": "Spirit Siphon",
+              "id": "203801"
+            },
+            {
+              "name": "Hand of Doom",
+              "id": "217001"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Cataclysm if her long A1 Ultimate outlasts Hell's Lament.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Cataclysm si son long ultime (Éveil 1) dure plus que Hell's Lament."
+          }
+        }
+      ],
+      "europe": [
+        {
+          "label": {
+            "en": "End-game build",
+            "fr": "Build de fin de jeu",
+            "de": "Endgame-Build",
+            "es": "Build de final de juego",
+            "it": "Build di fine gioco",
+            "pt": "Build de fim de jogo",
+            "pl": "Build na end game",
+            "ru": "Сборка для эндгейма"
+          },
+          "confidence": "high",
+          "source": "https://watcher-of-realms.fandom.com/wiki/Evie_Frye/Builds ; https://prospector.gg/hero/evie-frye/",
+          "sets": [
+            {
+              "name": "Wicked Vengeance",
+              "id": "711500",
+              "pieces": 2
+            },
+            {
+              "name": "Hell's Lament",
+              "id": "722500",
+              "pieces": 3
+            }
+          ],
+          "artifacts": [
+            {
+              "name": "M1877 \"Thunderer\"",
+              "id": "219501"
+            },
+            {
+              "name": "Spirit Siphon",
+              "id": "203801"
+            },
+            {
+              "name": "Hand of Doom",
+              "id": "217001"
+            }
+          ],
+          "notes": {
+            "en": "ATK% main stats, Crit Rate then Crit DMG and ATK Speed in substats. Cataclysm if her long A1 Ultimate outlasts Hell's Lament.",
+            "fr": "Stats principales ATK %, puis Taux crit., Dégâts crit. et Vit. d'ATK en secondaires. Cataclysm si son long ultime (Éveil 1) dure plus que Hell's Lament."
+          }
+        }
+      ]
     }
   },
   {

@@ -27,7 +27,8 @@ const types = { h: t('search.hero'), s: t('search.set'), a: t('search.artifact')
   }
   .search-open:hover { border-color: var(--gold); color: var(--text); }
   .search-open kbd { font: inherit; font-size: 0.7rem; padding: 1px 5px; border: 1px solid var(--border); border-radius: 4px; }
-  @media (max-width: 1100px) { .search-open .hint, .search-open kbd { display: none; } }
+  .search-open .hint { display: none; }
+  @media (max-width: 1100px) { .search-open kbd { display: none; } }
   .search {
     width: min(640px, calc(100vw - 24px)); max-height: min(560px, calc(100dvh - 48px)); margin: 48px auto auto; padding: 0;
     color: var(--text); background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
