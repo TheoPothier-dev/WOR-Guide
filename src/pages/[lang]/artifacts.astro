@@ -1,0 +1,65 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { localize, useTranslations, type Locale } from '../../i18n/ui';
+import { href, langPaths } from '../../lib/i18n-paths';
+import { heroClasses } from '../../lib/heroes';
+
+export const getStaticPaths = langPaths;
+const lang = Astro.params.lang as Locale;
+const t = useTranslations(lang);
+const artifacts = (await getCollection('artifacts')).sort((a, b) => b.data.rank - a.data.rank);
+const heroes = new Map((await getCollection('heroes')).map((h) => [h.data.gameId, h]));
+const exclusive = artifacts.filter((a) => a.data.heroGameId && heroes.has(a.data.heroGameId));
+const general = artifacts.filter((a) => !a.data.heroGameId && !a.data.class);
+---
+<Base lang={lang} title={t('artifacts.title')}>
+  <h1>{t('artifacts.title')}</h1>
+
+  <h2>{t('artifacts.byClass')}</h2>
+  {heroClasses.map((cls) => {
+    const list = artifacts.filter((a) => a.data.class === cls);
+    return list.length > 0 && (
+      <section>
+        <h3>{t(`class.${cls}`)}</h3>
+        <dl>
+          {list.map((a) => (
+            <>
+              <dt>{localize(a.data.name, lang)} ({t('artifacts.rank')} {a.data.rank})</dt>
+              {a.data.description && <dd class="text">{localize(a.data.description, lang)}</dd>}
+            </>
+          ))}
+        </dl>
+      </section>
+    );
+  })}
+
+  {general.length > 0 && (
+    <>
+      <h2>{t('artifacts.general')}</h2>
+      <dl>
+        {general.map((a) => (
+          <>
+            <dt>{localize(a.data.name, lang)} ({t('artifacts.rank')} {a.data.rank})</dt>
+            {a.data.description && <dd class="text">{localize(a.data.description, lang)}</dd>}
+          </>
+        ))}
+      </dl>
+    </>
+  )}
+
+  <h2>{t('artifacts.exclusive')}</h2>
+  <dl>
+    {exclusive.map((a) => {
+      const hero = heroes.get(a.data.heroGameId!)!;
+      return (
+        <>
+          <dt>
+            {localize(a.data.name, lang)} – <a href={href(lang, `heroes/${hero.id}/`)}>{localize(hero.data.name, lang)}</a>
+          </dt>
+          {a.data.description && <dd class="text">{localize(a.data.description, lang)}</dd>}
+        </>
+      );
+    })}
+  </dl>
+</Base>

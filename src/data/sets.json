@@ -1,0 +1,2393 @@
+[
+  {
+    "id": "100100",
+    "gameId": 100100,
+    "name": {
+      "en": "Juggernaut",
+      "fr": "Fracasseur",
+      "de": "Juggernaut",
+      "es": "Coloso",
+      "it": "Macchina bellica",
+      "pt": "Juggernaut",
+      "ru": "«Джаггернаут»"
+    },
+    "bonuses": [
+      {
+        "pieces": 2,
+        "description": {
+          "en": "(2 pieces) Crit. Rate +15%",
+          "fr": "(2 pièces) Taux crit. +15 %",
+          "de": "(2 Teile) Krit. Rate +15%",
+          "es": "+15 % de índice de crítico (2 piezas)",
+          "it": "(2 pezzi) Tasso crit. +15%",
+          "pt": "(2 Peças) +15% de Taxa de Crítico",
+          "ru": "(2 части) Шанс крита +15%"
+        }
+      },
+      {
+        "pieces": 4,
+        "description": {
+          "en": "(4 pieces) ATK +30%",
+          "fr": "(4 pièces) ATQ +30 %",
+          "de": "(4 Teile) ANG +30%",
+          "es": "+30 % de ataque (4 piezas)",
+          "it": "(4 pezzi) ATK +30%",
+          "pt": "(4 Peças) +30% de Ataque",
+          "ru": "(4 части) АТК +30%"
+        }
+      }
+    ]
+  },
+  {
+    "id": "100200",
+    "gameId": 100200,
+    "name": {
+      "en": "Vitality",
+      "fr": "Vitalité",
+      "de": "Vitalität",
+      "es": "Vitalidad",
+      "it": "Vitalità",
+      "pt": "Vitalidade",
+      "ru": "«Жизнеспособность»"
+    },
+    "bonuses": [
+      {
+        "pieces": 2,
+        "description": {
+          "en": "(2 pieces) DEF +15%",
+          "fr": "(2 pièces) DÉF +15 %",
+          "de": "(2 Teile) VERT +15%",
+          "es": "+15 % de defensa (2 piezas)",
+          "it": "(2 pezzi) DEF +15%",
+          "pt": "(2 Peças) +15% de Defesa",
+          "ru": "(2 части) ЗАЩ +15%"
+        }
+      },
+      {
+        "pieces": 4,
+        "description": {
+          "en": "(4 pieces) Max HP +30%",
+          "fr": "(4 pièces) PV max +30 %",
+          "de": "(4 Teile) Max. LP +30%",
+          "es": "+30 % de vida máxima (4 piezas)",
+          "it": "(4 pezzi) HP max +30%",
+          "pt": "(4 Peças) +30% de HP Máx.",
+          "ru": "(4 части) 30% ув. макс. ОЗ"
+        }
+      }
+    ]
+  },
+  {
+    "id": "100300",
+    "gameId": 100300,
+    "name": {
+      "en": "Deadly Aim",
+      "fr": "Visée mortelle",
+      "de": "Tödliches Visier",
+      "es": "Puntería Letal",
+      "it": "Mira letale",
+      "pt": "Mira Fatal",
+      "ru": "«Смертоносный прицел»"
+    },
+    "bonuses": [
+      {
+        "pieces": 2,
+        "description": {
+          "en": "(2 pieces) ATK +15%",
+          "fr": "(2 pièces) ATQ +15 %",
+          "de": "(2 Teile) ANG +15%",
+          "es": "+15 % de ataque (2 piezas)",
+          "it": "(2 pezzi) ATK +15%",
+          "pt": "(2 Peças) +15% de Ataque",
+          "ru": "(2 части) АТК +15%"
+        }
+      },
+      {
+        "pieces": 4,
+        "description": {
+          "en": "(4 pieces) Crit. Rate +25%",
+          "fr": "(4 pièces) Taux crit. +25 %",
+          "de": "(4 Teile) Krit. Rate +25%",
+          "es": "+25 % de índice de crítico (4 piezas)",
+          "it": "(4 pezzi) Tasso crit. +25%",
+          "pt": "(4 Peças) +25% de Taxa de Crítico",
+          "ru": "(4 части) Шанс крита +25%"
+        }
+      }
+    ]
+  },
+  {
+    "id": "100400",
+    "gameId": 100400,
+    "name": {
+      "en": "Vigor Regeneration",
+      "fr": "Régénération de vitalité",
+      "de": "Kräftige Regeneration",
+      "es": "Vigor",
+      "it": "Rigenerazione vigore",
+      "pt": "Regeneração Vigorosa",
+      "ru": "«Восстановление силы»"
+    },
+    "bonuses": [
+      {
+        "pieces": 2,
+        "description": {
+          "en": "(2 pieces) ATK +15%",
+          "fr": "(2 pièces) ATQ +15 %",
+          "de": "(2 Teile) ANG +15%",
+          "es": "+15 % de ataque (2 piezas)",
+          "it": "(2 pezzi) ATK +15%",
+          "pt": "(2 Peças) +15% de Ataque",
+          "ru": "(2 части) АТК +15%"
+        }
+      },
+      {
+        "pieces": 4,
+        "description": {
+          "en": "(4 pieces) Rage Regen +20%",
+          "fr": "(4 pièces) Régén. de rage +20 %",
+          "de": "(4 Teile) Wut-Regen. +20%",
+          "es": "+20 % de regeneración de furia (4 piezas)",
+          "it": "(4 pezzi) Rigen. rabbia +20%",
+          "pt": "(4 Peças) +20% de Regeneração de Fúria",
+          "ru": "(4 части) Восстановление ярости +20%"
+        }
+      }
+    ]
+  },
+  {
+    "id": "100500",
+    "gameId": 100500,
+    "name": {
+      "en": "Deceleration",
+      "fr": "Décélération",
+      "de": "Verlangsamung",
+      "es": "Desaceleración",
+      "it": "Decelerazione",
+      "pt": "Desaceleração",
+      "ru": "«Торможение»"
+    },
+    "bonuses": [
+      {
+        "pieces": 2,
+        "description": {
+          "en": "(2 pieces) Max HP +15%",
+          "fr": "(2 pièces) PV max +15 %",
+          "de": "(2 Teile) Max. LP +15%",
+          "es": "+15 % de vida máxima (2 piezas)",
+          "it": "(2 pezzi) HP max +15%",
+          "pt": "(2 Peças) +15% de HP Máx.",
+          "ru": "(2 части) 15% ув. макс. ОЗ"
+        }
+      },
+      {
+        "pieces": 4,
+        "description": {
+          "en": "(4 pieces) Every 5 sec, the next Basic ATK slows the target by 30% for 3 sec.",
+          "fr": "(4 pièces) Toutes les 5 s, la prochaine attaque de base ralentit la cible de 30 % pendant 3 s.",
+          "de": "(4 Teile) Alle 5 Sek. verlangsamt der nächste Grund-ANG das Ziel 3 Sek. lang um 30%.",
+          "es": "Cada 5 segundos, el próximo ataque básico ralentiza al objetivo un 30 % durante 3 segundos (4 piezas)",
+          "it": "(4 pezzi) Ogni 5 sec, il prossimo ATK base rallenta il bersaglio del 30% per 3 sec",
+          "pt": "(4 Peças) A cada 5s, o próximo Ataque Básico causa 30% de lentidão por 3s",
+          "ru": "(4 части) Каждые 5 сек. следующая базовая АТК замедляет цель на 30% в течение 3 сек."
+        }
+      }
+    ]
+  },
+  {
+    "id": "100600",
+    "gameId": 100600,
+    "name": {
+      "en": "Cure",
+      "fr": "Guérison",
+      "de": "Heilung",
+      "es": "Curación",
+      "it": "Guarigione",
+      "pt": "Recuperação",
+      "ru": "«Лечение»"
+    },
+    "bonuses": [
+      {
+        "pieces": 2,
+        "description": {
+          "en": "(2 pieces) Healing Effect +15%",
+          "fr": "(2 pièces) Effet de soin +15 %",
+          "de": "(2 Teile) Heilwirkung +15%",
+          "es": "+15 % a potencia de sanación (2 piezas)",
+          "it": "(2 pezzi) Effetto curativo +15%",
+          "pt": "(2 Peças) +15% de Efeito de cura",
+          "ru": "(2 части) 15% ув. эффекта исцеления"
+        }
+      },
+      {
+        "pieces": 4,
+        "description": {
+          "en": "(4 pieces) Increases Healing Effect by 35% when healing a target with HP below 50%.",
+          "fr": "(4 pièces) Effet de soin +35 % lorsque vous soignez une cible dont les PV sont inférieurs à 50 %",
+          "de": "(4 Teile) Erhöht die Heilwirkung um 35%, beim Heilen eines Ziels mit weniger als 50% LP.",
+          "es": "+35 % de potencia de sanación al sanar a un objetivo con menos del 50 % de vida (4 piezas)",
+          "it": "(4 pezzi) Effetto curativo +35% quando si guarisce un obiettivo con HP inferiori al 50%",
+          "pt": "(4 Peças) Aumenta o Efeito de Cura em 35% ao curar um alvo com HP abaixo de 50%",
+          "ru": "(4 части) Увеличивает эффект исцеления на 35% для целей с ОЗ ниже 50%."
+        }
+      }
+    ]
+  },
+  {
+    "id": "100700",
+    "gameId": 100700,
+    "name": {
+      "en": "Armor Penetration",
+      "fr": "Pénétration d'armure",
+      "de": "Rüstungsdurchdringung",
+      "es": "Penetración",
+      "it": "Penetrazione armatura",
+      "pt": "Penetração de Armadura",
+      "ru": "«Пробивание брони»"
+    },
+    "bonuses": [
+      {
+        "pieces": 2,
+        "description": {
+          "en": "(2 pieces) ATK +15%",
+          "fr": "(2 pièces) ATQ +15 %",
+          "de": "(2 Teile) ANG +15%",
+          "es": "+15 % de ataque (2 piezas)",
+          "it": "(2 pezzi) ATK +15%",
+          "pt": "(2 Peças) +15% de Ataque",
+          "ru": "(2 части) АТК +15%"
+        }
+      },
+      {
+        "pieces": 4,
+        "description": {
+          "en": "(4 pieces) Ignores 30% of the target's DEF.",
+          "fr": "(4 pièces) Ignore 30 % de la DÉF de la cible.",
+          "de": "(4 Teile) Schaden ignoriert 30% der VERT des Ziels.",
+          "es": "Ignora el 30 % de la defensa del objetivo (4 piezas)",
+          "it": "(4 pezzi) Ignora il 30% della DEF del bersaglio",
+          "pt": "(4 Peças) Ignora 30% da Defesa do alvo",
+          "ru": "(4 части) Игнорирует 30% ЗАЩ цели"
+        }
+      }
+    ]
+  },
+  {
+    "id": "100800",
+    "gameId": 100800,
+    "name": {
+      "en": "Shield Set",
+      "fr": "Ensemble \"Bouclier\"",
+      "de": "Schild-Set",
+      "es": "Conjunto de escudo",
+      "it": "Set Scudo",
+      "pt": "Conjunto de Escudo",
+      "ru": "Комплект «Щит»"
+    },
+    "bonuses": [
+      {
+        "pieces": 2,
+        "description": {
+          "en": "(2 pieces) M. RES. +15%",
+          "fr": "(2 pièces) Rés. M. +15 %",
+          "de": "(2 Teile) M. WID +15%",
+          "es": "+15 % de resistencia mágica (2 piezas)",
+          "it": "(2 pezzi) RES M. +15%",
+          "pt": "(2 Peças) +15% de Resistência M.",
+          "ru": "(2 части) Сопр. магии +15%"
+        }
+      },
+      {
+        "pieces": 4,
+        "description": {
+          "en": "(4 pieces) Grants a shield that absorbs DMG equal to 15% of your Max HP every 15 sec.",
+          "fr": "(4 pièces) Octroie un bouclier qui absorbe 15 % de vos PV max en DGT toutes les 15 s.",
+          "de": "(4 Teile) Gewährt einen Schild, der alle 15 Sek. DMG in Höhe von 15% deiner max. LP absorbiert.",
+          "es": "Otorga un escudo que absorbe un daño equivalente al 15 % de la vida máxima cada 15 segundos (4 piezas)",
+          "it": "(4 parti) Garantisce uno Scudo che assorbe DMG pari al 15% degli HP massimi ogni 15 sec.",
+          "pt": "(4 Peças) Concede um Escudo que absorve Dano igual a 15% do seu HP Máx. a cada 15s",
+          "ru": "(4 части) Каждые 15 сек. создает щит, поглощающий УРН, равный 15% ваших макс. ОЗ."
+        }
+      }
+    ]
+  },
+  {
+    "id": "100900",
+    "gameId": 100900,
+    "name": {
+      "en": "Fortified Fortress",
+      "fr": "Fortification",
+      "de": "Verstärkte Festung",
+      "es": "Fortificación",
+      "it": "Fortezza Fortificata",
+      "pt": "Fortaleza Fortificada",
+      "ru": "«Усиленная крепость»"
+    },
+    "bonuses": [
+      {
+        "pieces": 2,
+        "description": {
+          "en": "(2 pieces) DEF +15%",
+          "fr": "(2 pièces) DÉF +15 %",
+          "de": "(2 Teile) VERT +15%",
+          "es": "+15 % de defensa (2 piezas)",
+          "it": "(2 pezzi) DEF +15%",
+          "pt": "(2 Peças) +15% de Defesa",
+          "ru": "(2 части) ЗАЩ +15%"
+        }
+      },
+      {
+        "pieces": 4,
+        "description": {
+          "en": "(4 pieces) Max HP +30%",
+          "fr": "(4 pièces) PV max +30 %",
+          "de": "(4 Teile) Max. LP +30%",
+          "es": "+30 % de vida máxima (4 piezas)",
+          "it": "(4 pezzi) HP max +30%",
+          "pt": "(4 Peças) +30% de HP Máx.",
+          "ru": "(4 части) 30% ув. макс. ОЗ"
+        }
+      }
+    ]
+  },
+  {
+    "id": "101000",
+    "gameId": 101000,
+    "name": {
+      "en": "M. Res. Set",
+      "fr": "Ensemble \"Rés. M.\"",
+      "de": "M. WID Set",
+      "es": "Conjunto de resistencia mágica",
+      "it": "Set RES M.",
+      "pt": "Conjunto de Res. M.",
+      "ru": "Комплект «Сопр. магии»"
+    },
+    "bonuses": [
+      {
+        "pieces": 2,
+        "description": {
+          "en": "(2 pieces) M. RES. +15%",
+          "fr": "(2 pièces) Rés. M. +15 %",
+          "de": "(2 Teile) M. WID +15%",
+          "es": "+15 % de resistencia mágica (2 piezas)",
+          "it": "(2 pezzi) RES M. +15%",
+          "pt": "(2 Peças) +15% de Resistência M.",
+          "ru": "(2 части) Сопр. магии +15%"
+        }
+      },
+      {
+        "pieces": 4,
+        "description": {
+          "en": "(4 pieces) Max HP +30%",
+          "fr": "(4 pièces) PV max +30 %",
+          "de": "(4 Teile) Max. LP +30%",
+          "es": "+30 % de vida máxima (4 piezas)",
+          "it": "(4 pezzi) HP max +30%",
+          "pt": "(4 Peças) +30% de HP Máx.",
+          "ru": "(4 части) 30% ув. макс. ОЗ"
+        }
+      }
+    ]
+  },
+  {
+    "id": "101100",
+    "gameId": 101100,
+    "name": {
+      "en": "ATK Spd.",
+      "fr": "Vit. d'ATQ.",
+      "de": "ANG-Geschw.",
+      "es": "Velocidad de ataque",
+      "it": "Vel. ATK",
+      "pt": "Vel. de ATQ",
+      "ru": "«СА»"
+    },
+    "bonuses": [
+      {
+        "pieces": 2,
+        "description": {
+          "en": "(2 pieces) Crit. Rate +15%",
+          "fr": "(2 pièces) Taux crit. +15 %",
+          "de": "(2 Teile) Krit. Rate +15%",
+          "es": "+15 % de índice de crítico (2 piezas)",
+          "it": "(2 pezzi) Tasso crit. +15%",
+          "pt": "(2 Peças) +15% de Taxa de Crítico",
+          "ru": "(2 части) Шанс крита +15%"
+        }
+      },
+      {
+        "pieces": 4,
+        "description": {
+          "en": "(4 pieces) ATK Spd. +200",
+          "fr": "(4 pièces) Vit. d'ATQ +200",
+          "de": "(4 Teile) ANG-Geschw. +200",
+          "es": "+200 de velocidad de ataque (4 piezas)",
+          "it": "(4 pezzi) Vel. ATK +200",
+          "pt": "(4 Peças) +200 de Velocidade de Ataque",
+          "ru": "(4 части) СА +200"
+        }
+      }
+    ]
+  },
+  {
+    "id": "101200",
+    "gameId": 101200,
+    "name": {
+      "en": "Healing Set",
+      "fr": "Ensemble \"Soin\"",
+      "de": "Heilungsset",
+      "es": "Conjunto de sanación",
+      "it": "Set Guarigione",
+      "pt": "Conjunto de Cura",
+      "ru": "Комплект «Исцеление»"
+    },
+    "bonuses": [
+      {
+        "pieces": 2,
+        "description": {
+          "en": "(2 pieces) Healing Effect +15%",
+          "fr": "(2 pièces) Effet de soin +15 %",
+          "de": "(2 Teile) Heilwirkung +15%",
+          "es": "+15 % a potencia de sanación (2 piezas)",
+          "it": "(2 pezzi) Effetto curativo +15%",
+          "pt": "(2 Peças) +15% de Efeito de cura",
+          "ru": "(2 части) 15% ув. эффекта исцеления"
+        }
+      }
+    ]
+  },
+  {
+    "id": "101300",
+    "gameId": 101300,
+    "name": {
+      "en": "Cost",
+      "fr": "Coût",
+      "de": "Kosten",
+      "es": "Coste",
+      "it": "Costo",
+      "pt": "Custo",
+      "ru": "«Стоимость»"
+    },
+    "bonuses": [
+      {
+        "pieces": 2,
+        "description": {
+          "en": "(2 pieces) Max HP +15%",
+          "fr": "(2 pièces) PV max +15 %",
+          "de": "(2 Teile) Max. LP +15%",
+          "es": "+15 % de vida máxima (2 piezas)",
+          "it": "(2 pezzi) HP max +15%",
+          "pt": "(2 Peças) +15% de HP Máx.",
+          "ru": "(2 части) 15% ув. макс. ОЗ"
+        }
+      },
+      {
+        "pieces": 4,
+        "description": {
+          "en": "(4 pieces) Deployment Cost -2",
+          "fr": "(4 pièces) Coût de déploiement -2",
+          "de": "(4 Teile) Einsatzkosten -2",
+          "es": "-2 de coste (4 piezas)",
+          "it": "(4 pezzi) Costo di schieramento -2",
+          "pt": "(4 Peças) -2 de Custo de implantação",
+          "ru": "(4 части) Стоимость размещения -2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "101400",
+    "gameId": 101400,
+    "name": {
+      "en": "Critical Carnage",
+      "fr": "Carnage critique",
+      "de": "Kritisches Gemetzel",
+      "es": "Matanza Crítica",
+      "it": "Massacro critico",
+      "pt": "Carnificina Crítica",
+      "ru": "«Критическая резня»"
+    },
+    "bonuses": [
+      {
+        "pieces": 2,
+        "description": {
+          "en": "(2 pieces) Crit. DMG +25%",
+          "fr": "(2 pièces) DGT crit. +25 %",
+          "de": "(2 Teile) Krit. DMG +25%",
+          "es": "+25 % de daño crítico (2 piezas)",
+          "it": "(2 pezzi) DMG crit. +25%",
+          "pt": "(2 Peças) +25% de Dano Crítico",
+          "ru": "(2 части) Крит. УРН +25%"
+        }
+      },
+      {
+        "pieces": 4,
+        "description": {
+          "en": "(4 pieces) ATK +30%",
+          "fr": "(4 pièces) ATQ +30 %",
+          "de": "(4 Teile) ANG +30%",
+          "es": "+30 % de ataque (4 piezas)",
+          "it": "(4 pezzi) ATK +30%",
+          "pt": "(4 Peças) +30% de Ataque",
+          "ru": "(4 части) АТК +30%"
+        }
+      }
+    ]
+  },
+  {
+    "id": "101500",
+    "gameId": 101500,
+    "name": {
+      "en": "The Tempest",
+      "fr": "Tempête",
+      "de": "Der Sturm",
+      "es": "Tempestad",
+      "it": "Tempesta",
+      "pt": "A Tempestade",
+      "ru": "«Буря»"
+    },
+    "bonuses": [
+      {
+        "pieces": 2,
+        "description": {
+          "en": "(2 pieces) Max HP +15%",
+          "fr": "(2 pièces) PV max +15 %",
+          "de": "(2 Teile) Max. LP +15%",
+          "es": "+15 % de vida máxima (2 piezas)",
+          "it": "(2 pezzi) HP max +15%",
+          "pt": "(2 Peças) +15% de HP Máx.",
+          "ru": "(2 части) 15% ув. макс. ОЗ"
+        }
+      },
+      {
+        "pieces": 4,
+        "description": {
+          "en": "(4 pieces) Initial Rage +150",
+          "fr": "(4 pièces) Rage initiale +150",
+          "de": "(4 Teile) Initiale Wut +150",
+          "es": "+150 de furia inicial (4 piezas)",
+          "it": "(4 pezzi) Rabbia iniziale +150",
+          "pt": "(4 Peças) +150 de Fúria Inicial",
+          "ru": "(4 части) +150 очков начальной ярости"
+        }
+      }
+    ]
+  },
+  {
+    "id": "101600",
+    "gameId": 101600,
+    "name": {
+      "en": "Occult Shield",
+      "fr": "Bouclier occulte",
+      "de": "Okkulter Schild",
+      "es": "Escudo Oculto",
+      "it": "Scudo occulto",
+      "pt": "Escudo Oculto",
+      "ru": "«Оккультный щит»"
+    },
+    "bonuses": [
+      {
+        "pieces": 2,
+        "description": {
+          "en": "(2 pieces) ATK +15%",
+          "fr": "(2 pièces) ATQ +15 %",
+          "de": "(2 Teile) ANG +15%",
+          "es": "+15 % de ataque (2 piezas)",
+          "it": "(2 pezzi) ATK +15%",
+          "pt": "(2 Peças) +15% de Ataque",
+          "ru": "(2 части) АТК +15%"
+        }
+      },
+      {
+        "pieces": 4,
+        "description": {
+          "en": "(4 pieces) AoE DMG Taken -20%",
+          "fr": "(4 pièces) DGT de ZdE subis -20 %",
+          "de": "(4 Teile) Erlittener AoE-DMG -20%",
+          "es": "-20 % de daño en área recibido (4 piezas)",
+          "it": "(4 pezzi) DMG AoE subiti -20%",
+          "pt": "(4 Peças) -20% de Dano Recebido em Área",
+          "ru": "(4 части) Получ. масс. УРН -20%"
+        }
+      }
+    ]
+  },
+  {
+    "id": "400100",
+    "gameId": 400100,
+    "name": {
+      "en": "Vanguard",
+      "fr": "Avant-garde",
+      "de": "Stürmer",
+      "es": "Vanguardia",
+      "it": "Avanguardia",
+      "pt": "Vanguarda",
+      "ru": "Авангард"
+    },
+    "bonuses": [
+      {
+        "pieces": 4,
+        "description": {
+          "en": "(4 pieces) ATK +20%",
+          "fr": "(4 pièces) ATQ +20 %",
+          "de": "(4 Teile) ANG +20%",
+          "es": "+20 % de ataque (4 piezas)",
+          "it": "(4 pezzi) ATK +20%",
+          "pt": "(4 Peças) +20% de Ataque",
+          "ru": "(4 части) АТК +20%"
+        }
+      }
+    ]
+  },
+  {
+    "id": "400200",
+    "gameId": 400200,
+    "name": {
+      "en": "The Giant",
+      "fr": "Le Géant",
+      "de": "Der Riese",
+      "es": "Gigante",
+      "it": "Gigante",
+      "pt": "O Gigante",
+      "ru": "Гигант"
+    },
+    "bonuses": [
+      {
+        "pieces": 4,
+        "description": {
+          "en": "(4 pieces) HP +20%",
+          "fr": "(4 pièces) PV +20 %",
+          "de": "(4 Teile) LP +20%",
+          "es": "+20 % de vida (4 piezas)",
+          "it": "(4 pezzi) HP +20%",
+          "pt": "(4 Peças) +20% de HP",
+          "ru": "(4 части) ОЗ +20%"
+        }
+      }
+    ]
+  },
+  {
+    "id": "410100",
+    "gameId": 410100,
+    "name": {
+      "en": "Ravage",
+      "fr": "Ravage",
+      "de": "Verwüstung",
+      "es": "Desolación",
+      "it": "Saccheggio",
+      "pt": "Avassalador",
+      "ru": "Опустошение"
+    },
+    "bonuses": [
+      {
+        "pieces": 2,
+        "description": {
+          "en": "(2 pieces) HP +10%",
+          "fr": "(2 pièces) PV +10 %",
+          "de": "(2 Teile) LP +10%",
+          "es": "+10 % de vida (2 piezas)",
+          "it": "(2 pezzi) HP +10%",
+          "pt": "(2 Peças) +10% de HP",
+          "ru": "(2 части) ОЗ +10%"
+        }
+      },
+      {
+        "pieces": 4,
+        "description": {
+          "en": "(4 pieces) Penetration +10%",
+          "fr": "(4 pièces) Pénétration +10 %",
+          "de": "(4 Teile) Durchdringung +10%",
+          "es": "+10 % de penetración (4 piezas)",
+          "it": "(4 pezzi) Penetrazione +10%",
+          "pt": "(4 Peças) +10% de Penetração",
+          "ru": "(4 части) Пробивание +10%"
+        }
+      }
+    ]
+  },
+  {
+    "id": "410200",
+    "gameId": 410200,
+    "name": {
+      "en": "Devastator",
+      "fr": "Dévastateur",
+      "de": "Verwüster",
+      "es": "Devastación",
+      "it": "Devastatore",
+      "pt": "Devastador",
+      "ru": "Расхититель"
+    },
+    "bonuses": [
+      {
+        "pieces": 2,
+        "description": {
+          "en": "(2 pieces) ATK +10%",
+          "fr": "(2 pièces) ATQ +10 %",
+          "de": "(2 Teile) ANG +10%",
+          "es": "+10 % de ataque (2 piezas)",
+          "it": "(2 pezzi) ATK +10%.",
+          "pt": "(2 Peças) +10% de Ataque",
+          "ru": "(2 части) АТК +10%"
+        }
+      },
+      {
+        "pieces": 4,
+        "description": {
+          "en": "(4 pieces) Crit. DMG +30%",
+          "fr": "(4 pièces) DGT crit. +30 %",
+          "de": "(4 Teile) Krit. DMG +30%",
+          "es": "+30 % de daño crítico (4 piezas)",
+          "it": "(4 pezzi) DMG crit. +30%",
+          "pt": "(4 Peças) +30% de Dano Crítico",
+          "ru": "(4 части) Крит. УРН +30%"
+        }
+      }
+    ]
+  },
+  {
+    "id": "410300",
+    "gameId": 410300,
+    "name": {
+      "en": "The Fury",
+      "fr": "La Furie",
+      "de": "Die Wut",
+      "es": "Furia",
+      "it": "Furore",
+      "pt": "A Cólera",
+      "ru": "Ярость"
+    },
+    "bonuses": [
+      {
+        "pieces": 2,
+        "description": {
+          "en": "(2 pieces) Rage Regen +10%",
+          "fr": "(2 pièces) Régén. de rage +10 %",
+          "de": "(2 Teile) Wut-Regen. +10%",
+          "es": "+10 % de regeneración de furia (2 piezas)",
+          "it": "(2 pezzi) Rigen. rabbia +10%",
+          "pt": "(2 Peças) +10% de Regeneração de Fúria",
+          "ru": "(2 части) Восстановление ярости +10%"
+        }
+      },
+      {
+        "pieces": 4,
+        "description": {
+          "en": "(4 pieces) Crit. Rate +25%",
+          "fr": "(4 pièces) Taux crit. +25 %",
+          "de": "(4 Teile) Krit. Rate +25%",
+          "es": "+25 % de índice de crítico (4 piezas)",
+          "it": "(4 pezzi) Tasso crit. +25%",
+          "pt": "(4 Peças) +25% de Taxa de Crítico",
+          "ru": "(4 части) Шанс крита +25%"
+        }
+      }
+    ]
+  },
+  {
+    "id": "410400",
+    "gameId": 410400,
+    "name": {
+      "en": "The Tower",
+      "fr": "La Tour",
+      "de": "Der Turm",
+      "es": "La Torre",
+      "it": "Torre",
+      "pt": "A Torre",
+      "ru": "Башня"
+    },
+    "bonuses": [
+      {
+        "pieces": 2,
+        "description": {
+          "en": "(2 pieces) HP +10%",
+          "fr": "(2 pièces) PV +10 %",
+          "de": "(2 Teile) LP +10%",
+          "es": "+10 % de vida (2 piezas)",
+          "it": "(2 pezzi) HP +10%",
+          "pt": "(2 Peças) +10% de HP",
+          "ru": "(2 части) ОЗ +10%"
+        }
+      },
+      {
+        "pieces": 4,
+        "description": {
+          "en": "(4 pieces) Block +1",
+          "fr": "(4 pièces) Parade +1",
+          "de": "(4 Teile) Block +1",
+          "es": "+1 al índice de bloqueo (4 piezas)",
+          "it": "(4 pezzi) Blocco +1",
+          "pt": "(4 Peças) +1 de Bloqueio",
+          "ru": "(4 части) Блок +1"
+        }
+      }
+    ]
+  },
+  {
+    "id": "410500",
+    "gameId": 410500,
+    "name": {
+      "en": "Remedy",
+      "fr": "Remède",
+      "de": "Abhilfe",
+      "es": "Remedio",
+      "it": "Rimedio",
+      "pt": "Remédio",
+      "ru": "Лекарство"
+    },
+    "bonuses": [
+      {
+        "pieces": 2,
+        "description": {
+          "en": "(2 pieces) HP +10%",
+          "fr": "(2 pièces) PV +10 %",
+          "de": "(2 Teile) LP +10%",
+          "es": "+10 % de vida (2 piezas)",
+          "it": "(2 pezzi) HP +10%",
+          "pt": "(2 Peças) +10% de HP",
+          "ru": "(2 части) ОЗ +10%"
+        }
+      },
+      {
+        "pieces": 4,
+        "description": {
+          "en": "(4 pieces) Healing Effect +25%",
+          "fr": "(4 pièces) Effet de soin +25 %",
+          "de": "(4 Teile) Heilwirkung +25%",
+          "es": "+25 % a potencia de sanación (4 piezas)",
+          "it": "(4 pezzi) Effetto di guarigione +25%",
+          "pt": "(4 Peças) +25% de Efeito de cura",
+          "ru": "(4 части) Эффект исцеления +25%"
+        }
+      }
+    ]
+  },
+  {
+    "id": "420100",
+    "gameId": 420100,
+    "name": {
+      "en": "Curse",
+      "fr": "Malédiction",
+      "de": "Fluch",
+      "es": "Maldición",
+      "it": "Maledizione",
+      "pt": "Maldição",
+      "ru": "Проклятие"
+    },
+    "bonuses": [
+      {
+        "pieces": 2,
+        "description": {
+          "en": "(2 pieces) HP +15%",
+          "fr": "(2 pièces) PV +15 %",
+          "de": "(2 Teile) LP +15%",
+          "es": "+15 % de vida (2 piezas)",
+          "it": "(2 pezzi) HP +15%",
+          "pt": "(2 Peças) +15% de HP",
+          "ru": "(2 части) ОЗ +15%"
+        }
+      },
+      {
+        "pieces": 4,
+        "description": {
+          "en": "(4 pieces) Each time dealing DMG to an enemy, gains 1 stack of cursed power for 5 sec. Each stack increases DMG by 1%, stacking up to 50 times.",
+          "fr": "(4 pièces) Chaque fois que des DGT sont infligés à un ennemi, cumule 1 charge de pouvoir maudit pendant 5 s. Chaque cumul augmente les DGT de 1 %, jusqu'à 50 fois.",
+          "de": "(4 Teile) Bei jedem Verursachen von DMG an einem Gegner wird 5 Sek. lang 1 Stapel verfluchter Macht verliehen. Jeder Stapel erhöht den DMG um 1% und ist bis zu 50-mal stapelbar.",
+          "es": "Cada vez que inflige daño, obtiene 1 acumulación de poder maldito durante 5 segundos. Cada acumulación de poder maldito aumenta el daño un 1 %. Puede acumularse 50 veces (4 piezas)",
+          "it": "(4 pezzi) Ogni volta che infliggi DMG a un nemico ottieni 1 accumulo di potere maledetto per 5 sec. Ogni accumulo di potere maledetto aumenta il valore di DMG dell'1%, fino a 50 accumuli.",
+          "pt": "(4 Peças) Cada vez que causar Dano a um inimigo, acumula 1 poder amaldiçoado por 5s. Cada acúmulo aumenta o Dano em 1%, até 50 acúmulos.",
+          "ru": "(4 части) При нанесении УРН врагу дает 1 ур. силы проклятия на 5 сек. Каждый ур. силы проклятия увеличивает УРН на 1%. Суммируется до 50 раз."
+        }
+      }
+    ]
+  },
+  {
+    "id": "420200",
+    "gameId": 420200,
+    "name": {
+      "en": "The North",
+      "fr": "Le Nord",
+      "de": "Der Norden",
+      "es": "Boreal",
+      "it": "Nord",
+      "pt": "O Norte",
+      "ru": "Север"
+    },
+    "bonuses": [
+      {
+        "pieces": 2,
+        "description": {
+          "en": "(2 pieces) HP +15%",
+          "fr": "(2 pièces) PV +15 %",
+          "de": "(2 Teile) LP +15%",
+          "es": "+15 % de vida (2 piezas)",
+          "it": "(2 pezzi) HP +15%",
+          "pt": "(2 Peças) +15% de HP",
+          "ru": "(2 части) ОЗ +15%"
+        }
+      },
+      {
+        "pieces": 4,
+        "description": {
+          "en": "(4 pieces) ATK +8% of Max HP",
+          "fr": "(4 pièces) ATQ +8 % des PV max.",
+          "de": "(4 Teile) ANG +8% der max. LP",
+          "es": "Aumenta el ataque un 8 % de la vida máxima (4 piezas)",
+          "it": "(4 pezzi) ATK +8% degli HP max.",
+          "pt": "(4 Peças) +8% do HP Máximo de Ataque.",
+          "ru": "(4 части) АТК +8% от макс. ОЗ"
+        }
+      }
+    ]
+  },
+  {
+    "id": "420300",
+    "gameId": 420300,
+    "name": {
+      "en": "The Infernal",
+      "fr": "L'Infernal",
+      "de": "Das Höllische",
+      "es": "Infernal",
+      "it": "Infernale",
+      "pt": "Infernal",
+      "ru": "Ад"
+    },
+    "bonuses": [
+      {
+        "pieces": 2,
+        "description": {
+          "en": "(2 pieces) Crit. Rate +15%",
+          "fr": "(2 pièces) Taux crit. +15 %",
+          "de": "(2 Teile) Krit. Rate +15%",
+          "es": "+15 % de índice de crítico (2 piezas)",
+          "it": "(2 pezzi) Tasso crit. +15%",
+          "pt": "(2 Peças) +15% de Taxa de Crítico",
+          "ru": "(2 части) Шанс крита +15%"
+        }
+      },
+      {
+        "pieces": 4,
+        "description": {
+          "en": "(4 pieces) Crit. DMG +40%",
+          "fr": "(4 pièces) DGT crit. +40 %",
+          "de": "(4 Teile) Krit. DMG +40%",
+          "es": "+40 % de daño crítico (4 piezas)",
+          "it": "(4 pezzi) DMG crit. +40%",
+          "pt": "(4 Peças) +40% de Dano Crítico",
+          "ru": "(4 части) Крит. УРН +40%"
+        }
+      }
+    ]
+  },
+  {
+    "id": "420400",
+    "gameId": 420400,
+    "name": {
+      "en": "The Piercer",
+      "fr": "Le Perceur",
+      "de": "Der Durchbohrer",
+      "es": "Perforador",
+      "it": "Perforatore",
+      "pt": "O Perfurador",
+      "ru": "Странник"
+    },
+    "bonuses": [
+      {
+        "pieces": 2,
+        "description": {
+          "en": "(2 pieces) ATK Spd. +50",
+          "fr": "(2 pièces) Vit. d'ATQ +50",
+          "de": "(2 Teile) ANG-Geschw. +50",
+          "es": "+50 de velocidad de ataque (2 piezas)",
+          "it": "(2 pezzi) Vel. ATK +50",
+          "pt": "(2 Peças) +50 de Velocidade de Ataque",
+          "ru": "(2 части) СА +50"
+        }
+      },
+      {
+        "pieces": 4,
+        "description": {
+          "en": "(4 pieces) Every 5 attacks dealt to enemies increases DMG by 30% for 4 sec.",
+          "fr": "(4 pièces) Toutes les 5 attaques infligées aux ennemis, augmente les DGT de 30 % pendant 4 s.",
+          "de": "(4 Teile) Jeder 5. Angriff gegen Gegner erhöht für 4 Sek. den verursachten DMG um 30%.",
+          "es": "Cada 5 ataques infligidos a los enemigos, el daño aumenta en un 30 % durante 4 segundos. (4 piezas)",
+          "it": "(4 pezzi) Ogni 5 attacchi sferrati aumenta il valore di DMG del 30% per 4 sec.",
+          "pt": "(4 peças) Cada 5 ataques a inimigos aumenta o Dano em 30% por 4s.",
+          "ru": "(4 части) Каждая 5-я атака, нанесенная врагу, увеличивает УРН на 30% на 4 сек."
+        }
+      }
+    ]
+  },
+  {
+    "id": "420500",
+    "gameId": 420500,
+    "name": {
+      "en": "Nightmare",
+      "fr": "Cauchemar",
+      "de": "Albtraum",
+      "es": "Pesadilla",
+      "it": "Incubo",
+      "pt": "Pesadelo",
+      "ru": "Кошмар"
+    },
+    "bonuses": [
+      {
+        "pieces": 2,
+        "description": {
+          "en": "(2 pieces) ATK Spd. +50",
+          "fr": "(2 pièces) Vit. d'ATQ +50",
+          "de": "(2 Teile) ANG-Geschw. +50",
+          "es": "+50 de velocidad de ataque (2 piezas)",
+          "it": "(2 pezzi) Vel. ATK +50",
+          "pt": "(2 Peças) +50 de Velocidade de Ataque",
+          "ru": "(2 части) СА +50"
+        }
+      },
+      {
+        "pieces": 4,
+        "description": {
+          "en": "(4 pieces) Penetration +20%",
+          "fr": "(4 pièces) Pénétration +20 %",
+          "de": "(4 Teile) Durchdringung +20%",
+          "es": "+20 % de penetración (4 piezas)",
+          "it": "(4 pezzi) Penetrazione +20%",
+          "pt": "(4 Peças) +20% de Penetração",
+          "ru": "(4 части) Пробивание +20%"
+        }
+      }
+    ]
+  },
+  {
+    "id": "420600",
+    "gameId": 420600,
+    "name": {
+      "en": "The Esotericist",
+      "fr": "L'Ésotériste",
+      "de": "Der Esoteriker",
+      "es": "Arcano",
+      "it": "Esoterista",
+      "pt": "O Esotérico",
+      "ru": "Тайна"
+    },
+    "bonuses": [
+      {
+        "pieces": 2,
+        "description": {
+          "en": "(2 pieces) ATK +15%",
+          "fr": "(2 pièces) ATQ +15 %",
+          "de": "(2 Teile) ANG +15%",
+          "es": "+15 % de ataque (2 piezas)",
+          "it": "(2 pezzi) ATK +15%",
+          "pt": "(2 Peças) +15% de Ataque",
+          "ru": "(2 части) АТК +15%"
+        }
+      },
+      {
+        "pieces": 4,
+        "description": {
+          "en": "(4 pieces) Rage Regen (Auto) +4",
+          "fr": "(4 pièces) Régén. de rage (auto) +4",
+          "de": "(4 Teile) Wut-Regen. (Auto) +4",
+          "es": "+4 de regeneración de furia (4 piezas)",
+          "it": "(4 pezzi) Rigen. rabbia (auto.) +4",
+          "pt": "(4 Peças) +4 de Regeneração de Fúria (Auto)",
+          "ru": "(4 части) Автовосстановление ярости +4"
+        }
+      }
+    ]
+  },
+  {
+    "id": "710100",
+    "gameId": 710100,
+    "name": {
+      "en": "Juggernaut",
+      "fr": "Fracasseur",
+      "de": "Juggernaut",
+      "es": "Coloso",
+      "it": "Macchina bellica",
+      "pt": "Juggernaut",
+      "ru": "Джаггернаут"
+    },
+    "bonuses": [
+      {
+        "pieces": 2,
+        "description": {
+          "en": "(2 pieces) ATK +200",
+          "fr": "(2 pièces) ATQ +200",
+          "de": "(2 Teile) ANG +200",
+          "es": "+200 de ataque (2 piezas)",
+          "it": "(2 pezzi) ATK +200",
+          "pt": "(2 Peças) ATQ +200",
+          "ru": "(2 части) АТК +200"
+        }
+      }
+    ]
+  },
+  {
+    "id": "710200",
+    "gameId": 710200,
+    "name": {
+      "en": "Vitality",
+      "fr": "Vitalité",
+      "de": "Vitalität",
+      "es": "Vitalidad",
+      "it": "Vitalità",
+      "pt": "Vitalidade",
+      "ru": "Жизнеспособность"
+    },
+    "bonuses": [
+      {
+        "pieces": 2,
+        "description": {
+          "en": "(2 pieces) HP +1000",
+          "fr": "(2 pièces) PV +1 000",
+          "de": "(2 Teile) LP +1000",
+          "es": "+1000 de vida (2 piezas)",
+          "it": "(2 pezzi) HP +1.000",
+          "pt": "(2 Peças) HP +1000",
+          "ru": "(2 части) ОЗ +1000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "721700",
+    "gameId": 721700,
+    "name": {
+      "en": "The Tempest",
+      "fr": "Tempête",
+      "de": "Der Sturm",
+      "es": "Tempestad",
+      "it": "Tempesta",
+      "pt": "A Tempestade",
+      "ru": "Буря"
+    },
+    "bonuses": [
+      {
+        "pieces": 3,
+        "description": {
+          "en": "(3 pieces) Rage Regen (ATK) +2",
+          "fr": "(3 pièces) Régén. de rage (ATQ) +2",
+          "de": "(3 Teile) Wut-Regen. (ANG) +2",
+          "es": "+2 de furia al atacar (3 piezas)",
+          "it": "(3 pezzi) Rigen. rabbia (ATK) +2",
+          "pt": "(3 Peças) +2 de Regeneração de Fúria (ATQ)",
+          "ru": "(3 части) Восстановление ярости (АТК) +2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "721800",
+    "gameId": 721800,
+    "name": {
+      "en": "Rapidity",
+      "fr": "Rapidité",
+      "de": "Schnelligkeit",
+      "es": "Presteza",
+      "it": "Rapidità",
+      "pt": "Rapidez",
+      "ru": "Быстрота"
+    },
+    "bonuses": [
+      {
+        "pieces": 3,
+        "description": {
+          "en": "(3 pieces) Cost -1",
+          "fr": "(3 pièces) Coût -1",
+          "de": "(3 Teile) Kosten -1",
+          "es": "-1 de coste (3 piezas)",
+          "it": "(3 pezzi) Costo -1",
+          "pt": "(3 Peças) -1 de Custo",
+          "ru": "(3 части) Стоимость -1"
+        }
+      }
+    ]
+  },
+  {
+    "id": "720100",
+    "gameId": 720100,
+    "name": {
+      "en": "Twisted Blade",
+      "fr": "Lame tortueuse",
+      "de": "Verdrehte Klinge",
+      "es": "Filo Torcido",
+      "it": "Lama corrotta",
+      "pt": "Lâmina Torcida",
+      "ru": "Витой клинок"
+    },
+    "bonuses": [
+      {
+        "pieces": 3,
+        "description": {
+          "en": "(3 pieces) DMG +10%",
+          "fr": "(3 pièces) DGT +10%",
+          "de": "(3 Teile) DMG +10%",
+          "es": "+10 % de daño infligido (3 piezas)",
+          "it": "(3 pezzi) DMG +10%",
+          "pt": "(3 Peças) +10% de Dano",
+          "ru": "(3 части) УРН +10%"
+        }
+      }
+    ]
+  },
+  {
+    "id": "720200",
+    "gameId": 720200,
+    "name": {
+      "en": "Occult Shield",
+      "fr": "Bouclier occulte",
+      "de": "Okkulter Schild",
+      "es": "Escudo Oculto",
+      "it": "Scudo occulto",
+      "pt": "Escudo Oculto",
+      "ru": "Оккультный щит"
+    },
+    "bonuses": [
+      {
+        "pieces": 3,
+        "description": {
+          "en": "(3 pieces) DMG Taken -10%",
+          "fr": "(3 pièces) DGT subis -10 %",
+          "de": "(3 Teile) Erlittener DMG -10%",
+          "es": "-10 % al daño recibido (3 piezas)",
+          "it": "(3 pezzi) DMG subiti -10%",
+          "pt": "(3 Peças) -10% de Dano Recebido",
+          "ru": "(3 части) Получаемый УРН -10%"
+        }
+      }
+    ]
+  },
+  {
+    "id": "710300",
+    "gameId": 710300,
+    "name": {
+      "en": "Deadly Aim",
+      "fr": "Visée mortelle",
+      "de": "Tödliches Visier",
+      "es": "Puntería Letal",
+      "it": "Mira letale",
+      "pt": "Mira Fatal",
+      "ru": "Смертоносный прицел"
+    },
+    "bonuses": [
+      {
+        "pieces": 2,
+        "description": {
+          "en": "(2 pieces) Crit. Rate +10%",
+          "fr": "(2 pièces) Taux crit. +10 %",
+          "de": "(2 Teile) Krit. Rate +10%",
+          "es": "+10 % de índice de crítico (2 piezas)",
+          "it": "(2 pezzi) Tasso crit. +10%",
+          "pt": "(2 Peças) +10% de Taxa Crítico",
+          "ru": "(2 части) Шанс крита +10%"
+        }
+      }
+    ]
+  },
+  {
+    "id": "710400",
+    "gameId": 710400,
+    "name": {
+      "en": "Savage Strike",
+      "fr": "Frappe sauvage",
+      "de": "Wilder Hieb",
+      "es": "Asalto Indómito",
+      "it": "Colpo selvaggio",
+      "pt": "Golpe Selvagem",
+      "ru": "Лютый удар"
+    },
+    "bonuses": [
+      {
+        "pieces": 2,
+        "description": {
+          "en": "(2 pieces) ATK +10%",
+          "fr": "(2 pièces) ATQ +10 %",
+          "de": "(2 Teile) ANG +10%",
+          "es": "+10 % de ataque (2 piezas)",
+          "it": "(2 pezzi) ATK +10%.",
+          "pt": "(2 Peças) +10% de ATQ",
+          "ru": "(2 части) АТК +10%"
+        }
+      }
+    ]
+  },
+  {
+    "id": "710500",
+    "gameId": 710500,
+    "name": {
+      "en": "Wrathful Onslaught",
+      "fr": "Assaut furieux",
+      "de": "Zorniger Ansturm",
+      "es": "Arremetida Colérica",
+      "it": "Assalto furioso",
+      "pt": "Massacre Devastador",
+      "ru": "Порыв гнева"
+    },
+    "bonuses": [
+      {
+        "pieces": 2,
+        "description": {
+          "en": "(2 pieces) Rage Regen +15%",
+          "fr": "(2 pièces) Régén. de rage +15 %",
+          "de": "(2 Teile) Wut-Regen. +15%",
+          "es": "+15 % de regeneración de furia (2 piezas)",
+          "it": "(2 pezzi) Rigen. rabbia +15%",
+          "pt": "(2 Peças) +15% de Regeneração de Fúria",
+          "ru": "(2 части) Восстановление ярости +15%"
+        }
+      }
+    ]
+  },
+  {
+    "id": "710600",
+    "gameId": 710600,
+    "name": {
+      "en": "Iron Fortress",
+      "fr": "Forteresse d'acier",
+      "de": "Eisenfestung",
+      "es": "Baluarte Férreo",
+      "it": "Fortezza di ferro",
+      "pt": "Fortaleza de Ferro",
+      "ru": "Стена стали"
+    },
+    "bonuses": [
+      {
+        "pieces": 2,
+        "description": {
+          "en": "(2 pieces) DEF +15%",
+          "fr": "(2 pièces) DÉF +15 %",
+          "de": "(2 Teile) VERT +15%",
+          "es": "+15 % de defensa (2 piezas)",
+          "it": "(2 pezzi) DEF +15%",
+          "pt": "(2 Peças) +15% de DEF",
+          "ru": "(2 части) ЗАЩ +15%"
+        }
+      }
+    ]
+  },
+  {
+    "id": "710700",
+    "gameId": 710700,
+    "name": {
+      "en": "Lifegiver",
+      "fr": "Donneur de vie",
+      "de": "Lebensspender",
+      "es": "Otorgavida",
+      "it": "Donavita",
+      "pt": "Doador de Vida",
+      "ru": "Лекарь"
+    },
+    "bonuses": [
+      {
+        "pieces": 2,
+        "description": {
+          "en": "(2 pieces) Healing Effect +10",
+          "fr": "(2 pièces) Effet de soin +10",
+          "de": "(2 Teile) Heilwirkung +10",
+          "es": "+10 de potencia de sanación (2 piezas)",
+          "it": "(2 pezzi) Effetto curativo +10",
+          "pt": "(2 Peças) +10 de Efeito de Cura",
+          "ru": "(2 части) Эффект исцеления +10"
+        }
+      }
+    ]
+  },
+  {
+    "id": "720300",
+    "gameId": 720300,
+    "name": {
+      "en": "Guardian",
+      "fr": "Gardien",
+      "de": "Wächter",
+      "es": "Guardián",
+      "it": "Custode",
+      "pt": "Guardião",
+      "ru": "Страж"
+    },
+    "bonuses": [
+      {
+        "pieces": 3,
+        "description": {
+          "en": "(3 pieces) DMG Taken -15%",
+          "fr": "(3 pièces) DGT subis -15 %",
+          "de": "(3 Teile) Erlittener DMG -15%",
+          "es": "-15 % al daño recibido (3 piezas)",
+          "it": "(3 pezzi) DMG subiti -15%",
+          "pt": "(3 Peças) -15% de Dano Recebido",
+          "ru": "(3 части) Получаемый УРН -15%"
+        }
+      }
+    ]
+  },
+  {
+    "id": "720400",
+    "gameId": 720400,
+    "name": {
+      "en": "Fatality",
+      "fr": "Fatalité",
+      "de": "Verhängnis",
+      "es": "Ruina",
+      "it": "Fatalità",
+      "pt": "Fatalidade",
+      "ru": "Пагубность"
+    },
+    "bonuses": [
+      {
+        "pieces": 3,
+        "description": {
+          "en": "(3 pieces) Increases ATK by 3% and ignores 12% of target's DEF and M. RES.",
+          "fr": "(3 pièces) Augmente l'ATQ de 3 % et ignore 12 % de la DÉF et RÉS M. de la cible.",
+          "de": "(3 Teile) Erhöht ANG um 3% und ignoriert 12% VERT und M. WID. des Ziels.",
+          "es": "Aumenta el ataque un 3 % e ignora un 12 % de la defensa y la res. mágica del objetivo (3 piezas)",
+          "it": "(3 pezzi) Aumenta l'ATK del 3% e ignora il 12% di DEF e RES M. del bersaglio.",
+          "pt": "(3 Peças) Aumenta o ATQ em 3% e ignora 12% da DEF e RES. M. do alvo",
+          "ru": "(3 части) АТК увеличивается на 3%, игнорирует 12% ЗАЩ и сопр. магии цели."
+        }
+      }
+    ]
+  },
+  {
+    "id": "720500",
+    "gameId": 720500,
+    "name": {
+      "en": "Curse",
+      "fr": "Malédiction",
+      "de": "Fluch",
+      "es": "Maldición",
+      "it": "Maledizione",
+      "pt": "Maldição",
+      "ru": "Проклятие"
+    },
+    "bonuses": [
+      {
+        "pieces": 3,
+        "description": {
+          "en": "(3 pieces) Increases DMG by 6% for each enemy within ATK Range, stacking up to 5 times.",
+          "fr": "(3 pièces) Augmente les DGT de 6 % pour chaque ennemi à portée d'ATQ, cumulable jusqu'à 5 fois.",
+          "de": "(3 Teile) Erhöht den DMG für jeden Gegner innerhalb der ANG-Reichweite um 6%, bis zu 5-mal stapelbar.",
+          "es": "Aumenta el daño un 6 % por cada enemigo dentro del alcance de ataque, y puede acumularse hasta 5 veces. (3 piezas)",
+          "it": "(3 pezzi) Aumenta il DMG del 6% per ogni nemico entro il raggio d'ATK. Cumulabile fino a 5 volte.",
+          "pt": "(3 peças) Aumenta o Dano em 6% para cada inimigo dentro do Alcance de ATQ, acumulando até 5 vezes.",
+          "ru": "(3 предмета) Повышает УРН на 6% за каждого врага в пределах дальности АТК. Эффект суммируется до 5 р."
+        }
+      }
+    ]
+  },
+  {
+    "id": "720600",
+    "gameId": 720600,
+    "name": {
+      "en": "Fracture",
+      "fr": "Fracture",
+      "de": "Fraktur",
+      "es": "Fisura",
+      "it": "Frattura",
+      "pt": "Fratura",
+      "ru": "Раскол"
+    },
+    "bonuses": [
+      {
+        "pieces": 3,
+        "description": {
+          "en": "(3 pieces) Increases Crit. DMG by 45% when HP is above 70%.",
+          "fr": "(3 pièces) Augmente les DGT crit. de 45 % quand les PV sont supérieurs à 70 %.",
+          "de": "(3 Teile) Erhöht den Krit. DMG um 45%, wenn die LP über 70% liegen.",
+          "es": "+45 % de daño crítico con más del 70 % de la vida (3 piezas)",
+          "it": "(3 pezzi) Aumenta i DMG crit. del 45%, quando gli HP sono superiori al 70%.",
+          "pt": "(3 peças) Aumenta Dano Crít. em 45% quando HP está acima de 70%.",
+          "ru": "(3 части) Увеличивает крит. УРН на 45%, если ОЗ выше 70%."
+        }
+      }
+    ]
+  },
+  {
+    "id": "720700",
+    "gameId": 720700,
+    "name": {
+      "en": "Mana Spring",
+      "fr": "Fontaine de Mana",
+      "de": "Manaquelle",
+      "es": "Fuente de Maná",
+      "it": "Sorgente di mana",
+      "pt": "Fonte de Mana",
+      "ru": "Родник магии"
+    },
+    "bonuses": [
+      {
+        "pieces": 3,
+        "description": {
+          "en": "(3 pieces) Rage Regen (Auto) +3",
+          "fr": "(3 pièces) Régén. de rage (auto) +3",
+          "de": "(3 Teile) Wut-Regen. (Auto) +3",
+          "es": "+3 de regeneración de furia (automática) (3 piezas)",
+          "it": "(3 pezzi) Rigen. rabbia (auto.) +3",
+          "pt": "(3 Peças) +3 de Regeneração de Fúria (Auto)",
+          "ru": "(3 части) Автовосст. ярости +3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "720800",
+    "gameId": 720800,
+    "name": {
+      "en": "Hawk Eye",
+      "fr": "Œil de Faucon",
+      "de": "Falkenauge",
+      "es": "Ojo de Halcón",
+      "it": "Occhio di falco",
+      "pt": "Olho do Falcão",
+      "ru": "Зоркий глаз"
+    },
+    "bonuses": [
+      {
+        "pieces": 3,
+        "description": {
+          "en": "(3 pieces) Every 5 times Basic ATK deals DMG, increases DMG by 25% for 6 sec.",
+          "fr": "(3 pièces) Toutes les 5 fois qu'une ATQ basique inflige des DGT, augmente les DGT de 25 % pendant 6 s.",
+          "de": "(3 Teile) Nach jeweils 5 Treffern mit Grund-ANG erhöht sich der DMG für 6 Sek. um 25%.",
+          "es": "(3 piezas) Cada 5 veces que un ataque básico inflige daño, el daño aumenta un 25 % durante 6 seg.",
+          "it": "(3 pezzi) Ogni 5 volte che un ATK base infligge DMG, aumenta il DMG del 25% per 6 sec.",
+          "pt": "(3 peças) A cada 5 vezes que o ATQ Básico causar Dano, aumenta o Dano em 25% por 6 seg.",
+          "ru": "(3 части) Каждые 5 раз, когда базовая АТК наносит УРН, УРН повышается на 25% на 6 сек."
+        }
+      }
+    ]
+  },
+  {
+    "id": "710800",
+    "gameId": 710800,
+    "name": {
+      "en": "Annihilating Might",
+      "fr": "Puissance anéantissante",
+      "de": "Zerstörungskraft",
+      "es": "Poderío Aniquilador",
+      "it": "Forza obliterante",
+      "pt": "Poder Aniquilador",
+      "ru": "Дикая мощь"
+    },
+    "bonuses": [
+      {
+        "pieces": 2,
+        "description": {
+          "en": "(2 pieces) Crit. DMG +35%",
+          "fr": "(2 pièces) DGT crit. +35 %",
+          "de": "(2 Teile) Krit. DMG +35%",
+          "es": "+35 % de daño crítico (2 piezas)",
+          "it": "(2 pezzi) DMG crit. +35%",
+          "pt": "(2 peças) Dano Crít. +35%",
+          "ru": "(2 части) Крит. УРН +35%"
+        }
+      }
+    ]
+  },
+  {
+    "id": "710900",
+    "gameId": 710900,
+    "name": {
+      "en": "Whirlwind",
+      "fr": "Tourbillon",
+      "de": "Wirbelwind",
+      "es": "Torbellino",
+      "it": "Turbine",
+      "pt": "Furacão",
+      "ru": "Вихрь"
+    },
+    "bonuses": [
+      {
+        "pieces": 2,
+        "description": {
+          "en": "(2 pieces) ATK Spd. +75",
+          "fr": "(2 pièces) Vit. d'ATQ +75",
+          "de": "(2 Teile) ANG-Geschw. +75",
+          "es": "+75 de velocidad de ataque (2 piezas)",
+          "it": "(2 pezzi) Vel. ATK +75",
+          "pt": "(2 Peças) Vel. de ATQ +75",
+          "ru": "(2 части) СА +75"
+        }
+      }
+    ]
+  },
+  {
+    "id": "711000",
+    "gameId": 711000,
+    "name": {
+      "en": "Calamity",
+      "fr": "Calamité",
+      "de": "Desaster",
+      "es": "Calamidad",
+      "it": "Calamità",
+      "pt": "Calamidade",
+      "ru": "Бедствие"
+    },
+    "bonuses": [
+      {
+        "pieces": 2,
+        "description": {
+          "en": "(2 pieces) ATK +25%",
+          "fr": "(2 pièces) ATQ +25 %",
+          "de": "(2 Teile) ANG +25%",
+          "es": "+25 % de ataque (2 piezas)",
+          "it": "(2 pezzi) ATK +25%",
+          "pt": "(2 Peças) ATQ +25%",
+          "ru": "(2 части) АТК +25%"
+        }
+      }
+    ]
+  },
+  {
+    "id": "711100",
+    "gameId": 711100,
+    "name": {
+      "en": "Life Force",
+      "fr": "Force vitale",
+      "de": "Lebenskraft",
+      "es": "Fuerza Vital",
+      "it": "Forza vitale",
+      "pt": "Força Vital",
+      "ru": "Сила жизни"
+    },
+    "bonuses": [
+      {
+        "pieces": 2,
+        "description": {
+          "en": "(2 pieces) HP +25%",
+          "fr": "(2 pièces) PV +25 %",
+          "de": "(2 Teile) LP +25%",
+          "es": "+25 % de vida (2 piezas)",
+          "it": "(2 pezzi) HP +25%",
+          "pt": "(2 Peças) HP +25%",
+          "ru": "(2 части) ОЗ +25%"
+        }
+      }
+    ]
+  },
+  {
+    "id": "711200",
+    "gameId": 711200,
+    "name": {
+      "en": "Salvation",
+      "fr": "Salut",
+      "de": "Erlösung",
+      "es": "Salvación",
+      "it": "Salvezza",
+      "pt": "Salvação",
+      "ru": "Спасение"
+    },
+    "bonuses": [
+      {
+        "pieces": 2,
+        "description": {
+          "en": "(2 pieces) Healing Effect +25",
+          "fr": "(2 pièces) Effet de soin +25",
+          "de": "(2 Teile) Heilwirkung +25",
+          "es": "+25 de potencia de sanación (2 piezas)",
+          "it": "(2 pezzi) Effetto curativo +25",
+          "pt": "(2 Peças) +25 de Efeito de Cura",
+          "ru": "(2 части) Эффект исцеления +25"
+        }
+      }
+    ]
+  },
+  {
+    "id": "721000",
+    "gameId": 721000,
+    "name": {
+      "en": "The Glacier",
+      "fr": "Le Glacier",
+      "de": "Der Gletscher",
+      "es": "Glaciar",
+      "it": "Ghiacciaio",
+      "pt": "A Geleira",
+      "ru": "Ледник"
+    },
+    "bonuses": [
+      {
+        "pieces": 3,
+        "description": {
+          "en": "(3 pieces) Gains an ATK bonus equal to 6% Max HP when deployed.",
+          "fr": "(3 pièces) Bonus d’ATQ de 6 % des PV max en cas de déploiement.",
+          "de": "(3 Teile) Erhält nach dem Einsetzen einen ANG-Bonus in Höhe von 6% der Max. LP.",
+          "es": "Obtiene una bonificación de ataque equivalente al 6 % de su vida máxima al entrar al campo de batalla (3 piezas)",
+          "it": "(3 pezzi) Ottiene un bonus ATK equivalente al 6% degli HP massimi se schierato.",
+          "pt": "(3 Peças) Ganha um bônus de ATQ igual a 6% de HP Máximo quando implantado.",
+          "ru": "(3 части) После размещения бонус к АТК в размере 6% от макс. ОЗ."
+        }
+      }
+    ]
+  },
+  {
+    "id": "721100",
+    "gameId": 721100,
+    "name": {
+      "en": "Night Terror",
+      "fr": "Terreur nocturne",
+      "de": "Nachtterror",
+      "es": "Terror Nocturno",
+      "it": "Terrore notturno",
+      "pt": "Terror Noturno",
+      "ru": "Ночной ужас"
+    },
+    "bonuses": [
+      {
+        "pieces": 3,
+        "description": {
+          "en": "(3 pieces) Increases DMG by 25% for 3 sec after making Crit. Hits.",
+          "fr": "(3 pièces) Augmente les DGT de 25 % pendant 3 s après avoir infligé des coups critiques.",
+          "de": "(3 Teile) Erhöht den DMG nach Krit. Treffern für 3 Sek. um 25%.",
+          "es": "+25 % de daño durante 3 segundos tras un golpe crítico (3 piezas)",
+          "it": "(3 pezzi) Aumenta i DMG del 25% per 3 sec. dopo aver inflitto colpi crit.",
+          "pt": "(3 Peças) Aumenta o Dano em 25% por 3 segundos após fazer Acertos Críticos.",
+          "ru": "(3 части) Увеличивает УРН на 25% на 3 сек. после крит. ударов."
+        }
+      }
+    ]
+  },
+  {
+    "id": "721200",
+    "gameId": 721200,
+    "name": {
+      "en": "The Styx",
+      "fr": "Le Styx",
+      "de": "Der Styx",
+      "es": "Estigia",
+      "it": "Stige",
+      "pt": "O Estige",
+      "ru": "Стикс"
+    },
+    "bonuses": [
+      {
+        "pieces": 3,
+        "description": {
+          "en": "(3 pieces) AoE DMG +18%",
+          "fr": "(3 pièces) DGT de ZdE infligés +18 %",
+          "de": "(3 Teile) AoE-DMG +18%",
+          "es": "+18 % de daño en área (3 piezas)",
+          "it": "(3 pezzi) DMG AoE +18%",
+          "pt": "(3 peças) +18% de Dano em Área",
+          "ru": "(3 части) Масс. УРН +18%"
+        }
+      }
+    ]
+  },
+  {
+    "id": "721300",
+    "gameId": 721300,
+    "name": {
+      "en": "The Doom",
+      "fr": "Le Chaos",
+      "de": "Das Unheil",
+      "es": "Perdición",
+      "it": "Condanna",
+      "pt": "A Destruição",
+      "ru": "Рок"
+    },
+    "bonuses": [
+      {
+        "pieces": 3,
+        "description": {
+          "en": "(3 pieces) Single-Target DMG +18%",
+          "fr": "(3 pièces) DGT sur cible unique +18 %",
+          "de": "(3 Teile) Einzelziel-DMG +18%",
+          "es": "+18 % de daño infligido a un solo objetivo (3 piezas)",
+          "it": "(3 pezzi) DMG bersaglio singolo +18%",
+          "pt": "(3 Peças) +18% de Dano a Alvo Único",
+          "ru": "(3 части) УРН по одной цели +18%"
+        }
+      }
+    ]
+  },
+  {
+    "id": "721400",
+    "gameId": 721400,
+    "name": {
+      "en": "The Wisdom",
+      "fr": "La Sagesse",
+      "de": "Die Weisheit",
+      "es": "Sabiduría",
+      "it": "Saggezza",
+      "pt": "A Sabedoria",
+      "ru": "Мудрость"
+    },
+    "bonuses": [
+      {
+        "pieces": 3,
+        "description": {
+          "en": "(3 pieces) Upon casting the Ultimate, increases DMG by 35% for 10 sec.",
+          "fr": "(3 pièces) Après utilisation de l'Ultime, augmente les DGT de 35 % pendant 10 s.",
+          "de": "(3 Teile) Beim Einsatz des Ultimativen Skills erhöht sich der DMG für 10 Sek. um 35%.",
+          "es": "(3 piezas) Tras lanzar la habilidad definitiva, el daño aumenta en un 35 % durante 10 seg.",
+          "it": "(3 pezzi) Dopo aver lanciato la skill Ultimativa, aumenta il DMG del 35% per 10 sec.",
+          "pt": "(3 peças) Ao lançar a Ultimate, aumenta o Dano em 35% por 10 seg.",
+          "ru": "(3 части) При использовании суперспособности УРН повышается на 35% на 10 сек."
+        }
+      }
+    ]
+  },
+  {
+    "id": "721500",
+    "gameId": 721500,
+    "name": {
+      "en": "The Insight",
+      "fr": "La Perception",
+      "de": "Die Einsicht",
+      "es": "Percepción",
+      "it": "Intuizione",
+      "pt": "A Iluminação",
+      "ru": "Интуиция"
+    },
+    "bonuses": [
+      {
+        "pieces": 3,
+        "description": {
+          "en": "(3 pieces) Crit. Rate +15%. Each single-target DMG dealt by Basic ATKs deals extra DMG equal to 10 times the hero's level.",
+          "fr": "(3 pièces) Taux crit. +15 %. Chaque DGT monocible infligé par les ATQ basiques inflige des DGT supplémentaires équivalant à 10 fois le niveau du héros.",
+          "de": "(3 Teile) Krit. Rate +15%. Jeder Einzelziel-DMG, der durch Grund-ANG zugefügt wird, verursacht zusätzlichen DMG in Höhe des 10-fachen des Heldenlevels.",
+          "es": "(3 piezas) Índice de crítico +15 %. Cada daño a un objetivo individual infligido por ataques básicos aplica daño adicional equivalente a 10 veces el nivel del campeón.",
+          "it": "(3 pezzi) Tasso crit. +15%. Ogni DMG su bersaglio singolo inflitto dagli ATK base infligge DMG extra pari a 10 volte il livello dell'eroe.",
+          "pt": "(3 peças) +15% de Taxa de Crítico. Cada Dano de alvo único causado por ATQs Básicos causa Dano adicional igual a 10 vezes o nível do herói.",
+          "ru": "(3 части) Шанс крита +15%. Каждая базовая АТК, нанесшая УРН по одной цели, наносит дополнительный УРН в размере х10 ур. героя."
+        }
+      }
+    ]
+  },
+  {
+    "id": "721600",
+    "gameId": 721600,
+    "name": {
+      "en": "Asclepius",
+      "fr": "Asclepius",
+      "de": "Asklepios",
+      "es": "Asclepios",
+      "it": "Asclepio",
+      "pt": "Asclépio",
+      "ru": "Асклепий"
+    },
+    "bonuses": [
+      {
+        "pieces": 3,
+        "description": {
+          "en": "(3 pieces) Max HP +10%, Healing Effect +20",
+          "fr": "(3 pièces) PV max +10 %, Effet de soin +20",
+          "de": "(3 Teile) Max. LP +10%, Heilwirkung +20",
+          "es": "+10 % de vida máxima y +20 de potencia de sanación (3 piezas)",
+          "it": "(3 pezzi) HP max. +10%, effetto curativo +20",
+          "pt": "(3 Peças) +10% de HP Máx, +20 de Efeito de Cura",
+          "ru": "(3 части) Макс. ОЗ +10%, эффект исцеления +20"
+        }
+      }
+    ]
+  },
+  {
+    "id": "711300",
+    "gameId": 711300,
+    "name": {
+      "en": "Warlord",
+      "fr": "Seigneur de guerre",
+      "de": "Kriegsherr",
+      "es": "Señor de la Guerra",
+      "it": "Signore della guerra",
+      "pt": "Senhor da Guerra",
+      "ru": "Воевода"
+    },
+    "bonuses": [
+      {
+        "pieces": 2,
+        "description": {
+          "en": "(2 pieces) ATK +25%, ATK Spd. +30",
+          "fr": "(2 pièces) ATQ +25 %, Vit. d'ATQ +30",
+          "de": "(2 Teile) ANG +25%, ANG-Geschw. +30",
+          "es": "+25 % de ataque; +30 de velocidad de ataque (2 piezas)",
+          "it": "(2 pezzi) ATK +25%, vel. ATK +30",
+          "pt": "(2 Peças) ATQ +25%, Vel. de ATQ +30",
+          "ru": "(2 части) АТК +25%, СА +30"
+        }
+      }
+    ]
+  },
+  {
+    "id": "711400",
+    "gameId": 711400,
+    "name": {
+      "en": "Immortal Warrior",
+      "fr": "Guerrier immortel",
+      "de": "Unsterblicher Krieger",
+      "es": "Combatiente Inmortal",
+      "it": "Guerriero immortale",
+      "pt": "Guerreiro Imortal",
+      "ru": "Бессмертный воин"
+    },
+    "bonuses": [
+      {
+        "pieces": 2,
+        "description": {
+          "en": "(2 pieces) HP +25%, DEF +10%",
+          "fr": "(2 pièces) PV +25 %, DÉF +10 %",
+          "de": "(2 Teile) LP +25%, VERT +10%",
+          "es": "+25 % de vida; +10 % de defensa (2 piezas)",
+          "it": "(2 pezzi) HP +25%, DEF +10%",
+          "pt": "(2 Peças) HP +25%, DEF +10%",
+          "ru": "(2 части) ОЗ +25%, ЗАЩ +10%"
+        }
+      }
+    ]
+  },
+  {
+    "id": "721900",
+    "gameId": 721900,
+    "name": {
+      "en": "Ageless Wrath",
+      "fr": "Fureur immémoriale",
+      "de": "Uralter Zorn",
+      "es": "Ira Ancestral",
+      "it": "Ira senza età",
+      "pt": "Ira Ancestral",
+      "ru": "Нескончаемый гнев"
+    },
+    "bonuses": [
+      {
+        "pieces": 3,
+        "description": {
+          "en": "(3 pieces) Crit. DMG +30%. Increases Crit. DMG by 1% after making a Crit. Hit, stacking up to 30 times.",
+          "fr": "(3 pièces) DGT crit. +30 %. Augmente les DGT crit. de 1 % après avoir infligé un coup crit., cumulable jusqu'à 30 fois.",
+          "de": "(3 Teile) Krit. DMG +30%. Erhöht den Krit. DMG nach einem Krit. Treffer um 1%, bis zu 30-mal stapelbar.",
+          "es": "(3 piezas) Daño crítico +30 %. El daño crítico aumenta un 1 % tras asestar un golpe crítico; se acumula hasta 30 veces.",
+          "it": "(3 pezzi) DMG crit. +30%. Aumenta il DMG crit. dell'1% dopo aver effettuato un colpo crit., cumulabile fino a 30 volte.",
+          "pt": "(3 peças) +30% de Dano Crítico. Aumenta o Dano Crítico em 1% depois de fazer um Acerto Crít., acumulando até 30 vezes.",
+          "ru": "(3 части) Крит. УРН +30%. После нанесения крит. удара крит. УРН повышается на 1%. Эффект складывается до 30 раз."
+        }
+      }
+    ]
+  },
+  {
+    "id": "722000",
+    "gameId": 722000,
+    "name": {
+      "en": "Invigoration",
+      "fr": "Revitalisation",
+      "de": "Kräftigung",
+      "es": "Revitalización",
+      "it": "Rinvigorimento",
+      "pt": "Revigoramento",
+      "ru": "Прилив сил"
+    },
+    "bonuses": [
+      {
+        "pieces": 3,
+        "description": {
+          "en": "(3 pieces) Healing Effect +25. When deployed, the hero and 1 random ally in range gain 10% ATK.",
+          "fr": "(3 pièces) Effet de soin +25. Une fois déployé, le héros et 1 allié à portée aléatoire gagnent 10 % d'ATQ.",
+          "de": "(3 Teile) Heilwirkung +25. Nach dem Einsetzen erhalten der Held und 1 zufälliger Verbündeter in Reichweite 10% ANG.",
+          "es": "+25 de potencia de sanación. Cuando entra al campo de batalla, el campeón y un aliado aleatorio a su alcance ganan un 10 % de ataque (3 piezas)",
+          "it": "(3 pezzi) Effetto curativo +25. Dopo lo schieramento, l'eroe e 1 alleato casuale nel raggio d'azione ottengono il 10% di ATK.",
+          "pt": "(3 Peças) +25 de Efeito de Cura. Ao ser implantado, o herói e 1 aliado aleatório no alcance ganham 10% de ATQ.",
+          "ru": "(3 части) Эффект исцеления +25. После размещения АТК героя и 1 случайного союзника в пределах дальности увеличится на 10%."
+        }
+      }
+    ]
+  },
+  {
+    "id": "722100",
+    "gameId": 722100,
+    "name": {
+      "en": "Morale",
+      "fr": "Esprit vif",
+      "de": "Moral",
+      "es": "Arenga de Guerra",
+      "it": "Morale",
+      "pt": "Moral",
+      "ru": "Вера в победу"
+    },
+    "bonuses": [
+      {
+        "pieces": 3,
+        "description": {
+          "en": "(3 pieces) When on the field, all allies deal 4% increased DMG. Does not stack.",
+          "fr": "(3 pièces) Lorsqu'ils sont sur le terrain, tous les alliés infligent un bonus de DGT de 4 %. Ne se cumule pas.",
+          "de": "(3 Teile) Befindet sich der Träger auf dem Schlachtfeld, verursachen alle Verbündeten 4% mehr DMG. Nicht stapelbar.",
+          "es": "(3 piezas) Cuando está en el campo de batalla, todos los aliados infligen un 4 % de daño extra. Este efecto no es acumulable.",
+          "it": "(3 pezzi) Quando è in campo, tutti gli alleati infliggono il 4% di DMG in più. Non è cumulabile.",
+          "pt": "(3 peças) Quando no campo de batalha, todos os aliados causam 4% de Dano adicional. Não acumula.",
+          "ru": "(3 части) Когда герой на поле боя, все союзники наносят 4% повышенного УРН. Эффект не складывается."
+        }
+      }
+    ]
+  },
+  {
+    "id": "722200",
+    "gameId": 722200,
+    "name": {
+      "en": "Unshaken Will",
+      "fr": "Volonté inébranlable",
+      "de": "Unbeugsamer Wille",
+      "es": "Voluntad Inquebrantable",
+      "it": "Volontà incrollabile",
+      "pt": "Vontade Inabalável",
+      "ru": "Непоколебимая воля"
+    },
+    "bonuses": [
+      {
+        "pieces": 3,
+        "description": {
+          "en": "(3 pieces) When deployed, HP +20%. When attacked, restores 5% of Max HP. Trigger Interval: 5 sec.",
+          "fr": "(3 pièces) Une fois déployé, PV +20 %. À chaque attaque subie, régénère 5 % des PV max. Intervalle de déclenchement : 5 s.",
+          "de": "(3 Teile) LP +20% nach dem Einsatz. Stellt bei erlittenem Angriff 5% der Max. LP wieder her. Auslöseintervall: 5 Sek.",
+          "es": "(3 piezas) Al entrar al campo de batalla, vida +20 %. Al recibir ataques, recupera un 5 % de la vida máxima. Intervalo de activación: 5 seg.",
+          "it": "(3 pezzi) Allo schieramento, HP +20%. Quando è sotto attacco, ripristina il 5% degli HP max. Intervallo di innesco: 5 sec.",
+          "pt": "(3 peças) +20% de HP quando implantado. Quando atacado, restaura 5% do HP Máx. Intervalo de ativação: 5 seg.",
+          "ru": "(3 части) После размещения ОЗ +20%. Когда героя атакуют, он восстанавливает 5% макс. ОЗ. Интервал срабатывания: 5 сек."
+        }
+      }
+    ]
+  },
+  {
+    "id": "722300",
+    "gameId": 722300,
+    "name": {
+      "en": "Soulbound Arcana",
+      "fr": "Arcana de l'âme",
+      "de": "Seelengebundene Arkana",
+      "es": "Alma Arcana",
+      "it": "Arcano dell'anima",
+      "pt": "Alma Arcana",
+      "ru": "Магия души"
+    },
+    "bonuses": [
+      {
+        "pieces": 3,
+        "description": {
+          "en": "(3 pieces) Each time an Ultimate is cast, permanently increases DMG by 10%, stacking up to 5 times.",
+          "fr": "(3 pièces) Chaque fois qu'un Ultime est utilisé, augmente de façon permanente les DGT de 10 %, cumulable jusqu'à 5 fois.",
+          "de": "(3 Teile) Erhöht bei jedem Einsatz des Ultimativen Skills den DMG dauerhaft um 10%, bis zu 5-mal stapelbar.",
+          "es": "(3 piezas) Cada vez que se lanza una habilidad definitiva, el daño aumenta de forma permanente en un 10 %; se acumula hasta 5 veces.",
+          "it": "(3 pezzi) Ogni volta che viene lanciata una skill Ultimativa, aumenta permanentemente il DMG del 10%, accumulandosi fino a 5 volte.",
+          "pt": "(3 peças) Cada vez que uma Ultimate é lançada, aumenta permanentemente o Dano em 10%, acumulando até 5 vezes.",
+          "ru": "(3 части) При каждом использовании суперспособности УРН навсегда повышается на 10%. Эффект складывается до 5 раз."
+        }
+      }
+    ]
+  },
+  {
+    "id": "722400",
+    "gameId": 722400,
+    "name": {
+      "en": "Infernal Roar",
+      "fr": "Rugissement infernal",
+      "de": "Höllisches Gebrüll",
+      "es": "Rugido Infernal",
+      "it": "Ruggito infernale",
+      "pt": "Rugido Infernal",
+      "ru": "Адский рев"
+    },
+    "bonuses": [
+      {
+        "pieces": 3,
+        "description": {
+          "en": "(3 pieces) Basic ATK DMG +40%",
+          "fr": "(3 pièces) DGT de l'ATQ basique +40 %",
+          "de": "(3 Teile) DMG des Grund-ANG +40%",
+          "es": "+40 % de daño de ataques básicos (3 piezas)",
+          "it": "(3 pezzi) DMG dell'ATK base +40%",
+          "pt": "(3 Peças) +40% de Dano de ATQ Básico",
+          "ru": "(3 части) УРН базовой АТК +40%"
+        }
+      }
+    ]
+  },
+  {
+    "id": "711500",
+    "gameId": 711500,
+    "name": {
+      "en": "Wicked Vengeance",
+      "fr": "Vicieuse vengeance",
+      "de": "Boshafte Rache",
+      "es": "Venganza Diabólica",
+      "it": "Vendetta malvagia",
+      "pt": "Vingança Perversa",
+      "ru": "Злая месть"
+    },
+    "bonuses": [
+      {
+        "pieces": 2,
+        "description": {
+          "en": "(2 pieces) Crit. DMG +40%, ATK +10%",
+          "fr": "(2 pièces) DGT crit. +40 %, ATQ +10 %",
+          "de": "(2 Teile) Krit. DMG +40%, ANG +10%",
+          "es": "+40 % de daño crítico y +10 % de ataque (2 piezas)",
+          "it": "(2 pezzi) DMG crit. +40%, ATK +10%",
+          "pt": "(2 peças) +40% de Dano Crítico, +10% de ATQ",
+          "ru": "(2 части) Крит. УРН +40%, АТК +10%"
+        }
+      }
+    ]
+  },
+  {
+    "id": "711600",
+    "gameId": 711600,
+    "name": {
+      "en": "Light's Grace",
+      "fr": "Grâce de la lumière",
+      "de": "Gnade des Lichts",
+      "es": "La bendición de la luz",
+      "it": "Grazia della luce",
+      "pt": "Graça da Luz",
+      "ru": "Благодать света"
+    },
+    "bonuses": [
+      {
+        "pieces": 2,
+        "description": {
+          "en": "(2 pieces) Healing Effect +30, Rage Regen +10%",
+          "fr": "(2 pièces) Effet de soin +30, régén. de rage +10 %",
+          "de": "(2 Teile) Heilwirkung +30, Wut-Regen. +10%",
+          "es": "+30 puntos de potencia de sanación y +10 % de regeneración de furia (2 piezas)",
+          "it": "(2 pezzi) Effetto curativo +30, Rigen. rabbia +10%",
+          "pt": "(2 peças) +30 de Efeito de Cura, +10% de Regeneração de Fúria",
+          "ru": "(2 части) Эффект исцеления +30, восст. ярости +10%"
+        }
+      }
+    ]
+  },
+  {
+    "id": "722500",
+    "gameId": 722500,
+    "name": {
+      "en": "Hell's Lament",
+      "fr": "Lamentation infernale",
+      "de": "Höllenklage",
+      "es": "El lamento Infernal",
+      "it": "Lamento dell'inferno",
+      "pt": "Lamento do Inferno",
+      "ru": "Песнь ада"
+    },
+    "bonuses": [
+      {
+        "pieces": 3,
+        "description": {
+          "en": "(3 pieces) Upon casting the Ultimate, increases DMG by 35% and Crit. DMG by 50%, lasting for 20 sec.",
+          "fr": "(3 pièces) Après utilisation de l'Ultime, augmente les DGT de 35 % et les DGT crit. de 50 % pendant 20 s.",
+          "de": "(3 Teile) Erhöht beim Einsatz des Ultimativen Skills den DMG um 35% und den Krit. DMG um 50%, hält 20 Sek. an.",
+          "es": "(3 piezas) Tras lanzar la habilidad definitiva, el daño aumenta en un 35 % y el daño crítico en un 50 %. Este efecto dura 20 seg.",
+          "it": "(3 pezzi) Dopo aver lanciato la skill Ultimativa, aumenta il DMG del 35% e il DMG crit. del 50% per una durata di 20 sec.",
+          "pt": "(3 peças) Ao lançar a Ultimate, aumenta o Dano em 35% e o Dano Crítico em 50%, durando 20 seg.",
+          "ru": "(3 части) При использовании суперспособности УРН повышается на 35% и крит. УРН на 50%. Действует 20 сек."
+        }
+      }
+    ]
+  },
+  {
+    "id": "722600",
+    "gameId": 722600,
+    "name": {
+      "en": "Tempered Will",
+      "fr": "Volonté tempérée",
+      "de": "Gestärkter Wille",
+      "es": "Voluntad Contenida",
+      "it": "Volontà temprata",
+      "pt": "Determinação Fortalecida",
+      "ru": "Закаленная воля"
+    },
+    "bonuses": [
+      {
+        "pieces": 3,
+        "description": {
+          "en": "(3 pieces) DMG Reduction +15%. For each enemy blocked, increases DEF by 5%, stacking up to 4 times.",
+          "fr": "(3 pièces) Réduction de DGT +15 %. À chaque ennemi bloqué, la DÉF augmente de 5 %, jusqu'à 4 fois.",
+          "de": "(3 Teile) DMG-Reduktion +15%. Erhöht für jeden geblockten Gegner die VERT um 5% (bis zu 4-mal stapelbar).",
+          "es": "Reducción de daño +15 %. Por cada enemigo bloqueado, la defensa aumenta en un 5 % hasta un máximo de 4 veces. (3 piezas)",
+          "it": "(3 pezzi) Riduzione DMG +15%. Per ogni nemico bloccato, aumenta la DEF del 5% (fino a 4 accumuli).",
+          "pt": "(3 peças) +15% de Redução de Dano. Para cada inimigo bloqueado, aumenta a DEF em 5%, acumulando até 4 vezes.",
+          "ru": "(3 части) Сниж. УРН +15%. За каждого заблокированного врага повышает ЗАЩ на 5%. Складывается до 4 раз."
+        }
+      }
+    ]
+  },
+  {
+    "id": "711800",
+    "gameId": 711800,
+    "name": {
+      "en": "Astral Guardian",
+      "fr": "Gardien astral",
+      "de": "Astralwächter",
+      "es": "Guardián Astral",
+      "it": "Custode astrale",
+      "pt": "Guardião Astral",
+      "ru": "Астральный страж"
+    },
+    "bonuses": [
+      {
+        "pieces": 2,
+        "description": {
+          "en": "(2 pieces) HP +30%, DEF +15%",
+          "fr": "(2 pièces) PV +30 %, DÉF +15 %",
+          "de": "(2 Teile) LP +30%, VERT +15%",
+          "es": "(2 piezas) Vida +30 %, defensa +15 %",
+          "it": "(2 pezzi) HP +30%, DEF +15%",
+          "pt": "(2 peças) +30% de HP; +15% de DEF",
+          "ru": "(2 части) ОЗ +30%, ЗАЩ +15%"
+        }
+      }
+    ]
+  },
+  {
+    "id": "722800",
+    "gameId": 722800,
+    "name": {
+      "en": "Cataclysm",
+      "fr": "Cataclysme",
+      "de": "Kataklysmus",
+      "es": "Cataclismo",
+      "it": "Cataclisma",
+      "pt": "Cataclismo",
+      "ru": "Катаклизм"
+    },
+    "bonuses": [
+      {
+        "pieces": 3,
+        "description": {
+          "en": "(3 pieces) Upon landing a Crit. Hit with Basic ATK, increases the hero's DMG by 10% for 8 sec, stacking up to 5 times.",
+          "fr": "(3 pièces) En infligeant un coup crit. avec une ATQ basique, augmente les DGT du héros de 10 % pendant 8 s, cumulable jusqu'à 5 fois.",
+          "de": "(3 Teile) Nach einem Krit. Treffer mit einem Grund-ANG erhöht sich der DMG des Helden 8 Sek. lang um 10%. Bis zu 5-mal stapelbar.",
+          "es": "(3 piezas) Al ejecutar un golpe crítico con el ataque básico, el daño infligido por el campeón aumenta un 10 % durante 8 segundos. Este efecto puede acumularse hasta 5 veces.",
+          "it": "(3 pezzi) Dopo aver messo a segno un colpo crit. con l'ATK base, aumenta i DMG inflitti dall'eroe del 10% per 8 sec., accumulandosi fino a 5 volte.",
+          "pt": "(3 peças) Ao lançar um Acerto Crít. com o ATQ Básico, aumenta o Dano do herói em 10% por 8 seg., acumulando até 5 vezes.",
+          "ru": "(3 части) При нанесении крит. удара базовой АТК повышает УРН героя на 10% на 8 сек. Эффект складывается до 5 раз."
+        }
+      }
+    ]
+  },
+  {
+    "id": "722900",
+    "gameId": 722900,
+    "name": {
+      "en": "Wings of Grace",
+      "fr": "Ailes de la grâce",
+      "de": "Schwingen der Gnade",
+      "es": "Alas de Gracia",
+      "it": "Ali della grazia",
+      "pt": "Asas da Graça",
+      "ru": "Крылья милости"
+    },
+    "bonuses": [
+      {
+        "pieces": 3,
+        "description": {
+          "en": "(3 pieces) Healing Effect +30. Increases the ATK of the hero and the ally with the highest ATK in range by 12%.",
+          "fr": "(3 pièces) Effet de soin +30. Augmente l'ATQ du héros et de l'allié avec l'ATQ la plus élevée à portée de 12 %.",
+          "de": "(3 Teile) Heilwirkung +30. Erhöht den ANG des Helden und des Verbündeten mit dem höchsten ANG in Reichweite um 12%.",
+          "es": "(3 piezas) Potencia de sanación +30. El ataque del campeón y el aliado con el ataque más alto a su alcance aumenta un 12 %.",
+          "it": "(3 pezzi) Effetto curativo +30. Aumenta del 12% l'ATK dell'eroe e dell'alleato con l'ATK più alto nel raggio d'azione.",
+          "pt": "(3 peças) +30 de Efeito de Cura. Aumenta o ATQ do herói e do aliado no alcance com o maior ATQ em 12%.",
+          "ru": "(3 части) Эффект исцеления +30. Повышает АТК героя и союзника с наибольшей АТК в пределах дальности на 12%."
+        }
+      }
+    ]
+  },
+  {
+    "id": "723100",
+    "gameId": 723100,
+    "name": {
+      "en": "Undying Savage",
+      "fr": "Sauvage immortel",
+      "de": "Unsterblicher Wilder",
+      "es": "Salvaje Imperecedero",
+      "it": "Selvaggio immortale",
+      "pt": "Selvagem Imortal",
+      "ru": "Бессмертный дикарь"
+    },
+    "bonuses": [
+      {
+        "pieces": 3,
+        "description": {
+          "en": "(3 pieces) When the hero gains a shield or receives healing, increases Max HP by 1% and DMG by 4%, stacking up to 10 times.",
+          "fr": "(3 pièces) Quand le héros obtient un bouclier ou reçoit un soin, augmente les PV max de 1 % et les DGT de 4 %, cumulable jusqu'à 10 fois.",
+          "de": "(3 Teile) Wenn der Held einen Schild erhält oder Heilung empfängt, erhöhen sich die Max. LP um 1% und der DMG um 4%, bis zu 10-mal stapelbar.",
+          "es": "(3 piezas) Cuando el campeón obtiene un escudo o recibe sanación, la vida máxima aumenta en un 1 % y el daño en un 4 %; se acumula hasta 10 veces.",
+          "it": "(3 pezzi) Quando l'eroe ottiene uno scudo o riceve cure, aumenta gli HP max dell'1% e il DMG del 4%, accumulandosi fino a 10 volte.",
+          "pt": "(3 peças) Quando o herói ganha um escudo ou recebe cura, aumenta o HP Máx. em 1% e o Dano em 4%, acumulando até 10 vezes.",
+          "ru": "(3 части) Когда герой получает щит или исцеление, макс. ОЗ повышается на 1% и УРН на 4%. Эффект складывается до 10 раз."
+        }
+      }
+    ]
+  },
+  {
+    "id": "711900",
+    "gameId": 711900,
+    "name": {
+      "en": "Drakefire",
+      "fr": "Feu de dragon",
+      "de": "Drachenglut",
+      "es": "Fuegodraco",
+      "it": "Fuocodrago",
+      "pt": "Fogo Dracônico",
+      "ru": "Драконье пламя"
+    },
+    "bonuses": [
+      {
+        "pieces": 2,
+        "description": {
+          "en": "(2 pieces) ATK +30%. Each time Burning is successfully inflicted on an enemy, increases DMG by 1% for 5 sec, stacking up to 10 times.",
+          "fr": "(2 pièces) ATQ +30 %. Chaque fois qu'Incinération est appliquée avec succès à un ennemi, augmente les DGT de 1 % pendant 5 s, cumulable jusqu'à 10 fois.",
+          "de": "(2 Teile) ANG +30%. Jedes Mal, wenn ein Gegner erfolgreich mit Brennen belegt wird, wird der DMG für 5 Sek. um 1% erhöht, bis zu 10-mal stapelbar.",
+          "es": "(2 piezas) Ataque +30 %. Cada vez que se aplica \"Quemadura\" con éxito a un enemigo, el daño aumenta en un 1 % durante 5 segundos; se acumula hasta 10 veces.",
+          "it": "(2 pezzi) ATK +30%. Ogni volta che viene inflitta con successo Bruciatura a un nemico, aumenta il DMG dell'1% per 5 sec., accumulabile fino a 10 volte.",
+          "pt": "(2 peças) +30% de ATQ. Cada vez que Queimadura é infligida com sucesso em um inimigo, aumenta o Dano em 1% por 5 seg., acumulando até 10 vezes.",
+          "ru": "(2 части) АТК +30%. Каждый раз при успешном наложении эффекта «Поджог» на врага УРН повышается на 1% на 5 сек. Эффект складывается до 10 раз."
+        }
+      }
+    ]
+  },
+  {
+    "id": "712000",
+    "gameId": 712000,
+    "name": {
+      "en": "Goldmane",
+      "fr": "Crinière d'or",
+      "de": "Goldmähne",
+      "es": "Crin dorada",
+      "it": "Criniera d'oro",
+      "pt": "Juba Dourada",
+      "ru": "Золотая грива"
+    },
+    "bonuses": [
+      {
+        "pieces": 2,
+        "description": {
+          "en": "(2 pieces) HP +30%. Each time the hero uses a Basic ATK to deal DMG to an enemy, deals extra True DMG 1 time equal to 4% of the hero's Max HP.",
+          "fr": "(2 pièces) PV +30 %. Chaque fois que le héros utilise une ATQ basique pour infliger des DGT à un ennemi, inflige 1 fois des DGT bruts supplémentaires équivalents à 4 % des PV max du héros.",
+          "de": "(2 Teile) LP +30%. Jedes Mal, wenn der Held mit einem Grund-ANG einem Gegner DMG zufügt, verursacht er 1-mal zusätzlichen Absolut-DMG in Höhe von 4% seiner Max. LP.",
+          "es": "(2 piezas) Vida +30 %. Cada vez que el campeón usa un ataque básico para infligir daño a un enemigo, inflige daño real adicional una vez, equivalente al 4 % de la vida máxima del campeón.",
+          "it": "(2 pezzi) HP +30%. Ogni volta che l'eroe usa un ATK base per infliggere DMG a un nemico, infligge una volta DMG effettivo extra pari al 4% degli HP max dell'eroe.",
+          "pt": "(2 peças) +30% de HP. Cada vez que o herói usa um ATQ Básico para causar Dano a um inimigo, causa Dano Real adicional, 1 vez, igual a 4% do HP Máx. do herói.",
+          "ru": "(2 части) ОЗ +30%. Каждый раз, когда герой использует базовую АТК для нанесения УРН врагу, 1 раз наносится доп. реальный УРН, равный 4% макс. ОЗ героя."
+        }
+      }
+    ]
+  },
+  {
+    "id": "723000",
+    "gameId": 723000,
+    "name": {
+      "en": "Greyfang",
+      "fr": "Croc gris",
+      "de": "Graufang",
+      "es": "Colmillo gris",
+      "it": "Zanna grigia",
+      "pt": "Presa Cinzenta",
+      "ru": "Серый клык"
+    },
+    "bonuses": [
+      {
+        "pieces": 3,
+        "description": {
+          "en": "(3 pieces) Basic ATK DMG +35%. After killing an enemy, increases Penetration by 15% for 10 sec.",
+          "fr": "(3 pièces) DGT d'ATQ basique +35 %. Après avoir éliminé un ennemi, augmente la pénétration de 15 % pendant 10 s.",
+          "de": "(3 Teile) Grund-ANG-DMG +35%. Nach dem Töten eines Gegners erhöht sich die Durchdringung für 10 Sek. um 15%.",
+          "es": "(3 piezas) Daño de ataque básico +35 %. Tras matar a un enemigo, la penetración aumenta en un 15 % durante 10 seg.",
+          "it": "(3 pezzi) DMG ATK base +35%. Dopo aver ucciso un nemico, aumenta la penetrazione del 15% per 10 sec.",
+          "pt": "(3 peças) +35% de Dano de ATQ Básico. Após eliminar um inimigo, aumenta a Penetração em 15% por 10 seg.",
+          "ru": "(3 части) УРН базовой АТК +35%. После убийства врага пробивание повышается на 15% на 10 сек."
+        }
+      }
+    ]
+  }
+]

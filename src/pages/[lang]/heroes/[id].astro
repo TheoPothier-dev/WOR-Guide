@@ -1,7 +1,7 @@
 ---
 import { getCollection, getEntry } from 'astro:content';
 import Base from '../../../layouts/Base.astro';
-import { localize, useTranslations, type Locale } from '../../../i18n/ui';
+import { localize, useTranslations, type Locale, type LocalizedText } from '../../../i18n/ui';
 import { locales } from '../../../i18n/locales.js';
 import { servers } from '../../../content.config';
 
@@ -17,6 +17,7 @@ const h = hero.data;
 const name = localize(h.name, lang);
 const factions = await Promise.all(h.factions.map((f) => getEntry(f)));
 const modes = await getCollection('modes');
+const artifact = h.exclusiveArtifact ? await getEntry(h.exclusiveArtifact) : undefined;
 const pct = (n?: number) => (n === undefined ? '' : ` (${n.toLocaleString(lang)} % ${t('hero.usage')})`);
 ---
 <Base lang={lang} title={name}>
@@ -29,6 +30,43 @@ const pct = (n?: number) => (n === undefined ? '' : ` (${n.toLocaleString(lang)}
     {factions.length > 0 && <><dt>{t('hero.faction')}</dt><dd>{factions.map((f) => localize(f.data.name, lang)).join(', ')}</dd></>}
     {h.damageType && <><dt>{t('hero.damageType')}</dt><dd>{t(`damage.${h.damageType}`)}</dd></>}
   </dl>
+
+  {h.skills.length > 0 && (
+    <>
+      <h2>{t('hero.skills')}</h2>
+      {h.skills.map((sk) => (
+        <section class="skill">
+          <h3>
+            {t(`skill.${sk.kind}`)}{sk.name.en && <> : {localize(sk.name as LocalizedText, lang)}</>}
+            {sk.cooldown !== undefined && <small> ({t('skill.cooldown')} {sk.cooldown} {t('skill.seconds')})</small>}
+          </h3>
+          <p class="text">{localize(sk.description, lang)}</p>
+        </section>
+      ))}
+    </>
+  )}
+
+  {h.awakenings.length > 0 && (
+    <>
+      <h2>{t('hero.awakenings')}</h2>
+      <dl>
+        {h.awakenings.map((a) => (
+          <>
+            <dt>{t('hero.awakeningLevel')} {a.level}</dt>
+            <dd class="text">{localize(a.description, lang)}</dd>
+          </>
+        ))}
+      </dl>
+    </>
+  )}
+
+  {artifact && (
+    <>
+      <h2>{t('hero.exclusiveArtifact')}</h2>
+      <h3>{localize(artifact.data.name, lang)}</h3>
+      {artifact.data.description && <p class="text">{localize(artifact.data.description, lang)}</p>}
+    </>
+  )}
 
   <h2>{t('hero.builds')}</h2>
   {servers.map((server) => {

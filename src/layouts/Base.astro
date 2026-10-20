@@ -26,6 +26,8 @@ const pageTitle = title ? `${title} | ${t('siteTitle')}` : t('siteTitle');
       <nav>
         <a href={href(lang, 'heroes/')}>{t('nav.heroes')}</a>
         <a href={href(lang, 'tier-list/')}>{t('nav.tierList')}</a>
+        <a href={href(lang, 'sets/')}>{t('nav.sets')}</a>
+        <a href={href(lang, 'artifacts/')}>{t('nav.artifacts')}</a>
       </nav>
       <ServerSwitch lang={lang} />
       <select aria-label="Language" onchange="location.href = this.value">
@@ -54,4 +56,5 @@ const pageTitle = title ? `${title} | ${t('siteTitle')}` : t('siteTitle');
   th, td { border: 1px solid #ddd; padding: 4px 8px; text-align: left; }
   .example { background: #fff3cd; padding: 4px 8px; }
   [hidden] { display: none !important; }
+  .text { white-space: pre-line; }
 </style>

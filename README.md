@@ -28,6 +28,8 @@ Fichiers JSON dans `src/data/`, validés au build par `src/content.config.ts` : 
 - `heroes.json` : un objet par héros. `builds` et `tiers` sont séparés par serveur (`global`, `europe`). `example: true` affiche un bandeau « données non vérifiées ».
 - `modes.json` : les modes de jeu utilisés comme colonnes de la tier list.
 - `factions.json` : les factions.
+- `sets.json` et `artifacts.json` : sets d'équipement (bonus par nombre de pièces) et artefacts (de classe, généraux ou exclusifs à un héros).
+- Dans `heroes.json`, `skills`, `awakenings` et `exclusiveArtifact` viennent du jeu ; les valeurs des compétences sont celles du niveau maximum.
 
 Exemple de héros :
 

@@ -54,16 +54,53 @@ const modes = defineCollection({
   }),
 });
 
+const sets = defineCollection({
+  loader: file('src/data/sets.json'),
+  schema: z.object({
+    gameId: z.number().int(),
+    name: localized,
+    bonuses: z.array(z.object({ pieces: z.number().int(), description: localized })),
+  }),
+});
+
+const heroClass = z.enum(['fighter', 'mage', 'marksman', 'defender', 'healer', 'tactician']);
+
+const artifacts = defineCollection({
+  loader: file('src/data/artifacts.json'),
+  schema: z.object({
+    gameId: z.number().int(),
+    name: localized,
+    rank: z.number().int(),
+    description: localized.optional(),
+    // Artefact réservé à un héros (identifiant du jeu) ou à une classe.
+    heroGameId: z.number().int().optional(),
+    class: heroClass.optional(),
+  }),
+});
+
 const heroes = defineCollection({
   loader: file('src/data/heroes.json'),
   schema: z.object({
     gameId: z.number().int().optional(),
     name: localized,
     title: localized.optional(),
-    class: z.enum(['fighter', 'mage', 'marksman', 'defender', 'healer', 'tactician']),
+    class: heroClass,
     rarity: z.enum(['legendary', 'epic', 'rare']).optional(),
     factions: z.array(reference('factions')).default([]),
     damageType: z.enum(['physical', 'magic']).optional(),
+    // Compétences au niveau maximum, textes du jeu avec les valeurs déjà calculées.
+    skills: z
+      .array(
+        z.object({
+          kind: z.enum(['talent', 'basic', 'ultimate', 'skill', 'passive', 'bond']),
+          name: localized.partial({ en: true }),
+          description: localized,
+          cooldown: z.number().optional(),
+        }),
+      )
+      .default([]),
+    awakenings: z.array(z.object({ level: z.number().int(), description: localized })).default([]),
+    exclusiveArtifact: reference('artifacts').optional(),
     // true tant que les données n'ont pas été vérifiées dans le jeu.
     example: z.boolean().default(false),
     builds: perServer(z.array(build)).default({}),
@@ -71,5 +108,5 @@ const heroes = defineCollection({
   }),
 });
 
-export const collections = { factions, modes, heroes };
+export const collections = { factions, modes, sets, artifacts, heroes };
 export { servers, tiers };
