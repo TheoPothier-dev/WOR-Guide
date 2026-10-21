@@ -29,6 +29,9 @@ const typeLabel = (type: string) => t(`news.${type as 'update' | 'event' | 'hero
 const text = (en: string, fr: string) => localize({ en, fr }, lang);
 const day = (d: string) => new Date(d + 'T12:00:00Z').toLocaleDateString(lang, { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
 const updated = day(new Date().toISOString().slice(0, 10));
+const short = (d: string) => new Date(d + 'T12:00:00Z').toLocaleDateString(lang, { day: 'numeric', month: 'short', timeZone: 'UTC' });
+// Seules les dernières actus sont visibles d'emblée ; le reste s'ouvre à la demande.
+const latest = 4;
 ---
 <Base lang={lang}>
   <section class="hero">
@@ -40,94 +43,103 @@ const updated = day(new Date().toISOString().slice(0, 10));
     </button>
   </section>
 
+  <nav class="sections" aria-label={t('home.explore')}>
+    {sections.map((s) => (
+      <a class="section" href={href(lang, s.path)}>
+        <span class="section-title">{s.title}</span>
+        {s.count !== undefined && <span class="count">{s.count}</span>}
+      </a>
+    ))}
+  </nav>
+
   <section class="news">
     <div class="news-head">
       <h2>{t('home.news')}</h2>
       <small class="muted">{t('home.updated')} {updated}</small>
     </div>
-    <div class="news-list">
-      {news.map((n) => {
+    <ol class="news-list">
+      {news.map((n, i) => {
         const linked = n.heroes.map(findHero).filter((h) => h !== undefined);
         return (
-          <article class={`card item type-${n.type}`} data-start={n.date} data-end={n.end ?? ''}>
-            <header>
-              <span class="type">{typeLabel(n.type)}</span>
-              <span class="state" data-live={t('news.live')} data-soon={t('news.soon')} hidden></span>
-              <time datetime={n.date}>{day(n.date)}{n.end && ` · ${t('news.until')} ${day(n.end)}`}</time>
-            </header>
-            <h3>{text(n.title_en, n.title_fr)}</h3>
-            <p>{text(n.summary_en, n.summary_fr)}</p>
-            <footer>
+          <li class={`item type-${n.type}`} data-start={n.date} data-end={n.end ?? ''} hidden={i >= latest}>
+            <time datetime={n.date}>{short(n.date)}</time>
+            <div class="body">
+              <div class="tags">
+                <span class="type">{typeLabel(n.type)}</span>
+                <span class="state" data-live={t('news.live')} data-soon={t('news.soon')} hidden></span>
+                {n.end && <small class="muted">{t('news.until')} {short(n.end)}</small>}
+              </div>
+              <h3><a href={n.source} rel="noopener" target="_blank">{text(n.title_en, n.title_fr)}</a></h3>
+              <p>{text(n.summary_en, n.summary_fr)}</p>
+            </div>
+            {linked.length > 0 && (
               <span class="faces">
-                {linked.map((h) => (
-                  <a href={href(lang, `heroes/${h.id}/`)} title={localize(h.data.name, lang)}><img src={heroHead(h.data.gameId)} alt={localize(h.data.name, lang)} width="36" height="54" loading="lazy" /></a>
+                {linked.slice(0, 3).map((h) => (
+                  <a href={href(lang, `heroes/${h.id}/`)} title={localize(h.data.name, lang)}><img src={heroHead(h.data.gameId)} alt={localize(h.data.name, lang)} width="28" height="42" loading="lazy" /></a>
                 ))}
               </span>
-              <a class="source" href={n.source} rel="noopener" target="_blank">{t('news.source')} ↗</a>
-            </footer>
-          </article>
+            )}
+          </li>
         );
       })}
-    </div>
+    </ol>
+    {news.length > latest && <button type="button" class="more" data-more>{t('news.more')} ({news.length})</button>}
     <p class="muted note"><small>{t('news.note')}</small></p>
   </section>
-
-  <h2>{t('home.explore')}</h2>
-  <div class="sections">
-    {sections.map((s) => (
-      <a class="card section" href={href(lang, s.path)}>
-        <div class="head">
-          <h3>{s.title}</h3>
-          {s.count !== undefined && <span class="count">{s.count}</span>}
-        </div>
-        <p class="muted">{s.text}</p>
-      </a>
-    ))}
-  </div>
 </Base>
 
 <style>
-  .hero { text-align: center; padding: clamp(20px, 5vw, 56px) 0 clamp(8px, 2vw, 16px); }
+  .hero { text-align: center; padding: clamp(28px, 7vw, 72px) 0 clamp(16px, 3vw, 28px); }
   .hero h1 { font-size: clamp(2rem, 6vw, 3.4rem); margin: 0 0 0.3em; }
-  .hero p { font-size: 1.1rem; color: var(--muted); max-width: 40em; margin: 0 auto; }
+  .hero p { font-size: 1.1rem; color: var(--muted); max-width: 36em; margin: 0 auto; }
   .big-search {
-    display: inline-flex; align-items: center; gap: 10px; margin-top: 20px; width: min(480px, 100%);
+    display: inline-flex; align-items: center; gap: 10px; margin-top: 24px; width: min(480px, 100%);
     font: inherit; color: var(--muted); cursor: pointer; text-align: left;
     background: var(--surface); border: 1px solid var(--border); border-radius: 999px; padding: 12px 18px;
   }
   .big-search:hover { border-color: var(--gold); color: var(--text); }
 
-  .news-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; border-bottom: 1px solid var(--border); margin: 1.8em 0 0.9em; }
-  .news-head h2 { border: 0; margin: 0; padding-bottom: 0.3em; }
-  .news-list { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
-  .item { display: flex; flex-direction: column; gap: 6px; border-left: 3px solid var(--border); }
-  .item header { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; font-size: 0.8rem; }
-  .item time { color: var(--muted); }
-  .item h3 { margin: 2px 0 0; color: var(--gold-2); }
-  .item p { margin: 0; font-size: 0.92rem; color: #d4d0c4; flex: 1; }
-  .item footer { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-top: 6px; }
-  .faces { display: flex; gap: 4px; flex-wrap: wrap; }
-  .faces img { width: 30px; height: 45px; border-radius: 5px; object-fit: cover; border: 1px solid var(--border); }
-  .source { font-size: 0.8rem; color: var(--muted); white-space: nowrap; }
-  .type, .state { font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; font-size: 0.7rem; padding: 2px 8px; border-radius: 4px; background: var(--surface-2); color: var(--muted); }
-  .state { background: rgba(123, 211, 137, 0.18); color: #9fe0aa; }
-  .state.soon { background: rgba(79, 157, 255, 0.16); color: #8cc0ff; }
-  .type-update { border-left-color: var(--gold); }
-  .type-update .type { background: rgba(217, 181, 108, 0.18); color: var(--gold-2); }
-  .type-event { border-left-color: #7bd389; }
-  .type-hero { border-left-color: var(--legendary); }
-  .type-collab { border-left-color: var(--epic); }
-  .type-collab .type { background: rgba(168, 116, 255, 0.18); color: #c9a6ff; }
-  .type-code { border-left-color: var(--rare); }
-  .note { margin: 10px 0 0; }
+  .sections { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 8px auto 0; max-width: 720px; }
+  .section {
+    display: inline-flex; align-items: baseline; gap: 8px; padding: 8px 16px; border-radius: 999px;
+    border: 1px solid var(--border); color: var(--text); font-weight: 600; transition: border-color 0.15s, color 0.15s;
+  }
+  .section:hover { border-color: var(--gold); color: var(--gold-2); }
+  .count { color: var(--muted); font-weight: 400; font-size: 0.85rem; }
 
-  .sections { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
-  .head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; margin-bottom: 0.4em; }
-  .section { color: var(--text); transition: border-color 0.15s, transform 0.15s; }
-  .section:hover { border-color: var(--gold); transform: translateY(-2px); color: var(--text); }
-  .section h3 { margin: 0; font-size: 1.2rem; color: var(--gold); }
-  .section p { margin: 0; }
-  .count { font-family: var(--heading); font-size: 1.4rem; color: var(--gold); }
+  .news { max-width: 760px; margin: clamp(36px, 7vw, 64px) auto 0; }
+  .news-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; margin-bottom: 4px; }
+  .news-head h2 { border: 0; margin: 0; }
+  .news-list { list-style: none; margin: 0; padding: 0; }
+  .item { display: grid; grid-template-columns: 4.5em 1fr auto; gap: 4px 16px; align-items: start; padding: 18px 0; border-top: 1px solid var(--border); }
+  .item:first-child { border-top: 0; }
+  .item time { color: var(--muted); font-size: 0.85rem; padding-top: 2px; white-space: nowrap; }
+  .tags { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; font-size: 0.8rem; }
+  .item h3 { margin: 4px 0 2px; font-size: 1.05rem; line-height: 1.35; }
+  .item h3 a { color: var(--text); }
+  .item h3 a:hover { color: var(--gold-2); }
+  .item p {
+    margin: 0; font-size: 0.9rem; color: var(--muted);
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .faces { display: flex; gap: 4px; padding-top: 2px; }
+  .faces img { width: 28px; height: 42px; border-radius: 5px; object-fit: cover; border: 1px solid var(--border); }
+  .type, .state { font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; font-size: 0.68rem; color: var(--muted); }
+  .type::before { content: ''; display: inline-block; width: 7px; height: 7px; border-radius: 50%; margin-right: 6px; background: var(--border); vertical-align: 1px; }
+  .type-update .type::before { background: var(--gold); }
+  .type-event .type::before { background: #7bd389; }
+  .type-hero .type::before { background: var(--legendary); }
+  .type-collab .type::before { background: var(--epic); }
+  .type-code .type::before { background: var(--rare); }
+  .state { padding: 1px 7px; border-radius: 4px; background: rgba(123, 211, 137, 0.15); color: #9fe0aa; }
+  .state.soon { background: rgba(79, 157, 255, 0.14); color: #8cc0ff; }
+  .more { display: block; margin: 8px auto 0; font: inherit; font-size: 0.9rem; color: var(--gold); background: none; border: 1px solid var(--border); border-radius: 999px; padding: 8px 18px; cursor: pointer; }
+  .more:hover { border-color: var(--gold); }
+  .note { margin: 18px 0 0; text-align: center; }
+  @media (max-width: 560px) {
+    .item { grid-template-columns: 1fr auto; }
+    .item time { grid-column: 1 / -1; }
+  }
 </style>
 
 <script>
@@ -142,4 +154,8 @@ const updated = day(new Date().toISOString().slice(0, 10));
     state.classList.toggle('soon', label === 'soon');
     state.hidden = false;
   }
+  document.querySelector<HTMLButtonElement>('[data-more]')?.addEventListener('click', (e) => {
+    document.querySelectorAll<HTMLElement>('.news .item[hidden]').forEach((el) => (el.hidden = false));
+    (e.currentTarget as HTMLElement).remove();
+  });
 </script>
