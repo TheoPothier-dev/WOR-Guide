@@ -271,13 +271,13 @@ const pct = (n?: number) => (n === undefined ? '' : ` (${n.toLocaleString(lang)}
     .model-card { order: 3; }
     .content > section:first-child h2 { margin-top: 0.4em; }
   }
-  .identity { overflow: hidden; display: grid; grid-template-columns: auto 1fr; gap: 12px 14px; align-items: center; border-top: 3px solid var(--border); }
+  .identity { overflow: hidden; display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 12px 14px; align-items: center; border-top: 3px solid var(--border); }
   .identity.legendary { border-top-color: var(--legendary); }
   .identity.epic { border-top-color: var(--epic); }
   .identity.rare { border-top-color: var(--rare); }
   .identity.elite { border-top-color: var(--elite); }
   .identity.common { border-top-color: var(--common); }
-  .identity h1 { margin: 0; }
+  .identity h1 { margin: 0; overflow-wrap: break-word; font-size: 1.6rem; }
   .bust {
     grid-column: 1 / -1; width: calc(100% + 32px); height: auto; margin: -16px -16px 0;
     aspect-ratio: 296 / 132; object-fit: cover; border-radius: var(--radius) var(--radius) 0 0;
