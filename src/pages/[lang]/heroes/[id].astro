@@ -25,6 +25,8 @@ const artifact = h.exclusiveArtifact ? await getEntry(h.exclusiveArtifact) : und
 const stats = h.stats;
 // Modèle 3D extrait du jeu, seulement pour les héros qui en ont un dans public/heroes/3d/.
 const model = h.gameId && existsSync(`public/heroes/3d/${h.gameId}.glb`) ? asset(`heroes/3d/${h.gameId}.glb`) : undefined;
+// Rendu en pied (modèle 3D posé du jeu), seulement pour les héros qui en ont un dans public/heroes/render/.
+const render = h.gameId && existsSync(`public/heroes/render/${h.gameId}.webp`) ? asset(`heroes/render/${h.gameId}.webp`) : undefined;
 const mainStats = ['hp', 'atk', 'def', 'mres'] as const;
 const statName = (k: string) => localize((statNames as Record<string, LocalizedText>)[k], lang);
 // Même calcul que le jeu : interpolation linéaire dans la plage de niveaux de l'étoile, plus le bonus de promotion.
@@ -63,7 +65,9 @@ const pct = (n?: number) => (n === undefined ? '' : ` (${n.toLocaleString(lang)}
   <div class="layout">
     <aside class="side">
       <div class={`card identity ${h.rarity ?? ''}`}>
-        <img class="bust" src={heroBust(h.gameId)} alt={name} width="296" height="132" />
+        {render
+          ? <img class="render" src={render} alt={name} />
+          : <img class="bust" src={heroBust(h.gameId)} alt={name} width="296" height="132" />}
         <span class="icon" aria-hidden="true"><ClassIcon cls={h.class} size={34} /></span>
         <div>
           {h.title && <p class="title">{localize(h.title, lang)}</p>}
@@ -279,6 +283,12 @@ const pct = (n?: number) => (n === undefined ? '' : ` (${n.toLocaleString(lang)}
     aspect-ratio: 296 / 132; object-fit: cover; border-radius: var(--radius) var(--radius) 0 0;
     background: radial-gradient(circle at 50% 30%, var(--surface-2), var(--surface));
     -webkit-mask-image: linear-gradient(#000 70%, transparent); mask-image: linear-gradient(#000 70%, transparent);
+  }
+  .render {
+    grid-column: 1 / -1; width: calc(100% + 32px); height: auto; max-height: 520px; object-fit: contain; margin: -16px -16px 0; padding: 12px 8px 0;
+    background: radial-gradient(ellipse 60% 55% at 50% 55%, rgba(217, 181, 108, 0.22), transparent 70%), radial-gradient(circle at 50% 30%, var(--surface-2), var(--surface));
+    border-radius: var(--radius) var(--radius) 0 0;
+    filter: drop-shadow(0 10px 18px rgba(0, 0, 0, 0.55));
   }
   .identity .badges, .identity .example { grid-column: 1 / -1; margin: 0; }
   .title { margin: 0; font-style: italic; color: var(--muted); font-size: 0.9rem; }

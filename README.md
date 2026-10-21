@@ -81,3 +81,4 @@ Site de fans, non affilié à Moonton.
 - `src/data/builds.json` : builds relevés dans les guides de la communauté (badge « Communauté »), en brouillon.
 - `src/data/builds-ai.json` : un build par héros conçu à partir des compétences et des bonus de sets du jeu (badge « IA »). Méthode : `/mnt/project-files/research/builds/mecanique-builds.md`.
 - `build_site_data.py` fusionne les deux dans `heroes.json` (communauté d'abord).
+- Rendus en pied (`public/heroes/render/<id>.webp`) : modèle `unit_<id>_high` posé sur la 1re image de l'animation `idle` (`tools/extract/pose_glb.py`), rendu sur fond transparent avec model-viewer (`render_hero.mjs`). Le même GLB posé sert au lecteur 3D.
