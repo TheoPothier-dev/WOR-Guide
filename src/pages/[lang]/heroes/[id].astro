@@ -52,6 +52,9 @@ const ordered = (await getCollection('heroes')).sort((a, b) => localize(a.data.n
 const at = ordered.findIndex((x) => x.id === hero.id);
 const prev = ordered.at(at - 1)!;
 const next = ordered.at((at + 1) % ordered.length)!;
+// Étapes de jeu des builds ; une seule est affichée à la fois (fin de partie par défaut).
+const stages = ['early', 'mid', 'end'] as const;
+const defaultStage = 'end';
 const pct = (n?: number) => (n === undefined ? '' : ` (${n.toLocaleString(lang)} % ${t('hero.usage')})`);
 ---
 <Base lang={lang} title={name} description={`${name} : ${description}`} image={h.gameId ? `heroes/bust/${h.gameId}.webp` : undefined} server>
@@ -134,13 +137,21 @@ const pct = (n?: number) => (n === undefined ? '' : ` (${n.toLocaleString(lang)}
     <div class="content">
       <section>
         <h2>{t('hero.builds')}</h2>
+        <div class="chips stages" role="group" aria-label={t('build.stage')}>
+          {stages.map((stage) => (
+            <button type="button" class="chip" data-stage-choice={stage} aria-pressed={String(stage === defaultStage)}>{t(`build.stage.${stage}`)}</button>
+          ))}
+        </div>
         {servers.map((server) => {
           const builds = h.builds[server] ?? [];
           return (
             <div data-server={server}>
               {builds.length === 0 && <p class="muted">{t('hero.noBuild')}</p>}
+              {builds.length > 0 && stages.map((stage) => (
+                <p class="muted" data-stage-empty={stage} hidden={stage !== defaultStage || builds.some((b) => b.stage === stage)}>{t('build.noStage')}</p>
+              ))}
               {builds.map((b) => (
-                <div class="card build">
+                <div class="card build" data-stage={b.stage} hidden={b.stage !== defaultStage}>
                   <header class="build-head">
                     <h3>{localize(b.label, lang)}</h3>
                     <span class={`origin origin-${b.origin}`}>{t(b.origin === 'ai' ? 'build.ai' : 'build.community')}</span>
@@ -345,7 +356,9 @@ const pct = (n?: number) => (n === undefined ? '' : ` (${n.toLocaleString(lang)}
   .origin-community { background: rgba(123, 211, 137, 0.15); color: #9fe0aa; border: 1px solid rgba(123, 211, 137, 0.4); }
   .origin-ai { background: rgba(168, 116, 255, 0.16); color: #c9a6ff; border: 1px solid rgba(168, 116, 255, 0.45); }
   .role { margin: -4px 0 0; color: var(--muted); font-size: 0.9rem; }
-  .build + .build { margin-top: 12px; }
+  .build:not([hidden]) ~ .build:not([hidden]) { margin-top: 12px; }
+  .stages { margin: 0 0 14px; }
+  .build[hidden] { display: none; }
   .items { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
   .items a { display: flex; align-items: center; gap: 10px; color: var(--text); background: var(--surface-2); border: 1px solid var(--border); border-radius: 8px; padding: 6px 10px 6px 6px; height: 100%; }
   .items a[href]:hover { border-color: var(--gold); }
@@ -367,6 +380,31 @@ const pct = (n?: number) => (n === undefined ? '' : ` (${n.toLocaleString(lang)}
       card.querySelector<HTMLElement>('.note')!.hidden = false;
       button.remove();
     });
+  }
+
+  // Filtre d'étape des builds : début, milieu ou fin de partie. Le choix est gardé dans l'URL (?stage=) et pour les autres héros.
+  const stageChoices = [...document.querySelectorAll<HTMLButtonElement>('[data-stage-choice]')];
+  if (stageChoices.length) {
+    const valid = stageChoices.map((c) => c.dataset.stageChoice!);
+    const showStage = (stage: string) => {
+      stageChoices.forEach((c) => c.setAttribute('aria-pressed', String(c.dataset.stageChoice === stage)));
+      document.querySelectorAll<HTMLElement>('[data-stage]').forEach((el) => (el.hidden = el.dataset.stage !== stage));
+      document.querySelectorAll<HTMLElement>('[data-stage-empty]').forEach((el) => {
+        el.hidden = el.dataset.stageEmpty !== stage || !!el.parentElement!.querySelector(`[data-stage="${stage}"]`);
+      });
+    };
+    let saved: string | null = null;
+    try { saved = localStorage.getItem('wor-stage'); } catch {}
+    const initial = new URLSearchParams(location.search).get('stage') ?? saved;
+    if (initial && valid.includes(initial)) showStage(initial);
+    stageChoices.forEach((c) => c.addEventListener('click', () => {
+      const stage = c.dataset.stageChoice!;
+      showStage(stage);
+      try { localStorage.setItem('wor-stage', stage); } catch {}
+      const url = new URL(location.href);
+      url.searchParams.set('stage', stage);
+      history.replaceState(null, '', url);
+    }));
   }
 
   type Stats = {
