@@ -55,6 +55,7 @@ const imageUrl = new URL(asset(image), Astro.site);
         <nav class="main-nav">
           <a href={href(lang, 'heroes/')} aria-current={current('heroes/')}>{t('nav.heroes')}</a>
           <a href={href(lang, 'tier-list/')} aria-current={current('tier-list/')}>{t('nav.tierList')}</a>
+          <a href={href(lang, 'banners/')} aria-current={current('banners/')}>{t('nav.banners')}</a>
           <a href={href(lang, 'sets/')} aria-current={current('sets/')}>{t('nav.sets')}</a>
           <a href={href(lang, 'artifacts/')} aria-current={current('artifacts/')}>{t('nav.artifacts')}</a>
         </nav>
