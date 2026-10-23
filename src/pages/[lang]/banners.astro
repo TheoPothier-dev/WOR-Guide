@@ -39,7 +39,8 @@ const sortHeroes = (list: Resolved[]) => [...list].sort((a, b) => score(b.advice
 const title = (b: Banner) => (b.heroes.length ? b.heroes.slice(0, 3).map((h) => resolve(h, 'global').name).join(' & ') : t('banner.pool.crazy'));
 const day = (d: string) => new Date(d + 'T12:00:00Z').toLocaleDateString(lang, { day: 'numeric', month: 'short', timeZone: 'UTC' });
 const year = (d: string) => new Date(d + 'T12:00:00Z').getUTCFullYear();
-const sorted = [...banners].sort((a, b) => startTime(b) - startTime(a) || b.heroes.length - a.heroes.length);
+// À date égale, l’ordre du fichier de données est gardé (la bannière la plus importante en premier).
+const sorted = [...banners].sort((a, b) => startTime(b) - startTime(a));
 // État au moment de la construction ; le script de la page le recalcule à l'ouverture.
 const now = Date.now();
 const status = (b: Banner) => (now < startTime(b) ? 'soon' : now < endTime(b) ? 'live' : 'past');
@@ -136,7 +137,11 @@ const adviceLabel = (a: Advice) => t(`banner.advice.${a}`);
               ))}
             </ul>
           ))}
-          <a class="source muted" href={b.source} rel="noopener" target="_blank">{t('news.source')} · {new URL(b.source).hostname}</a>
+          {b.source === 'in-game' ? (
+            <span class="source muted">{t('news.source')} · {t('banner.inGame')}</span>
+          ) : (
+            <a class="source muted" href={b.source} rel="noopener" target="_blank">{t('news.source')} · {new URL(b.source).hostname}</a>
+          )}
         </article>
       ))}
     </div>

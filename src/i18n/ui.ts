@@ -156,6 +156,7 @@ export const ui = {
     'banner.tip.pools': "Invocation of Spirits uses rare crystals, Divine Summoning uses divine crystals: a banner can boost the same heroes on both.",
     'banner.tip.ancient': "Ancient banners (Lords and ancient heroes) come back rarely: save ancient crystals for a Priority hero.",
     'banner.tip.server': "Europe and Global usually share the same schedule, but a banner can start a day apart depending on the server.",
+    'banner.inGame': "seen in game",
   },
   fr: {
     siteTitle: 'Guide Watcher of Realms',
@@ -308,6 +309,7 @@ export const ui = {
     'banner.tip.pools': "L'invocation des esprits utilise les cristaux rares, l'invocation divine les cristaux divins : une bannière peut booster les mêmes héros sur les deux.",
     'banner.tip.ancient': "Les bannières anciennes (seigneurs et héros anciens) reviennent rarement : gardez vos cristaux anciens pour un héros Priorité.",
     'banner.tip.server': "Europe et Global suivent en général le même calendrier, mais une bannière peut commencer avec un jour d'écart selon le serveur.",
+    'banner.inGame': "relevé dans le jeu",
   },
   de: {
     siteTitle: 'Watcher of Realms Guide',
@@ -460,6 +462,7 @@ export const ui = {
     'banner.tip.pools': "Die Geisteranrufung nutzt seltene Kristalle, die Göttliche Beschwörung göttliche Kristalle: ein Banner kann dieselben Helden auf beiden boosten.",
     'banner.tip.ancient': "Uralte Banner (Lords und uralte Helden) kommen selten zurück: uralte Kristalle für einen Prioritäts-Helden sparen.",
     'banner.tip.server': "Europa und Global haben meist denselben Zeitplan, ein Banner kann aber je nach Server einen Tag versetzt starten.",
+    'banner.inGame': "im Spiel gesehen",
   },
   es: {
     siteTitle: 'Guía de Watcher of Realms',
@@ -612,6 +615,7 @@ export const ui = {
     'banner.tip.pools': "La invocación de espíritus usa cristales raros y la divina cristales divinos: un banner puede aumentar los mismos héroes en ambas.",
     'banner.tip.ancient': "Los banners ancestrales (señores y héroes ancestrales) vuelven pocas veces: guarda los cristales ancestrales para un héroe Prioridad.",
     'banner.tip.server': "Europa y Global suelen compartir calendario, pero un banner puede empezar con un día de diferencia según el servidor.",
+    'banner.inGame': "visto en el juego",
   },
   it: {
     siteTitle: 'Guida di Watcher of Realms',
@@ -764,6 +768,7 @@ export const ui = {
     'banner.tip.pools': "L'invocazione degli spiriti usa cristalli rari, l'evocazione divina cristalli divini: un banner può potenziare gli stessi eroi su entrambe.",
     'banner.tip.ancient': "I banner antichi (signori ed eroi antichi) tornano di rado: conserva i cristalli antichi per un eroe Priorità.",
     'banner.tip.server': "Europa e Global di solito hanno lo stesso calendario, ma un banner può iniziare con un giorno di differenza a seconda del server.",
+    'banner.inGame': "visto nel gioco",
   },
   pt: {
     siteTitle: 'Guia de Watcher of Realms',
@@ -916,6 +921,7 @@ export const ui = {
     'banner.tip.pools': "A Invocação de Espíritos usa cristais raros e a Divina cristais divinos: um banner pode aumentar os mesmos heróis nas duas.",
     'banner.tip.ancient': "Banners ancestrais (lordes e heróis ancestrais) voltam raramente: guarde cristais ancestrais para um herói Prioridade.",
     'banner.tip.server': "Europa e Global costumam ter o mesmo calendário, mas um banner pode começar com um dia de diferença conforme o servidor.",
+    'banner.inGame': "visto no jogo",
   },
   pl: {
     siteTitle: 'Poradnik Watcher of Realms',
@@ -1068,6 +1074,7 @@ export const ui = {
     'banner.tip.pools': "Przywołanie duchów używa rzadkich kryształów, boskie przywołanie boskich: baner może wzmacniać tych samych bohaterów w obu.",
     'banner.tip.ancient': "Pradawne banery (lordowie i pradawni bohaterowie) wracają rzadko: zachowaj pradawne kryształy dla bohatera z Priorytetem.",
     'banner.tip.server': "Europa i Global zwykle mają ten sam harmonogram, ale baner może zacząć się z jednodniowym przesunięciem zależnie od serwera.",
+    'banner.inGame': "sprawdzone w grze",
   },
   ru: {
     siteTitle: 'Гайд по Watcher of Realms',
@@ -1220,6 +1227,7 @@ export const ui = {
     'banner.tip.pools': "Призыв духов использует редкие кристаллы, божественный — божественные: баннер может повышать шанс одних и тех же героев в обоих.",
     'banner.tip.ancient': "Древние баннеры (лорды и древние герои) возвращаются редко: копите древние кристаллы на героя с «Приоритетом».",
     'banner.tip.server': "Европа и Global обычно идут по одному расписанию, но баннер может начаться с разницей в день в зависимости от сервера.",
+    'banner.inGame': "проверено в игре",
   },
 } as const;
 
