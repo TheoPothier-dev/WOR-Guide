@@ -9,6 +9,10 @@ import { base } from '../lib/i18n-paths';
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Watcher of Realms Guide</title>
+    <meta name="description" content="Watcher of Realms guide: tier list, hero builds, gear sets, artifacts and summon banners in 8 languages." />
+    <link rel="canonical" href={new URL(`${base}/${defaultLocale}/`, Astro.site).href} />
+    {locales.map((l) => <link rel="alternate" hreflang={l} href={new URL(`${base}/${l}/`, Astro.site).href} />)}
+    <link rel="alternate" hreflang="x-default" href={new URL(`${base}/${defaultLocale}/`, Astro.site).href} />
     <noscript><meta http-equiv="refresh" content={`0; url=${base}/${defaultLocale}/`} /></noscript>
     <script is:inline define:vars={{ locales, defaultLocale, base }}>
       const wanted = (navigator.languages || [navigator.language]).map((l) => l.slice(0, 2).toLowerCase());

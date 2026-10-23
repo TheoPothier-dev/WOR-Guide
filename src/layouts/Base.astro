@@ -1,5 +1,5 @@
 ---
-import { locales, localeNames } from '../i18n/locales.js';
+import { locales, localeNames, defaultLocale } from '../i18n/locales.js';
 import { useTranslations, type Locale } from '../i18n/ui';
 import { asset, href, switchLang } from '../lib/i18n-paths';
 import ServerSwitch from '../components/ServerSwitch.astro';
@@ -19,14 +19,43 @@ interface Props {
   image?: string;
   /** Affiche le choix du serveur, seulement sur les pages où il change le contenu. */
   server?: boolean;
+  /** Titre complet de l'onglet, sans le nom du site ajouté à la fin. */
+  fullTitle?: string;
+  /** Pages parentes pour le fil d'Ariane des moteurs de recherche (l'accueil est ajouté). */
+  crumbs?: { name: string; path: string }[];
 }
-const { lang, title, description, image = 'og.png', server = false } = Astro.props;
+const { lang, title, description, image = 'og.png', server = false, fullTitle, crumbs = [] } = Astro.props;
 const t = useTranslations(lang);
 const path = Astro.url.pathname;
 const current = (section: string) => (path.startsWith(href(lang, section)) ? 'page' : undefined);
-const pageTitle = title ? `${title} | ${t('siteTitle')}` : t('siteTitle');
-const pageDescription = description ?? t('home.intro');
+const pageTitle = fullTitle ?? (title ? `${title} | ${t('siteTitle')}` : t('seo.homeTitle'));
+const pageDescription = description ?? t('seo.homeDesc');
 const imageUrl = new URL(asset(image), Astro.site);
+const canonical = new URL(path, Astro.site).href;
+const urlIn = (l: string) => new URL(switchLang(path, l as Locale), Astro.site).href;
+const ogLocales: Record<string, string> = { en: 'en_US', fr: 'fr_FR', de: 'de_DE', es: 'es_ES', it: 'it_IT', pt: 'pt_BR', pl: 'pl_PL', ru: 'ru_RU' };
+const home = new URL(href(lang), Astro.site).href;
+// Données structurées : le site sur l'accueil, le fil d'Ariane ailleurs.
+const jsonLd = title
+  ? {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: [{ name: t('nav.home'), path: href(lang) }, ...crumbs, { name: title, path }].map((c, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        name: c.name,
+        item: new URL(c.path, Astro.site).href,
+      })),
+    }
+  : {
+      '@context': 'https://schema.org',
+      '@type': 'WebSite',
+      name: t('siteTitle'),
+      alternateName: ['WoR Guide', 'Watcher of Realms Guide'],
+      url: home,
+      inLanguage: lang,
+      description: pageDescription,
+    };
 ---
 <!doctype html>
 <html lang={lang}>
@@ -36,16 +65,22 @@ const imageUrl = new URL(asset(image), Astro.site);
     <meta name="theme-color" content="#0d1017" />
     <title>{pageTitle}</title>
     <meta name="description" content={pageDescription} />
+    <link rel="canonical" href={canonical} />
+    {locales.map((l) => <link rel="alternate" hreflang={l} href={urlIn(l)} />)}
+    <link rel="alternate" hreflang="x-default" href={urlIn(defaultLocale)} />
+    <link rel="sitemap" href={asset('sitemap-index.xml')} />
     <link rel="icon" href={asset('favicon.svg')} type="image/svg+xml" />
     <link rel="apple-touch-icon" href={asset('apple-touch-icon.png')} />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content={t('siteTitle')} />
     <meta property="og:title" content={title ?? t('siteTitle')} />
     <meta property="og:description" content={pageDescription} />
-    <meta property="og:url" content={new URL(path, Astro.site)} />
+    <meta property="og:url" content={canonical} />
     <meta property="og:image" content={imageUrl} />
+    <meta property="og:locale" content={ogLocales[lang]} />
+    {locales.filter((l) => l !== lang).map((l) => <meta property="og:locale:alternate" content={ogLocales[l]} />)}
     <meta name="twitter:card" content={image === 'og.png' ? 'summary_large_image' : 'summary'} />
-    {locales.map((l) => <link rel="alternate" hreflang={l} href={new URL(switchLang(path, l as Locale), Astro.site)} />)}
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
   </head>
   <body>
     <a class="skip" href="#main">{t('nav.skip')}</a>

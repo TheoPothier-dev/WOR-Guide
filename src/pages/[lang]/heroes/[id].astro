@@ -57,7 +57,7 @@ const stages = ['early', 'mid', 'end'] as const;
 const defaultStage = 'end';
 const pct = (n?: number) => (n === undefined ? '' : ` (${n.toLocaleString(lang)} % ${t('hero.usage')})`);
 ---
-<Base lang={lang} title={name} description={`${name} : ${description}`} image={h.gameId ? `heroes/bust/${h.gameId}.webp` : undefined} server>
+<Base lang={lang} title={name} fullTitle={`${t('seo.heroTitle').replace('{name}', name)} | ${t('siteTitle')}`} description={t('seo.heroDesc').replace('{name}', name).replace('{info}', description)} crumbs={[{ name: t('nav.heroes'), path: href(lang, 'heroes/') }]} image={h.gameId ? `heroes/bust/${h.gameId}.webp` : undefined} server>
   <nav class="crumbs" aria-label={t('nav.heroes')}>
     <a href={href(lang, 'heroes/')}>← {t('nav.heroes')}</a>
     <span class="step">
