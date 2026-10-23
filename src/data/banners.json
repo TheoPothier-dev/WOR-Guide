@@ -1,0 +1,674 @@
+[
+ {
+  "id": "2026-10-23-special-divine-summoning-invocation-of-spirits",
+  "name": "Special Divine Summoning & Invocation of Spirits",
+  "start": "2026-10-23",
+  "end": "2026-10-25",
+  "pools": [
+   "spirits",
+   "divine"
+  ],
+  "rate": "20x",
+  "heroes": [
+   "lulu",
+   "nerissa",
+   "maul",
+   "nazeem",
+   "filippa"
+  ],
+  "source": "https://prospector.gg/upcoming-hero-banners/"
+ },
+ {
+  "id": "2026-10-23-crazy-divine-summoning-invocation-of-spirits",
+  "name": "Crazy Divine Summoning & Invocation of Spirits",
+  "start": "2026-10-23",
+  "end": "2026-10-25",
+  "pools": [
+   "crazy"
+  ],
+  "rate": "2x",
+  "heroes": [],
+  "source": "https://prospector.gg/upcoming-hero-banners/",
+  "note": {
+   "en": "No featured hero: twice the usual legendary rate on the whole pool.",
+   "fr": "Pas de héros mis en avant : taux de légendaire doublé sur toute la liste."
+  }
+ },
+ {
+  "id": "2026-10-16-rorkesh-corven",
+  "name": "Rorkesh & Corven",
+  "start": "2026-10-16",
+  "end": "2026-10-19",
+  "pools": [
+   "divine"
+  ],
+  "rate": "20x",
+  "heroes": [
+   {
+    "name": "Rorkesh",
+    "rarity": "legendary",
+    "class": "marksman",
+    "advice": "team",
+    "note": {
+     "en": "Grey Blades Sync support and secondary DPS: strong in that team, weaker on his own.",
+     "fr": "Soutien Sync et DPS secondaire des Grey Blades : fort dans cette équipe, moins seul."
+    }
+   },
+   {
+    "id": "corven",
+    "note": {
+     "en": "Recently reworked into a Grey Blades hero; the rework is not well tested yet.",
+     "fr": "Récemment retravaillé pour rejoindre les Grey Blades ; la refonte n'est pas encore bien testée."
+    }
+   }
+  ],
+  "source": "https://hellhades.com/watcher-of-realms/article/greyblades-banners-coming-to-watcher-of-realms/"
+ },
+ {
+  "id": "2026-10-10-amelia-ainsworth-sergei",
+  "name": "Amelia Ainsworth & Sergei",
+  "start": "2026-10-10",
+  "end": "2026-10-12",
+  "pools": [
+   "ancient"
+  ],
+  "rate": "20x",
+  "heroes": [
+   {
+    "name": "Amelia Ainsworth",
+    "rarity": "legendary",
+    "class": "marksman",
+    "advice": "must",
+    "note": {
+     "en": "The only legendary Lord of the Grey Blades: the whole Sync team is built around her. No date for a rerun.",
+     "fr": "Seul seigneur légendaire des Grey Blades : toute l'équipe Sync tourne autour d'elle. Aucune date de retour connue."
+    }
+   },
+   {
+    "id": "sergei",
+    "note": {
+     "en": "First rate-up since his original banner.",
+     "fr": "Premier boost depuis sa bannière d’origine."
+    }
+   }
+  ],
+  "source": "https://hellhades.com/watcher-of-realms/article/greyblades-banners-coming-to-watcher-of-realms/"
+ },
+ {
+  "id": "2026-10-09-garroq-rosalia",
+  "name": "Garroq & Rosalia",
+  "start": "2026-10-09",
+  "end": "2026-10-12",
+  "pools": [
+   "divine"
+  ],
+  "rate": "20x",
+  "heroes": [
+   {
+    "name": "Garroq",
+    "rarity": "legendary",
+    "class": "fighter",
+    "advice": "must",
+    "note": {
+     "en": "New Grey Blades core Sync DPS, also tied to the Star Piercers. Best against 2 or 3 targets.",
+     "fr": "Nouveau DPS Sync principal des Grey Blades, aussi lié aux Star Piercers. Au mieux contre 2 ou 3 cibles."
+    }
+   },
+   {
+    "id": "rosalia",
+    "note": {
+     "en": "One of the best standard legendaries: close to a must-pull if you lack her.",
+     "fr": "L'une des meilleures légendaires classiques : presque indispensable si vous ne l'avez pas."
+    }
+   }
+  ],
+  "source": "https://hellhades.com/watcher-of-realms/article/greyblades-banners-coming-to-watcher-of-realms/"
+ },
+ {
+  "id": "2026-10-05-galloway",
+  "name": "Galloway",
+  "start": "2026-10-05",
+  "end": "2026-10-19",
+  "pools": [
+   "shard"
+  ],
+  "heroes": [
+   {
+    "name": "Galloway",
+    "rarity": "epic",
+    "class": "marksman",
+    "advice": "good",
+    "note": {
+     "en": "Epic Sync Lord earned with shards, no luck needed. Good start for a Grey Blades team.",
+     "fr": "Seigneur Sync épique obtenu avec des fragments, sans hasard. Bon départ pour une équipe Grey Blades."
+    }
+   }
+  ],
+  "source": "https://hellhades.com/watcher-of-realms/article/greyblades-banners-coming-to-watcher-of-realms/"
+ },
+ {
+  "id": "2026-09-25-dalyn-faelin-guan-yu",
+  "name": "Dalyn & Faelin & Guan Yu",
+  "start": "2026-09-25",
+  "end": "2026-09-28",
+  "pools": [
+   "spirits",
+   "divine"
+  ],
+  "rate": "20x",
+  "heroes": [
+   "guan-yu",
+   "oakenvar",
+   "hollow",
+   "faelin",
+   "dalyn"
+  ],
+  "source": "https://fastidious.gg/banners"
+ },
+ {
+  "id": "2026-09-17-ai-helga-livian",
+  "name": "Ai & Helga & Livian",
+  "start": "2026-09-17",
+  "end": "2026-09-20",
+  "pools": [
+   "spirits",
+   "divine"
+  ],
+  "rate": "20x",
+  "heroes": [
+   "helga",
+   "vorn",
+   "ai",
+   "theowin",
+   "livian"
+  ],
+  "source": "https://fastidious.gg/banners"
+ },
+ {
+  "id": "2026-09-10-evie-frye",
+  "name": "Evie Frye",
+  "start": "2026-09-10",
+  "end": "2026-09-20",
+  "pools": [
+   "choose"
+  ],
+  "rate": "20x",
+  "heroes": [
+   "evie-frye"
+  ],
+  "source": "https://fastidious.gg/banners",
+  "note": {
+   "en": "The second rate-up hero is your choice in game.",
+   "fr": "Le second héros boosté se choisit dans le jeu."
+  }
+ },
+ {
+  "id": "2026-09-10-ezio-della-notte",
+  "name": "Ezio della Notte",
+  "start": "2026-09-10",
+  "end": "2026-09-20",
+  "pools": [
+   "choose"
+  ],
+  "rate": "20x",
+  "heroes": [
+   "ezio-della-notte"
+  ],
+  "source": "https://fastidious.gg/banners",
+  "note": {
+   "en": "The second rate-up hero is your choice in game.",
+   "fr": "Le second héros boosté se choisit dans le jeu."
+  }
+ },
+ {
+  "id": "2026-09-05-gretchen-valderon",
+  "name": "Gretchen & Valderon",
+  "start": "2026-09-05",
+  "end": "2026-09-07",
+  "pools": [
+   "ancient"
+  ],
+  "rate": "20x",
+  "heroes": [
+   "valderon",
+   "gretchen"
+  ],
+  "source": "https://fastidious.gg/banners"
+ },
+ {
+  "id": "2026-09-04-dolores-janus-grismore-meriel",
+  "name": "Dolores & Janus Grismore & Meriel",
+  "start": "2026-09-04",
+  "end": "2026-09-07",
+  "pools": [
+   "spirits",
+   "divine"
+  ],
+  "rate": "20x",
+  "heroes": [
+   "talin",
+   "janus-grismore",
+   "dolores",
+   "meriel",
+   "nisalt"
+  ],
+  "source": "https://fastidious.gg/banners"
+ },
+ {
+  "id": "2026-08-31-aedrin-bayek-midan",
+  "name": "Aedrin & Bayek & Midan",
+  "start": "2026-08-31",
+  "end": "2026-09-09",
+  "pools": [
+   "spirits",
+   "divine"
+  ],
+  "rate": "20x",
+  "heroes": [
+   "bayek",
+   "aedrin",
+   "midan",
+   "voroth",
+   "osiren"
+  ],
+  "source": "https://fastidious.gg/banners"
+ },
+ {
+  "id": "2026-08-31-ezio-auditore",
+  "name": "Ezio Auditore",
+  "start": "2026-08-31",
+  "end": "2026-09-09",
+  "pools": [
+   "ancient"
+  ],
+  "rate": "20x",
+  "heroes": [
+   "ezio-auditore"
+  ],
+  "source": "https://fastidious.gg/banners"
+ },
+ {
+  "id": "2026-08-21-brokkir-xena",
+  "name": "Brokkir & Xena",
+  "start": "2026-08-21",
+  "end": "2026-08-24",
+  "pools": [
+   "divine"
+  ],
+  "rate": "20x",
+  "heroes": [
+   "brokkir",
+   "xena"
+  ],
+  "source": "https://fastidious.gg/banners"
+ },
+ {
+  "id": "2026-08-21-kassandra",
+  "name": "Kassandra",
+  "start": "2026-08-21",
+  "end": "2026-08-30",
+  "pools": [
+   "ancient"
+  ],
+  "rate": "20x",
+  "heroes": [
+   "kassandra"
+  ],
+  "source": "https://fastidious.gg/banners"
+ },
+ {
+  "id": "2026-08-21-eivor-varinsdottir-malvira",
+  "name": "Eivor Varinsdottir & Malvira",
+  "start": "2026-08-21",
+  "end": "2026-08-30",
+  "pools": [
+   "spirits",
+   "divine"
+  ],
+  "rate": "20x",
+  "heroes": [
+   "eivor-varinsdottir",
+   "malvira"
+  ],
+  "source": "https://fastidious.gg/banners"
+ },
+ {
+  "id": "2026-08-08-solcadens-dassomi",
+  "name": "Solcadens & Dassomi",
+  "start": "2026-08-08",
+  "end": "2026-08-10",
+  "pools": [
+   "ancient"
+  ],
+  "rate": "20x",
+  "heroes": [
+   "solcadens",
+   "dassomi"
+  ],
+  "source": "https://fastidious.gg/banners"
+ },
+ {
+  "id": "2026-08-07-crazy-divine-summoning-invocation-of-spirits",
+  "name": "Crazy Divine Summoning & Invocation of Spirits",
+  "start": "2026-08-07",
+  "end": "2026-08-10",
+  "pools": [
+   "crazy"
+  ],
+  "rate": "2x",
+  "heroes": [],
+  "source": "https://fastidious.gg/banners",
+  "note": {
+   "en": "No featured hero: twice the usual legendary rate on the whole pool.",
+   "fr": "Pas de héros mis en avant : taux de légendaire doublé sur toute la liste."
+  }
+ },
+ {
+  "id": "2026-08-07-violetta-vane-valkyra",
+  "name": "Violetta Vane & Valkyra",
+  "start": "2026-08-07",
+  "end": "2026-08-10",
+  "pools": [
+   "spirits",
+   "divine"
+  ],
+  "rate": "20x",
+  "heroes": [
+   "violetta-vane",
+   "valkyra",
+   "gluttony",
+   "ai",
+   "selkath"
+  ],
+  "source": "https://fastidious.gg/banners"
+ },
+ {
+  "id": "2026-08-01-khadgrim",
+  "name": "Khadgrim",
+  "start": "2026-08-01",
+  "end": "2026-08-03",
+  "pools": [
+   "ancient"
+  ],
+  "rate": "20x",
+  "heroes": [
+   "khadgrim"
+  ],
+  "source": "https://fastidious.gg/banners"
+ },
+ {
+  "id": "2026-07-31-corven-cyrene-ne-zha",
+  "name": "Corven & Cyrene & Ne Zha",
+  "start": "2026-07-31",
+  "end": "2026-08-03",
+  "pools": [
+   "spirits",
+   "divine"
+  ],
+  "rate": "20x",
+  "heroes": [
+   "ne-zha",
+   "corven",
+   "cyrene",
+   "rhox",
+   "tazira"
+  ],
+  "source": "https://fastidious.gg/banners"
+ },
+ {
+  "id": "2026-07-24-ai-livian-numera",
+  "name": "Ai & Livian & Numera",
+  "start": "2026-07-24",
+  "end": "2026-07-27",
+  "pools": [
+   "spirits",
+   "divine"
+  ],
+  "rate": "20x",
+  "heroes": [
+   "numera",
+   "yuri",
+   "ai",
+   "livian",
+   "theowin"
+  ],
+  "source": "https://fastidious.gg/banners"
+ },
+ {
+  "id": "2026-07-17-ancient-legendary-lucky-pick",
+  "name": "Ancient Legendary Lucky Pick",
+  "start": "2026-07-17",
+  "end": "2026-07-20",
+  "pools": [
+   "ancient"
+  ],
+  "rate": "20x",
+  "heroes": [
+   "jezebelle"
+  ],
+  "source": "https://fastidious.gg/banners"
+ },
+ {
+  "id": "2026-07-16-aeris-deimos-lightlocke",
+  "name": "Aeris & Deimos & Lightlocke",
+  "start": "2026-07-16",
+  "end": "2026-07-20",
+  "pools": [
+   "spirits",
+   "divine"
+  ],
+  "rate": "20x",
+  "heroes": [
+   "aeris",
+   "raizan",
+   "deimos",
+   "nauvras",
+   "lightlocke"
+  ],
+  "source": "https://fastidious.gg/banners"
+ },
+ {
+  "id": "2026-07-15-cainan-lili",
+  "name": "Cainan & Lili",
+  "start": "2026-07-15",
+  "end": "2026-07-20",
+  "pools": [
+   "spirits"
+  ],
+  "rate": "20x",
+  "heroes": [
+   "cainan",
+   "lili"
+  ],
+  "source": "https://fastidious.gg/banners"
+ },
+ {
+  "id": "2026-07-10-deimos-harpun-lyra",
+  "name": "Deimos & Harpun & Lyra",
+  "start": "2026-07-10",
+  "end": "2026-07-12",
+  "pools": [
+   "spirits",
+   "divine"
+  ],
+  "rate": "20x",
+  "heroes": [
+   "talula",
+   "lyra",
+   "deimos",
+   "harpun",
+   "nissandei"
+  ],
+  "source": "https://fastidious.gg/banners"
+ },
+ {
+  "id": "2026-07-04-ezareth-pierre",
+  "name": "Ezareth & Pierre",
+  "start": "2026-07-04",
+  "end": "2026-07-06",
+  "pools": [
+   "ancient"
+  ],
+  "rate": "20x",
+  "heroes": [
+   "ezareth",
+   "pierre"
+  ],
+  "source": "https://fastidious.gg/banners"
+ },
+ {
+  "id": "2026-07-03-dolores-meriel-nisalt",
+  "name": "Dolores & Meriel & Nisalt",
+  "start": "2026-07-03",
+  "end": "2026-07-06",
+  "pools": [
+   "spirits",
+   "divine"
+  ],
+  "rate": "20x",
+  "heroes": [
+   "vera",
+   "rosalia",
+   "dolores",
+   "meriel",
+   "nisalt"
+  ],
+  "source": "https://fastidious.gg/banners"
+ },
+ {
+  "id": "2026-06-27-special-divine-summoning",
+  "name": "Special Divine Summoning",
+  "start": "2026-06-27",
+  "end": "2026-06-29",
+  "pools": [
+   "spirits",
+   "divine"
+  ],
+  "rate": "20x",
+  "heroes": [
+   "beelzebub",
+   "knight-arlott",
+   "voroth",
+   "nazeem",
+   "olague"
+  ],
+  "source": "https://fastidious.gg/banners"
+ },
+ {
+  "id": "2026-06-20-eunomia-nastya",
+  "name": "Eunomia & Nastya",
+  "start": "2026-06-20",
+  "end": "2026-06-22",
+  "pools": [
+   "ancient"
+  ],
+  "rate": "20x",
+  "heroes": [
+   "nastya",
+   "eunomia"
+  ],
+  "source": "https://fastidious.gg/banners"
+ },
+ {
+  "id": "2026-06-19-atrox-faelin-filippa",
+  "name": "Atrox & Faelin & Filippa",
+  "start": "2026-06-19",
+  "end": "2026-06-22",
+  "pools": [
+   "spirits",
+   "divine"
+  ],
+  "rate": "20x",
+  "heroes": [
+   "lulu",
+   "nerissa",
+   "filippa",
+   "atrox",
+   "faelin"
+  ],
+  "source": "https://fastidious.gg/banners"
+ },
+ {
+  "id": "2026-06-13-iovar-su-yue",
+  "name": "Iovar & Su Yue",
+  "start": "2026-06-13",
+  "end": "2026-06-15",
+  "pools": [
+   "ancient"
+  ],
+  "rate": "20x",
+  "heroes": [
+   "su-yue",
+   "iovar"
+  ],
+  "source": "https://fastidious.gg/banners"
+ },
+ {
+  "id": "2026-06-12-aveline-azzoth-clarissa",
+  "name": "Aveline & Azzoth & Clarissa",
+  "start": "2026-06-12",
+  "end": "2026-06-15",
+  "pools": [
+   "spirits",
+   "divine"
+  ],
+  "rate": "20x",
+  "heroes": [
+   "gu-shi",
+   "clarissa",
+   "idril",
+   "aveline",
+   "azzoth"
+  ],
+  "source": "https://fastidious.gg/banners"
+ },
+ {
+  "id": "2026-06-05-draelyn-estrid-midan",
+  "name": "Draelyn & Estrid & Midan",
+  "start": "2026-06-05",
+  "end": "2026-06-07",
+  "pools": [
+   "spirits",
+   "divine"
+  ],
+  "rate": "20x",
+  "heroes": [
+   "velisse",
+   "draelyn",
+   "midan",
+   "estrid"
+  ],
+  "source": "https://fastidious.gg/banners"
+ },
+ {
+  "id": "2026-04-11-demi-gul-drak",
+  "name": "Demi & Gul'Drak",
+  "start": "2026-04-11",
+  "end": "2026-04-13",
+  "pools": [
+   "ancient"
+  ],
+  "rate": "20x",
+  "heroes": [
+   "demi",
+   "gul-drak"
+  ],
+  "source": "https://fastidious.gg/banners"
+ },
+ {
+  "id": "2026-04-10-beatrix-graves-greybeard",
+  "name": "Beatrix & Graves Greybeard",
+  "start": "2026-04-10",
+  "end": "2026-04-13",
+  "pools": [
+   "spirits",
+   "divine"
+  ],
+  "rate": "20x",
+  "heroes": [
+   "graves-greybeard",
+   "beatrix"
+  ],
+  "source": "https://fastidious.gg/banners"
+ }
+]

@@ -73,6 +73,12 @@ main:focus { outline: none; }
 .header-tools { display: flex; gap: 8px; align-items: center; }
 .header-tools label { display: flex; gap: 6px; align-items: center; color: var(--muted); font-size: 0.85rem; }
 
+/* Écran moyen : le menu passe sur sa propre ligne, sous le titre et les outils. */
+@media (min-width: 721px) and (max-width: 1500px) {
+  .main-nav { order: 3; flex-basis: 100%; }
+  .header-tools { margin-left: auto; }
+}
+
 /* Sur téléphone : en-tête sur une ligne, menu en barre fixe en bas de l'écran. */
 @media (max-width: 720px) {
   /* backdrop-filter ferait de l'en-tête le repère du menu fixe : fond plein à la place. */
@@ -87,7 +93,7 @@ main:focus { outline: none; }
   .brand { font-size: 1.05rem; }
   .main-nav {
     position: fixed; z-index: 10; left: 0; right: 0; bottom: 0;
-    display: grid; grid-template-columns: repeat(4, 1fr); gap: 0;
+    display: grid; grid-template-columns: repeat(5, 1fr); gap: 0;
     padding: 6px 4px calc(6px + env(safe-area-inset-bottom));
     background: rgba(13, 16, 23, 0.97);
     border-top: 1px solid var(--border);
