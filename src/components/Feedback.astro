@@ -1,0 +1,116 @@
+---
+import { useTranslations, type Locale } from '../i18n/ui';
+
+// Le site est statique : les messages partent chez Web3Forms, qui les transfère par e-mail.
+// La clé d'accès est publique par conception (elle ne permet que d'envoyer vers l'adresse liée).
+// Tant qu'elle est vide, le formulaire n'est pas affiché.
+const WEB3FORMS_KEY = '';
+
+interface Props { lang: Locale }
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+const topics = ['site', 'game', 'build', 'bug', 'other'] as const;
+---
+{WEB3FORMS_KEY && (
+  <section class="feedback" aria-labelledby="feedback-title">
+    <h2 id="feedback-title">{t('feedback.title')}</h2>
+    <p class="muted">{t('feedback.intro')}</p>
+    <form data-feedback data-sending={t('feedback.sending')} data-thanks={t('feedback.thanks')} data-error={t('feedback.error')}>
+      <input type="hidden" name="access_key" value={WEB3FORMS_KEY} />
+      <input type="hidden" name="lang" value={lang} />
+      <input type="checkbox" name="botcheck" class="trap" tabindex="-1" autocomplete="off" aria-hidden="true" />
+      <label>
+        <span>{t('feedback.type')}</span>
+        <select name="topic">
+          {topics.map((k) => <option value={k}>{t(`feedback.type.${k}`)}</option>)}
+        </select>
+      </label>
+      <label class="wide">
+        <span>{t('feedback.message')}</span>
+        <textarea name="message" rows="5" maxlength="4000" required placeholder={t('feedback.placeholder')}></textarea>
+      </label>
+      <label>
+        <span>{t('feedback.name')} <small class="muted">({t('feedback.optional')})</small></span>
+        <input type="text" name="name" maxlength="80" autocomplete="nickname" />
+      </label>
+      <label>
+        <span>{t('feedback.email')} <small class="muted">({t('feedback.optional')})</small></span>
+        <input type="email" name="email" maxlength="120" autocomplete="email" />
+      </label>
+      <div class="actions wide">
+        <button type="submit">{t('feedback.send')}</button>
+        <p class="status" role="status" aria-live="polite"></p>
+      </div>
+      <p class="wide muted privacy"><small>{t('feedback.privacy')}</small></p>
+    </form>
+  </section>
+)}
+
+<style>
+  .feedback { max-width: 760px; margin: clamp(36px, 7vw, 64px) auto 0; }
+  .feedback h2 { margin-top: 0; }
+  .feedback > p { margin: 0 0 16px; }
+  form { display: grid; grid-template-columns: 1fr 1fr; gap: 14px 16px; }
+  label { display: flex; flex-direction: column; gap: 6px; font-size: 0.9rem; font-weight: 600; }
+  label small { font-weight: 400; margin-left: 4px; }
+  .wide { grid-column: 1 / -1; }
+  textarea {
+    font: inherit; font-size: 0.95rem; resize: vertical; min-height: 7em;
+    color: var(--text); background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px;
+  }
+  textarea:focus { outline: 2px solid var(--gold); outline-offset: 1px; }
+  .trap { position: absolute; left: -9999px; }
+  .actions { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+  button {
+    font: inherit; font-weight: 600; cursor: pointer; padding: 9px 22px; border-radius: 999px;
+    background: var(--gold); color: #1a1406; border: 1px solid var(--gold);
+  }
+  button:hover { background: var(--gold-2); }
+  button:disabled { opacity: 0.6; cursor: wait; }
+  .status { margin: 0; font-size: 0.9rem; }
+  .status.ok { color: #9fe0aa; }
+  .status.ko { color: #ff8a8a; }
+  .privacy { margin: 0; }
+  @media (max-width: 560px) {
+    form { grid-template-columns: 1fr; }
+  }
+</style>
+
+<script>
+  const form = document.querySelector<HTMLFormElement>('[data-feedback]');
+  form?.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const button = form.querySelector('button')!;
+    const status = form.querySelector<HTMLElement>('.status')!;
+    const data = Object.fromEntries(new FormData(form)) as Record<string, string>;
+    if (data.botcheck) return;
+    const topic = form.querySelector<HTMLSelectElement>('[name=topic]')!;
+    const body: Record<string, string> = {
+      ...data,
+      subject: `WOR Guide · ${topic.selectedOptions[0].text} (${data.lang})`,
+      from_name: data.name || 'WOR Guide',
+      page: location.href,
+    };
+    if (!data.email) delete body.email;
+    button.disabled = true;
+    status.className = 'status';
+    status.textContent = form.dataset.sending!;
+    try {
+      const res = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify(body),
+      });
+      const json = await res.json();
+      if (!json.success) throw new Error(json.message);
+      form.reset();
+      status.classList.add('ok');
+      status.textContent = form.dataset.thanks!;
+    } catch {
+      status.classList.add('ko');
+      status.textContent = form.dataset.error!;
+    } finally {
+      button.disabled = false;
+    }
+  });
+</script>
