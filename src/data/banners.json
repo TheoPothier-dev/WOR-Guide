@@ -1,12 +1,30 @@
 [
  {
-  "id": "2026-10-23-special-divine-summoning-invocation-of-spirits",
-  "name": "Special Divine Summoning & Invocation of Spirits",
+  "id": "2026-10-23-sun-wukong",
+  "name": "Special Divine Summoning: Sun Wukong (limited)",
   "start": "2026-10-23",
   "end": "2026-10-25",
   "pools": [
-   "spirits",
    "divine"
+  ],
+  "rate": "20x",
+  "heroes": [
+   "sun-wukong",
+   "greed"
+  ],
+  "source": "in-game",
+  "note": {
+   "en": "Limited hero: Sun Wukong is guaranteed after 200 summons on this banner.",
+   "fr": "Héros limité : Sun Wukong est garanti après 200 invocations sur cette bannière."
+  }
+ },
+ {
+  "id": "2026-10-23-special-invocation-of-spirits",
+  "name": "Special Invocation of Spirits",
+  "start": "2026-10-23",
+  "end": "2026-10-25",
+  "pools": [
+   "spirits"
   ],
   "rate": "20x",
   "heroes": [
@@ -16,7 +34,7 @@
    "nazeem",
    "filippa"
   ],
-  "source": "https://prospector.gg/upcoming-hero-banners/"
+  "source": "in-game"
  },
  {
   "id": "2026-10-23-crazy-divine-summoning-invocation-of-spirits",
@@ -30,8 +48,8 @@
   "heroes": [],
   "source": "https://prospector.gg/upcoming-hero-banners/",
   "note": {
-   "en": "No featured hero: twice the usual legendary rate on the whole pool.",
-   "fr": "Pas de héros mis en avant : taux de légendaire doublé sur toute la liste."
+   "en": "No featured hero: twice the usual legendary rate, on both Invocation of Spirits and Divine Summoning.",
+   "fr": "Pas de héros mis en avant : taux de légendaire doublé, sur l'invocation des esprits comme sur l'invocation divine."
   }
  },
  {

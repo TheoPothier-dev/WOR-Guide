@@ -1,7 +1,7 @@
 import bannersData from '../data/banners.json';
 import { tiers } from '../content.config';
 
-// Bannières relevées sur les sites communautaires (dates en UTC, fin incluse).
+// Bannières relevées sur les sites communautaires ou dans le jeu (source « in-game »), dates en UTC, fin incluse.
 export type Advice = 'must' | 'good' | 'team' | 'skip' | 'unrated';
 export const adviceOrder: Advice[] = ['must', 'good', 'team', 'skip', 'unrated'];
 
