@@ -33,6 +33,8 @@ const build = z.object({
   label: localized,
   // community : relevé dans les guides en ligne ; ai : conçu à partir des compétences et des bonus du jeu.
   origin: z.enum(['community', 'ai']).default('community'),
+  // Étape de jeu du build : début, milieu ou fin de partie. Un seul est affiché à la fois sur la page du héros.
+  stage: z.enum(['early', 'mid', 'end']).default('end'),
   role: localized.optional(),
   // Fiabilité de la source : high, medium ou low.
   confidence: z.enum(['high', 'medium', 'low']).optional(),
