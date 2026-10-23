@@ -7,6 +7,10 @@ export type Locale = 'en' | 'fr' | 'de' | 'es' | 'it' | 'pt' | 'pl' | 'ru';
 export const ui = {
   en: {
     siteTitle: 'Watcher of Realms Guide',
+    'seo.homeTitle': "Watcher of Realms Guide: Tier List, Hero Builds & Banners",
+    'seo.homeDesc': "Watcher of Realms guide: tier list by game mode, best builds, gear sets and artifacts for all heroes, stats calculator and current summon banners.",
+    'seo.heroTitle': "{name} Build & Guide",
+    'seo.heroDesc': "{name} ({info}) in Watcher of Realms: best build, gear sets, artifacts, skills, awakenings, stats and tier list rating.",
     'nav.home': 'Home',
     'nav.heroes': 'Heroes',
     'nav.tierList': 'Tier list',
@@ -178,6 +182,10 @@ export const ui = {
   },
   fr: {
     siteTitle: 'Guide Watcher of Realms',
+    'seo.homeTitle': "Guide Watcher of Realms : tier list, builds des héros et bannières",
+    'seo.homeDesc': "Guide Watcher of Realms : tier list par mode de jeu, meilleurs builds, sets d'équipement et artefacts de tous les héros, calculateur de stats et bannières d'invocation en cours.",
+    'seo.heroTitle': "{name} : build et guide",
+    'seo.heroDesc': "{name} ({info}) dans Watcher of Realms : meilleur build, sets d'équipement, artefacts, compétences, éveils, stats et note dans la tier list.",
     'nav.home': 'Accueil',
     'nav.heroes': 'Héros',
     'nav.tierList': 'Tier list',
@@ -349,6 +357,10 @@ export const ui = {
   },
   de: {
     siteTitle: 'Watcher of Realms Guide',
+    'seo.homeTitle': "Watcher of Realms Guide: Tier-Liste, Helden-Builds und Banner",
+    'seo.homeDesc': "Watcher of Realms Guide: Tier-Liste nach Spielmodus, beste Builds, Ausrüstungssets und Artefakte für alle Helden, Werte-Rechner und aktuelle Beschwörungsbanner.",
+    'seo.heroTitle': "{name} Build und Guide",
+    'seo.heroDesc': "{name} ({info}) in Watcher of Realms: bester Build, Ausrüstungssets, Artefakte, Fähigkeiten, Erweckungen, Werte und Tier-Listen-Wertung.",
     'nav.home': 'Start',
     'nav.heroes': 'Helden',
     'nav.tierList': 'Tier-Liste',
@@ -520,6 +532,10 @@ export const ui = {
   },
   es: {
     siteTitle: 'Guía de Watcher of Realms',
+    'seo.homeTitle': "Guía de Watcher of Realms: tier list, builds de héroes y banners",
+    'seo.homeDesc': "Guía de Watcher of Realms: tier list por modo de juego, mejores builds, sets de equipo y artefactos de todos los héroes, calculadora de estadísticas y banners de invocación actuales.",
+    'seo.heroTitle': "{name}: build y guía",
+    'seo.heroDesc': "{name} ({info}) en Watcher of Realms: mejor build, sets de equipo, artefactos, habilidades, despertares, estadísticas y nota en la tier list.",
     'nav.home': 'Inicio',
     'nav.heroes': 'Héroes',
     'nav.tierList': 'Tier list',
@@ -691,6 +707,10 @@ export const ui = {
   },
   it: {
     siteTitle: 'Guida di Watcher of Realms',
+    'seo.homeTitle': "Guida di Watcher of Realms: tier list, build degli eroi e banner",
+    'seo.homeDesc': "Guida di Watcher of Realms: tier list per modalità di gioco, migliori build, set di equipaggiamento e artefatti di tutti gli eroi, calcolatore di statistiche e banner di evocazione attuali.",
+    'seo.heroTitle': "{name}: build e guida",
+    'seo.heroDesc': "{name} ({info}) in Watcher of Realms: build migliore, set di equipaggiamento, artefatti, abilità, risvegli, statistiche e voto nella tier list.",
     'nav.home': 'Home',
     'nav.heroes': 'Eroi',
     'nav.tierList': 'Tier list',
@@ -862,6 +882,10 @@ export const ui = {
   },
   pt: {
     siteTitle: 'Guia de Watcher of Realms',
+    'seo.homeTitle': "Guia de Watcher of Realms: tier list, builds de heróis e banners",
+    'seo.homeDesc': "Guia de Watcher of Realms: tier list por modo de jogo, melhores builds, sets de equipamento e artefatos de todos os heróis, calculadora de atributos e banners de invocação atuais.",
+    'seo.heroTitle': "{name}: build e guia",
+    'seo.heroDesc': "{name} ({info}) em Watcher of Realms: melhor build, sets de equipamento, artefatos, habilidades, despertares, atributos e nota na tier list.",
     'nav.home': 'Início',
     'nav.heroes': 'Heróis',
     'nav.tierList': 'Tier list',
@@ -1033,6 +1057,10 @@ export const ui = {
   },
   pl: {
     siteTitle: 'Poradnik Watcher of Realms',
+    'seo.homeTitle': "Poradnik Watcher of Realms: tier lista, buildy bohaterów i bannery",
+    'seo.homeDesc': "Poradnik Watcher of Realms: tier lista według trybu gry, najlepsze buildy, zestawy ekwipunku i artefakty wszystkich bohaterów, kalkulator statystyk i aktualne bannery przywołań.",
+    'seo.heroTitle': "{name}: build i poradnik",
+    'seo.heroDesc': "{name} ({info}) w Watcher of Realms: najlepszy build, zestawy ekwipunku, artefakty, umiejętności, przebudzenia, statystyki i ocena w tier liście.",
     'nav.home': 'Start',
     'nav.heroes': 'Bohaterowie',
     'nav.tierList': 'Tier lista',
@@ -1204,6 +1232,10 @@ export const ui = {
   },
   ru: {
     siteTitle: 'Гайд по Watcher of Realms',
+    'seo.homeTitle': "Гайд по Watcher of Realms: тир-лист, сборки героев и баннеры",
+    'seo.homeDesc': "Гайд по Watcher of Realms: тир-лист по режимам игры, лучшие сборки, комплекты снаряжения и артефакты всех героев, калькулятор характеристик и текущие баннеры призыва.",
+    'seo.heroTitle': "{name}: сборка и гайд",
+    'seo.heroDesc': "{name} ({info}) в Watcher of Realms: лучшая сборка, комплекты снаряжения, артефакты, навыки, пробуждения, характеристики и оценка в тир-листе.",
     'nav.home': 'Главная',
     'nav.heroes': 'Герои',
     'nav.tierList': 'Тир-лист',

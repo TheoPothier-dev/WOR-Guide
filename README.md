@@ -82,3 +82,9 @@ Site de fans, non affilié à Moonton.
 - `src/data/builds-ai.json` : un build par héros conçu à partir des compétences et des bonus de sets du jeu (badge « IA »). Méthode : `/mnt/project-files/research/builds/mecanique-builds.md`.
 - `build_site_data.py` fusionne les deux dans `heroes.json` (communauté d'abord).
 - Rendus en pied (`public/heroes/render/<id>.webp`) : modèle `unit_<id>_high` posé sur la 1re image de l'animation `idle` (`tools/extract/pose_glb.py`), rendu sur fond transparent avec model-viewer (`render_hero.mjs`). Le même GLB posé sert au lecteur 3D. Les 290 héros sont rendus par `tools/extract/batch.sh <id>...` à partir des fichiers `StreamingAssets/Art/unit_<id>_high.unity3d` du jeu, avec les textures annexes de `StreamingAssets/AutoGen/Art/Characters/` ; les héros récents au squelette « optimisé » sont posés via le squelette de leur Avatar.
+
+## Référencement et nom de domaine
+
+Chaque page a un titre et une description par langue, une URL canonique, les liens `hreflang` vers ses 7 traductions, les balises Open Graph et des données structurées (site sur l'accueil, fil d'Ariane ailleurs). Le build génère `sitemap-index.xml` (avec les traductions de chaque page) et `robots.txt`.
+
+Pour passer sur un nom de domaine, créer dans GitHub les variables Actions `SITE_URL` (ex. `https://exemple.com`) et `BASE_PATH` (`/`), puis renseigner le domaine dans Settings > Pages > Custom domain. Sans ces variables, le site reste sur `theopothier-dev.github.io/WOR-Guide`.
