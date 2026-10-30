@@ -1,5 +1,23 @@
 [
  {
+  "id": "2026-10-29-akira",
+  "name": "Phantom Invocation: Akira (limited)",
+  "start": "2026-10-29",
+  "end": "2026-11-02",
+  "pools": [
+   "divine"
+  ],
+  "rate": "20x",
+  "heroes": [
+   "akira"
+  ],
+  "source": "https://prospector.gg/upcoming-hero-banners/",
+  "note": {
+   "en": "Limited hero: Akira is guaranteed after 200 summons on this banner.",
+   "fr": "Héroïne limitée : Akira est garantie après 200 invocations sur cette bannière."
+  }
+ },
+ {
   "id": "2026-10-23-sun-wukong",
   "name": "Special Divine Summoning: Sun Wukong (limited)",
   "start": "2026-10-23",
