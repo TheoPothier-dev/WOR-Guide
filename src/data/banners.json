@@ -1,5 +1,73 @@
 [
  {
+  "id": "2026-11-06-special-invocation-of-spirits",
+  "name": "Special Invocation of Spirits: Twyla & Hex",
+  "start": "2026-11-06",
+  "end": "2026-11-08",
+  "pools": [
+   "spirits"
+  ],
+  "rate": "20x",
+  "heroes": [
+   "hex",
+   "twyla",
+   "voroth",
+   "osiren",
+   "midan"
+  ],
+  "source": "https://prospector.gg/upcoming-hero-banners/"
+ },
+ {
+  "id": "2026-11-06-crazy-invocation-of-spirits",
+  "name": "Crazy Invocation of Spirits",
+  "start": "2026-11-06",
+  "end": "2026-11-08",
+  "pools": [
+   "crazy"
+  ],
+  "rate": "2x",
+  "heroes": [],
+  "source": "https://prospector.gg/upcoming-hero-banners/",
+  "note": {
+   "en": "No featured hero: twice the usual legendary rate on Invocation of Spirits.",
+   "fr": "Pas de héros mis en avant : taux de légendaire doublé sur l'invocation des esprits."
+  }
+ },
+ {
+  "id": "2026-11-06-crazy-divine-summoning",
+  "name": "Crazy Divine Summoning",
+  "start": "2026-11-06",
+  "end": "2026-11-06",
+  "pools": [
+   "crazy"
+  ],
+  "rate": "2x",
+  "heroes": [],
+  "source": "https://prospector.gg/upcoming-hero-banners/",
+  "note": {
+   "en": "One day only: twice the usual legendary rate on Divine Summoning.",
+   "fr": "Un seul jour : taux de légendaire doublé sur l'invocation divine."
+  }
+ },
+ {
+  "id": "2026-10-29-akira",
+  "name": "Phantom Invocation: Akira (limited)",
+  "start": "2026-10-29",
+  "end": "2026-11-02",
+  "pools": [
+   "divine"
+  ],
+  "rate": "20x",
+  "heroes": [
+   "akira"
+  ],
+  "source": "https://prospector.gg/upcoming-hero-banners/",
+  "note": {
+   "en": "Limited hero: Akira is guaranteed after 200 summons on this banner.",
+   "fr": "Héroïne limitée : Akira est garantie après 200 invocations sur cette bannière."
+  }
+ },
+ {
   "id": "2026-10-23-sun-wukong",
   "name": "Special Divine Summoning: Sun Wukong (limited)",
   "start": "2026-10-23",
