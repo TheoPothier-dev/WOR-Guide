@@ -1,5 +1,50 @@
 [
  {
+  "id": "2026-11-13-special-divine-summoning",
+  "name": "Special Divine Summoning: Ysildra, Ne Zha & Deimos",
+  "start": "2026-11-13",
+  "end": "2026-11-15",
+  "pools": [
+   "divine"
+  ],
+  "rate": "20x",
+  "heroes": [
+   {
+    "name": "Ysildra",
+    "rarity": "legendary",
+    "class": "mage",
+    "advice": "unrated",
+    "note": {
+     "en": "New North Throne mage (crowd control, AoE magic damage, ally buffs). Too new to rate: little data so far.",
+     "fr": "Nouvelle mage du Trône du Nord (contrôle, dégâts magiques de zone, bonus aux alliés). Trop récente pour être notée : peu de données pour l'instant."
+    }
+   },
+   "ne-zha",
+   "deimos"
+  ],
+  "source": "https://fastidious.gg/",
+  "note": {
+   "en": "Start date and rate not confirmed yet: the banner ends at the Monday 16 November reset.",
+   "fr": "Date de début et taux pas encore confirmés : la bannière se termine à la réinitialisation du lundi 16 novembre."
+  }
+ },
+ {
+  "id": "2026-11-13-crazy-divine-summoning",
+  "name": "Crazy Divine Summoning",
+  "start": "2026-11-13",
+  "end": "2026-11-15",
+  "pools": [
+   "crazy"
+  ],
+  "rate": "2x",
+  "heroes": [],
+  "source": "https://fastidious.gg/",
+  "note": {
+   "en": "No featured hero: twice the usual legendary rate on Divine Summoning.",
+   "fr": "Pas de héros mis en avant : taux de légendaire doublé sur l'invocation divine."
+  }
+ },
+ {
   "id": "2026-11-06-special-invocation-of-spirits",
   "name": "Special Invocation of Spirits: Twyla & Hex",
   "start": "2026-11-06",
