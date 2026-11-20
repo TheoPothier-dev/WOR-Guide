@@ -1,5 +1,92 @@
 [
  {
+  "id": "2026-11-27-gretchen",
+  "name": "Ancient Summoning: Gretchen",
+  "start": "2026-11-27",
+  "end": "2026-11-30",
+  "pools": [
+   "ancient"
+  ],
+  "rate": "20x",
+  "heroes": [
+   "gretchen"
+  ],
+  "source": "https://prospector.gg/upcoming-hero-banners/",
+  "note": {
+   "en": "Rate not shown by the tracker yet: check in game.",
+   "fr": "Taux pas encore indiqué par le site de suivi : à vérifier en jeu."
+  }
+ },
+ {
+  "id": "2026-11-26-kigiri",
+  "name": "Special Invocation of Spirits: Kigiri (limited)",
+  "start": "2026-11-26",
+  "end": "2026-11-29",
+  "pools": [
+   "spirits"
+  ],
+  "rate": "20x",
+  "heroes": [
+   "kigiri",
+   "esme"
+  ],
+  "source": "https://prospector.gg/upcoming-hero-banners/",
+  "note": {
+   "en": "Limited hero, first Kigiri rerun in a long time: guaranteed after 200 summons on this banner.",
+   "fr": "Héros limité, premier retour de Kigiri depuis longtemps : garanti après 200 invocations sur cette bannière."
+  }
+ },
+ {
+  "id": "2026-11-26-special-invocation-of-spirits",
+  "name": "Special Invocation of Spirits: Gu Shi",
+  "start": "2026-11-26",
+  "end": "2026-11-29",
+  "pools": [
+   "spirits"
+  ],
+  "rate": "20x",
+  "heroes": [
+   "gu-shi",
+   "ai",
+   "livian",
+   "theowin"
+  ],
+  "source": "https://prospector.gg/upcoming-hero-banners/"
+ },
+ {
+  "id": "2026-11-21-nascent-divine-summoning",
+  "name": "Nascent Divine Summoning",
+  "start": "2026-11-21",
+  "end": "2026-11-24",
+  "pools": [
+   "divine"
+  ],
+  "heroes": [],
+  "source": "https://prospector.gg/upcoming-hero-banners/",
+  "note": {
+   "en": "No featured hero: the first legendary you summon is one you don't own yet.",
+   "fr": "Pas de héros mis en avant : le premier légendaire obtenu est un héros que vous n'avez pas encore."
+  }
+ },
+ {
+  "id": "2026-11-20-special-invocation-of-spirits",
+  "name": "Special Invocation of Spirits: Boreas & Talula",
+  "start": "2026-11-20",
+  "end": "2026-11-23",
+  "pools": [
+   "spirits"
+  ],
+  "rate": "20x",
+  "heroes": [
+   "boreas",
+   "talula",
+   "dolores",
+   "meriel",
+   "nisalt"
+  ],
+  "source": "https://prospector.gg/upcoming-hero-banners/"
+ },
+ {
   "id": "2026-11-13-special-divine-summoning",
   "name": "Special Divine Summoning: Ysildra, Ne Zha & Deimos",
   "start": "2026-11-13",
