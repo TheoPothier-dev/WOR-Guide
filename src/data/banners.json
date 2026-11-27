@@ -1,7 +1,7 @@
 [
  {
   "id": "2026-11-27-gretchen",
-  "name": "Ancient Summoning: Gretchen",
+  "name": "Ancient Summoning: Gretchen & Melisara",
   "start": "2026-11-27",
   "end": "2026-11-30",
   "pools": [
@@ -9,17 +9,27 @@
   ],
   "rate": "20x",
   "heroes": [
+   {
+    "name": "Melisara",
+    "rarity": "legendary",
+    "class": "fighter",
+    "advice": "unrated",
+    "note": {
+     "en": "New Infernal Blast fighter (fire magic damage, Burning), released 22 November. Too new to rate.",
+     "fr": "Nouvelle combattante de l'Explosion infernale (dégâts magiques de feu, Brûlure), sortie le 22 novembre. Trop récente pour être notée."
+    }
+   },
    "gretchen"
   ],
   "source": "https://prospector.gg/upcoming-hero-banners/",
   "note": {
-   "en": "Rate not shown by the tracker yet: check in game.",
-   "fr": "Taux pas encore indiqué par le site de suivi : à vérifier en jeu."
+   "en": "Rate not shown on this banner by the tracker (20x is its usual featured rate): check in game.",
+   "fr": "Taux pas indiqué sur cette bannière par le site de suivi (x20 d'habitude) : à vérifier en jeu."
   }
  },
  {
   "id": "2026-11-26-kigiri",
-  "name": "Special Invocation of Spirits: Kigiri (limited)",
+  "name": "Bushido Summoning: Kigiri (limited)",
   "start": "2026-11-26",
   "end": "2026-11-29",
   "pools": [
@@ -47,6 +57,16 @@
   "rate": "20x",
   "heroes": [
    "gu-shi",
+   {
+    "name": "Aetherion",
+    "rarity": "legendary",
+    "class": "defender",
+    "advice": "unrated",
+    "note": {
+     "en": "Watchguard defender: AoE heals and HP-based shields for allies. Not in the site's game data yet, no rating.",
+     "fr": "Défenseur de la Garde : soins de zone et boucliers basés sur les PV pour les alliés. Pas encore dans les données du site, pas de note."
+    }
+   },
    "ai",
    "livian",
    "theowin"
